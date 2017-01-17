@@ -1,0 +1,74 @@
+@import "./susy"
+
+*
+  box-sizing: border-box
+body
+  background: #F3F3F4
+  font-family: 'PingFang SC','Helvetica Neue',Helvetica,'Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif
+  font-size: 15px
+  font-weight: 300
+  height: 100%
+  color: #333
+  position: relative
+.group:after
+  content: ""
+  display: table
+  clear: both
+.container
+  @include container()
+input:not([type=checkbox]):not([type=radio]), textarea
+  display: block
+  border: 1px solid #D8D8D8
+  border-radius: 2px
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.04)
+  background: white
+  outline: none
+  height: 32px
+  padding: 0 8px
+  width: 100%
+  color: inherit
+  -webkit-appearance: none
+  &:focus
+    border-color: #979797
+textarea
+  resize: vertical
+  height: auto
+a
+  text-decoration: none
+  color: inherit
+  cursor: pointer
+  &:hover
+    text-decoration: underline
+
+.mgt-10
+  margin-top: 10px
+.mgb-10
+  margin-bottom: 10px
+.mgr-10
+  margin-right: 10px
+.mgl-10
+  margin-left: 10px
+
+.up-button
+  display: inline-block
+  width: 140px
+  height: 46px
+  line-height: 42px
+  border-radius: 80px
+  border: 2px solid white
+  font-size: 18px
+  text-decoration: none
+  text-align: center
+  transition: background linear .2s
+  &:first-child
+    margin-right: 30px
+  &.major
+    background: white
+    font-weight: 400
+    color: #2EC0EC
+  &:hover
+    text-decoration: none
+    color: white
+    background: rgba(255,255,255,.3)
+  &:active
+    transform: translateY(1px)

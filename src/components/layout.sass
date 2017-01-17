@@ -1,0 +1,24 @@
+=gradient-animation()
+  position: relative
+  .cover
+    content: ''
+    display: block
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    opacity: 1
+    width: 100%
+    transition: opacity 1s
+.layout
+  .hero
+    height: 620px
+    position: relative
+    color: white
+    overflow: hidden
+    +gradient-animation()
+    #summit
+      position: absolute
+      bottom: 0
+      left: 50%
+      margin-left: -691px

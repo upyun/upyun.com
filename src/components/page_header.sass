@@ -1,0 +1,77 @@
+@import "../assets/susy"
+#page_header
+  height: 80px
+  position: relative
+  color: white
+  font-size: 16px
+  z-index: 1
+  .container
+    position: relative
+    .logo
+      display: inline-block
+      height: 80px
+      padding-top: 33px
+    .navs
+      display: inline-block
+      vertical-align: top
+      margin-left: 50px
+      height: 80px
+      padding-top: 20px
+      nav
+        display: inline-block
+        height: 40px
+        line-height: 40px
+        padding: 0 15px
+        cursor: pointer
+        &:hover
+          color: rgba(255,255,255,.7)
+        >a
+          text-decoration: none
+          display: block
+          height: 100%
+    .side-navs
+      float: right
+      width: 300px
+      text-align: right
+      height: 80px
+      padding-top: 20px
+      nav
+        display: inline-block
+        height: 40px
+        line-height: 40px
+        padding: 0 15px
+        margin-left: 5px
+        cursor: pointer
+        vertical-align: top
+        &:hover
+          color: rgba(255,255,255,.7)
+        >a
+          text-decoration: none
+          display: block
+          height: 100%
+        &.console
+          border: 1px solid white
+          border-radius: 6px
+          height: 32px
+          line-height: 30px
+          margin-top: 4px
+          &:hover
+            background: rgba(255,255,255,.2)
+            color: white
+    .menu
+      transform: perspective(500px) rotateX(-15deg)
+      position: absolute
+      left: 100px
+      top: 60px
+      transform-origin: 50% 0
+      transition: all ease-out .15s
+      opacity: 0
+      padding-top: 20px
+      &.active
+        transform: none
+        opacity: 1
+      .inner
+        background: white
+        width: 300px
+        height: 300px
+        border-radius: 5px

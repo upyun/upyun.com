@@ -1,0 +1,57 @@
+.slide
+  position: absolute
+  left: 0
+  top: 180px
+  width: 100%
+  text-align: center
+  line-height: 1.5
+  .title
+    font-size: 40px
+  .sub-title
+    font-size: 16px
+    margin-top: 8px
+  .buttons
+    margin-top: 50px
+.dots
+  position: absolute
+  width: 200px
+  left: 50%
+  bottom: 120px
+  margin-left: -100px
+  text-align: center
+  .dot
+    display: inline-block
+    width: 12px
+    height: 12px
+    position: relative
+    cursor: pointer
+    &:last-child
+      margin-right: 0
+    &:before
+      content: ""
+      display: block
+      width: 6px
+      height: 6px
+      border-radius: 50%
+      background: rgba(255,255,255,.5)
+      margin-left: 3px
+      margin-top: 3px
+    &:hover
+      &:before
+        background: white
+    &.active
+      &:before
+        background: white
+      &:after
+        content: ""
+        display: block
+        position: absolute
+        left: 50%
+        top: 50%
+        width: 12px
+        height: 12px
+        margin-left: -6px
+        margin-top: -6px
+        border: 1px solid rgba(255,255,255,.7)
+        border-radius: 50%
+        box-sizing: border-box

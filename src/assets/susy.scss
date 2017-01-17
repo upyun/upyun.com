@@ -1,0 +1,10 @@
+@import '~susy/sass/susy';
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  container: 1170px,
+  output: float,
+  gutter-position: after,
+);
