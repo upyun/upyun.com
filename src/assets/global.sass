@@ -73,3 +73,14 @@ a
     background: rgba(255,255,255,.3)
   &:active
     transform: translateY(1px)
+
+@-webkit-keyframes hue
+  from
+    -webkit-filter: hue-rotate(0deg)
+  to
+    -webkit-filter: hue-rotate(-360deg)
+@keyframes hue
+  from
+    filter: hue-rotate(0deg)
+  to
+    filter: hue-rotate(-360deg)

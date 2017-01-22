@@ -1,4 +1,5 @@
 .DS_Store
 node_modules/
 dist/
+fabfile.pyc
 npm-debug.log
