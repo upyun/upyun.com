@@ -2,7 +2,7 @@
 
 <template lang="pug">
 layout(:colors="colorSet")
-  .container
+  .container(slot="hero")
     .info
       .title 云存储
       .description.

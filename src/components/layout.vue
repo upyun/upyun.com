@@ -4,11 +4,14 @@
   .hero(:style="{ 'background-image': 'linear-gradient(312deg, ' + oldColors.start + ' 0%, ' + oldColors.end + ' 100%)' }")
     .cover(:style="{ 'background-image': 'linear-gradient(312deg, ' + newColors.start + ' 0%, ' + newColors.end + ' 100%)', 'opacity': coverOpacity }")
     page_header
-    slot
+    slot(name="hero")
+  slot(name="page")
+  page_footer
 </template>
 
 <script>
 import page_header from './page_header'
+import page_footer from './page_footer'
 
 export default {
   data () {
@@ -34,6 +37,6 @@ export default {
     this.switch(oldColors, newColors)
     window.sessionStorage.setItem('up_colors', JSON.stringify(newColors))
   },
-  components: { page_header }
+  components: { page_header, page_footer }
 }
 </script>
