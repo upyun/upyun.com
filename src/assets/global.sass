@@ -16,6 +16,7 @@ body
   clear: both
 .container
   @include container()
+  overflow: hidden
 input:not([type=checkbox]):not([type=radio]), textarea
   display: block
   border: 1px solid #D8D8D8
@@ -53,9 +54,9 @@ a
   display: inline-block
   width: 140px
   height: 46px
-  line-height: 42px
-  border-radius: 80px
-  border: 2px solid white
+  line-height: 44px
+  border-radius: 6px
+  border: 1px solid white
   font-size: 18px
   text-decoration: none
   text-align: center
@@ -65,7 +66,7 @@ a
   &.major
     background: white
     font-weight: 400
-    color: #2EC0EC
+    color: #31ceef
   &:hover
     text-decoration: none
     color: white

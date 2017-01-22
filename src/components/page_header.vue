@@ -5,19 +5,14 @@
     router-link.logo(to="/")
       img(src="../assets/logo.png", width=125)
     .navs
-      nav(@mouseover="showMenu", @mouseout="hideMenu")
-        router-link(to="/product/uss") 产品
-      nav 解决方案
-      nav
-        a(href="") 帮助与文档
-      nav 媒体与活动
+      router-link.nav(to="/product/uss", @mouseover="showMenu", @mouseout="hideMenu") 产品
+      a.nav 解决方案
+      a.nav 帮助与文档
+      a.nav 媒体与活动
     .side-navs
-      nav
-        a(href="") 登录
-      nav
-        a(href="") 注册
-      nav.console
-        a(href="") 控制台
+      a.nav 登录
+      a.nav 注册
+      a.nav.console 控制台
     .menu(:class="{active: menuActive}", @mouseover="showMenu", @mouseout="hideMenu", v-show="menuShowing")
       .inner
 </template>

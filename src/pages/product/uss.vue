@@ -17,12 +17,13 @@ layout(:colors="colorSet")
 
 <script>
 import layout from '../../components/layout'
-import colors from '../../services/colors'
+// import colors from '../../services/colors'
 
 export default {
   data () {
     return {
-      colorSet: colors.getRandom()
+      // colorSet: colors.getRandom()
+      colorSet: { start: '#FFA254', end: '#FF768C', mid: '#FFA254' }
     }
   },
   mounted () {

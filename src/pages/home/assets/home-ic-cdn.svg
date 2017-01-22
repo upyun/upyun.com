@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>905A08DF-F5B4-44FB-A521-7FB8DEAF5AA5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-207.000000, -907.000000)">
+            <g id="2" transform="translate(150.000000, 690.000000)">
+                <g id="home_ic_cdn" transform="translate(53.000000, 213.000000)">
+                    <rect id="bounds" x="0" y="0" width="50" height="50"></rect>
+                    <g id="Group" transform="translate(4.000000, 4.000000)">
+                        <path d="M5.97290039,10.9904785 L6,32" id="Line" stroke="#7BDDFF" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M12,6 L31,6" id="Line" stroke="#7BDDFF" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M36,10 L36,30" id="Line" stroke="#7BDDFF" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M9.02050781,9.87792969 L33.5429688,33.3535156" id="Line" stroke="#7BDDFF" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M31.8017578,35.9824219 L10,36.0175781" id="Line" stroke="#7BDDFF" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M8.94091797,34.0610352 L33,9" id="Line" stroke="#7BDDFF" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M6.00326619,0 C9.31192161,0 12,2.6898803 12,6 C12,9.3101197 9.31192161,12 6.00326619,12 C2.69134458,12 0,9.30685528 0,6 C0,2.69314472 2.69134458,0 6.00326619,0 L6.00326619,0 Z" id="Path" fill="#7BDDFF"></path>
+                        <path d="M6.00326619,30 C9.31192161,30 12,32.6898803 12,36 C12,39.3101197 9.31192161,42 6.00326619,42 C2.69134458,42 0,39.3068553 0,36 C0,32.6931447 2.69134458,30 6.00326619,30 L6.00326619,30 Z" id="Path-Copy-2" fill="#7BDDFF"></path>
+                        <path d="M36.0032662,0 C39.3119216,0 42,2.6898803 42,6 C42,9.3101197 39.3119216,12 36.0032662,12 C32.6913446,12 30,9.30685528 30,6 C30,2.69314472 32.6913446,0 36.0032662,0 L36.0032662,0 Z" id="Path-Copy" fill="#7BDDFF"></path>
+                        <path d="M36.0032662,30 C39.3119216,30 42,32.6898803 42,36 C42,39.3101197 39.3119216,42 36.0032662,42 C32.6913446,42 30,39.3068553 30,36 C30,32.6931447 32.6913446,30 36.0032662,30 L36.0032662,30 Z" id="Path-Copy-3" fill="#7BDDFF"></path>
+                    </g>
+                    <circle id="Oval-4" fill="#15BDF9" cx="25" cy="26" r="6"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
