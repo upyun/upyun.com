@@ -1,9 +1,9 @@
 @import "../../assets/susy"
-.container
+.container.hero
   position: relative
   .info
     @include span(6)
-    padding-left: 42px
+    padding-left: 16px
     margin-top: 132px
     .title
       font-size: 40px
@@ -20,4 +20,83 @@
     @include span(last 6)
     margin-top: 195px
     text-align: right
-
+.section-fetures
+  padding: 50px 0 70px
+  background: #fcfcfc
+  .main-title
+    font-size: 40px
+    color: #0d253e
+    text-align: center
+    margin-bottom: 30px
+  .features
+    .item
+      @include gallery(4)
+      background: white
+      margin-bottom: gutter()
+      text-align: center
+      padding: 18px 20px 40px
+      box-shadow: 0 2px 5px 0 rgba(91, 90, 90, 0.03)
+      border: solid 1px #f0f0f0
+      height: 216px
+      .title
+        font-size: 20px
+        font-weight: normal
+        margin: 8px 0
+      .description
+        font-size: 16px
+        color: #97a1ab
+        text-align: justify
+.section-scenes
+  padding: 50px 0 70px
+  background: white
+  border-top: solid 1px #f0f0f0
+  .main-title
+    font-size: 40px
+    color: #0d253e
+    text-align: center
+    margin-bottom: 30px
+  .scenes
+    .item
+      @include gallery(4 of 12 4)
+      text-align: center
+      .img
+        width: 166px
+        height: 130px
+        margin: 0 auto 15px
+        display: flex
+        align-items: center
+        justify-content: center
+      .title
+        color: #0d253e
+        font-size: 20px
+        font-weight: normal
+        margin: 15px 0 8px
+      .description
+        text-align: justify
+        font-size: 16px
+        color: #97a1ab
+.section-help
+  padding: 50px 0 70px
+  background: white
+  border-top: solid 1px #f0f0f0
+  .main-title
+    font-size: 40px
+    color: #0d253e
+    text-align: center
+    margin-bottom: 30px
+  .menus
+    @include container()
+    width: 800px
+    .menu
+      @include gallery(1 of 4 1/2)
+      font-size: 20px
+      .title
+        color: #0d253e
+        font-weight: normal
+        border-bottom: 1px solid #f0f0f0
+        margin-bottom: 20px
+        padding-bottom: 2px
+      a
+        display: block
+        color: #97a1ab
+        margin-bottom: 8px

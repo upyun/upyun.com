@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="93px" viewBox="0 0 118 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>E25D96B2-0D0C-4637-BB96-85097C1FC3EE</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="117.142857" height="92.6470588"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="117.142857" height="92.6470588" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <ellipse id="path-3" cx="14.9142857" cy="15.0160428" rx="14.9142857" ry="15.0160428"></ellipse>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-3" y="-3" width="35.8285714" height="36.0320856">
+            <rect x="-3" y="-3" width="35.8285714" height="36.0320856" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_云存储-USS" transform="translate(-661.000000, -1489.000000)">
+            <g id="应用场景" transform="translate(150.000000, 1346.000000)">
+                <g id="uss_sence_2" transform="translate(487.000000, 124.000000)">
+                    <rect id="Bounds-Copy-3" x="0" y="0" width="166" height="130"></rect>
+                    <g id="uss_sence_1" transform="translate(24.000000, 19.000000)">
+                        <g id="Browser">
+                            <use id="BG" stroke="#FF8F6D" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <rect id="Top-Bar" fill="#FF8F6D" x="0" y="0" width="117.142857" height="7.41176471"></rect>
+                            <g id="Dots" transform="translate(3.514286, 2.647059)" fill="#FFFFFF">
+                                <ellipse id="Dot" cx="1.1489011" cy="1.05882353" rx="1.1489011" ry="1.05882353"></ellipse>
+                                <ellipse id="Dot" cx="4.97857143" cy="1.05882353" rx="1.1489011" ry="1.05882353"></ellipse>
+                                <ellipse id="Dot" cx="8.80824176" cy="1.05882353" rx="1.1489011" ry="1.05882353"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Check-Mark" transform="translate(44.876190, 22.582888)">
+                            <g id="BG">
+                                <use fill="#FFD4C7" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <use stroke="#FF8F6D" mask="url(#mask-4)" stroke-width="6" xlink:href="#path-3"></use>
+                            </g>
+                            <polyline id="Check" stroke="#FF8F6D" stroke-width="4" points="21.545796 10.5668449 12.6526001 19.5207173 9.3294803 16.1749245"></polyline>
+                        </g>
+                        <g id="Text" transform="translate(33.276190, 62.069519)" fill="#FF8F6D">
+                            <rect x="11.6" y="0" width="29.2761905" height="3"></rect>
+                            <rect x="0" y="8.34224599" width="52.8597284" height="3"></rect>
+                            <rect x="6.07619048" y="13.3475936" width="40.8761905" height="3"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

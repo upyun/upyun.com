@@ -14,8 +14,8 @@
           br
           | 自主化配置，7 × 24 小时技术支持
         .buttons
-          a.up-button.major 免费体验
-          a.up-button 快速入门
+          up_button(major, :colors="colorSet") 免费体验
+          up_button 快速入门
       //- .dots
         .dot.active
         .dot
@@ -28,19 +28,19 @@
           .main-description 又拍云提供安全可靠的存储、灵活强大的处理以及更快、更稳定的分发加速，让企业抛开底层基础建设的枷锁，把更多的精力集中在核心产品的迭代以及业务的运营上，业务先人一步
           .products
             .item
-              img(src="./assets/home-ic-cdn.svg")
+              .img: img(src="./assets/home-ic-cdn.svg")
               .title 云分发 CDN
               p 又拍云解决网站高流量、大并发的问题，冲破业务负载的极限。为用户提供经济、可靠、 可自主管理的系统扩容方案。
             .item
-              img(src="./assets/home-ic-ups.svg")
+              .img: img(src="./assets/home-ic-ups.svg")
               .title 云处理 UPS
               p 提供富媒体作业的处理，帮助企业客户实现更加智能的工作流，为不同的用户终端完成内容分发工作，效率更高，整体成本更低。
             .item
-              img(src="./assets/home-ic-uss.svg")
+              .img: img(src="./assets/home-ic-uss.svg")
               .title 云存储 USS
               p 提供多支持、易扩展的安全存储服务，满足存储、分流与备份各类数据需求，即便是高达 ZB 级的异构化数据，也能从容应对。
             .item
-              img(src="./assets/home-ic-uvod.svg")
+              .img: img(src="./assets/home-ic-uvod.svg")
               .title 点播云 UVOD
               p 更快、更稳定地发布流媒体音视频，即使处于高峰时段，也能为不同终端的用户提供高质量、稳定、 一致的音视频播出体验。
           .right
@@ -70,7 +70,7 @@
           .left
             .title 透明、丰富的统计监控功能
             .description 丰富的数据统计分析、方便的日志下载和全网实时性能监控,全平台自主化查询，助您时刻掌控业务全局
-            a.up-button 查看详情
+            up_button 查看详情
           .right
             img(src="./assets/statistics.png", width="959", height="437")
       .section-clients
@@ -104,7 +104,7 @@
           .inner
             .main-title 现在就开始吧，认证后还送代金券！
             .sub-title 追求理想的加速效果，性能更快，更安全
-            .up-button.major 免费注册
+            up_button(major, :colors="colorSet") 免费注册
 </template>
 
 <script>
@@ -115,10 +115,8 @@ import colors from '../../services/colors'
 export default {
   data () {
     return {
-      colorSet: colors.collection[0]
+      colorSet: colors.collection.blue
     }
-  },
-  mounted () {
   },
   components: { layout, summit }
 }

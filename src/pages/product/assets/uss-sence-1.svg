@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="90px" viewBox="0 0 149 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>B2DCD9DA-B8D0-4362-8672-12767B73AD16</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="101.258368" y="9.24941196" width="47.1323609" height="72.6945386"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="47.1323609" height="72.6945386" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0.61192053" y="9.24941196" width="47.1323609" height="72.6945386"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="47.1323609" height="72.6945386" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="45.2375733" y="0.327755736" width="58.523171" height="88.8709677"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="58.523171" height="88.8709677" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_云存储-USS" transform="translate(-256.000000, -1488.000000)">
+            <g id="应用场景" transform="translate(150.000000, 1346.000000)">
+                <g id="uss_sence_1" transform="translate(100.000000, 124.000000)">
+                    <rect id="Bounds" x="0" y="0" width="166" height="130"></rect>
+                    <g transform="translate(6.000000, 18.000000)">
+                        <use id="BG" stroke="#FF8F6D" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <g id="Details" transform="translate(108.490508, 21.185228)" fill="#FF8F6D">
+                            <rect id="Text-Copy" x="8.22852709" y="19.3550844" width="14.0258984" height="4.39480599"></rect>
+                            <rect id="Text-Copy-2" x="5.23633542" y="29.0326265" width="20.5713177" height="4.39480599"></rect>
+                            <rect id="Text-Copy-3" x="5.23633542" y="9.67754218" width="20.5713177" height="4.39480599"></rect>
+                            <rect id="Text-Copy-4" x="5.23633542" y="0" width="20.5713177" height="4.39480599"></rect>
+                            <rect id="Button-Copy" x="0" y="42.4323003" width="29.9219167" height="7.44426321"></rect>
+                        </g>
+                        <use id="BG" stroke="#FF8F6D" mask="url(#mask-4)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <g id="Details" transform="translate(9.679168, 21.185228)" fill="#FF8F6D">
+                            <rect id="Text-Copy" x="8.22852709" y="19.3550844" width="14.0258984" height="4.39480599"></rect>
+                            <rect id="Text-Copy-2" x="5.23633542" y="29.0326265" width="20.5713177" height="4.39480599"></rect>
+                            <rect id="Text-Copy-3" x="5.23633542" y="9.67754218" width="20.5713177" height="4.39480599"></rect>
+                            <rect id="Text-Copy-4" x="5.23633542" y="0" width="20.5713177" height="4.39480599"></rect>
+                            <rect id="Button-Copy" x="0" y="42.4323003" width="29.9219167" height="7.44426321"></rect>
+                        </g>
+                        <use id="BG" stroke="#FF8F6D" mask="url(#mask-6)" stroke-width="6" xlink:href="#path-5"></use>
+                        <g id="Details" transform="translate(55.922130, 15.744148)">
+                            <rect id="Text" fill="#FFD4C7" x="9.97397223" y="23.5780118" width="17.001089" height="5.35367276"></rect>
+                            <rect id="Text" fill="#FFD4C7" x="6.34707323" y="35.3670178" width="24.9349306" height="5.35367276"></rect>
+                            <rect id="Text" fill="#FFD4C7" x="6.34707323" y="11.7890059" width="24.9349306" height="5.35367276"></rect>
+                            <rect id="Text" fill="#FFD4C7" x="6.34707323" y="0" width="24.9349306" height="5.35367276"></rect>
+                            <rect id="Button" fill="#FF8F6D" x="0" y="51.6902567" width="36.2689899" height="9.0684661"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

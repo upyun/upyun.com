@@ -267,6 +267,7 @@
 import animate from 'animateplus'
 
 export default {
+  props: ['animate'],
   data () {
     return {
       timeout: {}
@@ -367,8 +368,7 @@ export default {
         start()
       }, duration)
     }
-
-    start(DURATION_MIN)
+    if (this.animate) start(DURATION_MIN)
   },
   beforeDestroy () {
     clearTimeout(this.timeout)
