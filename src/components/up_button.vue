@@ -10,49 +10,39 @@
   text-decoration: none
   text-align: center
   transition: background linear .2s
-  span
-    display: block
+  font-weight: 400
+  cursor: pointer
   &:first-child
     margin-right: 30px
   &:active
     transform: translateY(1px)
   &.major
     background: white
-    font-weight: 400
-    span
-      -webkit-text-fill-color: transparent
-      -webkit-background-clip: text
-      text-fill-color: transparent
-      background-clip: text
+    &:hover
+      background: rgba(255,255,255,.75)
   &.outline
     &:hover
-      background: rgba(255,255,255,.3)
+      background: rgba(255,255,255,.25)
 </style>
 
 <template lang="pug">
-.up_button(:class="style", :style="buttonStyle")
-  span(:style="spanStyle")
-    slot
+.up_button(:class="type", :style="buttonStyle")
+  slot
 </template>
 
 <script>
 export default {
   props: {
-    colors: {},
     color: {
       default: 'white'
     },
-    style: {
+    type: {
       default: 'outline'
     }
   },
   computed: {
-    spanStyle: function () {
-      if (!this.major) return ''
-      else return { 'background-image': `linear-gradient(312deg, ${this.colors.start} 0%, ${this.colors.end} 100%)` }
-    },
     buttonStyle: function () {
-      if (this.major || !this.color) return ''
+      if (this.type === 'major') return { 'color': this.color }
       else return { 'color': this.color, 'border-color': this.color }
     }
   }
