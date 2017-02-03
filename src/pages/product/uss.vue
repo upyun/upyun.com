@@ -82,7 +82,8 @@ layout(:colors="colorSet")
             .title 常见问题
             a 概念性 FAQ
             a 技术性 FAQ
-        up_button(:color="colorSet.mid") 免费试用
+        .try
+          up_button(:color="colorSet.mid") 免费试用
 </template>
 
 <script>
