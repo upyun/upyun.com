@@ -36,7 +36,7 @@
     .right
       .menu
         .title 售前
-        a QQ: 200576786
+        a.normal QQ: 200576786
         a.normal Tel：0571-81020203
         a.normal Email：sales@upyun.com
       .menu
