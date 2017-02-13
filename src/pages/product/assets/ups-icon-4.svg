@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="34px" viewBox="0 0 22 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>62D0AA13-38B6-4905-8893-404ABBA63AFC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M20.0848274,0 L1.74194428,0 C0.790520896,0 0.0209872804,0.736220472 0.0209872804,1.64645669 L0.0209872804,32.3535433 C0.0209872804,33.2637795 0.790520896,34 1.74194428,34 L20.0848274,34 C21.0362508,34 21.8057844,33.2637795 21.8057844,32.3535433 L21.8057844,1.64645669 C21.8057844,0.736220472 21.0362508,0 20.0848274,0 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="21.7847971" height="34" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-3" points="2.88924894 21.9326772 18.9375227 21.9326772 18.9375227 4.38385827 2.88924894 4.38385827"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16.0482738" height="17.5488189" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="8.04512417 17.4216535 15.4676257 13.1649606 8.04512417 8.9015748"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7.42250151" height="8.52007874" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M11,24 C9.34756098,24 8,25.347561 8,27 C8,28.652439 9.34756098,30 11,30 C12.652439,30 14,28.652439 14,27 C14,25.347561 12.652439,24 11,24 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6" height="6" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_云处理-UPS" transform="translate(-322.000000, -984.000000)">
+            <g id="产品特性" transform="translate(0.000000, 638.000000)">
+                <g id="ups_icon_4" transform="translate(312.000000, 342.000000)">
+                    <rect id="Bounds" x="0" y="0" width="42" height="42"></rect>
+                    <g id="Group" transform="translate(10.000000, 4.000000)" stroke="#9564E0">
+                        <use id="Shape" mask="url(#mask-2)" stroke-width="3" xlink:href="#path-1"></use>
+                        <path d="M8.5,3 L13.5,3" id="Line" stroke-width="1.5" stroke-linecap="square"></path>
+                        <use id="Shape" mask="url(#mask-4)" stroke-width="3" xlink:href="#path-3"></use>
+                        <use id="Shape" mask="url(#mask-6)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-5"></use>
+                        <use id="Shape" mask="url(#mask-8)" stroke-width="3" xlink:href="#path-7"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

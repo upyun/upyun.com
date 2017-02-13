@@ -1,6 +1,7 @@
 import home from './pages/home/index'
 import productUss from './pages/product/uss'
 import productCdn from './pages/product/cdn'
+import productUps from './pages/product/ups'
 
 export default [
   {
@@ -17,5 +18,10 @@ export default [
     path: '/product/cdn',
     name: 'cdn',
     component: productCdn
+  },
+  {
+    path: '/product/ups',
+    name: 'ups',
+    component: productUps
   }
 ]

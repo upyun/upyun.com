@@ -21,22 +21,19 @@
     margin-top: 195px
     text-align: right
 .section-fetures
-  padding: 50px 0 70px
+  padding: 55px 0 48px
   background: #fcfcfc
   .main-title
-    font-size: 40px
+    font-size: 34px
     color: #0d253e
     text-align: center
-    margin-bottom: 30px
+    margin-bottom: 22px
   .features
     .item
       @include gallery(4)
-      background: white
       margin-bottom: gutter()
       text-align: center
-      padding: 18px 20px 40px
-      box-shadow: 0 2px 5px 0 rgba(91, 90, 90, 0.03)
-      border: solid 1px #f0f0f0
+      padding: 18px 20px 22px
       height: 216px
       .title
         font-size: 20px
@@ -47,11 +44,11 @@
         color: #97a1ab
         text-align: justify
 .section-scenes
-  padding: 50px 0 70px
+  padding: 55px 0 70px
   background: white
   border-top: solid 1px #f0f0f0
   .main-title
-    font-size: 40px
+    font-size: 34px
     color: #0d253e
     text-align: center
     margin-bottom: 30px
@@ -80,16 +77,16 @@
   background: white
   border-top: solid 1px #f0f0f0
   .main-title
-    font-size: 40px
+    font-size: 34px
     color: #0d253e
     text-align: center
-    margin-bottom: 30px
+    margin-bottom: 34px
   .menus
     @include container()
     width: 800px
     .menu
       @include gallery(1 of 4 1/2)
-      font-size: 20px
+      font-size: 18px
       .title
         color: #0d253e
         font-weight: normal
@@ -103,3 +100,35 @@
   .try
     text-align: center
     margin-top: 50px
+.section-hero
+  text-align: center
+  padding: 56px 0 70px
+  background: white
+  border-top: solid 1px #f0f0f0
+  .main-title
+    margin-bottom: 5px
+    font-size: 34px
+  .description
+    margin-bottom: 50px
+    color: #97a1ab
+    font-size: 20px
+    line-height: 1.3
+.section-2-parts
+  color: white
+  .inner
+    height: 530px
+    background: url(./assets/bg-ups-wave.svg) center bottom no-repeat
+    .left
+      padding-top: 134px
+      @include span(5)
+      .main-title
+        font-size: 34px
+        margin-bottom: 17px
+      .description
+        font-size: 20px
+        line-height: 1.3
+    .right
+      @include span(7 last)
+      position: relative
+      img
+        position: absolute

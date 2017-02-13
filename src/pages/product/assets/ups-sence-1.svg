@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="93px" viewBox="0 0 118 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>1557F225-F169-4B3A-94FF-037761D6DB0A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="117.142857" height="92.6470588"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="117.142857" height="92.6470588" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_云处理-UPS" transform="translate(-274.000000, -2648.000000)">
+            <g id="应用场景" transform="translate(170.000000, 2541.000000)">
+                <g id="ups_sence_1" transform="translate(80.000000, 88.000000)">
+                    <rect id="Bounds" x="0" y="0" width="166" height="130"></rect>
+                    <g id="Success" transform="translate(24.000000, 19.000000)">
+                        <g id="Browser">
+                            <use id="BG" stroke="#9564E0" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <path d="M96.407584,65.8587208 C97.2246419,65.118232 97.0724379,64.1436078 96.0719635,63.6838299 L77.726635,55.2530522 C76.2207561,54.5610106 75.424486,55.273687 75.9491645,56.8480052 L82.3659075,76.1016942 C82.7163117,77.1530957 83.6644889,77.4041376 84.4816965,76.6642448 L87.11324,74.2816675 C87.5200074,73.9133837 88.1536324,73.9469576 88.5197265,74.3470884 L95.71787,82.2144618 C96.0878836,82.6188766 96.7127539,82.6522368 97.1320285,82.2722324 L100.837762,78.9135868 C101.248766,78.5410779 101.278076,77.9069728 100.911982,77.506842 L93.7138387,69.6394686 C93.3438251,69.2350539 93.3767576,68.6055191 93.7794368,68.2405763 L96.407584,65.8587208 Z" id="Shape" stroke="#9564E0" stroke-width="3" fill="#CBA9FF"></path>
+                            <rect id="Top-Bar" fill="#9564E0" x="0" y="0" width="117.142857" height="7.41176471"></rect>
+                            <g id="Dots" transform="translate(3.514286, 2.647059)" fill="#FFFFFF">
+                                <ellipse id="Dot" cx="1.1489011" cy="1.05882353" rx="1.1489011" ry="1.05882353"></ellipse>
+                                <ellipse id="Dot" cx="4.97857143" cy="1.05882353" rx="1.1489011" ry="1.05882353"></ellipse>
+                                <ellipse id="Dot" cx="8.80824176" cy="1.05882353" rx="1.1489011" ry="1.05882353"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Text" transform="translate(12.276190, 21.069519)" fill="#9564E0">
+                            <rect x="0.723809524" y="0.930481283" width="37.8081515" height="4"></rect>
+                            <polygon points="0.723809524 11.4304813 69.8214658 11.4304813 69.8214658 15.4304813 0.723809524 15.4304813"></polygon>
+                            <rect x="0.723809524" y="21.9304813" width="53.4529039" height="4"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
