@@ -14,7 +14,8 @@
     .map
       margin-top: 94px
       height: 492px
-      background: url(./assets/map.svg) center no-repeat
+      background: url(./assets/map.png) center no-repeat
+      background-size: 1014px
       position: relative
       .item
         position: absolute
@@ -207,7 +208,7 @@ export default {
         { left: '850px', top: '191px', color: 'sky' },
         { left: '870px', top: '240px', color: 'purple' },
         { left: '890px', top: '200px', color: 'grey' },
-        { left: '100px', top: '20px', color: 'orange' },
+        { left: '870px', top: '200px', color: 'orange' },
         { left: '266px', top: '190px', content: '美国', color: 'black' },
         { left: '576px', top: '160px', content: '德国', color: 'black' },
         { left: '856px', top: '300px', content: '新加坡', color: 'black' },
