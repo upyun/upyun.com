@@ -4,6 +4,7 @@ import productCdn from './pages/product/cdn'
 import productUps from './pages/product/ups'
 import productMobile from './pages/product/mobile'
 import productVod from './pages/product/vod'
+import productLive from './pages/product/live'
 
 export default [
   {
@@ -35,5 +36,10 @@ export default [
     path: '/product/vod',
     name: 'vod',
     component: productVod
+  },
+  {
+    path: '/product/live',
+    name: 'live',
+    component: productLive
   }
 ]

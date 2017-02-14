@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="58px" viewBox="0 0 133 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>703D605D-7708-48AC-B840-DB1B4A6FB0CE</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_直播-UPLive" transform="translate(-1001.000000, -3693.000000)">
+            <g id="应用场景" transform="translate(290.000000, 3569.000000)">
+                <g id="Group-26">
+                    <g id="uplive_sence_3" transform="translate(694.000000, 88.000000)">
+                        <path d="M128.334424,92.4247817 L141.604339,92.4247817 C145.010905,92.4247817 147.795194,89.634037 147.795194,86.2195729 L147.795194,44.5583131 C147.795194,41.143849 145.010905,38.3531043 141.604339,38.3531043 L129.134874,38.3531043" id="Shape" stroke="#FFA650" stroke-width="3" fill="#FFDCBA"></path>
+                        <ellipse id="Oval" fill="#FFA650" cx="120.941566" cy="59.3783134" rx="2.67525743" ry="2.68146049"></ellipse>
+                        <ellipse id="Oval" fill="#FFA650" cx="120.941566" cy="71.3969072" rx="2.67525743" ry="2.68146049"></ellipse>
+                        <ellipse id="Oval" fill="#FFA650" cx="114.944841" cy="65.388943" rx="2.67525743" ry="2.68146049"></ellipse>
+                        <ellipse id="Oval" fill="#FFA650" cx="126.935632" cy="65.388943" rx="2.67525743" ry="2.68146049"></ellipse>
+                        <rect id="Bounds-Copy-2" x="0" y="0" width="166" height="130"></rect>
+                        <g id="Group-40" transform="translate(18.000000, 38.000000)">
+                            <path d="M19.9952889,54.4247817 L6.72537381,54.4247817 C3.31880843,54.4247817 0.534519626,51.634037 0.534519626,48.2195729 L0.534519626,6.55831309 C0.534519626,3.14384899 3.31880843,0.353104324 6.72537381,0.353104324 L19.1948391,0.353104324" id="Shape" stroke="#FFA650" stroke-width="3" fill="#FFDCBA"></path>
+                            <path d="M115.804608,7.73911527 C118.745795,7.73911527 121.149804,10.1486981 121.149804,13.0967053 L121.149804,41.6758498 C121.149804,44.623857 118.745795,47.0334398 115.804608,47.0334398 L14.5251055,47.0334398 C11.5839179,47.0334398 9.17990921,44.623857 9.17990921,41.6758498 L9.17990921,13.0993708 C9.17990921,10.1513635 11.5839179,7.74178074 14.5251055,7.74178074 L115.804608,7.74178074 L115.804608,7.73911527 Z" id="Shape" stroke="#FFA650" stroke-width="3" fill="#FFFFFF"></path>
+                            <rect id="Rectangle-path" stroke="#FFA650" stroke-width="3" x="38.07854" y="14.8719068" width="49.9443438" height="25.031407" rx="2"></rect>
+                            <ellipse id="Oval" fill="#FFA650" cx="23.1625171" cy="21.2530364" rx="4.44635232" ry="4.45666196"></ellipse>
+                            <path d="M21.5961885,21.2530364 L24.7288458,21.2530364" id="Shape" stroke="#FFFFFF" stroke-width="0.75"></path>
+                            <ellipse id="Oval" fill="#FFA650" cx="23.1625171" cy="33.5221842" rx="4.44635232" ry="4.45666196"></ellipse>
+                            <path d="M21.5961885,33.5221842 L24.7288458,33.5221842" id="Shape" stroke="#FFFFFF" stroke-width="0.75"></path>
+                            <polygon id="Shape" fill="#FFA650" points="59.3742274 20.6879573 70.9528266 27.388943 59.3742274 34.0872633"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
