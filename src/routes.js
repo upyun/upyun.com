@@ -3,6 +3,7 @@ import productUss from './pages/product/uss'
 import productCdn from './pages/product/cdn'
 import productUps from './pages/product/ups'
 import productMobile from './pages/product/mobile'
+import productVod from './pages/product/vod'
 
 export default [
   {
@@ -29,5 +30,10 @@ export default [
     path: '/product/mobile',
     name: 'mobile',
     component: productMobile
+  },
+  {
+    path: '/product/vod',
+    name: 'vod',
+    component: productVod
   }
 ]

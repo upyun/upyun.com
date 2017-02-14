@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="70px" viewBox="0 0 122 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>85EA0DCC-4E11-4FDF-87B1-6D134105FEB9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_点播云" transform="translate(-1006.000000, -1966.000000)">
+            <g id="应用场景" transform="translate(290.000000, 1818.000000)">
+                <g id="uplive_sence_5" transform="translate(694.000000, 119.000000)">
+                    <rect id="Bounds-Copy-4" x="0" y="0" width="166" height="130"></rect>
+                    <g id="Group-42" transform="translate(22.000000, 31.000000)">
+                        <path d="M61.4130723,3.08647353 C61.4130723,1.64090998 60.2424039,0.459064101 58.810512,0.459064101 L15.4232187,0.459064101 C13.9913268,0.459064101 12.8206584,1.64090998 12.8206584,3.08647353 L12.8206584,36.3759463 C12.8206584,37.8215099 13.9913268,39.0033557 15.4232187,39.0033557 L54.6883169,39.0033557 L61.8424944,46.3543464 L61.4130723,32.0514648 L61.4130723,3.08647353 Z" id="Shape" stroke="#15BDF9" stroke-width="3" fill="#BFEFFF"></path>
+                        <path d="M21.3854039,10.2985075 L52.1904305,10.2985075" id="Shape" stroke="#15BDF9" stroke-width="2"></path>
+                        <path d="M21.3854039,16.4776119 L52.1904305,16.4776119" id="Shape" stroke="#15BDF9" stroke-width="2"></path>
+                        <path d="M21.3854039,22.6567164 L46.6926427,22.6567164" id="Shape" stroke="#15BDF9" stroke-width="2"></path>
+                        <path d="M21.3854039,28.8358209 L32.780071,28.8358209" id="Shape" stroke="#15BDF9" stroke-width="2"></path>
+                        <path d="M75.5336553,39.574744 C68.5846257,46.5901225 64.7219037,56.6065105 65.2467695,65.7877925 L106.570881,65.7877925 C107.095746,56.6065105 103.233024,46.5901225 96.2839948,39.574744 L96.2839948,39.574744" id="Shape" stroke="#15BDF9" stroke-width="3"></path>
+                        <polyline id="Shape" fill="#15BDF9" points="92.9945133 41.5520249 85.9076157 48.7065878 78.8207181 41.5520249"></polyline>
+                        <ellipse id="Oval" stroke="#15BDF9" stroke-width="3" cx="85.7431416" cy="26.4206041" rx="15.7072741" ry="15.8572461"></ellipse>
+                        <ellipse id="Oval" fill="#15BDF9" cx="68.1613468" cy="25.7199871" rx="1.29160523" ry="3.05491808"></ellipse>
+                        <ellipse id="Oval" fill="#15BDF9" cx="103.349124" cy="25.7199871" rx="1.29160523" ry="3.05491808"></ellipse>
+                        <path d="M101.598308,28.8358209 C101.598308,28.8358209 95.4941713,35.0612304 89.3288123,34.9440226" id="Shape" stroke="#15BDF9" stroke-width="2"></path>
+                        <ellipse id="Oval" fill="#15BDF9" cx="88.1680672" cy="35.0149254" rx="2.05042017" ry="2.05970149"></ellipse>
+                        <rect id="Rectangle-path" stroke="#15BDF9" stroke-width="2" x="16.9228353" y="48.5582378" width="3.87723442" height="16.7900253"></rect>
+                        <rect id="Rectangle-path" stroke="#15BDF9" stroke-width="2" x="21.1483678" y="48.5582378" width="3.87723442" height="16.7900253"></rect>
+                        <rect id="Rectangle-path" stroke="#15BDF9" stroke-width="2" x="25.0256022" y="48.5582378" width="3.87723442" height="16.7900253"></rect>
+                        <rect id="Rectangle-path" stroke="#15BDF9" stroke-width="2" x="28.9028366" y="48.5582378" width="3.87723442" height="16.7900253"></rect>
+                        <rect id="Rectangle-path" stroke="#15BDF9" stroke-width="2" transform="translate(37.592921, 55.881368) rotate(-8.319705) translate(-37.592921, -55.881368) " x="35.6542566" y="47.4861523" width="3.87732813" height="16.7904311"></rect>
+                        <rect id="Rectangle-path" stroke="#15BDF9" stroke-width="2" transform="translate(45.117061, 55.830913) rotate(-20.859812) translate(-45.117061, -55.830913) " x="43.1783493" y="47.4354911" width="3.87742336" height="16.7908435"></rect>
+                        <path d="M0.555246187,65.7877925 L121.257448,65.7877925" id="Shape" stroke="#15BDF9" stroke-width="3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
