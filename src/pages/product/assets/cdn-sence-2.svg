@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="87px" viewBox="0 0 109 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>0B94B0F5-8EF7-44D3-AFDA-DCD612E747C4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polyline id="path-1" points="10.7839861 6.99782609 10.7839861 0 29.0764234 0 40.7810472 0 50.7144364 6.61956522 108.520274 6.61956522 108.520274 14.373913"></polyline>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="97.7362875" height="14.373913" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-3" points="108.520274 27.2347826 108.520274 87 -7.10542736e-15 87 -7.10542736e-15 27.2347826"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="108.520274" height="59.7652174" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polyline id="path-5" points="0 25.3434783 0 9.83478261 21.1359155 9.83478261 32.8405394 9.83478261 42.7739286 16.4543478 108.520274 16.4543478 108.520274 25.3434783"></polyline>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="108.520274" height="15.5086957" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_云分发-CDN" transform="translate(-666.000000, -2988.000000)">
+            <g id="应用场景" transform="translate(150.000000, 2849.000000)">
+                <g id="cdn_sence_2" transform="translate(487.000000, 118.000000)">
+                    <rect id="Bounds" x="0" y="0" width="166" height="130"></rect>
+                    <g id="Group-9" transform="translate(29.000000, 21.000000)" stroke="#1ABCA0">
+                        <use id="Rectangle-15-Copy" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                        <use id="Rectangle-path" mask="url(#mask-4)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <use id="Rectangle-15" mask="url(#mask-6)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-5"></use>
+                        <polygon id="Shape" stroke-width="3" fill="#90E9D9" points="59.5538087 64.3043478 59.5538087 56.3608696 48.9664649 56.3608696 48.9664649 64.3043478 43.672793 64.3043478 54.2601368 74.8956522 64.8474806 64.3043478"></polygon>
+                        <path d="M49.2227117,49.5923913 L59.8100555,49.5923913" id="Shape" stroke-width="3"></path>
+                        <path d="M49.2227117,42.9184783 L59.8100555,42.9184783" id="Shape" stroke-width="3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

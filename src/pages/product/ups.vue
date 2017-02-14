@@ -2,7 +2,7 @@
 
 <template lang="pug">
 layout(:colors="colorSet")
-  .container.hero(slot="hero")
+  .container.hero-inner(slot="hero")
     .info
       .title 云处理 UPS
       .description 又拍云处理（ UPYUN Process Service，简称 UPS），基于云储存和 CDN，针对多媒体数据（图片、音视频）提供图片缩放、图片水印、图片格式转换、音视频转码、视频水印、视频切片等多样灵活的多终端、多规格内容输出加工服务。
@@ -11,7 +11,7 @@ layout(:colors="colorSet")
         up_button 查看价格
       .price 图片处理完全免费，新注册用户音视频处理免费试用 7 天。
     .icon
-      img(src="./assets/uss_large.svg")
+      img(src="./assets/ups_large.svg")
   template(slot="page")
     .section-fetures
       .container

@@ -1,6 +1,11 @@
 @import "../../assets/susy"
-.container.hero
+.main-title
+  font-size: 34px
+  color: #0d253e
+  text-align: center
+.container.hero-inner
   position: relative
+  height: 540px
   .info
     @include span(6)
     padding-left: 16px
@@ -18,15 +23,14 @@
       margin: 24px 0
   .icon
     @include span(last 6)
-    margin-top: 195px
     text-align: right
+    height: 100%
+    display: flex
+    justify-content: center
 .section-fetures
   padding: 55px 0 48px
   background: #fcfcfc
   .main-title
-    font-size: 34px
-    color: #0d253e
-    text-align: center
     margin-bottom: 22px
   .features
     .item
@@ -48,9 +52,6 @@
   background: white
   border-top: solid 1px #f0f0f0
   .main-title
-    font-size: 34px
-    color: #0d253e
-    text-align: center
     margin-bottom: 30px
   .scenes
     .item
@@ -77,9 +78,6 @@
   background: white
   border-top: solid 1px #f0f0f0
   .main-title
-    font-size: 34px
-    color: #0d253e
-    text-align: center
     margin-bottom: 34px
   .menus
     @include container()
@@ -107,7 +105,6 @@
   border-top: solid 1px #f0f0f0
   .main-title
     margin-bottom: 5px
-    font-size: 34px
   .description
     margin-bottom: 50px
     color: #97a1ab
@@ -122,7 +119,6 @@
       padding-top: 134px
       @include span(5)
       .main-title
-        font-size: 34px
         margin-bottom: 17px
       .description
         font-size: 20px
