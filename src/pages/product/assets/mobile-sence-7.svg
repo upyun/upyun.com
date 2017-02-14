@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="77px" viewBox="0 0 78 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>7266D5F1-7A22-42F9-89E7-E373C19A4473</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polyline id="path-1" points="77.3357419 55.674705 38.8289032 55.674705 77.3357419 55.674705 77.3357419 7.67192826 67.3165161 0.393239548 10.1651613 0.393239548 0.324580645 7.67192826 0.324580645 55.674705 38.8289032 55.674705 0.324580645 55.674705"></polyline>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="77.0111613" height="55.2814654" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polyline id="path-3" points="0.100645161 38.2970235 28.7643871 61.8438069 57.252 38.4448015 57.252 12.2305014 45.5117419 0.543522178 0.100645161 0.543522178 0.100645161 38.2970235"></polyline>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="57.1513548" height="61.3002848" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="44.9432964 1.22851562 44.9432964 16.7646484 57.252 12.1603695"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12.3087036" height="15.5361328" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_流量营销" transform="translate(-814.000000, -3020.000000)">
+            <g id="应用场景" transform="translate(0.000000, 2691.000000)">
+                <g id="Group-3" transform="translate(238.000000, 0.000000)">
+                    <g id="liuliang_sence_7" transform="translate(532.000000, 301.000000)">
+                        <g id="uplive_sence_6" transform="translate(48.000000, 22.000000)">
+                            <g id="Group-9"></g>
+                        </g>
+                        <rect id="Bounds-Copy-5" x="0" y="0" width="166" height="130"></rect>
+                        <g id="Group" transform="translate(44.000000, 28.000000)">
+                            <g transform="translate(0.000000, 20.542394)" stroke="#FF8F6D" id="Shape">
+                                <use mask="url(#mask-2)" stroke-width="6" fill="#FFD4C7" xlink:href="#path-1"></use>
+                                <polyline stroke-width="3" points="76.1777344 8.83455863 38.8289032 39.3014124 1.5078125 8.83455863"></polyline>
+                                <path d="M25.0681935,28.663907 L2.94238281,52.7574102" stroke-width="3"></path>
+                                <path d="M52.5896129,28.663907 L75.1767578,53.6451055" stroke-width="3"></path>
+                            </g>
+                            <g transform="translate(10.064516, 0.000000)" id="Shape" stroke="#FF8F6D" stroke-width="6">
+                                <use mask="url(#mask-4)" fill="#FFFFFF" xlink:href="#path-3"></use>
+                                <use mask="url(#mask-6)" fill="#FFD4C7" xlink:href="#path-5"></use>
+                            </g>
+                            <path d="M32,15 L34.7832031,15 L38.9042969,27.1289062 L42.9960938,15 L45.75,15 L45.75,29.3457031 L43.9042969,29.3457031 L43.9042969,20.8789062 C43.9042969,20.585936 43.9108072,20.1009148 43.9238281,19.4238281 C43.936849,18.7467414 43.9433594,18.0208372 43.9433594,17.2460938 L39.8515625,29.3457031 L37.9277344,29.3457031 L33.8066406,17.2460938 L33.8066406,17.6855469 C33.8066406,18.0371111 33.8147786,18.5725875 33.8310547,19.2919922 C33.8473308,20.0113968 33.8554688,20.5403629 33.8554688,20.8789062 L33.8554688,29.3457031 L32,29.3457031 L32,15 Z" id="M" fill="#FF8F6D"></path>
+                            <polygon id="Shape" fill="#FF8F6D" points="10.1651613 20.8632812 0.324580645 28.2143228 11.2949219 36.9609375"></polygon>
+                            <polygon id="Shape" fill="#FF8F6D" points="67.3165161 21.4384766 77.1570968 28.2143228 67.3165161 36.2970235"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

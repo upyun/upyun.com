@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="136px" viewBox="0 0 136 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>785C02D2-F843-4142-985A-EC05BD0271B4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="64" cy="64" r="64"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0396286232 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="76.0618683 53.5832802 6.0755382 53.5832802 0.220904155 47.7839176 0.220904155 43.4666621 32.662439 43.4666621 35.2162408 45.9963544 46.9233373 45.9963544 49.4771391 43.4666621 81.9186739 43.4666621 81.9186739 47.7839176"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="81.6977698" height="10.1166181" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0.183990325" y="0.0451730769" width="56.1662667" height="35.4049368"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_流量营销" transform="translate(-778.000000, -2314.000000)">
+            <g id="快速" transform="translate(0.000000, 2057.000000)">
+                <g id="又拍云流量" transform="translate(782.000000, 257.000000)">
+                    <g id="Oval-2-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group" transform="translate(24.000000, 38.000000)">
+                        <path d="M72.9803677,44.7315082 L72.9803677,5.53418407 C72.9803677,3.43901374 71.2648035,1.7417967 69.1518366,1.7417967 L12.9855699,1.7417967 C10.8704314,1.7417967 9.15703883,3.43901374 9.15703883,5.53418407 L9.15703883,44.7315082 L72.9803677,44.7315082 L72.9803677,44.7315082 Z" id="Shape" fill="#FFFFFF"></path>
+                        <use id="Shape" stroke="#FF8F6D" mask="url(#mask-4)" stroke-width="6" xlink:href="#path-3"></use>
+                        <path d="M10.4317681,44.7315082 L7.87796633,44.7315082 L7.87796633,5.53418407 C7.87796633,2.74635989 10.1690045,0.476950549 12.9833983,0.476950549 L58.9366294,0.476950549 L58.9366294,3.00664286 L12.9833983,3.00664286 C11.5762014,3.00664286 10.4295965,4.14027198 10.4295965,5.53633516 L10.4295965,44.7315082 L10.4317681,44.7315082 Z" id="Shape" fill="#FF8F6D"></path>
+                        <rect id="Rectangle-path" fill="#FF8F6D" x="71.7034668" y="15.6508022" width="2.55380179" height="29.0828571"></rect>
+                        <rect id="Rectangle-path" fill="#FFD4C7" x="12.9855699" y="5.53418407" width="56.1662667" height="35.4049368"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="15.5393717" y="35.8818874" width="5.10543199" height="5.05723352"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="23.1964339" y="33.3521951" width="5.10543199" height="7.58692582"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="30.8556677" y="28.2949615" width="5.10543199" height="12.6441593"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="38.5149015" y="30.8225027" width="5.10543199" height="10.114467"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="46.1741352" y="28.2949615" width="5.10543199" height="12.6441593"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="53.833369" y="28.2949615" width="5.10543199" height="12.6441593"></rect>
+                        <rect id="Rectangle-path" fill="#FFFFFF" x="61.4926028" y="20.7080357" width="5.10543199" height="20.2310852"></rect>
+                        <polygon id="Shape" fill="#FF8F6D" points="74.2572686 10.5935687 71.7034668 10.5935687 71.7034668 3.00664286 64.044233 3.00664286 64.044233 0.476950549 74.2572686 0.476950549"></polygon>
+                        <path d="M14.2624708,40.9391209 C13.9367308,40.9391209 13.6088192,40.8165082 13.3590852,40.5691319 C12.8596171,40.0743791 12.8596171,39.2741703 13.3590852,38.7815687 L35.9610997,16.3929313 L46.1719636,26.5073984 L70.8000811,2.11178571 C71.2995491,1.61703297 72.1073844,1.61703297 72.6046808,2.11178571 C73.1041489,2.60653846 73.1041489,3.40674725 72.6046808,3.8993489 L46.1719636,30.0825247 L35.9610997,19.9680577 L15.1636849,40.5691319 C14.9161225,40.8165082 14.5882108,40.9391209 14.2624708,40.9391209 L14.2624708,40.9391209 Z" id="Shape" fill="#FF8F6D"></path>
+                        <g id="Clipped" transform="translate(12.801580, 5.489011)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="SVGID_1_"></g>
+                            <path d="M-1.30572739,38.1906099 C-1.63146741,38.1906099 -1.95937904,38.0679973 -2.20911306,37.8206209 C-2.70858109,37.3258681 -2.70858109,36.5256593 -2.20911306,36.0330577 L0.770322369,33.08175 C1.26979041,32.5869973 2.07762567,32.5869973 2.57492211,33.08175 C3.07439014,33.5765027 3.07439014,34.3767115 2.57492211,34.8693132 L-0.40451332,37.8206209 C-0.652075738,38.0658462 -0.979987363,38.1906099 -1.30572739,38.1906099 L-1.30572739,38.1906099 Z" id="Shape" fill="#FF8F6D" mask="url(#mask-6)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

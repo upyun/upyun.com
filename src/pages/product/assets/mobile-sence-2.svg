@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="76px" viewBox="0 0 43 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>BBAA3398-4335-4428-8188-EF944C602222</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M42.849781,69.0944828 C42.849781,72.4568276 40.073049,75.1823448 36.6475229,75.1823448 L6.33842484,75.1823448 C2.91289869,75.1823448 0.136166667,72.4568276 0.136166667,69.0944828 L0.136166667,7.00772414 C0.136166667,3.64537931 2.91289869,0.919862069 6.33842484,0.919862069 L36.6475229,0.919862069 C40.073049,0.919862069 42.849781,3.64537931 42.849781,7.00772414 L42.849781,69.0944828 L42.849781,69.0944828 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="42.7136144" height="74.2624828" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_流量营销" transform="translate(-566.000000, -2807.000000)">
+            <g id="应用场景" transform="translate(0.000000, 2691.000000)">
+                <g id="Group-3" transform="translate(238.000000, 0.000000)">
+                    <g id="liuliang_sence_2" transform="translate(266.000000, 88.000000)">
+                        <rect id="Bounds-Copy" x="0" y="0" width="166" height="130"></rect>
+                        <g id="Group" transform="translate(62.000000, 28.000000)">
+                            <g id="Group-2">
+                                <use id="Shape" stroke="#FF8F6D" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                                <path d="M0.138836601,13 L42.849781,13" id="Shape" stroke="#FF8F6D" stroke-width="3"></path>
+                                <path d="M0.138836601,59 L42.849781,59" id="Shape" stroke="#FF8F6D" stroke-width="3"></path>
+                                <path d="M13.7608431,7.39710345 L29.2277745,7.39710345" id="Shape" stroke="#FF8F6D" stroke-width="3"></path>
+                                <ellipse id="Oval" fill="#FFD4C7" cx="22.1318333" cy="66.074069" rx="3.13183333" ry="3.07406897"></ellipse>
+                            </g>
+                            <g transform="translate(10.000000, 28.000000)">
+                                <path d="M4.26816043,13.7320238 C5.75590374,14.6209524 7.58458824,15.1434524 9.55939037,15.1434524 C14.5561711,15.1434524 18.607615,11.7958333 18.607615,7.66785714 C18.607615,3.53761905 14.5561711,0.192261905 9.55939037,0.192261905 C4.56260963,0.192261905 0.511165775,3.53988095 0.511165775,7.66785714 C0.511165775,9.44119048 1.25946524,11.0720238 2.50810695,12.3545238 L1.72438503,15.5370238 L4.26816043,13.7320238 L4.26816043,13.7320238 Z" id="Shape" fill="#FF8F6D"></path>
+                                <path d="M18.9662674,17.0638095 C17.8106096,17.7536905 16.3914973,18.1608333 14.8550481,18.1608333 C10.9740749,18.1608333 7.82811765,15.5619048 7.82811765,12.3545238 C7.82811765,9.14714286 10.9740749,6.54821429 14.8550481,6.54821429 C18.7360214,6.54821429 21.8819786,9.14714286 21.8819786,12.3545238 C21.8819786,13.7320238 21.3019358,14.9986905 20.3300321,15.9939286 L20.9720642,18.072619 L18.9662674,17.0638095 L18.9662674,17.0638095 Z" id="Shape" stroke="#FFFFFF" stroke-width="0.25" fill="#FF8F6D"></path>
+                                <ellipse id="Oval" fill="#FFFFFF" cx="6.16547594" cy="4.63916667" rx="0.72173262" ry="0.737380952"></ellipse>
+                                <ellipse id="Oval" fill="#FFFFFF" cx="12.9555187" cy="4.63916667" rx="0.72173262" ry="0.737380952"></ellipse>
+                                <ellipse id="Oval" fill="#FFFFFF" cx="12.5658717" cy="10.2419048" rx="0.72173262" ry="0.737380952"></ellipse>
+                                <ellipse id="Oval" fill="#FFFFFF" cx="17.1464385" cy="10.2419048" rx="0.72173262" ry="0.737380952"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

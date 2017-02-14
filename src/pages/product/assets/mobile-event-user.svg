@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="136px" viewBox="0 0 136 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>480440C2-3A97-4759-A4D8-6104AE5082F0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="64" cy="64" r="64"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0396286232 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_流量营销" transform="translate(-256.000000, -2314.000000)">
+            <g id="快速" transform="translate(0.000000, 2057.000000)">
+                <g id="用户" transform="translate(260.000000, 257.000000)">
+                    <g id="Oval-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group" transform="translate(27.000000, 34.000000)" stroke="#FF8F6D" stroke-width="3">
+                        <g transform="translate(38.477662, 5.273868)">
+                            <path d="M8.21422459,24.8075871 C2.32714226,30.6734751 -0.388281341,38.4946591 0.0569601797,46.1679636 L34.780302,46.1679636 C35.2255435,38.4946591 32.5046231,30.6679981 26.6230376,24.8075871" id="Shape"></path>
+                            <ellipse id="Oval" cx="17.4158827" cy="13.2565528" rx="13.3022775" ry="13.2543875"></ellipse>
+                        </g>
+                        <g transform="translate(0.000000, 5.273868)">
+                            <path d="M8.38462566,24.8075871 C2.49754333,30.6734751 -0.217880265,38.4946591 0.227361256,46.1679636 L34.9507031,46.1679636 C35.3959446,38.4946591 32.6750242,30.6679981 26.7934387,24.8075871" id="Shape"></path>
+                            <ellipse id="Oval" cx="17.5862838" cy="13.2565528" rx="13.3022775" ry="13.2543875"></ellipse>
+                        </g>
+                        <g transform="translate(15.490427, 0.000000)" fill="#FFD4C7">
+                            <path d="M10.2036502,30.4265078 C3.14025075,37.464478 -0.124853734,46.8575666 0.40833673,56.0753906 L42.0961354,56.0753906 C42.6293259,46.8630437 39.3642214,37.469955 32.300822,30.4265078" id="Shape"></path>
+                            <ellipse id="Oval" cx="21.2467393" cy="16.5586942" rx="15.9737267" ry="15.916219"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
