@@ -4,13 +4,13 @@
 .home
   layout(:colors="colorSet")
     div(slot="hero")
-      summit
+      summit(animate)
       .slide
         .title 为 Web 和移动应用
           br
           | 提供更快、更安全的全网加速
         .sub-title
-          | 通过 CDN 为网页和移动应用提供加速，支持点播和直播,
+          | 通过 CDN 为网页和移动应用提供加速，支持点播和直播
           br
           | 自主化配置，7 × 24 小时技术支持
         .buttons

@@ -22,10 +22,12 @@
         height: 40px
         line-height: 40px
         padding: 0 15px
-        cursor: pointer
         text-decoration: none
+        cursor: default
         &:hover
           color: rgba(255,255,255,.7)
+      a.nav
+        cursor: pointer
     .side-navs
       float: right
       width: 300px
@@ -55,7 +57,7 @@
     .menu
       transform: perspective(500px) rotateX(-15deg)
       position: absolute
-      left: 100px
+      left: -10px
       top: 60px
       transform-origin: 50% 0
       transition: all ease-out .15s
@@ -71,6 +73,16 @@
         border-radius: 5px
         padding: 15px
         @include container
+        &:after
+          content: ""
+          display: block
+          position: absolute
+          left: 50%
+          top: 4px
+          margin-left: -6px
+          width: 12px
+          height: 6px
+          background: url('../assets/triangle.svg') 0 0 no-repeat
         .item
           @include gallery(6 of 12)
           position: relative
