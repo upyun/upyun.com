@@ -109,8 +109,11 @@
 
 <script>
 import layout from '../../components/layout'
-import summit from '../../components/summit'
 import colors from '../../services/colors'
+var summit = { template: '<div></div>' }
+if (process.env.NODE_ENV !== 'prerendering') {
+  summit = require('../../components/summit')
+}
 
 export default {
   data () {
