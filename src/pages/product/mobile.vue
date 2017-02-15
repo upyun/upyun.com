@@ -107,7 +107,7 @@ layout(:colors="colorSet")
         .features
           .item
             img(src="./assets/mobile-icon-1.svg")
-            .title 整合三流资源
+            .title 整合三网资源
             .description 又拍云存储单存储集群支持 PB 级容量，单数据中心支持 EB 级容量，全网轻松应对 ZB 级的异构化数据。
           .item
             img(src="./assets/mobile-icon-2.svg")
