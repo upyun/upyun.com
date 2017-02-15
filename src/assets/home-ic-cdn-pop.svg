@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>6C7FD3CC-EB11-475F-8E7B-EA328FF49202</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu" transform="translate(-123.000000, -90.000000)">
+            <g id="pop" transform="translate(98.000000, 58.000000)">
+                <g id="1" transform="translate(23.000000, 30.000000)">
+                    <g id="home_ic_cdn_pop">
+                        <g id="home_ic_cdn-copy-4">
+                            <rect id="bounds" x="0" y="0" width="26" height="26"></rect>
+                        </g>
+                        <g id="Group" transform="translate(2.000000, 2.000000)">
+                            <path d="M3.49331567,6 L3.50668433,17" id="Line" stroke="#7BDDFF" stroke-linecap="square"></path>
+                            <path d="M6,2.5 L16,2.5" id="Line" stroke="#7BDDFF" stroke-linecap="square"></path>
+                            <path d="M18.5,5 L18.5,15" id="Line" stroke="#7BDDFF" stroke-linecap="square"></path>
+                            <path d="M5,5 L18,17" id="Line" stroke="#7BDDFF" stroke-linecap="square"></path>
+                            <path d="M16,18.4913628 L5,18.5086372" id="Line" stroke="#7BDDFF" stroke-linecap="square"></path>
+                            <path d="M5,18 L18,5" id="Line" stroke="#7BDDFF" stroke-linecap="square"></path>
+                            <path d="M3.0016331,0 C4.65596081,0 6,1.34494015 6,3 C6,4.65505985 4.65596081,6 3.0016331,6 C1.34567229,6 0,4.65342764 0,3 C0,1.34657236 1.34567229,0 3.0016331,0 L3.0016331,0 Z" id="Path" fill="#7BDDFF"></path>
+                            <path d="M3.0016331,16 C4.65596081,16 6,17.3449402 6,19 C6,20.6550598 4.65596081,22 3.0016331,22 C1.34567229,22 0,20.6534276 0,19 C0,17.3465724 1.34567229,16 3.0016331,16 L3.0016331,16 Z" id="Path-Copy-2" fill="#7BDDFF"></path>
+                            <path d="M19.0016331,0 C20.6559608,0 22,1.34494015 22,3 C22,4.65505985 20.6559608,6 19.0016331,6 C17.3456723,6 16,4.65342764 16,3 C16,1.34657236 17.3456723,0 19.0016331,0 L19.0016331,0 Z" id="Path-Copy" fill="#7BDDFF"></path>
+                            <path d="M19.0016331,16 C20.6559608,16 22,17.3449402 22,19 C22,20.6550598 20.6559608,22 19.0016331,22 C17.3456723,22 16,20.6534276 16,19 C16,17.3465724 17.3456723,16 19.0016331,16 L19.0016331,16 Z" id="Path-Copy-3" fill="#7BDDFF"></path>
+                        </g>
+                        <circle id="Oval-4" fill="#15BDF9" cx="13" cy="13" r="3"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

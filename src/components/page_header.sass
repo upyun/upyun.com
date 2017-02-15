@@ -60,12 +60,50 @@
       transform-origin: 50% 0
       transition: all ease-out .15s
       opacity: 0
-      padding-top: 20px
+      padding-top: 10px
       &.active
         transform: none
         opacity: 1
       .inner
         background: white
-        width: 300px
-        height: 300px
+        width: 428px
+        height: 248px
         border-radius: 5px
+        padding: 15px
+        @include container
+        .item
+          @include gallery(6 of 12)
+          position: relative
+          padding: 8px
+          padding-left: 39px
+          border-radius: 4px
+          text-decoration: none
+          &:hover
+            background-color: #F5F5F5
+          .title
+            color: #0d253e
+            font-size: 15px
+            font-weight: 400
+          .description
+            color: #97a1ab
+            font-size: 12px
+          .icon
+            position: absolute
+            left: 8px
+            top: 8px
+            width: 23px
+            height: 23px
+            background-repeat: no-repeat
+            background-position: center
+            &.cdn
+              background-image: url('../assets/home-ic-cdn-pop.svg')
+            &.live
+              background-image: url('../assets/home-ic-live-pop.svg')
+            &.vod
+              background-image: url('../assets/home-ic-vod-pop.svg')
+            &.ups
+              background-image: url('../assets/home-ic-ups-pop.svg')
+            &.uss
+              background-image: url('../assets/home-ic-uss-pop.svg')
+            &.mobile
+              background-image: url('../assets/home-ic-mobile-pop.svg')

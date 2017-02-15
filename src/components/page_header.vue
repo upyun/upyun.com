@@ -5,7 +5,7 @@
     router-link.logo(to="/")
       img(src="../assets/logo.png", width=125)
     .navs
-      router-link.nav(to="/product/uss", @mouseover="showMenu", @mouseout="hideMenu") 产品
+      .nav(@mouseover="showMenu", @mouseout="hideMenu") 产品
       a.nav 解决方案
       a.nav 帮助与文档
       a.nav 媒体与活动
@@ -15,6 +15,30 @@
       a.nav.console 控制台
     .menu(:class="{active: menuActive}", @mouseover="showMenu", @mouseout="hideMenu", v-show="menuShowing")
       .inner
+        router-link.item(to="/product/cdn")
+          .title CDN
+          .description 解决网站高流量、大并发的问题
+          .icon.cdn
+        router-link.item(to="/product/live")
+          .title 直播云
+          .description 解决网站高流量、大并发的问题
+          .icon.live
+        router-link.item(to="/product/uss")
+          .title 云存储
+          .description 解决网站高流量、大并发的问题
+          .icon.uss
+        router-link.item(to="/product/vod")
+          .title 点播云
+          .description 解决网站高流量、大并发的问题
+          .icon.vod
+        router-link.item(to="/product/ups")
+          .title 云处理
+          .description 解决网站高流量、大并发的问题
+          .icon.ups
+        router-link.item(to="/product/mobile")
+          .title 流量营销
+          .description 解决网站高流量、大并发的问题
+          .icon.mobile
 </template>
 
 <script>
