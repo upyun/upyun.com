@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="426px" height="405px" viewBox="0 0 426 405" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>13FE92AC-EDED-4B6B-9221-4BB1B1684898</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="解决方案_融合云" transform="translate(-845.000000, -185.000000)">
+            <g id="banner_融合云" transform="translate(846.000000, 185.000000)">
+                <path d="M187.6,114 C176.1,120.1 162.5,121.6 149.6,117.9 L96,242.8 C101.7,246.1 106.5,250.3 110.4,255.2 L233.1,177.7 L187.6,114 Z" id="Shape"></path>
+                <path d="M257.5,162.4 C251.7,150.1 251.6,135.3 258.3,122.4 L206.5,96.6 C204.2,100.1 201.6,103.3 198.6,106.1 L244.6,170.5 L257.5,162.4 Z" id="Shape"></path>
+                <path d="M276.8,182.9 C271.6,180 267.1,176.3 263.5,171.9 L251.2,179.7 L326.8,285.5 C328.4,284.6 330.1,283.8 331.8,283.2 L304.8,188.1 C295.4,189.3 285.6,187.8 276.8,182.9 Z" id="Shape"></path>
+                <path d="M116.4,264.8 C120,272.2 121.8,280.4 121.6,288.7 L300.7,317.6 C301.8,314 303.2,310.4 305.1,307 C308,301.8 311.6,297.2 315.8,293.3 L239.8,186.9 L116.4,264.8 Z" id="Shape"></path>
+                <path d="M233.1,177.8 L110.4,255.3 C112.8,258.3 114.8,261.5 116.4,264.9 L239.7,187.1 L233.1,177.8 Z" id="Shape" fill="#FFFFFF" opacity="0.37"></path>
+                <path d="M251.2,179.7 L263.5,171.9 C261.1,169 259.1,165.7 257.5,162.4 L244.6,170.5 L251.2,179.7 Z" id="Shape" fill="#FFFFFF" opacity="0.37"></path>
+                <path d="M331.7,283.1 C335.5,281.5 339.5,280.4 343.6,279.7 L316.6,184.6 C312.8,186.3 308.8,187.4 304.7,188 L331.7,283.1 Z" id="Shape" fill="#FFFFFF" opacity="0.5"></path>
+                <path d="M121.6,288.7 C121.5,293.2 120.8,297.7 119.5,302.1 L298.6,331 C298.7,326.5 299.5,322 300.8,317.6 L121.6,288.7 Z" id="Shape" fill="#FFFFFF" opacity="0.8"></path>
+                <path d="M244.6,170.5 L198.6,106.1 C195.3,109.2 191.5,111.9 187.6,114 L233.2,177.8 L239.8,187 L315.8,293.4 C319.2,290.3 322.9,287.7 326.8,285.5 L251.2,179.7 L244.6,170.5 Z" id="Shape" fill="#FFFFFF" opacity="0.9"></path>
+                <path d="M206.5,96.6 L258.3,122.4 C258.5,122.1 258.6,121.8 258.8,121.5 C260.5,118.4 262.5,115.6 264.8,113 L211.6,86.5 C210.7,88.9 209.7,91.2 208.5,93.4 C207.8,94.5 207.2,95.6 206.5,96.6 Z" id="Shape" fill="#FFFFFF" opacity="0.6"></path>
+                <path d="M96,242.8 L149.6,117.9 C146.1,116.9 142.7,115.5 139.4,113.7 C139,113.5 138.6,113.2 138.2,113 L84.6,237.9 C88.1,238.9 91.5,240.3 94.9,242.1 C95.3,242.4 95.6,242.6 96,242.8 Z" id="Shape" fill="#FFFFFF" opacity="0.7"></path>
+                <path d="M116.4,264.8 C114.8,261.4 112.8,258.2 110.4,255.2 C106.5,250.3 101.7,246.1 96,242.8 C95.6,242.6 95.2,242.3 94.8,242.1 C91.5,240.3 88,238.9 84.5,237.9 C61.8,231.2 36.8,241 25,262.6 C11.4,287.5 20.5,318.8 45.5,332.4 C70.4,346 101.7,336.9 115.3,311.9 C117.1,308.7 118.4,305.4 119.4,302 C120.7,297.6 121.4,293.1 121.5,288.6 C121.8,280.4 120,272.2 116.4,264.8 Z" id="Shape" fill="#FFFFFF" opacity="0.45"></path>
+                <path d="M258.3,122.4 C251.6,135.3 251.7,150.1 257.5,162.4 C259.1,165.8 261.1,169 263.5,171.9 C267.1,176.2 271.5,180 276.8,182.9 C285.7,187.8 295.5,189.3 304.8,188 C308.9,187.4 312.9,186.3 316.7,184.6 C325.5,180.7 333.2,174 338.2,164.9 C350.2,143 342.1,115.5 320.2,103.5 C301.4,93.2 278.5,97.7 264.8,113 C262.5,115.5 260.5,118.4 258.8,121.5 C258.6,121.8 258.4,122.1 258.3,122.4 Z" id="Shape" fill="#FFFFFF" opacity="0.3"></path>
+                <path d="M149.6,117.9 C162.5,121.7 176.1,120.1 187.6,114 C191.6,111.9 195.3,109.3 198.6,106.1 C201.6,103.3 204.2,100.1 206.5,96.6 C207.2,95.6 207.8,94.5 208.4,93.4 C209.6,91.1 210.7,88.8 211.5,86.5 C220,63.3 210.5,36.7 188.1,24.4 C163.5,10.9 132.6,20 119.1,44.6 C105.9,68.8 114.4,99.1 138.1,112.9 C138.5,113.1 138.9,113.4 139.3,113.6 C142.7,115.5 146.1,116.9 149.6,117.9 Z" id="Shape" fill="#FFFFFF" opacity="0.5"></path>
+                <path d="M378.1,285.6 C367.2,279.6 355.1,277.9 343.7,279.7 C339.6,280.4 335.6,281.5 331.8,283.1 C330.1,283.8 328.5,284.6 326.8,285.4 C322.8,287.5 319.1,290.2 315.8,293.3 C311.6,297.2 308,301.7 305.1,307 C303.2,310.4 301.8,314 300.7,317.6 C299.4,322 298.7,326.5 298.5,331 C297.9,350.6 308,369.9 326.4,380 C352.5,394.2 385.1,384.7 399.4,358.6 C413.7,332.5 404.1,299.9 378.1,285.6 Z" id="Shape" fill="#FFFFFF" opacity="0.55"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="163.8" cy="69.1" r="14.4"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="352.3" cy="332.8" r="15.8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="70.2" cy="287.3" r="15.4"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="299" cy="143.2" r="13.1"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.5" cx="163.8" cy="69.1" r="59.1"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.15" cx="163.8" cy="69.1" r="68.3"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.3" cx="298.5" cy="143.2" r="52.6"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.08" cx="298.5" cy="143.2" r="60.6"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.55" cx="352.3" cy="332.8" r="62"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.08" cx="352.3" cy="332.8" r="71.3"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.45" cx="70.2" cy="287.3" r="60.1"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.15" cx="70.2" cy="287.3" r="70"></circle>
+                <circle id="Oval" stroke="#FFFFFF" cx="163.8" cy="69.1" r="22.9"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.75" cx="163.8" cy="69.1" r="31.7"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.6" cx="163.8" cy="69.1" r="41.6"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.8" cx="299" cy="143.2" r="20.5"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.55" cx="299" cy="143.2" r="28.8"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.4" cx="299" cy="143.2" r="37.1"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.95" cx="352.3" cy="332.8" r="24.5"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.75" cx="352.3" cy="332.8" r="34"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.65" cx="352.3" cy="332.8" r="43.8"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.85" cx="70.2" cy="287.3" r="23.5"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.7" cx="70.2" cy="287.3" r="33.3"></circle>
+                <circle id="Oval" stroke="#FFFFFF" opacity="0.55" cx="70.2" cy="287.3" r="42.9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

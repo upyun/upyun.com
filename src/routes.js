@@ -9,6 +9,8 @@ import solutionAv from './pages/solution/av'
 import solutionMobile from './pages/solution/mobile'
 import solutionECommerce from './pages/solution/e-commerce'
 import solutionGame from './pages/solution/game'
+import solutionEducation from './pages/solution/education'
+import solutionFusion from './pages/solution/fusion'
 
 export default [
   { path: '/', component: home },
@@ -21,5 +23,7 @@ export default [
   { path: '/solution/av', component: solutionAv },
   { path: '/solution/mobile', component: solutionMobile },
   { path: '/solution/e-commerce', component: solutionECommerce },
-  { path: '/solution/game', component: solutionGame }
+  { path: '/solution/game', component: solutionGame },
+  { path: '/solution/education', component: solutionEducation },
+  { path: '/solution/fusion', component: solutionFusion }
 ]

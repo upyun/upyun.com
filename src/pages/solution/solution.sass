@@ -99,3 +99,28 @@
       border: solid 1px #f0f0f0
       box-shadow: 0 2px 5px 0 rgba(91, 90, 90, 0.03)
       background: white
+.section-features-h
+  padding: 72px 0 40px
+  color: white
+  .main-title
+    margin-bottom: 40px
+  .features
+    .item
+      @include gallery(4)
+      margin-bottom: gutter()
+      text-align: center
+      padding: 18px 20px 22px
+      .img
+        width: 200px
+        height: 100px
+        display: flex
+        align-items: center
+        justify-content: center
+        margin: 0 auto
+      .title
+        font-size: 20px
+        font-weight: normal
+        margin: 28px 0 8px
+      .description
+        font-size: 16px
+        text-align: justify
