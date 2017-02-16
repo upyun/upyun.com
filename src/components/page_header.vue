@@ -41,28 +41,28 @@
             .description 解决网站高流量、大并发的问题
             .icon.mobile
         .content(v-show="menuCondition.contentNumber === 1")
-          .item
-            .title 电商 & O2O
+          router-link.item(to="/solution/av")
+            .title 音视频
             .description 解决网站高流量、大并发的问题
             .icon
-          .item
-            .title 游戏
-            .description 解决网站高流量、大并发的问题
-            .icon
-          .item
-            .title 在线教育
-            .description 解决网站高流量、大并发的问题
-            .icon
-          .item
+          router-link.item(to="/solution/mobile")
             .title 移动 APP
             .description 解决网站高流量、大并发的问题
             .icon
-          .item
-            .title 融合云
+          router-link.item(to="/solution/e-commerce")
+            .title 电商 & O2O
             .description 解决网站高流量、大并发的问题
             .icon
-          .item
-            .title 音视频
+          router-link.item(to="/solution/game")
+            .title 游戏
+            .description 解决网站高流量、大并发的问题
+            .icon
+          router-link.item(to="/solution/education")
+            .title 在线教育
+            .description 解决网站高流量、大并发的问题
+            .icon
+          router-link.item(to="/solution/fusion")
+            .title 融合云
             .description 解决网站高流量、大并发的问题
             .icon
 </template>

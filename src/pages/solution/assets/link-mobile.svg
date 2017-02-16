@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="42px" viewBox="0 0 31 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>link-mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1157.000000, -196.000000)">
+            <g id="link-mobile" transform="translate(1159.000000, 198.000000)">
+                <path d="M24.3,0 L2.7,0 C1.2069,0 0,1.21328571 0,2.71428571 L0,35.2857143 C0,36.7867143 1.2069,38 2.7,38 L24.3,38 C25.7931,38 27,36.7867143 27,35.2857143 L27,2.71428571 C27,1.21328571 25.7931,0 24.3,0 L24.3,0 Z" id="Fill-1" stroke="#FFFFFF" stroke-width="3"></path>
+                <path d="M13.5,29.8571429 C14.9904,29.8571429 16.2,28.6411429 16.2,27.1428571 C16.2,25.6445714 14.9904,24.4285714 13.5,24.4285714 C12.0096,24.4285714 10.8,25.6445714 10.8,27.1428571 C10.8,28.6411429 12.0096,29.8571429 13.5,29.8571429" id="Fill-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
