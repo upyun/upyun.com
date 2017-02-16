@@ -1,4 +1,14 @@
 <style lang="sass" src="./solution.sass" scoped></style>
+<style lang="sass" scoped>
+  .section-hero
+    background: white
+    padding: 56px 0 63px
+    text-align: center
+    border-top: solid 1px #f0f0f0
+    .main-description
+      margin-bottom: 20px
+      color: #97a1ab
+</style>
 
 <template lang="pug">
 layout(:colors="colorSet")
@@ -26,6 +36,10 @@ layout(:colors="colorSet")
             .img: img(src="./assets/fusion-icon-3.svg")
             .title 支持回第三方云存储源
             .description 支持启用第三方存储源（CDN 服务优先回又拍云存储源，其次回第三方存储源）保证您服务的高可用。
+    .section-hero
+      .main-title 融合云存储架构
+      .main-description 待又拍云存储恢复后，同步该期间回第三方存储拉取的文件到又拍云存储
+      img(src="./assets/architecture.png", width="882", height="522")
     up_gradient.section-features-h(:colors="colorSet")
       .container
         .main-title 方案优势
