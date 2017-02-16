@@ -22,7 +22,7 @@ new Vue({
       session: {}
     }
   },
-  render: h => h('router-view'),
+  render: h => h('div', { attrs: {id: 'app'} }, [h('router-view')]),
   created () {
     window.rootApp = this
   },
