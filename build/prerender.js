@@ -13,7 +13,7 @@ var PrerenderSpaPlugin = require('prerender-spa-plugin')
 webpackConfig.plugins.push(
   new PrerenderSpaPlugin(
     path.join(__dirname, '../prerender'),
-    [ '/', '/product/uss', '/product/ups' ]
+    ['/', '/product/uss', '/product/cdn', '/product/ups', '/product/mobile', '/product/vod', '/product/live', '/solution/av']
   )
 )
 
