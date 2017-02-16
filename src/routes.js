@@ -8,6 +8,7 @@ import productLive from './pages/product/live'
 import solutionAv from './pages/solution/av'
 import solutionMobile from './pages/solution/mobile'
 import solutionECommerce from './pages/solution/e-commerce'
+import solutionGame from './pages/solution/game'
 
 export default [
   { path: '/', component: home },
@@ -19,5 +20,6 @@ export default [
   { path: '/product/live', component: productLive },
   { path: '/solution/av', component: solutionAv },
   { path: '/solution/mobile', component: solutionMobile },
-  { path: '/solution/e-commerce', component: solutionECommerce }
+  { path: '/solution/e-commerce', component: solutionECommerce },
+  { path: '/solution/game', component: solutionGame }
 ]

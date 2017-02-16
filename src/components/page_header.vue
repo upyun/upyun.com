@@ -108,8 +108,6 @@ export default {
     checkMenu () {
       this.menuShowing = this.menuActive
     }
-  },
-  mounted () {
   }
 }
 </script>
