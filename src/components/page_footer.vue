@@ -6,11 +6,11 @@
     .left
       .menu
         .title 产品
-        a 云存储
-        a CDN
-        a 云处理
-        a 直播云
-        a 点播云
+        router-link(to="/product/uss") 云存储
+        router-link(to="/product/cdn") CDN
+        router-link(to="/product/ups") 云处理
+        router-link(to="/product/live") 直播云
+        router-link(to="/product/vod") 点播云
       .menu
         .title 支持
         a 新手入门
