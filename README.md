@@ -1,6 +1,6 @@
 # upyun.com (next generation)
 
-This project contains the code behind the new offical website of [UPYUN](https://www.upyun.com). It's on develping at the time.
+This project contains the code behind the new offical website of [UPYUN](https://www.upyun.com).
 
 [View the demo](http://upyun.royl.design/)
 
@@ -30,7 +30,11 @@ npm run prerender
 
 <img width="309" src="https://rawgit.com/nemoalex/upyun.com/master/you.png" alt="ROYL and UPYUN and YOU">
 
-This project is design and code by [ROYL Design](http://royldesign.com/) and UPYUN team. How do you like it? Feel free to make changes! PRs and discussions are welcomed!
+This project is design and code by [ROYL Design](http://royldesign.com/).
+
+We work with UPYUN team to bring you awesomes.
+
+How do you like it? Feel free to make changes. PRs and discussions are welcomed.
 
 ## Copyright and license
 
