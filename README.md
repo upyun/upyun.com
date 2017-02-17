@@ -1,18 +1,37 @@
-# upyun.com
+# upyun.com (next generation)
 
-> upyun.com
+This project contains the code behind the new offical website of [UPYUN](https://www.upyun.com). It's on develping at the time.
 
-## Build Setup
+[View the demo](http://upyun.royl.design/)
+
+## The details
+
+It's a static website, built with [Vue.js](https://vuejs.org/).
+
+## Getting up and running
+
+Need node.js >= 6.0
 
 ``` bash
-# install dependencies
+# install dependencies, use npm or yarn if you like
 npm install
 
-# serve with hot reload at localhost:8080
+# run npm script, serve with hot reload at localhost:8080
 npm run dev
 
 # build for production with minification
 npm run build
+
+# build a prerendering copy for SEO purpose.
+npm run prerender
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Contributing
+
+<img width="309" src="https://rawgit.com/nemoalex/upyun.com/master/you.png" alt="ROYL and UPYUN and YOU">
+
+This project is design and code by [ROYL Design](http://royldesign.com/) and UPYUN team. How do you like it? Feel free to make changes! PRs and discussions are welcomed!
+
+## Copyright and license
+
+TODO
