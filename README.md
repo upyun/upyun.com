@@ -32,9 +32,7 @@ npm run prerender
 
 This project is design and code by [ROYL Design](http://royldesign.com/).
 
-We work with UPYUN team to bring you awesomes.
-
-How do you like it? Feel free to make changes. PRs and discussions are welcomed.
+We work with UPYUN team to bring you awesomes. How do you like it? Feel free to make changes. PRs and discussions are welcomed.
 
 ## Copyright and license
 
