@@ -52,6 +52,9 @@
           img.large(src="./assets/home-pic-zhibo.svg")
       up_gradient.section-global(:colors="colorSet")
         .container
+          .left
+            .points
+              .point(v-for="p in points", :style="{left: `${p.left}px`, top: `${p.top}px`, transform: `scale(${p.zoom})`, opacity: p.opacity}")
           .right
             .title 自建高质量全球加速节点
             .description 多节点，高并发，提供超低延迟、高码率、高并发，从推流端到播放端的一站式解决方案，完美支持多终端输出，带来流程播放体验。
@@ -70,7 +73,7 @@
           .left
             .title 透明、丰富的统计监控功能
             .description 丰富的数据统计分析、方便的日志下载和全网实时性能监控,全平台自主化查询，助您时刻掌控业务全局
-            up_button 查看详情
+            up_button(:color="colorSet.mid") 查看详情
           .right
             img(src="./assets/statistics.png", width="959", height="437")
       .section-clients
@@ -118,7 +121,14 @@ if (process.env.NODE_ENV !== 'prerendering') {
 export default {
   data () {
     return {
-      colorSet: colors.collection.blue
+      colorSet: colors.collection.blue,
+      points: [
+        { left: 100, top: 180, zoom: 1 },
+        { left: 220, top: 230, zoom: 1.3 },
+        { left: 310, top: 300, zoom: 1 },
+        { left: 130, top: 0, zoom: 0.6, opacity: 0.57 },
+        { left: 360, top: 40, zoom: 1, opacity: 0.6 }
+      ]
     }
   },
   components: { layout, summit }
