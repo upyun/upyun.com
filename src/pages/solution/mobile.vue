@@ -32,7 +32,7 @@ layout(:colors="colorSet")
         .main-description 又拍云自主研发的全网加速解决方案，全站加速较传统 CDN 更快 10%
         .item
           .left
-            //- img(src="./assets/mobile-feature-1.svg")
+            img(src="./assets/mobile-feature-1.svg")
           .right
             .title 更高覆盖率
             .description 又拍云 CDN 网络覆盖各大运营商，更有丰富海外节点，解决链路互通难题
@@ -41,7 +41,7 @@ layout(:colors="colorSet")
             .title 充足带宽，弹性计费
             .description 全网常备 T 级带宽、按实际使用量弹性计费，让企业合理花费每一分钱
           .right
-            //- img(src="./assets/mobile-feature-2.svg")
+            img(src="./assets/mobile-feature-2.svg")
         .item
           .left
             img(src="./assets/mobile-feature-3.svg")
