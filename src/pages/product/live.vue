@@ -173,7 +173,7 @@ layout(:colors="colorSet")
             .title 网络电视直播
           .item
             .img
-              //- img(src="./assets/live-sence-5.svg")
+              img(src="./assets/live-sence-6.svg")
             .title VR 直播
     .section-help
       .container
