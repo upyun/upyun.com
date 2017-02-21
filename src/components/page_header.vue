@@ -10,7 +10,6 @@
       a.nav 帮助与文档
       a.nav 媒体与活动
     .side-navs
-      a.nav 登录
       a.nav 注册
       a.nav.console 控制台
     .menu(:class="{active: menuActive}", @mouseover="showMenu()", @mouseout="hideMenu", v-show="menuShowing", :style="{left: `${menuCondition.left}px`}")
