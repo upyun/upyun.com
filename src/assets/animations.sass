@@ -1,0 +1,21 @@
+=animate($name: fadeIn, $time: 1s, $delay: 0)
+  animation-name: $name
+  animation-duration: $time
+  animation-delay: $delay
+  animation-fill-mode: both
+
+@keyframes fadeInDown
+  from
+    opacity: 0
+    -webkit-transform: translate3d(0, -20px, 0)
+    transform: translate3d(0, -20px, 0)
+  to
+    opacity: 1
+    -webkit-transform: none
+    transform: none
+
+@keyframes fadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
