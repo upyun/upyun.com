@@ -11,6 +11,8 @@ import solutionECommerce from './pages/solution/e-commerce'
 import solutionGame from './pages/solution/game'
 import solutionEducation from './pages/solution/education'
 import solutionFusion from './pages/solution/fusion'
+import aboutUs from './pages/about/about_us'
+import contact from './pages/about/contact'
 
 export default [
   { path: '/', component: home },
@@ -25,5 +27,7 @@ export default [
   { path: '/solution/e-commerce', component: solutionECommerce },
   { path: '/solution/game', component: solutionGame },
   { path: '/solution/education', component: solutionEducation },
-  { path: '/solution/fusion', component: solutionFusion }
+  { path: '/solution/fusion', component: solutionFusion },
+  { path: '/about_us', component: aboutUs },
+  { path: '/contact', component: contact }
 ]

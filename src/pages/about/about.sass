@@ -1,0 +1,98 @@
+@import "../../assets/susy"
+.about-page
+  background: white
+  color: #0d253e
+  font-size: 20px
+  .container
+    .unit
+      padding: 54px 35px 80px
+      border-bottom: 2px solid #f0f0f0
+      >.title
+        font-size: 40px
+        text-align: center
+        margin-bottom: 40px
+      >.sub-title
+  .culture-items
+    +container
+    .item
+      +gallery(4)
+      text-align: center
+      .title
+        font-size: 26px
+        margin-bottom: 18px
+      .slogan
+        font-size: 25px
+        font-weight: 400
+  .timeline
+    width: 800px
+    margin: 0 auto
+    font-size: 22px
+    position: relative
+    &:after
+      content: ""
+      border-left: 1px solid #17a8ed
+      position: absolute
+      left: 0
+      top: 10px
+      bottom: 10px
+      width: 0
+    .item
+      position: relative
+      &:after
+        content: ""
+        position: absolute
+        left: -7px
+        top: 9px
+        width: 15px
+        height: 15px
+        border-radius: 50%
+        background: #17a8ed
+      .awards
+        padding-left: 200px
+        .award
+          margin-bottom: 22px
+      .year
+        position: absolute
+        left: 28px
+        top: 0
+        &:after
+          content: ""
+          position: absolute
+          width: 96px
+          right: -110px
+          top: 15px
+          border-top: 1px solid #e6e6e6
+  .contact-info
+    +container
+    .item
+      +gallery(3)
+      text-align: center
+      .title
+        font-weight: 400
+        margin-bottom: 14px
+      .content
+        line-height: 40px
+        a
+          color: #17afeb
+        .icon
+          display: block
+          width: 44px
+          height: 44px
+          margin: 20px auto
+          background: #ccc
+  .contact-address
+    .bar
+      +container
+      margin-bottom: 30px
+      .item
+        +gallery(3)
+        font-size: 24px
+        text-align: center
+        &:hover, &.active
+          color: #17afeb
+          cursor: pointer
+    #address_map
+      border: 1px solid #999
+      font-size: 16px
+      .BMap_bubble_title
+        font-weight: 400
