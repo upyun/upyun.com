@@ -56,19 +56,6 @@ layout(:colors="colorSet")
             .img: img(src="./assets/fusion-feature-3.svg")
             .title 功能免费开放
             .description 公测阶段，针对已经使用存储加速服务的客户完全免费开放使用融合云存储服务期间所产生的文件同步出口带宽流量和资源消耗。
-    .section-clients
-      .container
-        .main-title 他们都在使用又拍云
-        .main-description 加速的不仅仅是网络，而是整个时代，而同样的时代，演绎着不同的故事...
-      .clients
-        .item
-        .item
-        .item
-        .item
-        .item
-        .item
-        .item
-        .item
     more(:color="colorSet.mid")
 </template>
 

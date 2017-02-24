@@ -14,6 +14,7 @@ import solutionFusion from './pages/solution/fusion'
 import aboutUs from './pages/about/about_us'
 import contact from './pages/about/contact'
 import terms from './pages/about/terms'
+import partners from './pages/about/partners'
 
 export default [
   { path: '/', component: home },
@@ -31,5 +32,6 @@ export default [
   { path: '/solution/fusion', component: solutionFusion },
   { path: '/about_us', component: aboutUs },
   { path: '/contact', component: contact },
-  { path: '/terms', component: terms }
+  { path: '/terms', component: terms },
+  { path: '/partners', component: partners }
 ]

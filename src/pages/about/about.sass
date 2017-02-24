@@ -17,11 +17,15 @@
         color: #97a1ab
         width: 736px
         margin: -32px auto 0
+        text-align: center
   .culture-items
     +container
     .item
       +gallery(4)
       text-align: center
+      img
+        margin: 0 auto 20px
+        display: block
       .title
         font-size: 26px
         margin-bottom: 18px
@@ -84,7 +88,11 @@
           width: 44px
           height: 44px
           margin: 20px auto
-          background: #ccc
+          background: url(./assets/contact-wechat.svg) center no-repeat
+          &.weibo
+            background-image: url(./assets/contact-weibo.svg)
+          &:hover
+            opacity: .78
   .contact-address
     .bar
       +container

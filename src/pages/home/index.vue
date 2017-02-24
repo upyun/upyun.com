@@ -97,10 +97,7 @@
           .line
           .main-title 他们都在使用又拍云
           .sub-title 已为超过 150000 用户提供加速服务
-          .brands
-            .item(v-for="i in 15")
-              .img
-              .title 个推
+          brand_logos(:logos="logos")
       up_gradient.section-promo(:colors="colorSet")
         .lines
         .container
@@ -113,6 +110,8 @@
 <script>
 import layout from '../../components/layout'
 import colors from '../../services/colors'
+import brand_logos from '../../components/brand_logos'
+
 var summit = { template: '<div></div>' }
 if (process.env.NODE_ENV !== 'prerendering') {
   summit = require('../../components/summit')
@@ -128,9 +127,24 @@ export default {
         { left: 310, top: 300, zoom: 1 },
         { left: 130, top: 0, zoom: 0.6, opacity: 0.57 },
         { left: 360, top: 40, zoom: 1, opacity: 0.6 }
+      ],
+      logos: [
+        { name: '个推', file: 'getui' },
+        { name: '极光推送', file: 'jpush' },
+        { name: '环信', file: 'huanxin' },
+        { name: '云智慧', file: 'cloudwise' },
+        { name: '诸葛IO', file: 'zhuge' },
+        { name: 'APICloud', file: 'apicloud' },
+        { name: 'AppCan', file: 'appcan' },
+        { name: 'BearyChat', file: 'bearychat' },
+        { name: 'BEECLOUD', file: 'beecloud' },
+        { name: 'Coding', file: 'coding' },
+        { name: 'CSDN', file: 'csdn' },
+        { name: 'DevStore', file: 'devstore' },
+        { name: 'FIR.im', file: 'fir' }
       ]
     }
   },
-  components: { layout, summit }
+  components: { layout, summit, brand_logos }
 }
 </script>

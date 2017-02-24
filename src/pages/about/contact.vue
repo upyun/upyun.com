@@ -10,6 +10,7 @@ layout
           .title 联系我们
           .contact-info
             .item
+              img(src="./assets/contact-icon-1.svg")
               .title 售前咨询
               .content
                 | 0571-81020203
@@ -18,6 +19,7 @@ layout
                 br
                 | QQ：200576786
             .item
+              img(src="./assets/contact-icon-2.svg")
               .title 售后咨询
               .content
                 | 0571-81020204
@@ -26,10 +28,12 @@ layout
                 br
                 a 点击在线咨询
             .item
+              img(src="./assets/contact-icon-3.svg")
               .title 市场合作
               .content
                 | marketing@upyun.com
             .item
+              img(src="./assets/contact-icon-4.svg")
               .title 关注我们
               .content
                 a.icon.wechat

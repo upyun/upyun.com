@@ -53,14 +53,14 @@ layout(:colors="colorSet")
         .main-title 他们都在使用又拍云
         .main-description 加速的不仅仅是网络，而是整个时代，而同样的时代，演绎着不同的故事...
       .clients
-        .item
-        .item
-        .item
-        .item
-        .item
-        .item
-        .item
-        .item
+        .item: img(src="/static/logos/mangguo-grey.png")
+        .item: img(src="/static/logos/zhangyu-grey.png")
+        .item: img(src="/static/logos/zjws-grey.png")
+        .item: img(src="/static/logos/ezviz-grey.png")
+        .item: img(src="/static/logos/douban-grey.png")
+        .item: img(src="/static/logos/ximalaya-grey.png")
+        .item: img(src="/static/logos/qingting-grey.png")
+        .item: img(src="/static/logos/changba-grey.png")
     more(:color="colorSet.mid")
 </template>
 
