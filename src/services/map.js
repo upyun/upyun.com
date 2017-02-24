@@ -1,7 +1,7 @@
 var map = null
 
 function init (id) {
-  if (!map) map = new window.BMap.Map(id)
+  map = new window.BMap.Map(id)
   map.setMapStyle({ style: 'grayscale' })
   var top_right_navigation = new window.BMap.NavigationControl({anchor: window.BMAP_ANCHOR_TOP_RIGHT, type: window.BMAP_NAVIGATION_CONTROL_SMALL})
   map.addControl(top_right_navigation)

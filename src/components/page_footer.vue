@@ -31,7 +31,7 @@
         a 加入我们
         router-link(to="/contact") 联系我们
         a 合作伙伴
-        a 服务条款
+        router-link(to="/terms") 服务条款
       .line
     .right
       .menu

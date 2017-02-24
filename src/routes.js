@@ -13,6 +13,7 @@ import solutionEducation from './pages/solution/education'
 import solutionFusion from './pages/solution/fusion'
 import aboutUs from './pages/about/about_us'
 import contact from './pages/about/contact'
+import terms from './pages/about/terms'
 
 export default [
   { path: '/', component: home },
@@ -29,5 +30,6 @@ export default [
   { path: '/solution/education', component: solutionEducation },
   { path: '/solution/fusion', component: solutionFusion },
   { path: '/about_us', component: aboutUs },
-  { path: '/contact', component: contact }
+  { path: '/contact', component: contact },
+  { path: '/terms', component: terms }
 ]
