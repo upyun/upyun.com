@@ -69,9 +69,9 @@
       .inner
         background: white
         width: 428px
-        height: 248px
+        height: 258px
         border-radius: 5px
-        padding: 15px
+        padding: 18px 15px
         @include container
         &:after
           content: ""
@@ -90,14 +90,27 @@
           padding-left: 39px
           border-radius: 4px
           text-decoration: none
-          &:hover
-            background-color: #F5F5F5
+          &:hover .title
+            &.green
+              color: #49d3d6
+            &.blue
+              color: #2EC0EC
+            &.orange
+              color: #ff8f6d
+            &.purple
+              color: #8461ca
+            &.yellow
+              color: #ffa650
+            &.darkBlue
+              color: #399ffb
           .title
-            color: #0d253e
             font-size: 15px
             font-weight: 400
-          .description
+            color: #0d253e
+          &:hover .description
             color: #97a1ab
+          .description
+            color: #0d253e
             font-size: 12px
           .icon
             position: absolute
@@ -108,14 +121,51 @@
             background-repeat: no-repeat
             background-position: center
             &.cdn
+              background-image: url('../assets/home-ic-cdn-h.svg')
+            &.live
+              background-image: url('../assets/home-ic-uplive-h.svg')
+            &.vod
+              background-image: url('../assets/home-ic-uvod-h.svg')
+            &.ups
+              background-image: url('../assets/home-ic-ups-h.svg')
+            &.uss
+              background-image: url('../assets/home-ic-uss-h.svg')
+            &.mobile
+              background-image: url('../assets/home-ic-liuliang-h.svg')
+            &.av
+              background-image: url('../assets/home-ic-ysp-h.svg')
+            &.mobile-s
+              background-image: url('../assets/home-ic-app-h.svg')
+            &.e-commerce
+              background-image: url('../assets/home-ic-o-2-o-h.svg')
+            &.game
+              background-image: url('../assets/home-ic-game-h.svg')
+            &.education
+              background-image: url('../assets/home-ic-zxjy-h.svg')
+            &.fusion
+              background-image: url('../assets/home-ic-rhy-h.svg')
+          &:hover .icon
+            &.cdn
               background-image: url('../assets/home-ic-cdn-pop.svg')
             &.live
-              background-image: url('../assets/home-ic-live-pop.svg')
+              background-image: url('../assets/home-ic-uplive-pop.svg')
             &.vod
-              background-image: url('../assets/home-ic-vod-pop.svg')
+              background-image: url('../assets/home-ic-uvod-pop.svg')
             &.ups
               background-image: url('../assets/home-ic-ups-pop.svg')
             &.uss
               background-image: url('../assets/home-ic-uss-pop.svg')
             &.mobile
-              background-image: url('../assets/home-ic-mobile-pop.svg')
+              background-image: url('../assets/home-ic-liuliang-pop.svg')
+            &.av
+              background-image: url('../assets/home-ic-ysp-pop.svg')
+            &.mobile-s
+              background-image: url('../assets/home-ic-app-pop.svg')
+            &.e-commerce
+              background-image: url('../assets/home-ic-o-2-o-pop.svg')
+            &.game
+              background-image: url('../assets/home-ic-game-pop.svg')
+            &.education
+              background-image: url('../assets/home-ic-zxjy-pop.svg')
+            &.fusion
+              background-image: url('../assets/home-ic-rhy-pop.svg')

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>6DB73A09-053B-4A71-A162-DE45B4AB1820</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu_icon" transform="translate(-115.000000, -179.000000)">
+            <g id="home_ic_uplive_pop" transform="translate(115.000000, 179.000000)">
+                <rect id="bounds" x="0" y="0" width="26" height="26"></rect>
+                <g id="Group-8" transform="translate(2.000000, 6.000000)">
+                    <path d="M21,12 L16,9.27272727 L16,4.72727273 L21,2 C21.2713923,1.80122073 21.9993465,2.19665361 22,2.90909091 L22,11.0909091 C22.0244484,11.8033464 21.3215961,12.1987793 21,12 Z" id="XMLID_320_" fill="#FFA650"></path>
+                    <rect id="Rectangle" fill="#FFA650" x="0" y="0" width="17" height="14" rx="2"></rect>
+                    <circle id="Oval-3" fill="#FFDCBA" cx="13.5" cy="3.5" r="1.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

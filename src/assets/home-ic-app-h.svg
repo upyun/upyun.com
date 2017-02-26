@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>77DD66A8-5338-4A3C-982C-EE280955F303</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M1,0 C0.447,0 0,0.574714286 0,1.28571429 L0,16.7142857 C0,17.4252857 0.447,18 1,18 L9,18 C9.553,18 10,17.4252857 10,16.7142857 L10,1.28571429 C10,0.574714286 9.553,0 9,0 L1,0 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1.5" y="-1.5" width="13" height="21">
+            <rect x="-1.5" y="-1.5" width="13" height="21" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu_icon" transform="translate(-386.000000, -225.000000)">
+            <g id="home_ic_app_h" transform="translate(386.000000, 225.000000)">
+                <rect id="bounds" x="0" y="0" width="26" height="26"></rect>
+                <g id="Group-2" transform="translate(8.000000, 4.000000)">
+                    <use id="Fill-1" stroke="#3E6185" mask="url(#mask-2)" stroke-width="3" xlink:href="#path-1"></use>
+                    <path d="M5,17.5 C5.552,17.5 6,17.052 6,16.5 C6,15.948 5.552,15.5 5,15.5 C4.448,15.5 4,15.948 4,16.5 C4,17.052 4.448,17.5 5,17.5" id="Fill-2" fill="#9CB4CD"></path>
+                    <rect id="Rectangle-38" fill="#9CB4CD" x="0" y="3" width="10" height="11"></rect>
+                    <path d="M0.5,3 L9.5,3" id="Line" stroke="#3E6185" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M0.5,14 L9.5,14" id="Line-Copy-2" stroke="#3E6185" stroke-width="1.5" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

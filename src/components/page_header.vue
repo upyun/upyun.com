@@ -16,54 +16,54 @@
       .inner
         .content(v-show="menuCondition.contentNumber === 0")
           router-link.item(to="/product/cdn")
-            .title CDN
+            .title.green CDN
             .description 跨地区、跨运营商覆盖的网络加速服务
             .icon.cdn
           router-link.item(to="/product/live")
-            .title 直播云
+            .title.yellow 直播云
             .description 超低延迟、高码率和大并发的音视频直播服务
             .icon.live
           router-link.item(to="/product/uss")
-            .title 云存储
+            .title.orange 云存储
             .description 海量、安全和高可靠的云存储服务
             .icon.uss
           router-link.item(to="/product/vod")
-            .title 点播云
+            .title.blue 点播云
             .description 安全稳定、弹性和高可用的音视频点播服务
             .icon.vod
           router-link.item(to="/product/ups")
-            .title 云处理
+            .title.purple 云处理
             .description 简单、灵活并支持多终端的云处理服务
             .icon.ups
           router-link.item(to="/product/mobile")
-            .title 流量营销服务
+            .title.darkBlue 流量营销服务
             .description 三网通用、超低成本并可快速开展的营销服务
             .icon.mobile
         .content(v-show="menuCondition.contentNumber === 1")
           router-link.item(to="/solution/av")
-            .title 音视频
+            .title.green 音视频
             .description 海量存储、加速分发、高效处理一站式解决
-            .icon
+            .icon.av
           router-link.item(to="/solution/mobile")
-            .title 移动 APP
+            .title.yellow 移动 APP
             .description 有效降低网络延迟，大幅提升访问速度
-            .icon
-          router-link.item(to="/solution/e-commerce")
-            .title 电商 & O2O
-            .description 加速网站访问，高峰期弹性扩展从容应对“大促”
-            .icon
-          router-link.item(to="/solution/game")
-            .title 游戏
-            .description 多线 BGP 覆盖各地区运营商，解决网络延迟问题
-            .icon
+            .icon.mobile-s
           router-link.item(to="/solution/education")
-            .title 在线教育
+            .title.orange 在线教育
             .description 提供点播/直播/版权保护服务，满足多样化需求
-            .icon
+            .icon.education
+          router-link.item(to="/solution/game")
+            .title.blue 游戏
+            .description 多线 BGP 覆盖各地区运营商，解决网络延迟问题
+            .icon.game
+          router-link.item(to="/solution/e-commerce")
+            .title.purple 电商 & O2O
+            .description 加速网站访问，高峰期弹性扩展从容应对“大促”
+            .icon.e-commerce
           router-link.item(to="/solution/fusion")
-            .title 融合云
+            .title.darkBlue 融合云
             .description 构建多源存储架构，数据可平滑迁移
-            .icon
+            .icon.fusion
 </template>
 
 <script>

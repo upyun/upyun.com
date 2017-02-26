@@ -39,7 +39,7 @@ layout(:colors="colorSet")
     .section-hero
       .main-title 融合云存储架构
       .main-description 待又拍云存储恢复后，同步该期间回第三方存储拉取的文件到又拍云存储
-      img(src="./assets/architecture.png", width="882", height="522")
+      img(src="./assets/architecture.png", width="840", height="522")
     up_gradient.section-features-h(:colors="colorSet")
       .container
         .main-title 方案优势

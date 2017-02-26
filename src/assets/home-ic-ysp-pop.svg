@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>6F7F95F2-8D62-4983-96E0-B0144C95E1EB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu_icon" transform="translate(-342.000000, -85.000000)">
+            <g id="home_ic_ysp_pop" transform="translate(342.000000, 85.000000)">
+                <rect id="bounds" x="0" y="0" width="26" height="26"></rect>
+                <g id="Group-3" transform="translate(3.000000, 3.000000)">
+                    <rect id="Rectangle-2" fill="#90E9D9" x="0" y="0" width="20" height="18" rx="3"></rect>
+                    <path d="M7,11.8708485 C7.01984053,12.4998736 7.61482747,12.8355561 8.12081184,12.5407843 L13.208127,9.47821294 C13.4301883,9.34072935 13.581714,9.07757856 13.581714,8.80827712 C13.581714,8.53897568 13.4301883,8.27582489 13.208127,8.1383413 L8.12081184,5.07577757 C7.59117146,4.85121509 7.01101404,5.14078049 7,5.74571339 L7,11.8708485 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <path d="M3,20 L17,20" id="Line" stroke="#1ABCA0" stroke-width="1.5" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
