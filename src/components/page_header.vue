@@ -35,7 +35,7 @@
             .title.purple 云处理
             .description 简单、灵活并支持多终端的云处理服务
             .icon.ups
-          router-link.item(to="/product/mobile")
+          router-link.item(to="/product/marketing")
             .title.darkBlue 流量营销服务
             .description 三网通用、超低成本并可快速开展的营销服务
             .icon.mobile

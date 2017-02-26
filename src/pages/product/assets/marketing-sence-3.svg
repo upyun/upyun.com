@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="88px" height="83px" viewBox="0 0 88 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>F4128ED3-5D15-4DED-899E-977EA85728FA</title>
     <desc>Created with sketchtool.</desc>
     <defs>
@@ -39,20 +39,20 @@
                     <g id="liuliang_sence_3" transform="translate(532.000000, 88.000000)">
                         <rect id="Bounds-Copy-2" x="0" y="0" width="166" height="130"></rect>
                         <g id="Group-5" transform="translate(41.000000, 25.000000)">
-                            <use id="Shape" stroke="#FF8F6D" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
-                            <use id="Shape" stroke="#FF8F6D" mask="url(#mask-4)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-3"></use>
-                            <use id="Rectangle-path" stroke="#FF8F6D" mask="url(#mask-6)" stroke-width="6" fill="#FFD4C7" xlink:href="#path-5"></use>
+                            <use id="Shape" stroke="#399FFB" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <use id="Shape" stroke="#399FFB" mask="url(#mask-4)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-3"></use>
+                            <use id="Rectangle-path" stroke="#399FFB" mask="url(#mask-6)" stroke-width="6" fill="#D2E9FF" xlink:href="#path-5"></use>
                             <g id="Shape">
                                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
-                                <use stroke="#FF8F6D" mask="url(#mask-8)" stroke-width="6" xlink:href="#path-7"></use>
+                                <use stroke="#399FFB" mask="url(#mask-8)" stroke-width="6" xlink:href="#path-7"></use>
                             </g>
                             <g id="Shape">
                                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
-                                <use stroke="#FF8F6D" mask="url(#mask-10)" stroke-width="6" xlink:href="#path-9"></use>
+                                <use stroke="#399FFB" mask="url(#mask-10)" stroke-width="6" xlink:href="#path-9"></use>
                             </g>
                             <g id="Shape">
                                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
-                                <use stroke="#FF8F6D" mask="url(#mask-12)" stroke-width="6" xlink:href="#path-11"></use>
+                                <use stroke="#399FFB" mask="url(#mask-12)" stroke-width="6" xlink:href="#path-11"></use>
                             </g>
                         </g>
                     </g>

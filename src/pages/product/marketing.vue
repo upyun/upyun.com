@@ -27,7 +27,7 @@
             left: -22px
             top: 8px
             &.hot
-              background: #ff8f6d
+              background: #399ffb
               border: 0
       .chart
         height: 300px
@@ -49,7 +49,7 @@
           height: 158px
           &.hot
             right: 0
-            background: #ff8f6d
+            background: #399ffb
             height: 292px
             color: white
             text-align: center
@@ -96,7 +96,7 @@ layout(:colors="colorSet")
         up_button API 文档
       .price 0.0043 元/GB/天，新注册用户免费试用 7 天
     .icon
-      img(src="./assets/mobile_large.svg")
+      img(src="./assets/marketing_large.svg")
   template(slot="page")
     .section-fetures
       .container
@@ -106,27 +106,27 @@ layout(:colors="colorSet")
           | 流量就是最好的营销工具
         .features
           .item
-            img(src="./assets/mobile-icon-1.svg")
+            img(src="./assets/marketing-icon-1.svg")
             .title 整合三网资源
             .description 又拍云存储单存储集群支持 PB 级容量，单数据中心支持 EB 级容量，全网轻松应对 ZB 级的异构化数据。
           .item
-            img(src="./assets/mobile-icon-2.svg")
+            img(src="./assets/marketing-icon-2.svg")
             .title 成本低 更省心
             .description 具有相对于传统营销活动相比更低的单用户成本，另外无需面对选品、采购、包装、物流、库存等各种问题。
           .item
-            img(src="./assets/mobile-icon-3.svg")
+            img(src="./assets/marketing-icon-3.svg")
             .title 按效果付费
             .description 只有当用户完成你所设计的活动任务（下载 App/游戏、关注公众号等）获得流量后才会产生费用。
           .item
-            img(src="./assets/mobile-icon-4.svg")
+            img(src="./assets/marketing-icon-4.svg")
             .title 账单、用量透明
             .description 控制台可追踪到每一笔充值加款情况以及流量分发情况，透明、高效的流量管理，真正做到轻松订购，安心使用。
           .item
-            img(src="./assets/mobile-icon-5.svg")
+            img(src="./assets/marketing-icon-5.svg")
             .title 直观的效果
             .description 利用控制台统计工具，可以直观的通过流量分发明细看到活动为你带来的用户数、获客成本以及账单信息。
           .item
-            img(src="./assets/mobile-icon-6.svg")
+            img(src="./assets/marketing-icon-6.svg")
             .title 接入简单 使用方便
             .description 得益于又拍云高效开放 API，仅需几行代码即可快速接入流量分发服务，更能灵活的查询历史明细、数据分析。
     .section-hero
@@ -150,19 +150,19 @@ layout(:colors="colorSet")
         .main-description 企业调用又拍云流量API，自行设计与开发活动页，整合到企业平台的相关业务环节
         .events
           .item
-            img(src="./assets/mobile-event-user.svg")
+            img(src="./assets/marketing-event-user.svg")
             .title 用户
             .description 在企业平台参与流量赠送活动，输入手机号码
           .item
-            img(src="./assets/mobile-event-enterprise.svg")
+            img(src="./assets/marketing-event-enterprise.svg")
             .title 企业
             .description 在企业平台参与流量赠送活动，输入手机号码
           .item
-            img(src="./assets/mobile-event-flow.svg")
+            img(src="./assets/marketing-event-flow.svg")
             .title 又拍云流量
             .description 在企业平台参与流量赠送活动，输入手机号码
           .item
-            img(src="./assets/mobile-event-user.svg")
+            img(src="./assets/marketing-event-user.svg")
             .title 用户
             .description 在企业平台参与流量赠送活动，输入手机号码
     .section-scenes
@@ -170,28 +170,28 @@ layout(:colors="colorSet")
         .main-title 应用场景
         .scenes
           .item
-            .img: img(src="./assets/mobile-sence-1.svg")
+            .img: img(src="./assets/marketing-sence-1.svg")
             .title APP 下载赠流量
           .item
-            .img: img(src="./assets/mobile-sence-2.svg")
+            .img: img(src="./assets/marketing-sence-2.svg")
             .title 微信公众号增粉
           .item
-            .img: img(src="./assets/mobile-sence-3.svg")
+            .img: img(src="./assets/marketing-sence-3.svg")
             .title 奖品礼券
           .item
-            .img: img(src="./assets/mobile-sence-4.svg")
+            .img: img(src="./assets/marketing-sence-4.svg")
             .title 流量加油站
           .item
-            .img: img(src="./assets/mobile-sence-5.svg")
+            .img: img(src="./assets/marketing-sence-5.svg")
             .title 积分兑换流量
           .item
-            .img: img(src="./assets/mobile-sence-6.svg")
+            .img: img(src="./assets/marketing-sence-6.svg")
             .title 活动比赛送流量
           .item
-            .img: img(src="./assets/mobile-sence-7.svg")
+            .img: img(src="./assets/marketing-sence-7.svg")
             .title 流量红包
           .item
-            .img: img(src="./assets/mobile-sence-8.svg")
+            .img: img(src="./assets/marketing-sence-8.svg")
             .title 员工福利
     .section-help
       .container

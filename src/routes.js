@@ -2,7 +2,7 @@ import home from './pages/home/index'
 import productUss from './pages/product/uss'
 import productCdn from './pages/product/cdn'
 import productUps from './pages/product/ups'
-import productMobile from './pages/product/mobile'
+import productMarketing from './pages/product/marketing'
 import productVod from './pages/product/vod'
 import productLive from './pages/product/live'
 import solutionAv from './pages/solution/av'
@@ -22,7 +22,7 @@ export default [
   { path: '/product/uss', component: productUss },
   { path: '/product/cdn', component: productCdn },
   { path: '/product/ups', component: productUps },
-  { path: '/product/mobile', component: productMobile },
+  { path: '/product/marketing', component: productMarketing },
   { path: '/product/vod', component: productVod },
   { path: '/product/live', component: productLive },
   { path: '/solution/av', component: solutionAv },

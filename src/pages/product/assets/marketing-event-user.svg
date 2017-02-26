@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="136px" viewBox="0 0 136 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>480440C2-3A97-4759-A4D8-6104AE5082F0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0.81114477%" x2="50%" y2="96.9128667%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="64" cy="64" r="64"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0396286232 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-4" cx="62.5223377" cy="12.7261315" r="12"></circle>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="24" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <ellipse id="path-6" cx="15.5223377" cy="12.7261315" rx="12" ry="12"></ellipse>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="24" fill="white">
+            <use xlink:href="#path-6"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_流量营销" transform="translate(-226.000000, -2314.000000)">
+            <g id="快速" transform="translate(0.000000, 2057.000000)">
+                <g id="用户" transform="translate(230.000000, 257.000000)">
+                    <g id="Oval-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Group" transform="translate(26.000000, 36.000000)">
+                        <g transform="translate(0.477662, 7.273868)" stroke="#399FFB">
+                            <path d="M67.3155212,43.1679636 C71.1371148,43.1679636 76.780302,43.1679636 76.780302,43.1679636 C77.2255435,35.4946591 75.7609741,28.0148389 68.1146672,21.4249952" id="Shape" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <use id="Oval" mask="url(#mask-5)" stroke-width="6" fill="#D2E9FF" xlink:href="#path-4"></use>
+                            <path d="M8.88313316,21.3759895 C2.20167009,27.2797537 0.304457437,35.4946591 0.749698958,43.1679636 C0.749698958,43.1679636 8.11494929,43.1679636 11.7975745,43.1679636" id="Shape" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <use id="Oval-Copy" mask="url(#mask-7)" stroke-width="6" fill="#D2E9FF" xlink:href="#path-6"></use>
+                        </g>
+                        <g transform="translate(1.000000, 27.273868)"></g>
+                        <g transform="translate(17.490427, 0.000000)" stroke="#399FFB" stroke-width="3">
+                            <path d="M13.4742329,27.3856534 C3.20293268,33.8173828 -0.256527319,45.3621831 0.276663145,54.5800071 L43.1326202,54.5800071 C43.6658106,45.3676601 40.1794952,33.6191406 30.3914914,27 L13.4742329,27.3856534 Z" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <ellipse id="Oval" fill="#D2E9FF" cx="21" cy="15" rx="15" ry="15"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
