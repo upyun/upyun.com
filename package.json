@@ -19,7 +19,8 @@
     "sass-loader": "^4.1.1",
     "susy": "^2.2.12",
     "vue": "^2.1.0",
-    "vue-router": "^2.2.1"
+    "vue-router": "^2.2.1",
+    "yaml-loader": "^0.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

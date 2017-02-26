@@ -1,0 +1,40 @@
+- name: 研发团队
+  jobs:
+    - name: 系统开发工程师（偏 DNS 方向）
+      description:
+        - 负责又拍云 DNS 系统底层平台研发工作
+      requirements:
+        - 熟悉网络编程，熟悉 Linux 操作系统；
+        - 有丰富的高并发系统设计和开发经验；
+        - 有丰富的类 BIND 系统使用和开发经验，精通DNS 协议；
+        - 能熟练使用 C 语言进行日常开发工作；
+        - 熟悉 Python,Lua,Golang 等其中一种编程语言。
+    - name: 系统开发工程师（偏 DNS 方向）
+      description:
+        - 负责又拍云 DNS 系统底层平台研发工作
+      requirements:
+        - 熟悉网络编程，熟悉 Linux 操作系统；
+        - 有丰富的高并发系统设计和开发经验；
+        - 有丰富的类 BIND 系统使用和开发经验，精通DNS 协议；
+        - 能熟练使用 C 语言进行日常开发工作；
+        - 熟悉 Python,Lua,Golang 等其中一种编程语言。
+- name: 市场 & 运营团队
+  jobs:
+    - name: 系统开发工程师（偏 DNS 方向）
+      description:
+        - 负责又拍云 DNS 系统底层平台研发工作
+      requirements:
+        - 熟悉网络编程，熟悉 Linux 操作系统；
+        - 有丰富的高并发系统设计和开发经验；
+        - 有丰富的类 BIND 系统使用和开发经验，精通DNS 协议；
+        - 能熟练使用 C 语言进行日常开发工作；
+        - 熟悉 Python,Lua,Golang 等其中一种编程语言。
+    - name: 系统开发工程师（偏 DNS 方向）
+      description:
+        - 负责又拍云 DNS 系统底层平台研发工作
+      requirements:
+        - 熟悉网络编程，熟悉 Linux 操作系统；
+        - 有丰富的高并发系统设计和开发经验；
+        - 有丰富的类 BIND 系统使用和开发经验，精通DNS 协议；
+        - 能熟练使用 C 语言进行日常开发工作；
+        - 熟悉 Python,Lua,Golang 等其中一种编程语言。

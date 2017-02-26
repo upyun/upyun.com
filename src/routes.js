@@ -15,6 +15,7 @@ import aboutUs from './pages/about/about_us'
 import contact from './pages/about/contact'
 import terms from './pages/about/terms'
 import partners from './pages/about/partners'
+import joinUs from './pages/about/join_us'
 
 export default [
   { path: '/', component: home },
@@ -33,5 +34,6 @@ export default [
   { path: '/about_us', component: aboutUs },
   { path: '/contact', component: contact },
   { path: '/terms', component: terms },
-  { path: '/partners', component: partners }
+  { path: '/partners', component: partners },
+  { path: '/join_us', component: joinUs }
 ]

@@ -28,9 +28,9 @@
       .menu
         .title 关于
         router-link(to="/about_us") 公司简介
-        a 加入我们
+        router-link(to="/join_us") 加入我们
         router-link(to="/contact") 联系我们
-        a 合作伙伴
+        router-link(to="/partners") 合作伙伴
         router-link(to="/terms") 服务条款
       .line
     .right
