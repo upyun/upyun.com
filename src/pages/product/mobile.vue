@@ -92,7 +92,7 @@ layout(:colors="colorSet")
       .title 流量营销
       .description 又拍云手机流量营销服务，整合移动、电信、联通三大运营商流量资源，帮助用户开展品牌宣传、APP/游戏/微信公众号/网站的拉新与促活等多种营销活动。实现营销流量的简单快速接入，活动的低成本快速开展，提供高效管理后台，帮您轻松倍增营销成效。
       .buttons
-        up_button(:color="colorSet.end", type="major") 联系我们
+        up_button(:color="colorSet.mid", type="major") 联系我们
         up_button API 文档
       .price 0.0043 元/GB/天，新注册用户免费试用 7 天
     .icon
@@ -226,7 +226,7 @@ import colors from '../../services/colors'
 export default {
   data () {
     return {
-      colorSet: colors.collection.orange
+      colorSet: colors.collection.darkBlue
     }
   },
   mounted () {
