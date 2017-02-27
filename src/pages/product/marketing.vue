@@ -28,54 +28,56 @@
             +animate(growTaller, 1.2s)
     .left
       @include span(6)
-      position: relative
-      margin-top: -30px
-      margin-left: 60px
-      .circle
-        border: dashed #9bd0ff 2px
-        background: #F5FAFF
-        position: absolute
-      .circle-1
-        position: absolute
-        left: 173px
-        top: 173px
-      .circle-2
-        width: 236px
-        height: 236px
-        border-radius: 120px
-        left: 118px
-        top: 118px
-      .circle-3
-        width: 384px
-        height: 384px
-        border-radius: 200px
-        left: 44px
-        top: 44px
-      .point
-        width: 88px
-        height: 88px
-        line-height: 88px
-        border-radius: 44px
-        color: #fff
-        font-size: 18px
-        background-color: #399ffb
-        border: solid 3px #ffffff
-        position: absolute
-        opacity: 0
-        .index
-          width: 16px
-          height: 16px
-          line-height: 16px
-          border-radius: 8px
-          background: #FD8F71
-          font-size: 13px
+      .radar
+        position: relative
+        width: 480px
+        height: 450px
+        .circle
+          border: dashed #9bd0ff 2px
+          background: #F5FAFF
           position: absolute
-          right: 0
-          bottom: 9px
+        .circle-1
+          position: absolute
+          left: 173px
+          top: 173px
+        .circle-2
+          width: 236px
+          height: 236px
+          border-radius: 120px
+          left: 118px
+          top: 118px
+        .circle-3
+          width: 384px
+          height: 384px
+          border-radius: 200px
+          left: 44px
+          top: 44px
+        .point
+          width: 88px
+          height: 88px
+          line-height: 88px
+          border-radius: 44px
+          color: #fff
+          font-size: 18px
+          background-color: #399ffb
+          border: solid 3px #ffffff
+          position: absolute
+          opacity: 0
+          .index
+            width: 16px
+            height: 16px
+            line-height: 16px
+            border-radius: 8px
+            background: #FD8F71
+            font-size: 13px
+            position: absolute
+            right: 0
+            bottom: 9px
     .right
       @include span(6 last)
       text-align: right
-      padding-right: 20px
+      padding-top: 40px
+      padding-right: 40px
       .legend
         width: 180px
         display: inline-block
@@ -203,16 +205,17 @@ layout(:colors="colorSet")
             .title 接入简单 使用方便
             .description 得益于又拍云高效开放 API，仅需几行代码即可快速接入流量分发服务，更能灵活的查询历史明细、数据分析。
     .section-hero(:class="{animated: animated}")
-      .container
+      .container(style="width: 1000px")
         .main-title 倍增营销流量
-        .description 无论你的目标是提高 App/游戏下载量，还是增加微信公众号粉丝，又拍云流量都能提供营销活动解决方案，帮你在有限的营销成本下倍增营销成效。
+        .description(style="margin-bottom: 86px") 无论你的目标是提高 App/游戏下载量，还是增加微信公众号粉丝，又拍云流量都能提供营销活动解决方案，帮你在有限的营销成本下倍增营销成效。
         .left
-          .circle.circle-3
-          .circle.circle-2
-          img.circle-1(src="./assets/marketing-event-user.svg", width="126px")
-          .points
-            .point(v-for="(p, index) in points", :style="{left: `${p.left}px`, top: `${p.top}px`}") {{ p.text }}
-              .index {{ index + 1 }}
+          .radar
+            .circle.circle-3
+            .circle.circle-2
+            img.circle-1(src="./assets/marketing-event-user.svg", width="126px")
+            .points
+              .point(v-for="(p, index) in points", :style="{left: `${p.left}px`, top: `${p.top}px`}") {{ p.text }}
+                .index {{ index + 1 }}
         .right
           .legend
             .item 传统营销方式
