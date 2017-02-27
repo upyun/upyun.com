@@ -66,106 +66,134 @@
       &.active
         transform: none
         opacity: 1
+      .triangle
+        content: ""
+        display: block
+        position: absolute
+        left: 50%
+        top: 4px
+        margin-left: -6px
+        width: 12px
+        height: 6px
+        background: url('../assets/triangle.svg') 0 0 no-repeat
       .inner
         background: white
-        width: 428px
-        height: 258px
         border-radius: 5px
         padding: 18px 15px
-        @include container
-        &:after
-          content: ""
-          display: block
-          position: absolute
-          left: 50%
-          top: 4px
-          margin-left: -6px
-          width: 12px
-          height: 6px
-          background: url('../assets/triangle.svg') 0 0 no-repeat
-        .item
-          @include gallery(6 of 12)
-          position: relative
-          padding: 8px
-          padding-left: 39px
-          border-radius: 4px
-          text-decoration: none
-          &:hover .title
-            &.green
-              color: #49d3d6
-            &.blue
-              color: #2EC0EC
-            &.orange
-              color: #ff8f6d
-            &.purple
-              color: #8461ca
-            &.yellow
-              color: #ffa650
-            &.darkBlue
-              color: #399ffb
-          .title
-            font-size: 15px
-            font-weight: 400
-            color: #0d253e
-          &:hover .description
-            color: #97a1ab
-          .description
-            color: #0d253e
-            font-size: 12px
-          .icon
-            position: absolute
-            left: 8px
-            top: 8px
-            width: 23px
-            height: 23px
-            background-repeat: no-repeat
-            background-position: center
-            &.cdn
-              background-image: url('../assets/home-ic-cdn-h.svg')
-            &.live
-              background-image: url('../assets/home-ic-uplive-h.svg')
-            &.vod
-              background-image: url('../assets/home-ic-uvod-h.svg')
-            &.ups
-              background-image: url('../assets/home-ic-ups-h.svg')
-            &.uss
-              background-image: url('../assets/home-ic-uss-h.svg')
-            &.mobile
-              background-image: url('../assets/home-ic-liuliang-h.svg')
-            &.av
-              background-image: url('../assets/home-ic-ysp-h.svg')
-            &.mobile-s
-              background-image: url('../assets/home-ic-app-h.svg')
-            &.e-commerce
-              background-image: url('../assets/home-ic-o-2-o-h.svg')
-            &.game
-              background-image: url('../assets/home-ic-game-h.svg')
-            &.education
-              background-image: url('../assets/home-ic-zxjy-h.svg')
-            &.fusion
-              background-image: url('../assets/home-ic-rhy-h.svg')
-          &:hover .icon
-            &.cdn
-              background-image: url('../assets/home-ic-cdn-pop.svg')
-            &.live
-              background-image: url('../assets/home-ic-uplive-pop.svg')
-            &.vod
-              background-image: url('../assets/home-ic-uvod-pop.svg')
-            &.ups
-              background-image: url('../assets/home-ic-ups-pop.svg')
-            &.uss
-              background-image: url('../assets/home-ic-uss-pop.svg')
-            &.mobile
-              background-image: url('../assets/home-ic-liuliang-pop.svg')
-            &.av
-              background-image: url('../assets/home-ic-ysp-pop.svg')
-            &.mobile-s
-              background-image: url('../assets/home-ic-app-pop.svg')
-            &.e-commerce
-              background-image: url('../assets/home-ic-o-2-o-pop.svg')
-            &.game
-              background-image: url('../assets/home-ic-game-pop.svg')
-            &.education
-              background-image: url('../assets/home-ic-zxjy-pop.svg')
-            &.fusion
-              background-image: url('../assets/home-ic-rhy-pop.svg')
+        transition: all .2s linear
+        overflow: hidden
+        .list-with-icon
+          @include container
+          .item
+            @include gallery(6 of 12)
+            position: relative
+            padding: 8px
+            padding-left: 39px
+            border-radius: 4px
+            text-decoration: none
+            &:hover .title
+              &.green
+                color: #49d3d6
+              &.blue
+                color: #2EC0EC
+              &.orange
+                color: #ff8f6d
+              &.purple
+                color: #8461ca
+              &.yellow
+                color: #ffa650
+              &.darkBlue
+                color: #399ffb
+            .title
+              font-size: 15px
+              font-weight: 400
+              color: #0d253e
+              transition: color .2s ease-in-out
+            &:hover .description
+              color: #97a1ab
+            .description
+              color: #0d253e
+              font-size: 12px
+              transition: color .2s ease-in-out
+            .icon
+              position: absolute
+              left: 8px
+              top: 8px
+              width: 23px
+              height: 23px
+              background-repeat: no-repeat
+              background-position: center
+              transition: all .2s ease-in-out
+              &.cdn
+                background-image: url('../assets/home-ic-cdn-h.svg')
+              &.live
+                background-image: url('../assets/home-ic-uplive-h.svg')
+              &.vod
+                background-image: url('../assets/home-ic-uvod-h.svg')
+              &.ups
+                background-image: url('../assets/home-ic-ups-h.svg')
+              &.uss
+                background-image: url('../assets/home-ic-uss-h.svg')
+              &.mobile
+                background-image: url('../assets/home-ic-liuliang-h.svg')
+              &.av
+                background-image: url('../assets/home-ic-ysp-h.svg')
+              &.mobile-s
+                background-image: url('../assets/home-ic-app-h.svg')
+              &.e-commerce
+                background-image: url('../assets/home-ic-o-2-o-h.svg')
+              &.game
+                background-image: url('../assets/home-ic-game-h.svg')
+              &.education
+                background-image: url('../assets/home-ic-zxjy-h.svg')
+              &.fusion
+                background-image: url('../assets/home-ic-rhy-h.svg')
+            &:hover .icon
+              &.cdn
+                background-image: url('../assets/home-ic-cdn-pop.svg')
+              &.live
+                background-image: url('../assets/home-ic-uplive-pop.svg')
+              &.vod
+                background-image: url('../assets/home-ic-uvod-pop.svg')
+              &.ups
+                background-image: url('../assets/home-ic-ups-pop.svg')
+              &.uss
+                background-image: url('../assets/home-ic-uss-pop.svg')
+              &.mobile
+                background-image: url('../assets/home-ic-liuliang-pop.svg')
+              &.av
+                background-image: url('../assets/home-ic-ysp-pop.svg')
+              &.mobile-s
+                background-image: url('../assets/home-ic-app-pop.svg')
+              &.e-commerce
+                background-image: url('../assets/home-ic-o-2-o-pop.svg')
+              &.game
+                background-image: url('../assets/home-ic-game-pop.svg')
+              &.education
+                background-image: url('../assets/home-ic-zxjy-pop.svg')
+              &.fusion
+                background-image: url('../assets/home-ic-rhy-pop.svg')
+        .list
+          +container
+          padding: 4px 0 0 10px
+          color: #4d5e6f
+          font-size: 15px
+          line-height: 1
+          .row
+            +gallery(4)
+            padding-right: 12px
+            .title
+              color: #97a1ab
+              margin-bottom: 11px
+            .link
+              display: block
+              padding-bottom: 16px
+              font-weight: 400
+              border-right: 1px solid #ebebeb
+              &:last-child
+                padding-bottom: 0
+            &:last-child
+              padding-right: 0
+              .link
+                border-right: 0
+

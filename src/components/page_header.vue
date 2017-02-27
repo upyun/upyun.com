@@ -7,14 +7,15 @@
     .navs
       .nav(@mouseover="showMenu(0)", @mouseout="hideMenu") 产品
       .nav(@mouseover="showMenu(1)", @mouseout="hideMenu") 解决方案
-      a.nav 帮助与文档
-      a.nav 媒体与活动
+      .nav(@mouseover="showMenu(2)", @mouseout="hideMenu") 帮助与文档
+      .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 媒体与活动
     .side-navs
       a.nav 注册
       a.nav.console 控制台
     .menu(:class="{active: menuActive}", @mouseover="showMenu()", @mouseout="hideMenu", v-show="menuShowing", :style="{left: `${menuCondition.left}px`}")
-      .inner
-        .content(v-show="menuCondition.contentNumber === 0")
+      .triangle
+      .inner(:style="{width: `${menuCondition.width}px`, height: `${menuCondition.height}px`}")
+        .list-with-icon(v-show="menuCondition.contentNumber === 0")
           router-link.item(to="/product/cdn")
             .title.green CDN
             .description 跨地区、跨运营商覆盖的网络加速服务
@@ -39,7 +40,7 @@
             .title.darkBlue 流量营销服务
             .description 三网通用、超低成本并可快速开展的营销服务
             .icon.mobile
-        .content(v-show="menuCondition.contentNumber === 1")
+        .list-with-icon(v-show="menuCondition.contentNumber === 1")
           router-link.item(to="/solution/av")
             .title.green 音视频
             .description 海量存储、加速分发、高效处理一站式解决
@@ -64,6 +65,30 @@
             .title.darkBlue 融合云
             .description 构建多源存储架构，数据可平滑迁移
             .icon.fusion
+        .list(v-show="menuCondition.contentNumber === 2")
+          .row
+            .title 文档中心
+            a.link 产品文档
+            a.link API 文档
+            a.link SDK 与工具
+          .row
+            .title 帮助
+            a.link 新手指南
+            a.link 常见问题
+          .row
+            .title 开发者社区
+            a.link 技术问答
+            a.link BLOG
+        .list(v-show="menuCondition.contentNumber === 3")
+          .row
+            a.link 创业扶持
+            a.link 春雨计划
+            a.link 又拍云联盟
+          .row
+            a.link 线下活动
+            a.link OpenTalk
+          .row
+            a.link 媒体报道
 </template>
 
 <script>
@@ -74,8 +99,10 @@ export default {
       menuShowing: false,
       menuCondition: { left: -10, width: 428, height: 248, contentNumber: 1 },
       conditions: [
-        { left: -10, width: 428, height: 248, contentNumber: 0 },
-        { left: 70, width: 428, height: 248, contentNumber: 1 }
+        { left: -10, width: 434, height: 254, contentNumber: 0 },
+        { left: 70, width: 434, height: 254, contentNumber: 1 },
+        { left: 193, width: 384, height: 150, contentNumber: 2 },
+        { left: 303, width: 384, height: 126, contentNumber: 3 }
       ],
       timeout: {}
     }
