@@ -99,8 +99,8 @@ export default {
       menuShowing: false,
       menuCondition: { left: -10, width: 428, height: 248, contentNumber: 1 },
       conditions: [
-        { left: -10, width: 434, height: 254, contentNumber: 0 },
-        { left: 70, width: 434, height: 254, contentNumber: 1 },
+        { left: -10, width: 434, height: 260, contentNumber: 0 },
+        { left: 70, width: 434, height: 260, contentNumber: 1 },
         { left: 193, width: 384, height: 150, contentNumber: 2 },
         { left: 303, width: 384, height: 126, contentNumber: 3 }
       ],
