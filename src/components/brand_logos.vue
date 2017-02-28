@@ -30,6 +30,7 @@
       background-repeat: no-repeat
       height: 96px
       transition: all ease-out .2s
+      margin-bottom: 20px
     &:hover
       border-color: #15bdf9
       box-shadow: 0 2px 5px rgba(21, 188, 249, .3)

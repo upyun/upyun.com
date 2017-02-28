@@ -36,9 +36,10 @@ export default {
   data () {
     return {
       logos: [
+        { name: '多备份', file: 'duobeifen' },
         { name: '个推', file: 'getui' },
-        { name: '极光推送', file: 'jpush' },
         { name: '环信', file: 'huanxin' },
+        { name: '极光推送', file: 'jpush' },
         { name: '云智慧', file: 'cloudwise' },
         { name: '诸葛IO', file: 'zhuge' },
         { name: 'APICloud', file: 'apicloud' },
@@ -47,8 +48,22 @@ export default {
         { name: 'BEECLOUD', file: 'beecloud' },
         { name: 'Coding', file: 'coding' },
         { name: 'CSDN', file: 'csdn' },
+        { name: 'DaoCloud', file: 'daocloud' },
         { name: 'DevStore', file: 'devstore' },
-        { name: 'FIR.im', file: 'fir' }
+        { name: 'FIR.im', file: 'fir' },
+        { name: 'GitCafe', file: 'gitcafe' },
+        { name: 'hiStarter', file: 'histarter' },
+        { name: '极客学院', file: 'jikexueyuan' },
+        { name: '时速云', file: 'shisuyun' },
+        { name: 'OneAPM', file: 'oneapm' },
+        { name: 'PING++', file: 'ping++' },
+        { name: 'Tower', file: 'tower' },
+        { name: '洋葱', file: 'yangcong' },
+        { name: '爱内测', file: 'aineice' },
+        { name: 'TalkingData', file: 'talkingdata' },
+        { name: '明道', file: 'mingdao' },
+        { name: 'EduSoho', file: 'edusoho' },
+        { name: '听云', file: 'tingyun' }
       ]
     }
   },

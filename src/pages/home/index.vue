@@ -129,19 +129,16 @@ export default {
         { left: 360, top: 40, zoom: 1, opacity: 0.6 }
       ],
       logos: [
-        { name: '个推', file: 'getui' },
-        { name: '极光推送', file: 'jpush' },
-        { name: '环信', file: 'huanxin' },
-        { name: '云智慧', file: 'cloudwise' },
-        { name: '诸葛IO', file: 'zhuge' },
-        { name: 'APICloud', file: 'apicloud' },
-        { name: 'AppCan', file: 'appcan' },
-        { name: 'BearyChat', file: 'bearychat' },
-        { name: 'BEECLOUD', file: 'beecloud' },
-        { name: 'Coding', file: 'coding' },
-        { name: 'CSDN', file: 'csdn' },
-        { name: 'DevStore', file: 'devstore' },
-        { name: 'FIR.im', file: 'fir' }
+        { name: '芒果 TV', file: 'mangguo' },
+        { name: '章鱼 TV', file: 'zhangyu' },
+        { name: '浙江卫视', file: 'zjws' },
+        { name: '豆瓣', file: 'douban' },
+        { name: '美柚', file: 'meiyou' },
+        { name: '美图', file: 'meitu' },
+        { name: '什么值得买', file: 'smzdm' },
+        { name: '贝贝网', file: 'beibei' },
+        { name: '魅族', file: 'meizu' },
+        { name: 'Snail', file: 'snail' }
       ]
     }
   },
