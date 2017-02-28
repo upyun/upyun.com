@@ -53,7 +53,7 @@ export default {
         { name: 'DevStore', file: 'devstore' },
         { name: 'FIR.im', file: 'fir' },
         { name: 'GitCafe', file: 'gitcafe' },
-        { name: 'hiStarter', file: 'histarter' },
+        { name: 'hiStarter', file: 'hiStarter' },
         { name: '极客学院', file: 'jikexueyuan' },
         { name: '时速云', file: 'shisuyun' },
         { name: 'OneAPM', file: 'oneapm' },
@@ -63,7 +63,7 @@ export default {
         { name: '爱内测', file: 'aineice' },
         { name: 'TalkingData', file: 'talkingdata' },
         { name: '明道', file: 'mingdao' },
-        { name: 'EduSoho', file: 'edusoho' },
+        { name: 'EduSoho', file: 'EduSoho' },
         { name: '听云', file: 'tingyun' }
       ]
     }
