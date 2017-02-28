@@ -2,14 +2,14 @@
 @import "../../assets/susy"
 .main-title
   font-size: 34px
-  font-weight: 400
   text-align: center
 .main-description
-  font-size: 20px
+  font-size: 18px
   line-height: 26px
   text-align: center
   width: 470px
   margin: 5px auto 0
+  color: #97a1ab
 .section-more
   padding: 53px 0 33px
   background: white
@@ -44,7 +44,8 @@
           background-image: url(./assets/link-fusion.svg)
       .title
         font-weight: 400
-        font-size: 20px
+        font-size: 18px
+        color: #97A1AB
 
 </style>
 
