@@ -99,9 +99,9 @@ export default {
       menuShowing: false,
       menuCondition: { left: -27, width: 428, height: 248, contentNumber: 1 },
       conditions: [
-        { left: -26, width: 434, height: 260, contentNumber: 0 },
-        { left: 54, width: 434, height: 260, contentNumber: 1 },
-        { left: 177, width: 384, height: 150, contentNumber: 2 },
+        { left: -37, width: 455, height: 270, contentNumber: 0 },
+        { left: 41, width: 455, height: 270, contentNumber: 1 },
+        { left: 177, width: 384, height: 154, contentNumber: 2 },
         { left: 287, width: 384, height: 126, contentNumber: 3 }
       ],
       timeout: {}
