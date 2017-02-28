@@ -1,6 +1,9 @@
 <style lang="sass" src="./about.sass" scoped></style>
+
 <style lang="sass" scoped>
 @import "../../assets/susy"
+.cover
+  background-image: url(./assets/bg-2.jpg)
 .groups
   margin-top: 54px
   font-size: 16px
@@ -68,6 +71,7 @@
 <template lang="pug">
 layout
   div(slot="hero")
+    .cover
   div(slot="page")
     .about-page
       .container

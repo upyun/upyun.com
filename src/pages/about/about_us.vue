@@ -1,8 +1,13 @@
 <style lang="sass" src="./about.sass" scoped></style>
+<style lang="sass" scoped>
+  .cover
+    background-image: url(./assets/bg-1.jpg)
+</style>
 
 <template lang="pug">
 layout
   div(slot="hero")
+    .cover
   div(slot="page")
     .about-page
       .container

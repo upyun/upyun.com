@@ -16,6 +16,7 @@
 <template lang="pug">
 layout
   div(slot="hero")
+    .cover
   div(slot="page")
     .about-page
       .container

@@ -1,8 +1,8 @@
 <style lang="sass" scoped>
 .layout
   .hero
-    height: 638px
-    background: #666
+    height: 500px
+    position: relative
 </style>
 
 <template lang="pug">
