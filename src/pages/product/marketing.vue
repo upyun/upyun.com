@@ -212,7 +212,7 @@ layout(:colors="colorSet")
           .radar
             .circle.circle-3
             .circle.circle-2
-            img.circle-1(src="./assets/marketing-event-user.svg", width="126px")
+            img.circle-1(src="./assets/marketing_hero.svg")
             .points
               .point(v-for="(p, index) in points", :style="{left: `${p.left}px`, top: `${p.top}px`}") {{ p.text }}
                 .index {{ index + 1 }}
