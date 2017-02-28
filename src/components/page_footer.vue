@@ -45,14 +45,10 @@
         a.normal Tel：0571-81020204
         a.normal Email：support@upyun.com
     .links
-      a
-        img(src="../assets/footer-wechat.svg")
-      a
-        img(src="../assets/footer-weibo.svg")
-      a
-        img(src="../assets/footer-github.svg")
-      a
-        img(src="../assets/footer-sf.svg")
+      a.wechat
+      a.weibo
+      a.github
+      a.sf
   .line
   .bottom.container
     .left

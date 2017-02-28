@@ -43,6 +43,23 @@
       a
         display: inline-block
         margin-right: 40px
+        width: 36px
+        height: 36px
+        background: url(../assets/footer-wechat.svg) center no-repeat
+        &:hover
+          background-image: url(../assets/footer-wechat-h.svg)
+        &.weibo
+          background-image: url(../assets/footer-weibo.svg)
+          &:hover
+            background-image: url(../assets/footer-weibo-h.svg)
+        &.github
+          background-image: url(../assets/footer-github.svg)
+          &:hover
+            background-image: url(../assets/footer-github-h.svg)
+        &.sf
+          background-image: url(../assets/footer-sf.svg)
+          &:hover
+            background-image: url(../assets/footer-sf-h.svg)
   >.line
     border-top: solid 1px rgba(255,255,255,.1)
   .bottom
