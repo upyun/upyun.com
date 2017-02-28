@@ -3,7 +3,7 @@
 #page_header
   .container.clearfix
     router-link.logo(to="/")
-      img(src="../assets/logo.png", width=125)
+      img(src="../assets/logo.svg")
     .navs
       .nav(@mouseover="showMenu(0)", @mouseout="hideMenu") 产品
       .nav(@mouseover="showMenu(1)", @mouseout="hideMenu") 解决方案
