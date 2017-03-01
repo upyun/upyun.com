@@ -97,12 +97,12 @@ export default {
     return {
       menuActive: false,
       menuShowing: false,
-      menuCondition: { left: -27, width: 428, height: 248, contentNumber: 1 },
+      menuCondition: { left: -41, width: 455, height: 290, contentNumber: 0 },
       conditions: [
-        { left: -37, width: 455, height: 290, contentNumber: 0 },
-        { left: 41, width: 455, height: 290, contentNumber: 1 },
-        { left: 177, width: 384, height: 164, contentNumber: 2 },
-        { left: 287, width: 384, height: 136, contentNumber: 3 }
+        { left: -41, width: 455, height: 290, contentNumber: 0 },
+        { left: 49, width: 455, height: 290, contentNumber: 1 },
+        { left: 199, width: 384, height: 164, contentNumber: 2 },
+        { left: 321, width: 384, height: 136, contentNumber: 3 }
       ],
       timeout: {}
     }
