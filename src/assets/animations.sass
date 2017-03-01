@@ -1,8 +1,9 @@
-=animate($name: fadeIn, $time: 1s, $delay: 0)
+=animate($name: fadeIn, $time: 1s, $delay: 0, $count: 1)
   animation-name: $name
   animation-duration: $time
   animation-delay: $delay
   animation-fill-mode: both
+  animation-iteration-count: $count
 
 @keyframes fadeInDown
   from
@@ -50,3 +51,8 @@
     -webkit-transform: none
     transform: none
 
+@keyframes rotate
+  from
+    transform: rotate(-90deg)
+  to
+    transform: rotate(0)
