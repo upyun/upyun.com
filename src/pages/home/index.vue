@@ -89,7 +89,7 @@
               .title 蘑菇街
               .description 蘑菇街是目前国内最大的女性时尚购物网站,每天超过 550 万的 UV，全站积累了大量的优质女性商品图片。又拍云的自建 CDN 体系很好的帮助蘑菇街解决了打开速度的问题。双十一期间，又拍云帮助蘑菇街稳定地扛住了超大流量涌入，以可靠的技术支持为数百万笔订单提供了安全支付保障。
             .item
-              img(src="./assets/client-beibei.png", width="74", height="74")
+              img(src="./assets/client-qingtingfm.png", width="74", height="74")
               .title 蜻蜓 fm
               .description 又拍云提供了高可用的存储和 CDN 加速 服务,很好的满足了我们从文件存储到下载 加速的各方面需求,帮助蜻蜓 FM 有效解决 了随业务量增长带来的诸多难题。
       .section-brands

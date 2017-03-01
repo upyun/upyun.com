@@ -37,6 +37,7 @@ export default {
   data () {
     return {
       logos: [
+        { name: 'Teambition', file: 'teambition' },
         { name: '多备份', file: 'duobeifen' },
         { name: '个推', file: 'getui' },
         { name: '环信', file: 'huanxin' },
