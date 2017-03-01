@@ -4,3 +4,4 @@ dist/
 prerender/
 fabfile.pyc
 npm-debug.log
+.node-version
