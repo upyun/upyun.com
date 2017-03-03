@@ -52,7 +52,7 @@
   .line
   .bottom.container
     .left
-      img(src="../assets/logo.svg")
+      img.logo(src="../assets/logo.svg")
     .right
       .kexin
         img(src="../assets/kexinyunlogo.png", width="40", height="33")
