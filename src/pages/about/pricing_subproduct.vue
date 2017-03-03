@@ -25,21 +25,23 @@
     margin-bottom: 16px
     +container
     .range-slider
-      +span(8)
+      +span(9)
     .right
-      +span(4 last)
+      +span(3 last)
       font-size: 14px
       padding-left: 30px
       color: #97a1ab
+      text-align: right
+      line-height: 34px
       input
         width: 67px
-        display: inline-block
         height: 34px
         margin-right: 8px
         text-align: right
         color: #399ffb
         font-size: 20px
         font-weight: 300
+        float: left
 </style>
 
 <template lang="pug">
@@ -47,7 +49,7 @@
   .head {{ p.name }}
     .pricing
       span ¥ {{ price }}
-      | 元/日（≈ ¥ {{ pricePerMonth }} / 月）
+      | 元/日 ≈ ¥ {{ pricePerMonth }} / 月
   template(v-for="item in p.items")
     .caption {{ item.name }}
     .bar

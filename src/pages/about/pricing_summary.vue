@@ -45,6 +45,9 @@
       .description
         color: #97a1ab
         font-size: 14px
+    .empty
+      margin-bottom: 20px
+      color: #97a1ab
   .total
     background: #399ffb
     color: white
@@ -66,11 +69,11 @@
     .summary
       .title 费用概览
       .content
-        template(v-for="item in items")
-          .item(v-if="item.price")
-            .name {{item.name}}
-            .price ￥{{item.price}}
-            .description {{item.description}}
+        .item(v-for="item in items")
+          .name {{item.name}}
+          .price ￥{{item.price}}
+          .description {{item.description}}
+        .empty(v-if="items.length === 0") 请拖动滑杆，或直接输入相关产品的预计用量
       .total
         | 合计：￥
         span {{ totalPrice }}
@@ -89,7 +92,7 @@ export default {
   props: ['products'],
   computed: {
     items: function () {
-      return this.products.map(p => {
+      var items = this.products.map(p => {
         var price = 0
         var description = []
         p.subproducts.forEach(function (s) {
@@ -103,6 +106,9 @@ export default {
           price,
           description: description.join('，')
         }
+      })
+      return items.filter((item) => {
+        return item.price
       })
     },
     totalPrice: function () {
