@@ -34,7 +34,7 @@
       text-align: right
       line-height: 34px
       input
-        width: 67px
+        width: 87px
         height: 34px
         margin-right: 8px
         text-align: right
@@ -46,12 +46,12 @@
 
 <template lang="pug">
 .section
-  .head {{ p.name }}
+  .head {{ p.name }} {{ p.description }}
     .pricing
       span ¥ {{ price }}
       | 元/日 ≈ ¥ {{ pricePerMonth }} / 月
   template(v-for="item in p.items")
-    .caption {{ item.name }}
+    .caption {{ item.name }} {{ item.description }}
     .bar
       RangeSlider(min="0", max="1000", step="1", v-model="item.qty")
       .right
@@ -72,7 +72,9 @@ export default {
     'price': function () {
       var t = 0
       this.p.items.forEach(function (item) {
-        t = numeral(item.unitPrice).multiply(item.qty).add(t).value()
+        var price = numeral(item.qty).subtract(item.balance).multiply(item.unitPrice).value()
+        if (price < 0) price = 0
+        t = numeral(price).add(t).value()
       })
       return t
     },

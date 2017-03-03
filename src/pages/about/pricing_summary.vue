@@ -97,8 +97,10 @@ export default {
         var description = []
         p.subproducts.forEach(function (s) {
           s.items.forEach(function (item) {
-            if (item.qty) description.push(s.name + item.name + item.qty + item.unit + '/日')
-            price = numeral(item.unitPrice).multiply(item.qty).multiply(30).add(price).value()
+            if (item.qty) description.push(`${s.name}${item.name} ${item.qty} ${item.unit}/日`)
+            var qty = numeral(item.qty).subtract(item.balance).value()
+            if (qty < 0) qty = 0
+            price = numeral(qty).multiply(item.unitPrice).multiply(30).add(price).value()
           })
         })
         return {

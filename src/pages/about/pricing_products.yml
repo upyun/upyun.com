@@ -4,71 +4,87 @@
       items:
         - name: 流量
           unitPrice: 0.29
+          balance: 0
           qty: 0
           unit: GB
         - name: 动态请求数
           unitPrice: 0.02
+          balance: 0
           qty: 0
           unit: 千次
     - name: 亚太
       items:
         - name: 流量
           unitPrice: 0.89
+          balance: 0
           qty: 0
           unit: GB
         - name: 动态请求数
           unitPrice: 0.06
+          balance: 0
           qty: 0
           unit: 千次
     - name: 欧美
       items:
         - name: 流量
           unitPrice: 0.39
+          balance: 0
           qty: 0
           unit: GB
         - name: 动态请求数
           unitPrice: 0.03
+          balance: 0
           qty: 0
           unit: 千次
 - name: 存储
   subproducts:
-    - name: 0.0043 元/GB
+    - name: ''
+      description: 0.0043 元/GB
       items:
-        - name: 按照每日 CDN 流量使用，实行 1:1 的每日存储空间使用量免费。
+        - name: ''
+          description: 按照每日 CDN 流量使用，实行 1:1 的每日存储空间使用量免费。
           unitPrice: 0.0043
+          balance: 0
           qty: 0
           unit: GB
 - name: HTTPS 服务
   subproducts:
     - name: 国内
       items:
-        - name:
+        - name: ''
           unitPrice: 0.05
+          balance: 0
           qty: 0
           unit: 万次
     - name: 亚太
       items:
-        - name:
+        - name: ''
           unitPrice: 0.15
+          balance: 0
           qty: 0
           unit: 万次
     - name: 欧美
       items:
-        - name:
+        - name: ''
           unitPrice: 0.07
+          balance: 0
           qty: 0
           unit: 万次
 - name: 直播加速服务
   subproducts:
-    - name: 上行流量：0.86 元/GB
+    - name: 上行流量
+      description: ：0.86 元/GB
       items:
-        - name:
+        - name: ''
           unitPrice: 0.86
+          balance: 0
           qty: 0
           unit: GB
-    - name: 下行流量：0.43 元/GB
+    - name: 下行流量
+      description: ：0.43 元/GB
       items:
-        - name:
+        - name: ''
           unitPrice: 0.43
+          balance: 0
           qty: 0
           unit: GB

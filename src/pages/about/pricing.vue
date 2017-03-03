@@ -31,6 +31,17 @@ export default {
       products
     }
   },
+  mounted () {
+    // 流量赠送规则
+    this.$watch(function () {
+      return this.products[0].subproducts[0].items[0].qty +
+             this.products[0].subproducts[1].items[0].qty +
+             this.products[0].subproducts[2].items[0].qty
+    }, function (qty) {
+      this.products[1].subproducts[0].items[0].balance = qty
+      this.products[1].subproducts[0].items[0].qty = qty
+    })
+  },
   components: { layout, subproduct, smy }
 }
 </script>
