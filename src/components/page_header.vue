@@ -7,6 +7,7 @@
     .navs
       .nav(@mouseover="showMenu(0)", @mouseout="hideMenu") 产品
       .nav(@mouseover="showMenu(1)", @mouseout="hideMenu") 解决方案
+      router-link.nav(to="/pricing") 价格
       .nav(@mouseover="showMenu(2)", @mouseout="hideMenu") 帮助与文档
       .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 媒体与活动
     .side-navs
@@ -101,8 +102,8 @@ export default {
       conditions: [
         { left: -41, width: 455, height: 290, contentNumber: 0 },
         { left: 49, width: 455, height: 290, contentNumber: 1 },
-        { left: 199, width: 384, height: 164, contentNumber: 2 },
-        { left: 321, width: 384, height: 136, contentNumber: 3 }
+        { left: 273, width: 384, height: 164, contentNumber: 2 },
+        { left: 395, width: 384, height: 136, contentNumber: 3 }
       ],
       timeout: {}
     }
