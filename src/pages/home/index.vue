@@ -15,7 +15,7 @@
           | 自主化配置，7 × 24 小时技术支持
         .buttons
           up_button(type="major", :color="colorSet.mid") 免费体验
-          up_button 快速入门
+          up_button(url="https://support.upyun.com/") 快速入门
       //- .dots
         .dot.active
         .dot
@@ -104,7 +104,7 @@
           .inner
             .main-title 现在就开始吧，认证后还送代金券！
             .sub-title 追求理想的加速效果，性能更快，更安全
-            up_button(type="major", :color="colorSet.mid") 免费注册
+            up_button(type="major", :color="colorSet.mid", url="https://console.upyun.com/register/") 免费注册
 </template>
 
 <script>

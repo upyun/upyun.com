@@ -12,6 +12,9 @@
   transition: background linear .2s
   font-weight: 400
   cursor: pointer
+  text-decoration: none
+  &:hover
+    text-decoration: none
   &:first-child
     margin-right: 30px
   &:active
@@ -26,7 +29,7 @@
 </style>
 
 <template lang="pug">
-.up_button(:class="type", :style="buttonStyle")
+a.up_button(:class="type", :style="buttonStyle", :href="url")
   slot
 </template>
 
@@ -38,6 +41,9 @@ export default {
     },
     type: {
       default: 'outline'
+    },
+    url: {
+      default: 'https://console.upyun.com/login/'
     }
   },
   computed: {
