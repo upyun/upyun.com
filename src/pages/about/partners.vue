@@ -65,7 +65,8 @@ export default {
         { name: 'TalkingData', file: 'talkingdata' },
         { name: '明道', file: 'mingdao' },
         { name: 'EduSoho', file: 'EduSoho' },
-        { name: '听云', file: 'tingyun' }
+        { name: '听云', file: 'tingyun' },
+        { name: 'WLGF', file: 'wlgf' }
       ]
     }
   },
