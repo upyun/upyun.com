@@ -114,7 +114,7 @@ export default {
         }
       })
       return items.filter((item) => {
-        return item.price
+        return item.description
       })
     },
     totalPrice: function () {
