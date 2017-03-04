@@ -82,6 +82,7 @@
 
 <script>
 import numeral from 'numeral'
+import counter from '../../services/counter'
 
 export default {
   data () {
@@ -93,19 +94,15 @@ export default {
   computed: {
     items: function () {
       var items = this.products.map(p => {
-        var price = 0
         var description = []
         p.subproducts.forEach(function (s) {
           s.items.forEach(function (item) {
             if (item.qty) description.push(`${s.name}${item.name} ${item.qty} ${item.unit}/日`)
-            var qty = numeral(item.qty).subtract(item.balance).value()
-            if (qty < 0) qty = 0
-            price = numeral(qty).multiply(item.unitPrice).multiply(30).add(price).value()
           })
         })
         return {
           name: p.name,
-          price,
+          price: counter.getProductPrice(p, true),
           description: description.join('，')
         }
       })
@@ -114,12 +111,7 @@ export default {
       })
     },
     totalPrice: function () {
-      var price = 0
-      this.items.forEach(function (item) {
-        price = numeral(item.price).add(price).value()
-      })
-      price = numeral(price).format('0,0.00')
-      return price
+      return numeral(counter.getTotalPrice(this.products, true)).format('0,0.00')
     }
   },
   mounted () {

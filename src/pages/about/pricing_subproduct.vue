@@ -55,13 +55,13 @@
     .bar
       RangeSlider(min="0", max="1000", step="1", v-model="item.qty")
       .right
-        input(v-model="item.qty")
+        input(v-model.number="item.qty", type="number")
         | {{ item.unit }}/日
 </template>
 
 <script>
-import numeral from 'numeral'
 import RangeSlider from '../../components/range_slider'
+import counter from '../../services/counter'
 
 export default {
   data () {
@@ -70,16 +70,10 @@ export default {
   },
   computed: {
     'price': function () {
-      var t = 0
-      this.p.items.forEach(function (item) {
-        var price = numeral(item.qty).subtract(item.balance).multiply(item.unitPrice).value()
-        if (price < 0) price = 0
-        t = numeral(price).add(t).value()
-      })
-      return t
+      return counter.getSubproductPrice(this.p)
     },
     'pricePerMonth': function () {
-      return numeral(this.price).multiply(30).value()
+      return counter.getSubproductPrice(this.p, true)
     }
   },
   props: ['p'],
