@@ -61,6 +61,12 @@
       font-size: 30px
       font-weight: 400
       padding: 0 5px
+  .more
+    position: absolute
+    bottom: -34px
+    right: 0
+    text-align: right
+    font-size: 16px
 </style>
 
 <template lang="pug">
@@ -78,6 +84,7 @@
         | 合计：￥
         span {{ totalPrice }}
         | / 月
+      a.more ⌽ 查看又拍云计费说明
 </template>
 
 <script>
