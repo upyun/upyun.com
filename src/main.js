@@ -5,6 +5,7 @@ import 'normalize.css'
 import './assets/global.sass'
 import up_gradient from './components/up_gradient'
 import up_button from './components/up_button'
+import config from '../config'
 
 import AMap from 'vue-amap'
 Vue.use(AMap)
@@ -16,6 +17,12 @@ AMap.initAMapApiLoader({
 Vue.use(VueRouter)
 Vue.component('up_gradient', up_gradient)
 Vue.component('up_button', up_button)
+
+Vue.mixin({
+  created: function () {
+    this.$links = config.links
+  }
+})
 
 const router = new VueRouter({
   routes,

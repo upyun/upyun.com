@@ -43,7 +43,7 @@ export default {
       default: 'outline'
     },
     url: {
-      default: 'https://console.upyun.com/login/'
+      default: null
     }
   },
   computed: {
