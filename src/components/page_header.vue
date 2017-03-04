@@ -11,8 +11,8 @@
       .nav(@mouseover="showMenu(2)", @mouseout="hideMenu") 帮助与文档
       .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 媒体与活动
     .side-navs
-      a.nav 注册
-      a.nav.console 控制台
+      a.nav(href="https://console.upyun.com/register/") 注册
+      a.nav.console(href="https://console.upyun.com/login/") 控制台
     .menu(:class="{active: menuActive}", @mouseover="showMenu()", @mouseout="hideMenu", v-show="menuShowing", :style="{left: `${menuCondition.left}px`}")
       .triangle
       .inner(:style="{width: `${menuCondition.width}px`, height: `${menuCondition.height}px`}")
