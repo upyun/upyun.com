@@ -168,6 +168,7 @@ layout(:colors="colorSet")
               img(src="./assets/cdn-sence-3.svg")
             .title 视频点播加速
             .description 针对视频点播业务需求，又拍云支持视频拖拉、分段缓存，转封装和 HLS 切片，支持多平台、多终端。
+    section_pricing(selction="cdn", :color="colorSet.mid")
     section_help(:color="colorSet.mid")
 </template>
 
@@ -175,6 +176,7 @@ layout(:colors="colorSet")
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
+import section_pricing from './section_pricing'
 
 export default {
   data () {
@@ -198,6 +200,6 @@ export default {
   head: {
     title: { inner: 'CDN' }
   },
-  components: { layout, section_help }
+  components: { layout, section_help, section_pricing }
 }
 </script>

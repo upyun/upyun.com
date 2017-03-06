@@ -70,6 +70,7 @@ layout(:colors="colorSet")
             .img
               img(src="./assets/vod-sence-3.svg")
             .title 在线教育
+    section_pricing(selction="vod", :color="colorSet.mid")
     section_help(:color="colorSet.mid")
 </template>
 
@@ -77,6 +78,7 @@ layout(:colors="colorSet")
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
+import section_pricing from './section_pricing'
 
 export default {
   data () {
@@ -87,6 +89,6 @@ export default {
   head: {
     title: { inner: '点播云' }
   },
-  components: { layout, section_help }
+  components: { layout, section_help, section_pricing }
 }
 </script>

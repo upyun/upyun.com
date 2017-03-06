@@ -178,6 +178,7 @@ layout(:colors="colorSet")
             .img
               img(src="./assets/live-sence-6.svg")
             .title VR 直播
+    section_pricing(selction="live", :color="colorSet.mid")
     section_help(:color="colorSet.mid")
 </template>
 
@@ -185,6 +186,7 @@ layout(:colors="colorSet")
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
+import section_pricing from './section_pricing'
 
 export default {
   data () {
@@ -195,6 +197,6 @@ export default {
   head: {
     title: { inner: '直播云' }
   },
-  components: { layout, section_help }
+  components: { layout, section_help, section_pricing }
 }
 </script>

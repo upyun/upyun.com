@@ -82,6 +82,7 @@ layout(:colors="colorSet")
               img(src="./assets/ups-sence-3.svg")
             .title 在线教育平台
             .description 又拍云音视频处理服务配合云存储和 CDN，实现音视频文件上传加速、音视频转码、全网分发。
+    section_pricing(selction="ups", :color="colorSet.mid")
     section_help(:color="colorSet.mid")
 </template>
 
@@ -89,6 +90,7 @@ layout(:colors="colorSet")
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
+import section_pricing from './section_pricing'
 
 export default {
   data () {
@@ -99,6 +101,6 @@ export default {
   head: {
     title: { inner: '云处理' }
   },
-  components: { layout, section_help }
+  components: { layout, section_help, section_pricing }
 }
 </script>
