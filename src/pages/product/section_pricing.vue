@@ -7,15 +7,15 @@
     .sub-title 支持按需计费，每日进行结算
     .select
       .btn
-        .icon(:class="selction")
+        .icon(:class="selection")
         span(:style="{ color }") {{ name }}
         svg.arrow(width='14', height='7', viewbox='0 0 14 7', xmlns='http://www.w3.org/2000/svg')
           path(d='M14 0L7 7 0 0z', :fill='color', fill-rule='evenodd')
     .content
       .top
-        router-link.to-product(:to="{ path: `/product/${selction}` }") 查看产品说明
+        router-link.to-product(:to="{ path: `/product/${selection}` }") 查看产品说明
       .inner
-        template(v-if="selction === 'cdn' || selction === 'vod'")
+        template(v-if="selection === 'cdn' || selection === 'vod'")
           .title(:style="{ color }") CDN 服务价格说明
           table
             thead
@@ -48,7 +48,7 @@
               tr
                 td HTTPS 请求数
                 td 0.05 元/万次
-        template(v-if="selction === 'ups' || selction === 'vod'")
+        template(v-if="selection === 'ups' || selection === 'vod'")
           .title(:style="{ color }") 云处理服务价格说明
           table
             thead
@@ -89,7 +89,7 @@
                 td 音频剪辑
                 td 异步
                 td 0.0044 元/分钟
-        template(v-if="selction === 'uss' || selction === 'vod'")
+        template(v-if="selection === 'uss' || selection === 'vod'")
           .title(:style="{ color }") 云存储服务价格说明
           table
             thead
@@ -103,7 +103,7 @@
               tr
                 td 超出当日流量使用量
                 td 0.0043 元/GB
-        template(v-if="selction === 'live'")
+        template(v-if="selection === 'live'")
           .title(:style="{ color }") 直播云服务价格说明
           table
             thead
@@ -133,15 +133,14 @@ var names = {
 }
 
 export default {
-  props: ['selction', 'color'],
+  props: ['selection', 'color'],
   data () {
     return {
-
     }
   },
   computed: {
     name () {
-      return names[this.selction]
+      return names[this.selection]
     }
   }
 }

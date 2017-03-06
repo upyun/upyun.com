@@ -178,7 +178,7 @@ layout(:colors="colorSet")
             .img
               img(src="./assets/live-sence-6.svg")
             .title VR 直播
-    section_pricing(selction="live", :color="colorSet.mid")
+    section_pricing(selection="live", :color="colorSet.mid")
     section_help(:color="colorSet.mid")
 </template>
 

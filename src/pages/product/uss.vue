@@ -60,7 +60,7 @@ layout(:colors="colorSet")
               img(src="./assets/uss-sence-3.svg")
             .title 数据归档与备份
             .description 在大型企业或科研机构中，通过与备份软件结合，可提供更具成本效益、更低的集中备份方案。
-    section_pricing(selction="uss", :color="colorSet.mid")
+    section_pricing(selection="uss", :color="colorSet.mid")
     section_help(:color="colorSet.mid")
 </template>
 

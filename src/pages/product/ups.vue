@@ -82,7 +82,7 @@ layout(:colors="colorSet")
               img(src="./assets/ups-sence-3.svg")
             .title 在线教育平台
             .description 又拍云音视频处理服务配合云存储和 CDN，实现音视频文件上传加速、音视频转码、全网分发。
-    section_pricing(selction="ups", :color="colorSet.mid")
+    section_pricing(selection="ups", :color="colorSet.mid")
     section_help(:color="colorSet.mid")
 </template>
 

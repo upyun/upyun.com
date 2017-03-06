@@ -70,7 +70,7 @@ layout(:colors="colorSet")
             .img
               img(src="./assets/vod-sence-3.svg")
             .title 在线教育
-    section_pricing(selction="vod", :color="colorSet.mid")
+    section_pricing(selection="vod", :color="colorSet.mid")
     section_help(:color="colorSet.mid")
 </template>
 
