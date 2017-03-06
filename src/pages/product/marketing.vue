@@ -298,6 +298,9 @@ export default {
       animated: false
     }
   },
+  head: {
+    title: { inner: '流量营销' }
+  },
   mounted () {
     window.addEventListener('scroll', this.optAnimated)
   },

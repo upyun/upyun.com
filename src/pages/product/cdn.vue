@@ -195,7 +195,8 @@ export default {
       ]
     }
   },
-  mounted () {
+  head: {
+    title: { inner: 'CDN' }
   },
   components: { layout, section_help }
 }

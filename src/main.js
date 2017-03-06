@@ -14,6 +14,13 @@ AMap.initAMapApiLoader({
   plugin: ['AMap.OverView', 'AMap.ToolBar', 'AMap.MapType']
 })
 
+import VueHead from 'vue-head'
+
+Vue.use(VueHead, {
+  separator: '-',
+  complement: '又拍云'
+})
+
 Vue.use(VueRouter)
 Vue.component('up_gradient', up_gradient)
 Vue.component('up_button', up_button)

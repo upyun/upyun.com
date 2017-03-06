@@ -96,7 +96,8 @@ export default {
       colorSet: colors.collection.purple
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '云处理' }
   },
   components: { layout, section_help }
 }

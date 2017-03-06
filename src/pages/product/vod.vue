@@ -84,7 +84,8 @@ export default {
       colorSet: colors.collection.blue
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '点播云' }
   },
   components: { layout, section_help }
 }

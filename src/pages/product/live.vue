@@ -192,7 +192,8 @@ export default {
       colorSet: colors.collection.yellow
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '直播云' }
   },
   components: { layout, section_help }
 }

@@ -4948,6 +4948,10 @@ vue-amap@^0.1.7:
     core-js "^2.4.1"
     uppercamelcase "^1.1.0"
 
+vue-head@^2.0.10:
+  version "2.0.10"
+  resolved "http://registry.npm.taobao.org/vue-head/download/vue-head-2.0.10.tgz#f863884509d921446c898efa2bad2ed64b8090f1"
+
 vue-hot-reload-api@^2.0.1:
   version "2.0.6"
   resolved "http://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.0.6.tgz#817d4bfb30f55428aa1012d029499e07f3147d21"

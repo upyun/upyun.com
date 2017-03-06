@@ -74,7 +74,8 @@ export default {
       colorSet: colors.collection.orange
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '云存储' }
   },
   components: { layout, section_help }
 }
