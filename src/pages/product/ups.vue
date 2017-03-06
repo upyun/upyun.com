@@ -82,35 +82,13 @@ layout(:colors="colorSet")
               img(src="./assets/ups-sence-3.svg")
             .title 在线教育平台
             .description 又拍云音视频处理服务配合云存储和 CDN，实现音视频文件上传加速、音视频转码、全网分发。
-    .section-help
-      .container
-        .main-title 帮助与文档
-        .menus
-          .menu
-            .title 产品介绍
-            a 整体架构
-            a 基础配置
-            a 高级特性
-          .menu
-            .title 新手指南
-            a 基本概念
-            a API 简易指南
-          .menu
-            .title 开发者文档
-            a API 文档
-            a CDN 文档
-            a SDK 及工具
-          .menu
-            .title 常见问题
-            a 概念性 FAQ
-            a 技术性 FAQ
-        .try
-          up_button(:color="colorSet.mid") 免费试用
+    section_help(:color="colorSet.mid")
 </template>
 
 <script>
 import layout from '../../components/layout'
 import colors from '../../services/colors'
+import section_help from './section_help'
 
 export default {
   data () {
@@ -120,6 +98,6 @@ export default {
   },
   mounted () {
   },
-  components: { layout }
+  components: { layout, section_help }
 }
 </script>
