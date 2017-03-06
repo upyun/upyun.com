@@ -9,8 +9,8 @@
       .btn
         .icon(:class="selection")
         span(:style="{ color }") {{ name }}
-        svg.arrow(width='14', height='7', viewbox='0 0 14 7', xmlns='http://www.w3.org/2000/svg')
-          path(d='M14 0L7 7 0 0z', :fill='color', fill-rule='evenodd')
+        svg.arrow(width='12', height='6', viewbox='0 0 12 6', xmlns='http://www.w3.org/2000/svg')
+          path(d='M12 0L6 6 0 0z', :fill='color', fill-rule='evenodd')
     .content
       .top
         router-link.to-product(:to="{ path: `/product/${selection}` }") 查看产品说明
