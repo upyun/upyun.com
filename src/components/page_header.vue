@@ -40,7 +40,7 @@
           router-link.item(to="/product/marketing")
             .title.darkBlue 流量营销服务
             .description 三网通用、超低成本并可快速开展的营销服务
-            .icon.mobile
+            .icon.marketing
         .list-with-icon(v-show="menuCondition.contentNumber === 1")
           router-link.item(to="/solution/av")
             .title.green 音视频
