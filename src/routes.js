@@ -17,6 +17,7 @@ import terms from './pages/about/terms'
 import partners from './pages/about/partners'
 import joinUs from './pages/about/join_us'
 import pricing from './pages/about/pricing'
+import webp from './pages/others/webp'
 
 export default [
   { path: '/', component: home },
@@ -37,5 +38,6 @@ export default [
   { path: '/terms', component: terms },
   { path: '/partners', component: partners },
   { path: '/join_us', component: joinUs },
-  { path: '/pricing', component: pricing }
+  { path: '/pricing', component: pricing },
+  { path: '/webp', component: webp }
 ]
