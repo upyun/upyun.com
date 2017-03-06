@@ -16,6 +16,7 @@ import contact from './pages/about/contact'
 import terms from './pages/about/terms'
 import partners from './pages/about/partners'
 import joinUs from './pages/about/join_us'
+import webp from './pages/others/webp'
 
 export default [
   { path: '/', component: home },
@@ -35,5 +36,6 @@ export default [
   { path: '/contact', component: contact },
   { path: '/terms', component: terms },
   { path: '/partners', component: partners },
-  { path: '/join_us', component: joinUs }
+  { path: '/join_us', component: joinUs },
+  { path: '/webp', component: webp }
 ]

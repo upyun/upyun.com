@@ -1,0 +1,223 @@
+body
+    font-family: 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, 'YouYuan', 幼圆, sans-serif!important;
+    position: relative;
+    width: 1164px;
+    margin: 0 auto;
+    font-size: 14px;
+    .section-one
+        text-align: center;
+        .title
+            margin-top: 45px;
+            font-size: 40px;
+            color: #484848;
+        .description-main
+            font-size: 18px;
+            color: #484848;
+        .description-sub
+            margin-top: 8px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #484848;
+        #select-file
+            display: none;
+        #button-upload
+            display: inline-block;
+            margin-top: 26px;
+            padding: 8px 36px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #00a2e5;
+            border: 1px solid #00a2e5;
+            border-radius: 13px;
+            cursor: pointer;
+            transition: all .3s linear;
+            &:hover
+                color: #fff;
+                background-color: #54c0ec;
+                border-color: #31a7d8;
+    .section-two
+        .tag
+            position: absolute;
+            top: 0;
+            width: 94px;
+            height: 26px;
+            line-height: 26px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.4);
+        .save-size
+            display: none;
+            margin-left: 15px;
+            font-size: 12px;
+            padding: 3px 6px;
+            color: #2eb92e;
+            background-color: #fff;
+            border: 1px solid #37a037;
+            &:before
+                content: '';
+                display: inline-block;
+                position: relative;
+                top: 2px;
+                left: 2px;
+                width: 16px;
+                height: 14px;
+                vertical-align: middle;
+                background: url(../others/assets/down-arrow.png) no-repeat;
+                background-size: 12.1px 9.9px;
+        .animate-format
+            margin-top: 55px;
+            text-align: center;
+            .transfer-arrow
+                display: inline-block;
+                width: 30px;
+                height: 270px;
+                background: url(../others/assets/right-arrow.png) no-repeat;
+                background-position: 9px center;
+                background-size: 11px 27px;
+            .animated-gif, .to-animated-webp
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                .picture
+                    width: 430px;
+                    height: 270px;
+                    background-color: #000;
+                    & > span
+                        display: block;
+                        position: relative;
+                        width: 430px;
+                        height: 270px;
+                        img
+                            max-width: 100%;
+                            max-height: 100%;
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                .text
+                    margin-top: 25px;
+                    font-size: 14px;
+                    color: #4b4b4b;
+                    .picture-size
+                        margin-right: 50px;
+            .animated-gif
+                margin-right: 27px;
+                #cover-gif
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    width: 430px;
+                    height: 320px;
+                    background-color: rgba(0, 0, 0, 0.4);
+                    img
+                        position: relative;
+                        top: 100px;
+                    span
+                        display: block;
+                        width: 100%;
+                        position: absolute;
+                        top: 145px;
+                        text-align: center;
+                        color: #eee;
+            .to-animated-webp
+                margin-left: 27px;
+                .picture
+                    position: relative;
+                    #cover-webp
+                        display: none;
+                        position: absolute;
+                        top: 0;
+                        width: 430px;
+                        height: 320px;
+                        background-color: rgba(0, 0, 0, 0.4);
+                        img
+                            position: relative;
+                            top: 100px;
+                        span
+                            display: block;
+                            width: 100%;
+                            position: absolute;
+                            top: 145px;
+                            text-align: center;
+                            color: #eee;
+                .text
+                    .picture-size
+                        position: absolute;
+                        left: 40px;
+                    .picture-ratio
+                        position: absolute;
+                        right: 40px;
+        .normal-format
+            margin-top: 70px;
+            text-align: center;
+            .gif, .gif-to-webp, .png, .png-to-webp, .jpg, .jpg-to-webp
+                display: inline-block;
+                position: relative;
+                width: 164px;
+                height: 220px;
+                vertical-align: top;
+                .picture
+                    height: 164px;
+                    background-color: #000;
+                    span
+                        display: block;
+                        position: relative;
+                        width: 164px;
+                        height: 164px;
+                        overflow: hidden;
+                        img
+                            max-height: 100%;
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                .text
+                    position: relative;
+                    margin-top: 15px;
+                    text-align: left;
+                    font-size: 14px;
+                    & > span
+                        display: block;
+                        &.picture-size
+                            .save-size
+                                position: absolute;
+                                top: -1px;
+                                right: 0;
+                                padding: 1px 2px;
+                        &.picture-ratio
+                            margin-top: 8px;
+            .gif, .png, .jpg
+                margin-right: 15px;
+            .gif-to-webp, .png-to-webp
+                margin-right: 30px;
+    footer
+        margin-top: 25px;
+        margin-bottom: 40px;
+        .box
+            text-align: right;
+            font-size: 14px;
+            padding-right: 38px;
+            color: #2ab3f3;
+            .change
+                &:before
+                    content: '';
+                    display: inline-block;
+                    width: 22px;
+                    height: 15px;
+                    vertical-align: middle;
+                    background: url(../others/assets/change.png) no-repeat;
+                    background-size: 17px 14.45px;
+                &:hover
+                    cursor: pointer;
+            .goto
+                padding-left: 30px;
+                color: #484848;
+                a
+                    padding-left: 8px;
+                    color: #2ab3f3;
+                    text-decoration: none;
+                    &:hover
+                        color: #2a96c7;
