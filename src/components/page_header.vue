@@ -7,11 +7,12 @@
     .navs
       .nav(@mouseover="showMenu(0)", @mouseout="hideMenu") 产品
       .nav(@mouseover="showMenu(1)", @mouseout="hideMenu") 解决方案
+      router-link.nav(to="/pricing") 价格
       .nav(@mouseover="showMenu(2)", @mouseout="hideMenu") 帮助与文档
       .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 媒体与活动
     .side-navs
-      a.nav 注册
-      a.nav.console 控制台
+      a.nav(:href="$links.register") 注册
+      a.nav.console(:href="$links.login") 控制台
     .menu(:class="{active: menuActive}", @mouseover="showMenu()", @mouseout="hideMenu", v-show="menuShowing", :style="{left: `${menuCondition.left}px`}")
       .triangle
       .inner(:style="{width: `${menuCondition.width}px`, height: `${menuCondition.height}px`}")
@@ -97,12 +98,12 @@ export default {
     return {
       menuActive: false,
       menuShowing: false,
-      menuCondition: { left: -27, width: 428, height: 248, contentNumber: 1 },
+      menuCondition: { left: -41, width: 455, height: 290, contentNumber: 0 },
       conditions: [
-        { left: -37, width: 455, height: 290, contentNumber: 0 },
-        { left: 41, width: 455, height: 290, contentNumber: 1 },
-        { left: 177, width: 384, height: 164, contentNumber: 2 },
-        { left: 287, width: 384, height: 136, contentNumber: 3 }
+        { left: -41, width: 455, height: 290, contentNumber: 0 },
+        { left: 49, width: 455, height: 290, contentNumber: 1 },
+        { left: 273, width: 384, height: 164, contentNumber: 2 },
+        { left: 395, width: 384, height: 136, contentNumber: 3 }
       ],
       timeout: {}
     }

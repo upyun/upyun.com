@@ -10,7 +10,7 @@ layout(:colors="colorSet")
         up_button(:color="colorSet.end", type="major") 免费试用
         up_button 查看价格
       .price 图片处理完全免费，新注册用户音视频处理免费试用 7 天。
-    .icon
+    .icon.ups
       img(src="./assets/ups_large.svg")
   template(slot="page")
     .section-fetures

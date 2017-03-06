@@ -27,7 +27,7 @@
           .bar
             +animate(growTaller, 1.2s)
     .left
-      @include span(6)
+      +span(6)
       .radar
         position: relative
         width: 480px
@@ -74,7 +74,7 @@
             right: 0
             bottom: 9px
     .right
-      @include span(6 last)
+      +span(6 last)
       text-align: right
       padding-top: 40px
       padding-right: 40px
@@ -142,7 +142,7 @@
       margin-bottom: 90px
     .events
       .item
-        @include gallery(3)
+        +gallery(3)
         text-align: center
         img
           display: block
@@ -156,7 +156,7 @@
   .section-scenes
     padding-bottom: 30px
     .scenes .item
-      @include gallery(3)
+      +gallery(3)
       margin-bottom: 40px
 </style>
 

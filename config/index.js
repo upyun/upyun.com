@@ -42,5 +42,11 @@ module.exports = {
     // In our experience, they generally work as expected,
     // just be aware of this issue when enabling this option.
     cssSourceMap: false
+  },
+  links: {
+    register: 'https://console.upyun.com/register/',
+    login: 'https://console.upyun.com/login/',
+    console: 'https://console.upyun.com/',
+    support: 'http://support.upyun.com/'
   }
 }

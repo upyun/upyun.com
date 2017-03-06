@@ -17,7 +17,7 @@ layout(:colors="colorSet")
           .item
             .img: img(src="./assets/av-icon-1.svg")
             .title 互动直播
-            .description 又通过智能调度、链路探测、追帧和处理以及协议优化将延迟控制在 5s 以内，可稳定快速的接入视频直播服务。
+            .description 通过智能调度、链路探测、追帧和处理以及协议优化将延迟控制在 5s 以内，可稳定快速的接入视频直播服务。
           .item
             .img: img(src="./assets/av-icon-2.svg")
             .title 视频播放平台
@@ -57,7 +57,7 @@ layout(:colors="colorSet")
         .item: img(src="/static/logos/zhangyu-grey.png")
         .item: img(src="/static/logos/zjws-grey.png")
         .item: img(src="/static/logos/ezviz-grey.png")
-        .item: img(src="/static/logos/douban-grey.png")
+        .item: img(src="/static/logos/doubanfm-grey.png")
         .item: img(src="/static/logos/ximalaya-grey.png")
         .item: img(src="/static/logos/qingting-grey.png")
         .item: img(src="/static/logos/changba-grey.png")

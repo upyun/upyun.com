@@ -9,19 +9,21 @@
     position: relative
     .logo
       display: inline-block
-      height: 80px
-      padding-top: 20.5px
+      padding-top: 21px
+      img
+        width: 112px
+        height: 38px
     .navs
       display: inline-block
       vertical-align: top
-      margin-left: 50px
+      margin-left: 38px
       height: 80px
       padding-top: 20px
       .nav
         display: inline-block
         height: 40px
         line-height: 40px
-        padding: 0 15px
+        padding: 0 21px
         text-decoration: none
         cursor: default
         &:hover
@@ -83,9 +85,9 @@
         transition: all .2s linear
         overflow: hidden
         .list-with-icon
-          @include container
+          +container
           .item
-            @include gallery(6 of 12)
+            +gallery(6 of 12)
             position: relative
             padding: 9px 8px
             padding-left: 39px

@@ -73,7 +73,7 @@
     color: #97a1ab
     line-height: 26px
   .products
-    @include span(5)
+    +span(5)
     padding-left: 80px
     padding-right: 10px
     .item
@@ -97,7 +97,7 @@
         text-align: justify
         color: #97a1ab
   .right
-    @include span(7 last)
+    +span(7 last)
     text-align: center
     img
       width: 90%
@@ -113,7 +113,7 @@
       margin: 30px auto 0
 .section-global
   .left
-    @include span(6)
+    +span(6)
     padding-top: 78px
     .points
       position: relative
@@ -141,7 +141,7 @@
           background: white
           border-radius: 50%
   .right
-    @include span(6 last)
+    +span(6 last)
     padding:  146px 0
     color: white
     font-size: 20px
@@ -153,12 +153,12 @@
       margin-bottom: 47px
     .numbers
       .item
-        @include span(5)
+        +span(5)
         padding: 0 34px
         position: relative
         white-space: nowrap
         &:first-child
-          @include span(3)
+          +span(3)
           padding-left: 0
           &:after
             content: ""
@@ -169,7 +169,7 @@
             right: 0
             border-right: solid 1px rgba(255, 255, 255, 0.7)
         &:last-child
-          @include span(4 last)
+          +span(4 last)
           padding-right: 0
           &:after
             content: ""
@@ -224,7 +224,7 @@
       margin-bottom: 60px
     .clients
       .item
-        @include gallery(4 of 12 3)
+        +gallery(4 of 12 3)
         img
           margin-bottom: 18px
         .title

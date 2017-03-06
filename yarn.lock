@@ -3394,6 +3394,10 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+numeral@^2.0.4:
+  version "2.0.4"
+  resolved "http://registry.npm.taobao.org/numeral/download/numeral-2.0.4.tgz#545a0c709e090a9cf79bebec802b93f60061f038"
+
 oauth-sign@~0.8.0, oauth-sign@~0.8.1:
   version "0.8.2"
   resolved "http://registry.npm.taobao.org/oauth-sign/download/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
@@ -4960,6 +4964,10 @@ vue-loader@^10.0.0:
     vue-hot-reload-api "^2.0.1"
     vue-style-loader "^1.0.0"
     vue-template-es2015-compiler "^1.2.2"
+
+vue-range-slider@^0.2.4:
+  version "0.2.4"
+  resolved "http://registry.npm.taobao.org/vue-range-slider/download/vue-range-slider-0.2.4.tgz#8b73e273718035d3203e5d1aa081c72d473fce61"
 
 vue-router@^2.2.1:
   version "2.2.1"

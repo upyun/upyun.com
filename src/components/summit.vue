@@ -278,7 +278,9 @@ export default {
     var DURATION_MIN = 2000
     var DURATION_MAX = 4000
     var RANDOM_RANGE = 20
+    var MAXIMUM_TIMES = 10
     var vm = this
+    var count = 0
 
     function getLinePosition (el) {
       if (animationCollection[el.id]) return animationCollection[el.id]
@@ -362,6 +364,10 @@ export default {
       // transfer collection
       animationCollectionPrev = animationCollection
       animationCollection = {}
+
+      // limit maximum number of times due to performance issue
+      count += 1
+      if (count >= MAXIMUM_TIMES) return
 
       // schedule next move
       vm.timeout = setTimeout(function () {

@@ -6,12 +6,14 @@
       width: 618px
     .features
       .item
-        @include gallery(3)
+        +gallery(3)
         margin-bottom: 0
   .section-2-parts
     .inner
       background: none
+      overflow: hidden
       .left
+        padding-left: 40px
         .icons
           margin-top: 54px
           img
@@ -20,6 +22,7 @@
         height: 530px
         background: url(./assets/live-img-large.png) center no-repeat
         background-size: 664px
+        margin-right: -80px
   .section-scenes
     .scenes
       .item
@@ -39,9 +42,9 @@
       width: 1022px
       font-size: 20px
       margin-top: 60px
-      @include container
+      +container
       .col
-        @include gallery(3)
+        +gallery(3)
 </style>
 
 <template lang="pug">
@@ -99,7 +102,7 @@ layout(:colors="colorSet")
         .main-description(style="width: 612px; margin-bottom: 47px") 直播源站支持自主源站或又拍云源，为支持用户在不同终端播放，
           br
           | 支持 RTMP、HLS、HTTP-flv 播放输出，通过又拍云 CDN 网络分发在全国各地终端。
-        img.hero-img(src="./assets/live_architecture.png", width=1009, height=639)
+        img.hero-img(src="./assets/live_architecture.png", width=1017, height=641)
     up_gradient.section-2-parts(:colors="colorSet")
       .inner
         .container

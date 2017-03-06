@@ -1,7 +1,7 @@
 <style lang="sass" scoped>
 .layout
   .hero
-    height: 500px
+    height: 440px
     position: relative
 </style>
 
