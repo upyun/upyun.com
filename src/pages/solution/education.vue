@@ -75,7 +75,8 @@ export default {
       colorSet: colors.collection.orange
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '在线教育解决方案' }
   },
   components: { layout, more }
 }

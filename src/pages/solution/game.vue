@@ -71,7 +71,8 @@ export default {
       colorSet: colors.collection.blue
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '游戏行业解决方案' }
   },
   components: { layout, more }
 }

@@ -31,6 +31,9 @@ export default {
       products
     }
   },
+  head: {
+    title: { inner: '价格计算器' }
+  },
   mounted () {
     // 流量赠送规则
     this.$watch(function () {

@@ -201,8 +201,8 @@ layout
 import layout from './layout'
 
 export default {
-  data () {
-    return {}
+  head: {
+    title: { inner: '服务条款' }
   },
   components: { layout }
 }

@@ -70,6 +70,9 @@ export default {
       ]
     }
   },
+  head: {
+    title: { inner: '合作伙伴' }
+  },
   components: { layout, brand_logos }
 }
 </script>

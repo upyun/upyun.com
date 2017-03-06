@@ -104,6 +104,9 @@ export default {
       nowActive: 0
     }
   },
+  head: {
+    title: { inner: '加入我们' }
+  },
   components: { layout }
 }
 </script>

@@ -75,7 +75,8 @@ export default {
       colorSet: colors.collection.green
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '音视频解决方案' }
   },
   components: { layout, more }
 }

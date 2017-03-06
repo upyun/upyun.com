@@ -99,6 +99,9 @@ export default {
       active: 0
     }
   },
+  head: {
+    title: { inner: '联系我们' }
+  },
   mounted: function () {
     this.setMapPoint(this.active)
   },

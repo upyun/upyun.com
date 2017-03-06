@@ -75,7 +75,8 @@ export default {
       colorSet: colors.collection.purple
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '电商 & O2O 解决方案' }
   },
   components: { layout, more }
 }

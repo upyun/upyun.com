@@ -75,7 +75,8 @@ export default {
       colorSet: colors.collection.yellow
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '移动 APP 解决方案' }
   },
   components: { layout, more }
 }

@@ -70,7 +70,8 @@ export default {
       colorSet: colors.collection.darkBlue
     }
   },
-  mounted () {
+  head: {
+    title: { inner: '融合云存储解决方案' }
   },
   components: { layout, more }
 }

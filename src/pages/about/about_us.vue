@@ -69,6 +69,9 @@ export default {
     return {
     }
   },
+  head: {
+    title: { inner: '关于我们' }
+  },
   components: { layout }
 }
 </script>
