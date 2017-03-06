@@ -124,19 +124,8 @@ export default {
     }
   },
   components: { layout },
-  beforeCreate () {
-    const s = document.createElement('script');
-    s.type = 'text/javascript';
-    s.src = 'https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js';
-    document.head.appendChild(s);
-  },
   mounted () {
-    const waitJquery = setInterval(function(){
-      if (typeof $ !== 'undefined') {
-        webpInit();
-        clearInterval(waitJquery);
-      }
-    }, 10);
+    webpInit()
   }
 }
 </script>

@@ -1,3 +1,5 @@
+import $ from 'jquery'
+
 export default function () {
   // 检测浏览器是否支持webp图片格式
   function check_webp_feature(feature) {
