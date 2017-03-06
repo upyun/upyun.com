@@ -14,11 +14,11 @@
   padding: 53px 0 33px
   background: white
   .links
-    @include container
+    +container
     width: 906px
     margin-top: 38px
     .item
-      @include gallery(4)
+      +gallery(4)
       text-align: center
       margin-bottom: 37px
       text-decoration: none

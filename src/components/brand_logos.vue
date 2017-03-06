@@ -2,9 +2,9 @@
 @import "../assets/susy"
 .logos
   padding-bottom: 20px
-  @include container()
+  +container()
   .item
-    @include gallery(1 of 5 1/6)
+    +gallery(1 of 5 1/6)
     margin-bottom: gutter() * 2
     text-align: center
     border: solid 1px #f0f0f0

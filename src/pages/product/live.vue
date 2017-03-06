@@ -6,7 +6,7 @@
       width: 618px
     .features
       .item
-        @include gallery(3)
+        +gallery(3)
         margin-bottom: 0
   .section-2-parts
     .inner
@@ -42,9 +42,9 @@
       width: 1022px
       font-size: 20px
       margin-top: 60px
-      @include container
+      +container
       .col
-        @include gallery(3)
+        +gallery(3)
 </style>
 
 <template lang="pug">

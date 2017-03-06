@@ -21,10 +21,10 @@
   .top
     padding: 65px 0 63px
     .left
-      @include span(7)
+      +span(7)
       position: relative
       .menu
-        @include gallery(1 of 4)
+        +gallery(1 of 4)
       .line
         position: absolute
         right: 0
@@ -32,12 +32,12 @@
         height: 133px
         border-right: solid 1px rgba(255,255,255,.1)
     .right
-      @include span(5 last)
+      +span(5 last)
       padding-left: gutter() * 3
       .menu
-        @include gallery(1 of 2)
+        +gallery(1 of 2)
     .links
-      @include span(5 last)
+      +span(5 last)
       padding-left: gutter() * 3
       margin-top: 28px
       a
@@ -66,11 +66,11 @@
     padding-top: 21px
     color: rgba(255, 255, 255, 0.7)
     .left
-      @include span(7)
+      +span(7)
       .logo
         opacity: 0.55
     .right
-      @include span(5 last)
+      +span(5 last)
       padding-left: gutter() * 3
       .kexin
         padding-left: 53px

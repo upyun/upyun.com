@@ -60,10 +60,10 @@
     .legend
       width: 352px
       margin: 8px auto 0
-      @include container()
+      +container()
       .item
         position: relative
-        @include gallery(1 of 4)
+        +gallery(1 of 4)
         margin-top: 8px
         padding-left: 22px
         .dot
