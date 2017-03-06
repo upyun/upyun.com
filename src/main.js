@@ -15,7 +15,6 @@ AMap.initAMapApiLoader({
 })
 
 import VueHead from 'vue-head'
-
 Vue.use(VueHead, {
   separator: '-',
   complement: '又拍云'
