@@ -6,16 +6,20 @@
     .main-title 产品价格
     .sub-title 支持按需计费，每日进行结算
     .select
-      .btn
-        .icon(:class="selection")
+      .btn(@click="menuShowing = !menuShowing")
+        .icon(:class="nowSelection")
         span(:style="{ color }") {{ name }}
         svg.arrow(width='12', height='6', viewbox='0 0 12 6', xmlns='http://www.w3.org/2000/svg')
           path(d='M12 0L6 6 0 0z', :fill='color', fill-rule='evenodd')
+      .menu(v-if="menuShowing", @click="menuShowing = false")
+        .item(v-for="(name, key) in names", @click="nowSelection = key", v-if="key !== nowSelection")
+          .icon(:class="key")
+          | {{ name }}
     .content
       .top
-        router-link.to-product(:to="{ path: `/product/${selection}` }") 查看产品说明
+        router-link.to-product(:to="{ path: `/product/${nowSelection}` }", v-if="nowSelection !== selection") 查看产品说明
       .inner
-        template(v-if="selection === 'cdn' || selection === 'vod'")
+        template(v-if="nowSelection === 'cdn' || nowSelection === 'vod'")
           .title(:style="{ color }") CDN 服务价格说明
           table
             thead
@@ -48,7 +52,7 @@
               tr
                 td HTTPS 请求数
                 td 0.05 元/万次
-        template(v-if="selection === 'ups' || selection === 'vod'")
+        template(v-if="nowSelection === 'ups' || nowSelection === 'vod'")
           .title(:style="{ color }") 云处理服务价格说明
           table
             thead
@@ -89,7 +93,7 @@
                 td 音频剪辑
                 td 异步
                 td 0.0044 元/分钟
-        template(v-if="selection === 'uss' || selection === 'vod'")
+        template(v-if="nowSelection === 'uss' || nowSelection === 'vod'")
           .title(:style="{ color }") 云存储服务价格说明
           table
             thead
@@ -103,7 +107,7 @@
               tr
                 td 超出当日流量使用量
                 td 0.0043 元/GB
-        template(v-if="selection === 'live'")
+        template(v-if="nowSelection === 'live'")
           .title(:style="{ color }") 直播云服务价格说明
           table
             thead
@@ -123,24 +127,27 @@
 </template>
 
 <script>
-var names = {
-  cdn: 'CDN',
-  live: '直播云',
-  uss: '云存储',
-  vod: '点播云',
-  ups: '云处理',
-  marketing: '流量营销'
-}
-
 export default {
   props: ['selection', 'color'],
   data () {
     return {
+      nowSelection: '',
+      menuShowing: false,
+      names: {
+        cdn: 'CDN',
+        live: '直播云',
+        uss: '云存储',
+        vod: '点播云',
+        ups: '云处理'
+      }
     }
+  },
+  mounted () {
+    this.nowSelection = this.selection
   },
   computed: {
     name () {
-      return names[this.selection]
+      return this.names[this.nowSelection]
     }
   }
 }
