@@ -13,7 +13,7 @@
       background: none
       overflow: hidden
       .left
-        padding-left: 40px
+        padding-left: 82px
         .icons
           margin-top: 54px
           img
