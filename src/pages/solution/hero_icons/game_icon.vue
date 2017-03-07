@@ -1,7 +1,8 @@
 <style lang="sass" scoped>
 @import "../../../assets/animations"
++keyframesDraw(draw, 983)
 .path
-  stroke-dasharray: 1005
+  stroke-dasharray: 983
   +animate(draw, 2s, .8s)
 .lf
   +animate(fadeIn, 1.2s, 1s)

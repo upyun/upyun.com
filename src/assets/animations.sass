@@ -5,6 +5,11 @@
   animation-fill-mode: both
   animation-iteration-count: $count
 
+=keyframesDraw($name, $length)
+  @keyframes #{$name}
+    from
+      stroke-dashoffset: #{$length}
+
 @keyframes fadeInDown
   from
     opacity: 0
@@ -57,10 +62,6 @@
   to
     transform: rotate(0)
 
-@keyframes draw
-  from
-    stroke-dashoffset: 983
-
 @keyframes fadeInRight
   from
     opacity: 0
@@ -80,4 +81,3 @@
     opacity: 1
     -webkit-transform: none
     transform: none
-

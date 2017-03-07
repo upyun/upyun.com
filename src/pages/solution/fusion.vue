@@ -19,7 +19,7 @@ layout(:colors="colorSet")
       .buttons
         up_button(:color="colorSet.mid", type="major") 联系我们
     .icon
-      img(src="./assets/fusion_large.svg")
+      icon
   template(slot="page")
     .section-solutions
       .container
@@ -63,6 +63,7 @@ layout(:colors="colorSet")
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import more from './more'
+import icon from './hero_icons/fusion_icon'
 
 export default {
   data () {
@@ -73,6 +74,6 @@ export default {
   head: {
     title: { inner: '融合云存储解决方案' }
   },
-  components: { layout, more }
+  components: { layout, more, icon }
 }
 </script>
