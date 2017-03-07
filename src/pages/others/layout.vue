@@ -1,5 +1,6 @@
 <style lang="sass" scoped>
 .layout
+  background-color: #fff;
   .hero
     height: 80px
     position: relative
