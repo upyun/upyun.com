@@ -1,26 +1,26 @@
 <style lang="sass" scoped>
 @import "../../../assets/animations"
 .lines
-  +animate(zoomIn, 1s, .6s)
+  +animate(zoomIn, 1s, 1.6s)
   transform-origin: center
 .r-1
-  +animate(fadeInUp, 1s, .3s)
+  +animate(fadeInUp, 1s, 1.3s)
 .r-2
-  +animate(fadeIn, 1s)
+  +animate(fadeIn, 1s, 1s)
 .r-3
-  +animate(fadeInDown, 1s, .3s)
+  +animate(fadeInDown, 1s, 1.3s)
 .leg
-  +animate(fadeIn, 2s, 1.4s)
+  +animate(fadeIn, 2s, 2.4s)
 .leg-1
-  animation-delay: 1.4s
+  animation-delay: 2.4s
 .leg-2
-  animation-delay: 1.6s
+  animation-delay: 2.5s
 .leg-3
-  animation-delay: 1.8s
+  animation-delay: 2.6s
 .leg-4
-  animation-delay: 2s
+  animation-delay: 2.7s
 .leg-5
-  animation-delay: 2.2s
+  animation-delay: 2.8s
 </style>
 
 <template>
