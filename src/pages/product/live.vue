@@ -57,7 +57,7 @@ layout(:colors="colorSet")
         up_button(:color="colorSet.end", type="major") 免费试用
         up_button 查看价格
     .icon
-      img(src="./assets/live_large.svg")
+      icon
   template(slot="page")
     .section-fetures
       .container
@@ -187,6 +187,7 @@ import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
 import section_pricing from './section_pricing'
+import icon from './hero_icons/live_icon'
 
 export default {
   data () {
@@ -197,6 +198,6 @@ export default {
   head: {
     title: { inner: '直播云' }
   },
-  components: { layout, section_help, section_pricing }
+  components: { layout, section_help, section_pricing, icon }
 }
 </script>
