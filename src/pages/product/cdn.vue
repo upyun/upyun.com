@@ -87,7 +87,7 @@ layout(:colors="colorSet")
         | 加入春雨计划，提供免费一年云服务。
         a 了解详情
     .icon
-      img(src="./assets/cdn_large.svg")
+      icon
   template(slot="page")
     .section-fetures
       .container
@@ -177,6 +177,7 @@ import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
 import section_pricing from './section_pricing'
+import icon from './hero_icons/cdn_icon'
 
 export default {
   data () {
@@ -200,6 +201,6 @@ export default {
   head: {
     title: { inner: 'CDN' }
   },
-  components: { layout, section_help, section_pricing }
+  components: { layout, section_help, section_pricing, icon }
 }
 </script>
