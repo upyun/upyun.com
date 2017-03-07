@@ -9,7 +9,7 @@ layout(:colors="colorSet")
       .buttons
         up_button(:color="colorSet.end", type="major") 联系我们
     .icon
-      img(src="./assets/av_large.svg")
+      icon
   template(slot="page")
     .section-solutions
       .container
@@ -68,6 +68,7 @@ layout(:colors="colorSet")
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import more from './more'
+import icon from './hero_icons/av_icon'
 
 export default {
   data () {
@@ -78,6 +79,6 @@ export default {
   head: {
     title: { inner: '音视频解决方案' }
   },
-  components: { layout, more }
+  components: { layout, more, icon }
 }
 </script>
