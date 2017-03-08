@@ -1,11 +1,11 @@
 <style lang="sass" scoped>
 @import "../../../assets/animations"
 .pad
-  +animate(fadeInRight, .6s, .8s)
+  +animate(fadeInRight, .9s, .6s)
 .left
-  +animate(fadeInRight, 1s, .8s)
+  +animate(fadeInRight, 1.4s, .4s)
 .right
-  +animate(fadeInLeft, 1s, .8s)
+  +animate(fadeInLeft, 1.4s, .4s)
 </style>
 <template lang="pug">
 svg(xmlns='http://www.w3.org/2000/svg', width='500', height='500', viewbox='0 0 500 500')
