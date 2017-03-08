@@ -1,6 +1,7 @@
 - name: 研发团队
   jobs:
     - name: 系统开发工程师（偏 DNS 方向）
+      location: 杭州
       description:
         - 负责又拍云 DNS 系统底层平台研发工作
       requirements:
@@ -10,6 +11,7 @@
         - 能熟练使用 C 语言进行日常开发工作；
         - 熟悉 Python,Lua,Golang 等其中一种编程语言。
     - name: 系统开发工程师（偏 DNS 方向）
+      location: 杭州
       description:
         - 负责又拍云 DNS 系统底层平台研发工作
       requirements:
@@ -21,6 +23,7 @@
 - name: 市场 & 运营团队
   jobs:
     - name: 系统开发工程师（偏 DNS 方向）
+      location: 杭州
       description:
         - 负责又拍云 DNS 系统底层平台研发工作
       requirements:
@@ -30,6 +33,7 @@
         - 能熟练使用 C 语言进行日常开发工作；
         - 熟悉 Python,Lua,Golang 等其中一种编程语言。
     - name: 系统开发工程师（偏 DNS 方向）
+      location: 杭州
       description:
         - 负责又拍云 DNS 系统底层平台研发工作
       requirements:

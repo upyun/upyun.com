@@ -39,16 +39,18 @@
       +container
       .item
         +gallery(6)
-        margin-bottom: 25px
+        margin-bottom: 55px
         .name
           font-size: 20px
           font-weight: 400
-          margin-bottom: 24px
+          margin-bottom: 16px
         .label
           font-size: 18px
           font-weight: 400
         ul
           padding-left: 20px
+        .location
+          margin: 16px 0
         .btn
           display: block
           margin-top: 20px
@@ -84,6 +86,8 @@ layout
               .jobs
                 .item(v-for="job in group.jobs")
                   .name {{ job.name }}
+                  .label 工作地点
+                  .location {{ job.location }}
                   .label 工作内容
                   ul.description
                     li(v-for="line in job.description") {{ line }}
