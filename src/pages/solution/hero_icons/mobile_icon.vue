@@ -1,14 +1,15 @@
 <style lang="sass" scoped>
 @import "../../../assets/animations"
 .lf
-  +animate(fadeInRight, .7s, .8s)
+  +animate(fadeInRight, 1s, 1.3s)
 .rt
-  +animate(fadeInLeft, .7s, .8s)
+  +animate(fadeInLeft, 1s, 1.3s)
 .md .wave
-  +animate(zoomIn, 1s, .8s)
+  +animate(zoomIn, 1.2s, .8s)
   transform-origin: center
 .md .mark
-  +animate(fadeInDown, 1.8s)
+  +animate(zoomIn, 1.2s, .4s)
+  transform-origin: bottom
 </style>
 
 <template lang="pug">
