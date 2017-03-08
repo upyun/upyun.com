@@ -229,10 +229,8 @@ export default {
       inner: '又拍云春雨计划 - 为创业者提供免费云服务',
     },
     meta: [
-      { name: 'keywords', content: '创业者,创业服务,云存储,天使投资,云计算,CDN,创业扶持' },
-      { name: 'description', content: '春雨计划 - 又拍云联合顶尖创投机构，为创业者提供免费一年云服务，全方位技术扶持，加速创业项目进程' },
-      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' },
-      { name: 'renderer', content: 'webkit' }
+      { name: 'keywords', content: '创业者,创业服务,云存储,天使投资,云计算,CDN,创业扶持', id: 'kw' },
+      { name: 'description', content: '春雨计划 - 又拍云联合顶尖创投机构，为创业者提供免费一年云服务，全方位技术扶持，加速创业项目进程', id: 'desc' }
     ]
   }
 }
