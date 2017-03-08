@@ -126,6 +126,17 @@ export default {
   components: { layout },
   mounted () {
     webpInit()
+  },
+  head: {
+    title: {
+      inner: 'WebP - 图片格式的发展趋势',
+    },
+    meta: [
+      { name: 'keywords', content: 'WebP，动态 WebP，图片瘦身，图片格式转换' },
+      { name: 'description', content: '网页、APP 图片加载缓慢？图片太多，流量太大？WebP（动态 WebP），在同等质量下，让您的图片大小平均减少 70%' },
+      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' },
+      { name: 'renderer', content: 'webkit' }
+    ]
   }
 }
 </script>

@@ -89,6 +89,7 @@ export default function(vm) {
             return checkParentElement(target);
         }
     }
+
     function initLeagueApply(leagueApplyModal, vm) {
         // 登录、申请表单
         const loginFormNode = document.getElementById('loginForm');

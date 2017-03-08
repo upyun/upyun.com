@@ -19,6 +19,8 @@ import joinUs from './pages/about/join_us'
 import pricing from './pages/about/pricing'
 const webp = resolve => require(['./pages/others/webp.vue'], resolve)
 const league = resolve => require(['./pages/others/league.vue'], resolve)
+const chunyu = resolve => require(['./pages/others/chunyu.vue'], resolve)
+const chunyu_tos = resolve => require(['./pages/others/chunyu_tos.vue'], resolve)
 
 export default [
   { path: '/', component: home },
@@ -41,5 +43,7 @@ export default [
   { path: '/join_us', component: joinUs },
   { path: '/pricing', component: pricing },
   { path: '/webp', component: webp },
-  { path: '/league', component: league }
+  { path: '/league', component: league },
+  { path: '/chunyu', component: chunyu },
+  { path: '/chunyu_tos', component: chunyu_tos }
 ]
