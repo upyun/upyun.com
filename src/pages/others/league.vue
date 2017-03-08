@@ -1,7 +1,7 @@
 <style lang="sass" src="./league.sass" scoped></style>
 
 <template lang="pug">
-layout(v-bind:class="{'league-banner': true}")
+layout(class="league-banner")
   div(slot="hero")
     //- .cover
   div.league(slot="page")

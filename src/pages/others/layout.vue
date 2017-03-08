@@ -5,16 +5,19 @@
     height: 80px
     position: relative
     background-image: linear-gradient(312deg, #2fbbfb 0%, #1e96e5 100%)
+    z-index: 100;
   &.chunyu-banner
     .hero
       background: #2a989d;
       border-bottom: 1px solid #239398;
-      z-index: 100;
   &.league-banner
     .hero
       background: #ebc149;
-      #page_header
-        border-bottom: 1px solid #e7bd46;
+      border-bottom: 1px solid #eab726;
+  &.https-banner
+    .hero
+      background: #0bacdb;
+      border-bottom: 1px solid #1eb3de;
 </style>
 
 <template lang="pug">
