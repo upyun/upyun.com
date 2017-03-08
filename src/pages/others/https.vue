@@ -63,10 +63,8 @@ export default {
       inner: 'https - 全网加密时代来临',
     },
     meta: [
-      { name: 'keywords', content: "https,http/2,SSL证书,Let's Encrypt,免费证书" },
-      { name: 'description', content: '又拍云联合 Let’s Encrypt 推出 SSL 证书申请与管理一站式服务。无需繁杂流程，一键申请，轻松实现网站与 Web 应用的 HTTPS 加密部署。' },
-      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' },
-      { name: 'renderer', content: 'webkit' }
+      { name: 'keywords', content: "https,http/2,SSL证书,Let's Encrypt,免费证书", id: 'kw' },
+      { name: 'description', content: '又拍云联合 Let’s Encrypt 推出 SSL 证书申请与管理一站式服务。无需繁杂流程，一键申请，轻松实现网站与 Web 应用的 HTTPS 加密部署。', id: 'desc' }
     ]
   }
 }
