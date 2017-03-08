@@ -1,7 +1,7 @@
 <style lang="sass" src="./league.sass" scoped></style>
 
 <template lang="pug">
-layout
+layout(v-bind:class="{'league-banner': true}")
   div(slot="hero")
     //- .cover
   div.league(slot="page")
@@ -137,6 +137,17 @@ export default {
     applyLeague () {
       leagueInit(this);
     },
+  },
+  head: {
+    title: {
+      inner: '又拍云联盟 - 开发者帮助计划，为开发者加速',
+    },
+    meta: [
+      { name: 'keywords', content: '开发者,网站加速,免费流量,免费CDN,免费云存储' },
+      { name: 'description', content: '又拍云联盟是由又拍云推出的开发者帮助计划，对开发者提供免费且完善的云存储、CDN等服务，加速个人网站、博客、APP等项目' },
+      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' },
+      { name: 'renderer', content: 'webkit' }
+    ]
   }
 }
 </script>

@@ -1,0 +1,635 @@
+@import "mixin.sass";
+
+.chunyu
+  position: relative;
+
+ul.nostyle
+  padding: 0;
+ul.nostyle li
+  list-style-type: none;
+
+.chunyu a:hover
+  text-decoration: none;
+.chunyu h1
+  font-size: 36px;
+  font-weight: 500;
+  color: #132A3C;
+  margin-top: 16px;
+
+.chunyu h3
+  font-size: 20px;
+  font-weight: 400;
+  color: #22CEBE;
+  margin-bottom: 16px;
+
+.chunyu .chunyu-btn
+  display: block;
+  background: #46DED0;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 1px #2BB8AF;
+.chunyu .chunyu-btn:hover
+  background: #22cebe;
+.chunyu .chunyu-btn.apply
+  width: 164px;
+  height: 50px;
+  border-radius: 25px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  font-size: 20px;
+.chunyu .chunyu-btn.apply-s
+  width: 111px;
+  height: 34px;
+  border-radius: 17px;
+  line-height: 34px;
+  font-size: 18px;
+
+.chunyu .chunyu-form-btn
+  display: inline-block;
+  width: 179px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 19px;
+  text-align: center;
+  font-size: 16px;
+.chunyu .chunyu-form-btn.blue
+  color: white;
+  background: #4DABDB;
+.chunyu .chunyu-form-btn.white
+  color: #4DABDB;
+  border: 1px solid #4DABDB;
+
+.chunyu .out
+  padding: 0 50px;
+
+.chunyu .inline-block
+  margin: 0 auto;
+.chunyu .inline-block .item
+  display: inline-block;
+  vertical-align: top;
+
+.chunyuContainer
+  content: '';
+  max-width: 1920px;
+  margin: 0 auto;
+
+.arrow
+  position: relative;
+  margin: 0 auto;
+.arrow .left
+  display: inline-block;
+  float: left;
+  width: 33px;
+  height: 62px;
+  background: url(./assets/chunyu/arrowLeft.png);
+  outline: none;
+.arrow .right
+  display: inline-block;
+  float: right;
+  width: 33px;
+  height: 62px;
+  background: url(./assets/chunyu/arrowRight.png);
+  outline: none;
+.arrow .left,
+.arrow .right
+  opacity: 0.5;
+.arrow .left:hover,
+.arrow .right:hover
+  opacity: 1;
+
+.banner
+  $bannerHeight: 768px !global;
+  position: relative;
+  margin-top: -80px;
+  width: 100%;
+  height: $bannerHeight;
+  background: #2a989d;
+  $slideH: 768px;
+  .banner-slides-wrapper
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: $slideH;
+    bottom: 0;
+  $arrowH: 57px;
+  $arrowW: 57px;
+  .slider-arrow
+    $container-large-width: 1428px !global;
+    max-width: $container-large-width;
+    margin-left: auto;
+    margin-right: auto;
+    height: $arrowH;
+    position: relative;
+    top: -45%;
+    display: block;
+    z-index: 1010;
+    @media screen and (max-width: 1170px) {}
+    // max-width: $container-width;
+  .prev, .next
+    display: block;
+    position: absolute;
+    width: $arrowW;
+    height: $arrowH;
+    cursor: pointer;
+    background: url(./assets/chunyu/bannerArrow.png) no-repeat 0% 0%;
+    z-index: 5;
+  .prev
+    left: 80px;
+    background-position: 0 0;
+    &:hover
+    background-position: -57px 0;
+  .next
+    right: 80px;
+    background-position: 0 -57px;
+    &:hover
+    background-position: -57px -57px;
+  .banner-slides
+    position: relative;
+    height: $slideH;
+    white-space: nowrap;
+  .slide
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    .slide-content
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    .chunyu-btn
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      top: 80%;
+    &.chunyu
+      background: url(./assets/chunyu/banner.png) no-repeat;
+      background-position: bottom center;
+    &.chunyu-reference
+      background: url(./assets/chunyu/reference.png) no-repeat;
+      background-position: bottom center;
+  .scroll-sign
+    position: absolute;
+    left: 50%;
+    bottom: 29px;
+    margin-left: -8px;
+    z-index: 5;
+  img
+    display: block;
+    margin-bottom: 10px;
+
+//.banner
+//    position: relative;
+//    width: 100%;
+//    height: 768px;
+//    background: url("/assets/chunyu/banner.jpg") center no-repeat;
+//.banner .chunyu-btn
+//    position: absolute;
+//    border: 1px solid white;
+//    border-radius: 19px !important;
+//    box-shadow: none;
+//    width: 165px !important;
+//    height: 38px !important;
+//    bottom: 80px;
+//    left: 50%;
+//    background: transparent;
+//    transform: translateX(-50%);
+//.banner .chunyu-btn:hover
+//    background: rgba(255, 255, 255, 0.1);
+
+.one, .two, .four, .five
+  text-align: center;
+
+.one
+  position: relative;
+  width: 100%;
+  height: 1229px;
+  background: url(./assets/chunyu/sectionBg_01.png) center no-repeat;
+.one .title
+  margin-top: 120px;
+.one .inline-block
+  width: 855px;
+  margin-top: 140px;
+.one .inline-block .item
+  font-size: 20px;
+  color: #132A3C;
+.one .inline-block .item:not(:last-child)
+  margin-right: 123px;
+.one .join
+  position: relative;
+  top: 128px;
+  width: 100%;
+  height: 510px;
+  background: url(./assets/chunyu/join.png) top center no-repeat;
+.one .join .chunyu-btn
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -81px;
+
+.two
+  width: 100%;
+  height: 600px;
+  background: #F3F5F4;
+  padding-top: 100px;
+.two .arrow
+  width: 850px;
+  top: 25px;
+.two .inline-block .item
+  display: inline-block;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background: #A8EAE6;
+
+.two .inline-block .item:not(:last-child)
+  // margin-right: 36px;
+  margin-right: 32px;
+
+.two .inline-block .item:first-child
+  margin-left: 3px;
+
+.two .recommend
+  margin: 68px auto 104px;
+  text-align: center;
+  width: 836px;
+  color: #22CEBE;
+  font-size: 20px;
+  clear: both;
+.two .recommend .chunyu-btn
+  margin: 35px auto 0;
+
+.three
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: white;
+.three .illustration
+  position: absolute;
+  top: -30px;
+  display: inline-block;
+  width: 46.8%;
+  height: 640px;
+  left: 0;
+  background: url(./assets/chunyu/illustration.png) right no-repeat;
+.three .text-block
+  position: relative;
+  left: 46.8%;
+  width: 53.2%;
+  padding-top: 90px;
+.three .title h3
+  margin-left: 64px;
+.three .title h1
+  margin-left: 50px;
+.three ul li:not(:last-child)
+  margin-bottom: 26px;
+.three ul li:nth-child(1)
+  margin-left: 30px;
+.three ul li:nth-child(1) .subTitle:before
+  width: 44px;
+  height: 46px;
+  background: url(./assets/chunyu/activityIcon_01.png) no-repeat;
+.three ul li:nth-child(2)
+  margin-left: 0px;
+.three ul li:nth-child(2) .subTitle:before
+  width: 40px;
+  height: 35px;
+  background: url(./assets/chunyu/activityIcon_02.png) no-repeat;
+.three ul li:nth-child(3)
+  margin-left: -30px;
+.three ul li:nth-child(3) .subTitle:before
+  width: 52px;
+  height: 43px;
+  background: url(./assets/chunyu/activityIcon_03.png) no-repeat;
+.three .subTitle
+  font-size: 20px;
+  color: #132A3C;
+  margin-bottom: 11px;
+.three .subTitle:before
+  content: '';
+  display: inline-block;
+  margin-right: 14px;
+  vertical-align: bottom;
+.three p
+  margin-top: 11px;
+  font-size: 16px;
+  color: #5F6973;
+
+.four
+  width: 100%;
+  height: 768px;
+  background: url(./assets/chunyu/sectionBg_04.png) top center no-repeat;
+  padding-top: 120px;
+.four .inline-block
+  margin-top: 90px;
+.four .inline-block .item
+  position: relative;
+  width: 234px;
+  height: 334px;
+  background: white;
+.four .inline-block .item:not(:last-child)
+  margin-right: 66px;
+.four .inline-block .item .evaluation
+  position: relative;
+  padding: 30px 20px;
+  font-size: 16px;
+  color: #5F6973;
+  text-align: left;
+  line-height: 27px;
+.four .inline-block .item .evaluation:before
+  content: '';
+  display: inline-block;
+  width: 23px;
+  height: 17px;
+  margin-right: 8px;
+  background: url(./assets/chunyu/quotation.png) no-repeat;
+.four .inline-block .item .split
+  position: absolute;
+  top: 230px;
+  width: 100%;
+  height: 13px;
+  background: url(./assets/chunyu/splitLine.png) center no-repeat;
+.four .inline-block .item .who
+  position: absolute;
+  padding: 30px 20px;
+  bottom: -14px;
+  width: 100%;
+  text-align: left;
+.four .inline-block .item .who .avatar
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #FFCB05;
+  border-radius: 50%;
+  margin-right: 10px;
+.four .inline-block .item .who .identity
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+.four .inline-block .item .who .identity .name
+  margin: 6px 0;
+  color: #132A3C;
+  font-size: 16px;
+  font-weight: 400;
+.four .inline-block .item .who .identity .job
+  margin: 0;
+  color: #5F6973;
+  font-size: 14px;
+
+.five
+  width: 100%;
+  height: 728px;
+  background: white;
+  padding-top: 110px;
+.five .arrow
+  width: 849px;
+  top: 80px;
+.five .inline-block
+  margin-top: 70px;
+.five .inline-block .item
+  width: 146px;
+  height: 146px;
+  border-radius: 50%;
+  background: #A8EAE6;
+.five .inline-block .item:not(:last-child)
+  margin-right: 80px;
+.five .join
+  margin-top: 100px;
+.five .join .chunyu-btn
+  margin: 0 auto;
+
+.footer
+  display: table;
+  width: 100%;
+  height: 100px;
+  background: #314752;
+  font-size: 16px;
+  color: white;
+.footer .contact
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+.global-modal
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+  overflow: scroll !important;
+  outline: 0;
+  background: transparent;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: background 0.3s ease-out, opacity 0.3s ease-out;
+  -moz-transition: background 0.3s ease-out, opacity 0.3s ease-out;
+  -o-transition: background 0.3s ease-out, opacity 0.3s ease-out;
+  transition: background 0.3s ease-out, opacity 0.3s ease-out;
+
+.global-modal a
+  color: #52ACD9;
+.global-modal a:hover
+  color: #4897BE;
+
+.global-modal-show
+  background: rgba(0, 0, 0, 0.5);
+.global-modal-show .global-modal-content
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+
+.global-modal-open
+  max-height: 100%;
+  overflow: hidden !important;
+  padding-right: 15px;
+
+.global-modal-content
+  background: white;
+  position: relative;
+  margin: 7% auto 7% auto;
+  width: 680px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  z-index: 1051;
+  opacity: 0;
+  -webkit-transform: translate(0, -25%);
+  -moz-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  -moz-transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+
+.global-modal-header
+  height: 82px;
+.global-modal-header .inline-block
+  height: 100%;
+.global-modal-header .inline-block .item
+  width: 33.4%;
+  height: 100%;
+  text-align: center;
+  margin-right: -5px;
+.global-modal-header .inline-block .item.active p
+  color: #4DABDB;
+.global-modal-header .inline-block .item.active:after
+  background: #4DABDB;
+.global-modal-header .inline-block .item p
+  margin: 0;
+  line-height: 80px;
+  font-size: 16px;
+  color: #9E9E9E;
+.global-modal-header .inline-block .item:after
+  content: '';
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: -15px;
+  width: 100%;
+  height: 2px;
+  background: transparent;
+.global-modal-header:after
+  content: '';
+  width: 100%;
+  height: 2px;
+
+.global-modal-body .panel
+  display: none;
+  padding: 30px 0 40px;
+.global-modal-body .panel.active
+  display: block;
+
+.global-modal-body form
+  width: 400px;
+  margin: 0 auto;
+.global-modal-body form input
+  border: 1px solid #BABABA;
+  border-radius: 1px;
+  font-size: 16px;
+  color: #747474;
+  outline: none;
+.global-modal-body form input:focus
+  border-color: #4DABDB;
+  color: #4DABDB;
+.global-modal-body form input.invalid
+  border-color: #B94A48;
+.global-modal-body form input.invalid + .tip
+  display: block;
+.global-modal-body form input.invalid ~ .tip
+  display: block;
+.global-modal-body form .tip
+  display: none;
+  color: #B94A48;
+  font-size: 10px;
+  margin-left: 120px;
+.global-modal-body form .form-group
+  position: relative;
+  width: 100%;
+  input
+    display: inline-block;
+.global-modal-body form .form-group:not(:last-child)
+  margin-bottom: 20px;
+.global-modal-body form .form-group.lost-pw
+  margin-bottom: 30px;
+  margin-top: -15px;
+  text-align: right;
+.global-modal-body form .form-group.lost-pw a
+  color: #BABABA;
+.global-modal-body form .chunyu-form-btn:first-child
+  float: left;
+.global-modal-body form .chunyu-form-btn:last-child
+  float: right;
+.global-modal-body form .dash-line
+  margin: -5px auto 15px;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #747474;
+.global-modal-body form.login input
+  padding: 0 20px 0 70px;
+  width: 100%;
+  height: 48px;
+.global-modal-body form.login input:focus + .login-input-icon
+  border-color: #4DABDB;
+.global-modal-body form.login .login-input-icon
+  display: inline-block;
+  width: 57px;
+  height: 30px;
+  position: absolute;
+  // left: 140px;
+  left: 0;
+  top: 0;
+  margin-top: 10px;
+  border-right: 1px solid #BABABA;
+.global-modal-body form.login .login-input-icon.chunyu-username-icon
+  background: url(./assets/chunyu/username.png) center no-repeat;
+.global-modal-body form.login .login-input-icon.chunyu-password-icon
+  background: url(./assets/chunyu/password.png) center no-repeat;
+.global-modal-body form.apply
+  font-size: 14px;
+  color: #747474;
+.global-modal-body form.apply input
+  height: 34px;
+  width: 278px;
+  padding: 0 10px;
+.global-modal-body form.apply input[type='checkbox']
+  width: auto;
+  height: auto;
+
+.global-modal-body form.apply label
+  display: inline-block;
+  width: 116px;
+
+.global-modal-body .apply-success
+  text-align: center;
+  margin: 52px auto 60px;
+
+.alert-container
+  width: 100%;
+  margin: -3px auto 0;
+  height: 0;
+  overflow-y: hidden;
+  -webkit-transition: height 0.5s ease-out;
+  -moz-transition: height 0.5s ease-out;
+  -o-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
+.alert-container.alert-show
+  height: 51px;
+
+.alert
+  padding: 15px;
+  border: 1px solid transparent;
+  text-align: center;
+.alert.alert-error
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+.alert.alert-success
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+
+.sliderContent
+  // width: 679px;
+  width: 667px;
+  height: 104px;
+  overflow: hidden;
+  position: relative;
+  // left: 60px;
+  left: 58px;
+.sliderContent .inline-block
+  position: relative;
+  white-space: nowrap;
+  left: 0px;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
