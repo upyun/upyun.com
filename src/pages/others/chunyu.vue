@@ -1,7 +1,7 @@
 <style lang="sass" src="./chunyu.sass" scoped></style>
 
 <template lang="pug">
-layout(v-bind:class="{'chunyu-banner': true}")
+layout(class="chunyu-banner")
   div(slot="hero")
     //- .cover
   div.chunyu(slot="page")

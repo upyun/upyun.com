@@ -18,10 +18,10 @@ layout
         .animated-gif
           .picture
             span
-              img(src="../others/assets/loading.gif" id="img-animated-gif")
+              img(src="./assets/webp/loading.gif" id="img-animated-gif")
             .tag 动态 GIF
             #cover-gif
-              img(src="../others/assets/loading.gif")
+              img(src="./assets/webp/loading.gif")
               span 图片加载中
           .text
             span.picture-size 图片大小：
@@ -32,10 +32,10 @@ layout
         .to-animated-webp
           .picture
             span
-              img(src="../others/assets/loading.gif" id="img-to-animated-webp")
+              img(src="./assets/webp/loading.gif" id="img-to-animated-webp")
             .tag 动态 WebP
             #cover-webp
-              img(src="../others/assets/loading.gif")
+              img(src="./assets/webp/loading.gif")
               span 正在转成 WebP
           .text
             span.picture-size 图片大小：
@@ -47,7 +47,7 @@ layout
         .gif
           .picture
             span
-              img(src="../others/assets/loading.gif" id="img-gif")
+              img(src="./assets/webp/loading.gif" id="img-gif")
             .tag GIF
           .text
             span.picture-size 图片大小：
@@ -57,7 +57,7 @@ layout
         .gif-to-webp
           .picture
             span
-              img(src="../others/assets/loading.gif" id="img-gif-to-webp")
+              img(src="./assets/webp/loading.gif" id="img-gif-to-webp")
             .tag WebP
           .text
             span.picture-size 图片大小：
@@ -68,7 +68,7 @@ layout
         .png
           .picture
             span
-              img(src="../others/assets/loading.gif" id="img-png")
+              img(src="./assets/webp/loading.gif" id="img-png")
             .tag PNG
           .text
             span.picture-size 图片大小：
@@ -78,7 +78,7 @@ layout
         .png-to-webp
           .picture
             span
-              img(src="../others/assets/loading.gif" id="img-png-to-webp")
+              img(src="./assets/webp/loading.gif" id="img-png-to-webp")
             .tag WebP
           .text
             span.picture-size 图片大小：
@@ -89,7 +89,7 @@ layout
         .jpg
           .picture
             span
-              img(src="../others/assets/loading.gif" id="img-jpg")
+              img(src="./assets/webp/loading.gif" id="img-jpg")
             .tag JPG
           .text
             span.picture-size 图片大小：
@@ -99,7 +99,7 @@ layout
         .jpg-to-webp
           .picture
             span
-              img(src="../others/assets/loading.gif" id="img-jpg-to-webp")
+              img(src="./assets/webp/loading.gif" id="img-jpg-to-webp")
             .tag WebP
           .text
             span.picture-size 图片大小：
