@@ -34,7 +34,7 @@
     &.active .jobs
       display: block
     .jobs
-      padding: 55px 50px 30px
+      padding: 35px 40px 10px
       display: none
       +container
       .item
@@ -95,6 +95,7 @@ layout
                   ul.requirements
                     li(v-for="line in job.requirements") {{ line }}
                   a.btn(color="#15bdf9") 加入我们
+                .empty(v-if="!group.jobs || group.jobs.length === 0") 暂无岗位招聘
 </template>
 
 <script>
