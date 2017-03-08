@@ -1,15 +1,22 @@
 <style lang="sass" scoped>
 @import "../../../assets/animations"
-@each $index, $length in (One: 184, Two: 169, Three: 183, Four: 77, Five: 80, Six: 65)
-  +keyframesDraw(draw + $index, $length)
-  .p#{$index}
-    stroke-dasharray: $length
-    +animate(draw + $index, 1s, .8s)
-.circle-1,
-.circle-2,
-.circle-3,
+$paths: ((184 .3s .8s), (169 .4s 1.1s), (184 .4s 1.5s), (78 .2s 1.1s), (80 .2s 1.5s), (65 .5s 1.9s))
+@for $i from 1 through length($paths)
+  +keyframesDraw(draw + $i, nth(nth($paths, $i), 1))
+  .p#{$i}
+    stroke-dasharray: nth(nth($paths, $i), 1)
+    +animate(draw + $i, nth(nth($paths, $i), 2), nth(nth($paths, $i), 3))
+.circle-1
+  +animate(zoomIn, 1s, .8s)
+  transform-origin: center
+.circle-2
+  +animate(zoomIn, 1s, 1.1s)
+  transform-origin: center
+.circle-3
+  +animate(zoomIn, 1.3s)
+  transform-origin: center
 .circle-4
-  +animate(zoomIn, 1.8s)
+  +animate(zoomIn, 1s, 1.9s)
   transform-origin: center
 </style>
 
@@ -35,12 +42,12 @@ svg(width='413', height='394', viewbox='0 0 413 394', xmlns='http://www.w3.org/2
       stop(stop-color='#FFF', stop-opacity='.5', offset='0%')
       stop(stop-color='#FFF', offset='62.98%')
   g(fill='none', fill-rule='evenodd')
-    path.pOne(d='M94.9 278.4L181.4 116.7', stroke='url(#a)', stroke-width='3', fill-rule='nonzero', transform='translate(1)')
-    path.pTwo(d='M121.2 321.9h168.5', stroke='url(#b)', stroke-width='3', fill-rule='nonzero', transform='translate(1)')
-    path.pThree(d='M316.2 278.3L229.65 116',stroke='url(#c)', stroke-width='3', fill-rule='nonzero', transform='translate(1)')
-    path.pSix(d='M205.5 122v64.9', stroke='url(#d)', stroke-width='3', fill-rule='nonzero', transform='translate(1)')
-    path.pFour(d='M111.6 293.2L174.25 248.1', stroke='url(#e)', stroke-width='3', fill-rule='nonzero', transform='translate(1)')
-    path.pFive(d='M236.85 243.5L299.5 293.2', stroke='url(#f)', stroke-width='3', fill-rule='nonzero', transform='translate(1)')
+    path.p1(d='M181.4 116.7L94.9 278.4', stroke='url(#a)', stroke-width='3', transform='translate(1)')
+    path.p2(d='M121.2 321.9h168.5', stroke='url(#b)', stroke-width='3', transform='translate(1)')
+    path.p3(d='M316.2 278.3L229.65 116',stroke='url(#c)', stroke-width='3', transform='translate(1)')
+    path.p6(d='M205.5 122v64.9', stroke='url(#d)', stroke-width='3', transform='translate(1)')
+    path.p4(d='M111.6 293.2L174.25 248.1', stroke='url(#e)', stroke-width='3', transform='translate(1)')
+    path.p5(d='M299.5 293.2L236.85 243.5', stroke='url(#f)', stroke-width='3', transform='translate(1)')
     g(transform='translate(1 253)')
       g.circle-1
         path(d='M116.2 47.9c-1.6-3.4-3.6-6.6-6-9.6-3.9-4.9-8.7-9.1-14.4-12.4-.4-.2-.8-.5-1.2-.7-3.3-1.8-6.8-3.2-10.3-4.2-22.7-6.7-47.7 3.1-59.5 24.7-13.6 24.9-4.5 56.2 20.5 69.8 24.9 13.6 56.2 4.5 69.8-20.5 1.8-3.2 3.1-6.5 4.1-9.9 1.3-4.4 2-8.9 2.1-13.4.3-8.2-1.5-16.4-5.1-23.8z', fill='#FFF', fill-rule='nonzero', opacity='.45')
