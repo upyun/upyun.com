@@ -77,7 +77,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '移动 APP 解决方案' }
+    title: {
+      inner: '又拍云移动APP解决方案 - 全面提升APP访问速度,全网劫持防护'
+    },
+    meta: [
+      { name: 'keywords', content: '移动APP,移动APP开发,移动APP安全,移动APP访问', id: 'kw' },
+      { name: 'description', content: '又拍云提供专业的移动APP解决方案，助力开发者轻松应对用户增长及安全问题，有效防止域名劫持。', id: 'desc' }
+    ]
   },
   components: { layout, more, icon }
 }

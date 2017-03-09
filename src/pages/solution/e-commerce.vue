@@ -77,7 +77,11 @@ export default {
     }
   },
   head: {
-    title: { inner: '电商 & O2O 解决方案' }
+    title: { inner: '电商 & O2O 解决方案' },
+    meta: [
+      { name: 'keywords', content: '电商,电子商务,电商云,电商托管,云服务', id: 'kw' },
+      { name: 'description', content: '又拍云电商解决方案，从商品图片快速上传分发，到多种安全保护机制，防止图片等被盗链，有效抵御电商行业恶意攻击，轻松应对爆发式流量增长。', id: 'desc' }
+    ]
   },
   components: { layout, more, icon }
 }

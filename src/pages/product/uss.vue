@@ -77,7 +77,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '云存储' }
+    title: {
+      inner: '云存储 - 安全可靠对象存储,大规模数据存储'
+    },
+    meta: [
+      { name: 'keywords', content: '云存储,图片存储,视频存储,存储安全,对象存储,文件存储', id: 'kw' },
+      { name: 'description', content: '又拍云基于大规模高效云存储集群和分布式文件系统为用户提供图片存储，音视频存储等静态文件云存储服务，多种文件上传方式，安全可靠。', id: 'desc' }
+    ]
   },
   components: { layout, section_help, section_pricing }
 }
