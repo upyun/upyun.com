@@ -1,6 +1,6 @@
 <style lang="sass" src="./product.sass" scoped></style>
 <style lang="sass" scoped>
-  @import "../../assets/susy"
+  @import "../../assets/susy";
   .section-cdn-map
     background: #fcfcfc
     padding: 54px 0 38px
@@ -199,7 +199,13 @@ export default {
     }
   },
   head: {
-    title: { inner: 'CDN' }
+    title: {
+      inner: '云分发 - 快速稳定内容分发网络CDN'
+    },
+    meta: [
+      { name: 'keywords', content: 'CDN,内容分发网络,云分发,网站加速', id: 'kw' },
+      { name: 'description', content: '又拍云云分发服务， 基于大规模CDN分发集群，让你的网站和APP，音视频，图片等内容随时随地瞬间加载完成，提供实时的CDN性能监测与数据分析功能。', id: 'desc' }
+    ]
   },
   components: { layout, section_help, section_pricing, icon }
 }

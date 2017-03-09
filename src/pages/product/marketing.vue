@@ -1,7 +1,7 @@
 <style lang="sass" src="./product.sass" scoped></style>
 <style lang="sass" scoped>
-  @import "../../assets/susy"
-  @import "../../assets/animations"
+  @import "../../assets/susy";
+  @import "../../assets/animations";
   .section-hero
     &.animated
       .left
@@ -299,7 +299,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '流量营销' }
+    title: {
+      inner: '流量营销 - 三网流量营销工具'
+    },
+    meta: [
+      { name: 'keywords', content: '流量营销,营销活动,流量分发,手机流量,移动端营销', id: 'kw' },
+      { name: 'description', content: '又拍云流量营销，整合三网流量资源提供用于营销活动的流量包分发服务，适用于APP下载、微信号增粉、奖品礼券、线下推广等活动场景。', id: 'desc' }
+    ]
   },
   mounted () {
     window.addEventListener('scroll', this.optAnimated)

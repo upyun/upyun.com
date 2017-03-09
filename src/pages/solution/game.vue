@@ -73,7 +73,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '游戏行业解决方案' }
+    title: {
+      inner: '又拍云游戏解决方案 - 游戏安全防护,游戏网络加速'
+    },
+    meta: [
+      { name: 'keywords', content: '游戏云,游戏托管,手游,游戏解决方案', id: 'kw' },
+      { name: 'description', content: '又拍云基于全球CDN节点资源覆盖，智能适配多种游戏网络环境，全网HTTPS加密，完善的网络防护机制，保障游戏安全及流畅运行。', id: 'desc' }
+    ]
   },
   components: { layout, more, icon }
 }

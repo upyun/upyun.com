@@ -72,7 +72,11 @@ export default {
     }
   },
   head: {
-    title: { inner: '融合云存储解决方案' }
+    title: { inner: '融合云存储解决方案' },
+    meta: [
+      { name: 'keywords', content: '', id: 'kw' },
+      { name: 'description', content: '', id: 'desc' }
+    ]
   },
   components: { layout, more, icon }
 }
