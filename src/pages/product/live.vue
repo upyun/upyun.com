@@ -1,6 +1,6 @@
 <style lang="sass" src="./product.sass" scoped></style>
 <style lang="sass" scoped>
-  @import "../../assets/susy";
+  @import "../../assets/susy"
   .section-fetures
     .main-description
       width: 618px

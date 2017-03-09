@@ -1,6 +1,6 @@
 <style lang="sass" src="./product.sass" scoped></style>
 <style lang="sass" scoped>
-  @import "../../assets/susy";
+  @import "../../assets/susy"
   .section-cdn-map
     background: #fcfcfc
     padding: 54px 0 38px
