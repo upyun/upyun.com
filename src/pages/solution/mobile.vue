@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 移动 APP 解决方案
       .description 移动应用的多样化，随之而来的是不断凸显的网络带宽和服务器性能问题。特别地，随着动态应用的不断涌现(如打车服务、实时地图等)，数据需要实时更新变化，这对带宽及源服务器数据查询的访问迟延要求更高。
       .buttons
-        up_button(:color="colorSet.end", type="major") 联系我们
+        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
     .icon
       icon
   template(slot="page")
@@ -77,7 +77,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '移动 APP 解决方案' }
+    title: {
+      inner: '又拍云移动APP解决方案 - 全面提升APP访问速度,全网劫持防护'
+    },
+    meta: [
+      { name: 'keywords', content: '移动APP,移动APP开发,移动APP安全,移动APP访问', id: 'kw' },
+      { name: 'description', content: '又拍云提供专业的移动APP解决方案，助力开发者轻松应对用户增长及安全问题，有效防止域名劫持。', id: 'desc' }
+    ]
   },
   components: { layout, more, icon }
 }

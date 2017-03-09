@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 在线教育解决方案
       .description 学习不只在课堂。 一方面网络让传播的渠道增多、让分享的成本下降, 另一方面人们的时间也在碎片化, 一杯咖啡、一趟地铁、一小段路的时间就能听别人为你翻一本书、讲一个故事、认识一个新世界。
       .buttons
-        up_button(:color="colorSet.end", type="major") 联系我们
+        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
     .icon
       icon
   template(slot="page")
@@ -77,7 +77,11 @@ export default {
     }
   },
   head: {
-    title: { inner: '在线教育解决方案' }
+    title: { inner: '在线教育解决方案' },
+    meta: [
+      { name: 'keywords', content: '', id: 'kw' },
+      { name: 'description', content: '', id: 'desc' }
+    ]
   },
   components: { layout, more, icon }
 }

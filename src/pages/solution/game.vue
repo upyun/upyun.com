@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 游戏行业解决方案
       .description 娱乐从未如此简单, 各种各样的设备以及几乎无处不在的网络覆盖, 再加上动作捕捉与虚拟现实, 让天南地北的人都有如共处一室, 游戏随时随地，沟通将变得触手可及。
       .buttons
-        up_button(:color="colorSet.end", type="major") 联系我们
+        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
     .icon
       icon
   template(slot="page")
@@ -73,7 +73,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '游戏行业解决方案' }
+    title: {
+      inner: '又拍云游戏解决方案 - 游戏安全防护,游戏网络加速'
+    },
+    meta: [
+      { name: 'keywords', content: '游戏云,游戏托管,手游,游戏解决方案', id: 'kw' },
+      { name: 'description', content: '又拍云基于全球CDN节点资源覆盖，智能适配多种游戏网络环境，全网HTTPS加密，完善的网络防护机制，保障游戏安全及流畅运行。', id: 'desc' }
+    ]
   },
   components: { layout, more, icon }
 }

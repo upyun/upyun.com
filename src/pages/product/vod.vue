@@ -7,8 +7,8 @@ layout(:colors="colorSet")
       .title 点播
       .description 又拍云点播（UPYUN Video on Demand）集音视频上传、分发加速、转码、剪辑、切片处理于一体的一站式音视频点播解决方案。借助强大处理能力、海量存储及稳定快速的内容分发网络，为用户提供专业可靠的点播平台和应用解决方案。
       .buttons
-        up_button(:color="colorSet.end", type="major") 免费试用
-        up_button 查看价格
+        up_button(:color="colorSet.end", type="major", :url="$links.console", target="_blank") 免费试用
+        up_button(url="#section-pricing") 查看价格
     .icon
       img(src="./assets/vod_large.svg")
   template(slot="page")
@@ -87,7 +87,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '点播云' }
+    title: {
+      inner: '点播云 - 一站式视频点播加速'
+    },
+    meta: [
+      { name: 'keywords', content: '点播云,视频点播,点播加速', id: 'kw' },
+      { name: 'description', content: '基于又拍云大规模视频内容分发网络和专业的视频云端转解码技术，为视频点播业务提供稳定快速，低延时，能承载高并发的一站式视频加速服务。', id: 'desc' }
+    ]
   },
   components: { layout, section_help, section_pricing }
 }

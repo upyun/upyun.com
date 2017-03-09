@@ -1,7 +1,7 @@
 <style lang="sass" src="./product.sass" scoped></style>
 <style lang="sass" scoped>
-  @import "../../assets/susy"
-  @import "../../assets/animations"
+  @import "../../assets/susy";
+  @import "../../assets/animations";
   .section-hero
     &.animated
       .left
@@ -167,7 +167,7 @@ layout(:colors="colorSet")
       .title 流量营销
       .description 又拍云手机流量营销服务，整合移动、电信、联通三大运营商流量资源，帮助用户开展品牌宣传、APP/游戏/微信公众号/网站的拉新与促活等多种营销活动。实现营销流量的简单快速接入，活动的低成本快速开展，提供高效管理后台，帮您轻松倍增营销成效。
       .buttons
-        up_button(:color="colorSet.mid", type="major") 联系我们
+        up_button(:color="colorSet.mid", type="major", url="/contact") 联系我们
         up_button API 文档
       .price 0.0043 元/GB/天，新注册用户免费试用 7 天
     .icon
@@ -299,7 +299,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '流量营销' }
+    title: {
+      inner: '流量营销 - 三网流量营销工具'
+    },
+    meta: [
+      { name: 'keywords', content: '流量营销,营销活动,流量分发,手机流量,移动端营销', id: 'kw' },
+      { name: 'description', content: '又拍云流量营销，整合三网流量资源提供用于营销活动的流量包分发服务，适用于APP下载、微信号增粉、奖品礼券、线下推广等活动场景。', id: 'desc' }
+    ]
   },
   mounted () {
     window.addEventListener('scroll', this.optAnimated)

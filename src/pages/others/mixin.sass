@@ -2,105 +2,105 @@
    ========================================================================== */
 
 @mixin antialiased
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
 
 @mixin text-size-adjust($percent: 100%)
-  -webkit-text-size-adjust: $percent;
-  -ms-text-size-adjust: $percent;
+  -webkit-text-size-adjust: $percent
+  -ms-text-size-adjust: $percent
 
 @mixin transition($transition...)
-  -webkit-transition: $transition;
-  -moz-transition: $transition;
-  -o-transition: $transition;
-  transition: $transition;
+  -webkit-transition: $transition
+  -moz-transition: $transition
+  -o-transition: $transition
+  transition: $transition
 
 @mixin transition-timing($timing-function)
-  -webkit-transition-timing-function: $timing-function;
-  -moz-transition-timing-function: $timing-function;
-  -o-transition-timing-function: $timing-function;
-  transition-timing-function: $timing-function;
+  -webkit-transition-timing-function: $timing-function
+  -moz-transition-timing-function: $timing-function
+  -o-transition-timing-function: $timing-function
+  transition-timing-function: $timing-function
 
 @mixin appearance($appearance)
-  -webkit-appearance: $appearance;
-  -moz-appearance: $appearance;
-  appearance: $appearance;
+  -webkit-appearance: $appearance
+  -moz-appearance: $appearance
+  appearance: $appearance
 
 @mixin linear-gradient($gradient...)
-  background: -webkit-linear-gradient($gradient);
-  background: -moz-linear-gradient($gradient);
-  background: -ms-linear-gradient($gradient);
-  background: -o-linear-gradient($gradient);
-  background: linear-gradient($gradient);
+  background: -webkit-linear-gradient($gradient)
+  background: -moz-linear-gradient($gradient)
+  background: -ms-linear-gradient($gradient)
+  background: -o-linear-gradient($gradient)
+  background: linear-gradient($gradient)
 
 @mixin flexbox()
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
 
 @mixin flex($values)
-  -webkit-box-flex: $values;
-  -moz-box-flex: $values;
-  -webkit-flex: $values;
-  -ms-flex: $values;
-  flex: $values;
+  -webkit-box-flex: $values
+  -moz-box-flex: $values
+  -webkit-flex: $values
+  -ms-flex: $values
+  flex: $values
 
 @mixin flex-direction($direction)
-  -webkit-flex-direction: $direction;
-  -moz-flex-direction: $direction;
-  -ms-flex-direction: $direction;
-  flex-direction: $direction;
+  -webkit-flex-direction: $direction
+  -moz-flex-direction: $direction
+  -ms-flex-direction: $direction
+  flex-direction: $direction
 
 @mixin flex-justify($justify)
-  -webkit-justify-content: $justify;
-  -moz-justify-content: $justify;
-  -ms-justify-content: $justify;
-  justify-content: $justify;
+  -webkit-justify-content: $justify
+  -moz-justify-content: $justify
+  -ms-justify-content: $justify
+  justify-content: $justify
 
 @mixin flex-align-items($alignStyle)
-  -webkit-align-items: $alignStyle;
-  -moz-align-items: $alignStyle;
-  -ms-align-items: $alignStyle;
-  align-items: $alignStyle;
+  -webkit-align-items: $alignStyle
+  -moz-align-items: $alignStyle
+  -ms-align-items: $alignStyle
+  align-items: $alignStyle
 
 @mixin flex-shrink($value)
-  -webkit-flex-shrink: $value;
-  -moz-flex-shrink: $value;
-  -ms-flex-shrink: $value;
-  flex-shrink: $value;
+  -webkit-flex-shrink: $value
+  -moz-flex-shrink: $value
+  -ms-flex-shrink: $value
+  flex-shrink: $value
 
 @mixin flex-wrap($value)
-  -webkit-flex-wrap: $value;
-  -moz-flex-wrap: $value;
-  -ms-flex-wrap: $value;
-  flex-wrap: $value;
+  -webkit-flex-wrap: $value
+  -moz-flex-wrap: $value
+  -ms-flex-wrap: $value
+  flex-wrap: $value
 
 @mixin bodyFont
-  font-family: "Microsoft YaHei", "helvetica neue", arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
+  font-family: "Microsoft YaHei", "helvetica neue", arial, sans-serif
+  font-weight: 400
+  font-style: normal
+  font-size: 14px
 
 @mixin box-shadow($shadow...)
-  -webkit-box-shadow: $shadow;
-  -moz-box-shadow: $shadow;
-  -o-box-shadow: $shadow;
-  box-shadow: $shadow;
+  -webkit-box-shadow: $shadow
+  -moz-box-shadow: $shadow
+  -o-box-shadow: $shadow
+  box-shadow: $shadow
 
 @mixin border-radius($radius)
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  border-radius: $radius;
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  border-radius: $radius
 
 @mixin transform($value)
-  -webkit-transform: $value;
-  -moz-transform: $value;
-  -ms-transform: $value;
-  -o-transform: $value;
-  transform: $value;
+  -webkit-transform: $value
+  -moz-transform: $value
+  -ms-transform: $value
+  -o-transform: $value
+  transform: $value
 
 @mixin client-logo($number)
   &:nth-child(#{$number}) .logo
-    background-position: 0px (-$number * 26px + 26px);
+    background-position: 0px (-$number * 26px + 26px)

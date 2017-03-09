@@ -1,7 +1,7 @@
 <style lang="sass" src="./section_pricing.sass"></style>
 
 <template lang="pug">
-.pricing-module
+.pricing-module#section-pricing
   .container
     .main-title 产品价格
     .sub-title 支持按需计费，每日进行结算
@@ -122,7 +122,7 @@
                 td 下行流量
                 td 0.43 元/GB
       .bottom
-        a.more 查看更多价格说明
+        router-link.more(to="/price_instruction") 查看更多价格说明
         router-link.to-pricing(to="/pricing") 费用计算器
 </template>
 

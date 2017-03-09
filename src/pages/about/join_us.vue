@@ -34,21 +34,23 @@
     &.active .jobs
       display: block
     .jobs
-      padding: 55px 50px 30px
+      padding: 35px 40px 10px
       display: none
       +container
       .item
         +gallery(6)
-        margin-bottom: 25px
+        margin-bottom: 55px
         .name
           font-size: 20px
           font-weight: 400
-          margin-bottom: 24px
+          margin-bottom: 16px
         .label
           font-size: 18px
           font-weight: 400
         ul
           padding-left: 20px
+        .location
+          margin: 16px 0
         .btn
           display: block
           margin-top: 20px
@@ -84,13 +86,21 @@ layout
               .jobs
                 .item(v-for="job in group.jobs")
                   .name {{ job.name }}
-                  .label 工作内容
+                  .label 工作地点
+                  .location {{ job.location }}
+                  .label 岗位职责
                   ul.description
                     li(v-for="line in job.description") {{ line }}
-                  .label 职位要求
+                  .label 岗位要求
                   ul.requirements
                     li(v-for="line in job.requirements") {{ line }}
-                  a.btn(color="#15bdf9") 加入我们
+                    ul(v-if="job.more_requirements")
+                      li(v-for="sub in job.more_requirements") {{ sub }}
+                  .label(v-if="job.priority") 优先条件
+                  ul.priority(v-if="job.priority")
+                    li(v-for="line in job.priority") {{ line }}
+                  a.btn(href="mailto:zhaopin@upai.com" color="#15bdf9") 加入我们
+                .empty(v-if="!group.jobs || group.jobs.length === 0") 暂无岗位招聘
 </template>
 
 <script>

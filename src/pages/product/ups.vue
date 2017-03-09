@@ -7,8 +7,8 @@ layout(:colors="colorSet")
       .title 云处理 UPS
       .description 又拍云处理（ UPYUN Process Service，简称 UPS），基于云储存和 CDN，针对多媒体数据（图片、音视频）提供图片缩放、图片水印、图片格式转换、音视频转码、视频水印、视频切片等多样灵活的多终端、多规格内容输出加工服务。
       .buttons
-        up_button(:color="colorSet.end", type="major") 免费试用
-        up_button 查看价格
+        up_button(:color="colorSet.end", type="major", :url="$links.console", target="_blank") 免费试用
+        up_button(url="#section-pricing") 查看价格
       .price 图片处理完全免费，新注册用户音视频处理免费试用 7 天。
     .icon.ups
       img(src="./assets/ups_large.svg")
@@ -99,7 +99,13 @@ export default {
     }
   },
   head: {
-    title: { inner: '云处理' }
+    title: {
+      inner: '云处理 - 实时高效图片处理,音视频处理'
+    },
+    meta: [
+      { name: 'keywords', content: '云处理,音视频处理,图片处理,音视频转解码', id: 'kw' },
+      { name: 'description', content: '又拍云依托超大规模处理集群，提供多种图片处理、异步音视频处理及实时音频处理功能，有效帮助用户减少开发成本。', id: 'desc' }
+    ]
   },
   components: { layout, section_help, section_pricing }
 }

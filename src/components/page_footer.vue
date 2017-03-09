@@ -21,10 +21,10 @@
       .menu
         .title 活动
         a 创业扶持
-        a 春雨计划
-        a 又拍云联盟
+        router-link(to="/chunyu") 春雨计划
+        router-link(to="/league") 又拍云联盟
         a 线下活动
-        a OpenTalk
+        a(href="https://opentalk.upyun.com/show/index" target="_blank") OpenTalk
       .menu
         .title 关于
         router-link(to="/about_us") 公司简介
@@ -38,17 +38,19 @@
         .title 售前
         a.normal QQ: 200576786
         a.normal Tel：0571-81020203
-        a.normal Email：sales@upyun.com
+        span Email：
+          a.inline(href="mailto:sales@upyun.com") sales@upyun.com
       .menu
         .title 售后
-        a 点击在线咨询
+        a(href="http://support.upyun.com/kchat/18915?group=22540&from=mainsite" target="_blank") 点击在线咨询
         a.normal Tel：0571-81020204
-        a.normal Email：support@upyun.com
+        span Email：
+          a.inline(href="mailto:support@upyun.com") support@upyun.com
     .links
       a.wechat
-      a.weibo
-      a.github
-      a.sf
+      a.weibo(href="http://weibo.com/upaiyun" target="_blank")
+      a.github(href="https://github.com/upyun" target="_blank")
+      a.sf(href="http://segmentfault.com/t/又拍云存储" target="_blank")
   .line
   .bottom.container
     .left
