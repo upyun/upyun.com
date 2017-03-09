@@ -80,8 +80,8 @@ layout(:colors="colorSet")
       .title 云分发 CDN
       .description 又拍云内容分发网络（ UPYUN Content Delivery Network），即又拍云 CDN，通过对用户源站内容进行加速分发，从而提升网站访问速度，适用于网站中的动静态资源。除此之外，又拍云 CDN 可完美结合云存储及云处理提供一站式全网加速解决方案。
       .buttons
-        up_button(:color="colorSet.end", type="major") 免费试用
-        up_button 查看价格
+        up_button(:color="colorSet.end", type="major", :url="$links.console", target="_blank") 免费试用
+        up_button(url="#section-pricing") 查看价格
       .price 加入又拍云联盟，一年内每月可免费使用 10GB 存储空间及 15GB 流量。
         br
         | 加入春雨计划，提供免费一年云服务。

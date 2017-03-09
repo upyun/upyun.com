@@ -54,7 +54,7 @@
         a 概念性 FAQ
         a 技术性 FAQ
     .try
-      up_button(:color="color") 免费试用
+      up_button(:color="color", :url="$links.console", target="_blank") 免费试用
 </template>
 
 <script>

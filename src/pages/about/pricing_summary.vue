@@ -84,7 +84,7 @@
         | 合计：￥
         span {{ totalPrice }}
         | / 月
-      a.more ⌽ 查看又拍云计费说明
+      router-link.more(to="/price_instruction") ⌽ 查看又拍云计费说明
 </template>
 
 <script>

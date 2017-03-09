@@ -17,7 +17,7 @@ layout(:colors="colorSet")
       .title 融合云存储解决方案
       .description 很多用户在平台选型时，往往会将数据存储在多家存储厂商以保证服务可用性，然而仅靠用户单方面调整技术架构，依然很难满足此类需求。基于此，又拍云推出了融合云存储解决方案。
       .buttons
-        up_button(:color="colorSet.mid", type="major") 联系我们
+        up_button(:color="colorSet.mid", type="major", url="/contact") 联系我们
     .icon
       icon
   template(slot="page")

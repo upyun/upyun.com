@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 电商 & O2O 解决方案
       .description 电子商务开启了“运筹于指掌之中”的时代，网络购物已深入大众，成为生活的一部分。在保证终端消费者能随时随地方便购物的同时，也给各大电子商务网站的安全性、可靠性、流畅性提出了更高的要求。
       .buttons
-        up_button(:color="colorSet.end", type="major") 联系我们
+        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
     .icon
       icon
   template(slot="page")

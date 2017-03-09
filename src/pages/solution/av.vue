@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 音视频解决方案
       .description 随着网络基建的飞速发展，移动终端的全面普及，使得音视频内容消费爆发式的增长，大众对于随时随地即时播放高品质音视频的需求日益强烈。直播的火爆更加速了视频行业的发展，人们可以不再只关注别人的光环, 而能有更多的机会让别人也喜欢上自己。
       .buttons
-        up_button(:color="colorSet.end", type="major") 联系我们
+        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
     .icon
       icon
   template(slot="page")
