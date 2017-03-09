@@ -54,8 +54,8 @@ layout(:colors="colorSet")
       .title 直播 UPLive
       .description 又拍云直播（UPLive）是基于又拍云内容分发网络为直播应用提供超低延迟、高码率、高并发的整套从推流端到播放端的一站式解决方案。包括实时转码，实时录制，分发加速，水印，截图，秒级禁播，延时直播等功能。
       .buttons
-        up_button(:color="colorSet.end", type="major") 免费试用
-        up_button 查看价格
+        up_button(:color="colorSet.end", type="major", :url="$links.console", target="_blank") 免费试用
+        up_button(url="#section-pricing") 查看价格
     .icon
       icon
   template(slot="page")

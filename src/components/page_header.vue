@@ -79,17 +79,20 @@
           .row
             .title 开发者社区
             a.link 技术问答
-            a.link BLOG
+            a.link(href="https://blog.upyun.com/" target="_blank") BLOG
         .list(v-show="menuCondition.contentNumber === 3")
           .row
             a.link 创业扶持
-            a.link 春雨计划
-            a.link 又拍云联盟
+            router-link.link(to="/chunyu") 春雨计划
+            router-link.link(to="/league") 又拍云联盟
           .row
             a.link 线下活动
-            a.link OpenTalk
-          .row
+            a.link(href="http://opentalk.upyun.com/show/index" target="_blank") OpenTalk
             a.link 媒体报道
+          .row
+            //- a.link 媒体报道
+            router-link.link(to="/https") HTTPS 加密
+            router-link.link(to="/webp") WebP 体验
 </template>
 
 <script>
