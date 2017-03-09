@@ -88,13 +88,18 @@ layout
                   .name {{ job.name }}
                   .label 工作地点
                   .location {{ job.location }}
-                  .label 工作内容
+                  .label 岗位职责
                   ul.description
                     li(v-for="line in job.description") {{ line }}
-                  .label 职位要求
+                  .label 岗位要求
                   ul.requirements
                     li(v-for="line in job.requirements") {{ line }}
-                  a.btn(color="#15bdf9") 加入我们
+                    ul(v-if="job.more_requirements")
+                      li(v-for="sub in job.more_requirements") {{ sub }}
+                  .label(v-if="job.priority") 优先条件
+                  ul.priority(v-if="job.priority")
+                    li(v-for="line in job.priority") {{ line }}
+                  a.btn(href="mailto:zhaopin@upai.com" color="#15bdf9") 加入我们
                 .empty(v-if="!group.jobs || group.jobs.length === 0") 暂无岗位招聘
 </template>
 
