@@ -2,7 +2,6 @@
 @import "../../../assets/animations"
 +keyframesDraw(draw, 983)
 .path
-  stroke-dasharray: 983
   +animate(draw, 2s, .8s)
 .cross
   +animate(fadeIn, 1.2s, 1s)

@@ -11,7 +11,6 @@ $paths: ((184 .5s 1.7s), (169 .5s 1.7s), (184 .5s 1.7s), (78 .3s 1.1s), (80 .3s 
 .circle-3,
 .circle-4
   +animate(zoomIn, 1.8s)
-  transform-origin: center
 </style>
 
 <template lang="pug">

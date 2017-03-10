@@ -4,7 +4,6 @@
   +animate(fadeIn, .9s, .6s)
 .hat
   +animate(zoomIn, .9s, 1s)
-  transform-origin: center
 .line-1
   +animate(fadeInLeft, 2s, .8s)
 .line-2

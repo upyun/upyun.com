@@ -2,7 +2,6 @@
 @import "../../../assets/animations"
 .cam
   +animate(zoomIn, 1.5s, 1.4s)
-  transform-origin: center
 .wave-1
   +animate(fadeInLeftSmall, .3s, 2s)
 .wave-2
@@ -15,13 +14,10 @@
   +animate(fadeInLeftSmall, .3s, 2.8s)
 .o-1
   +animate(zoomIn, 1.5s, 1s)
-  transform-origin: center
 .o-2
   +animate(zoomIn, 1.5s, 1.2s)
-  transform-origin: center
 .o-3
   +animate(zoomIn, 1.5s, 1.4s)
-  transform-origin: center
 </style>
 
 <template>

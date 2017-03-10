@@ -2,7 +2,6 @@
 @import "../../../assets/animations"
 .circle
   +animate(zoomIn, 1.8s)
-  transform-origin: center
 .loading > g
   &:nth-child(1)
     +animate(fadeIn, 1.5s)

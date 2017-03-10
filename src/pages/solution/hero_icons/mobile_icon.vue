@@ -6,7 +6,6 @@
   +animate(fadeInLeft, 1s, 1.3s)
 .md .wave
   +animate(zoomIn, 1.2s, .8s)
-  transform-origin: center
 .md .mark
   +animate(zoomIn, 1.2s, .4s)
   transform-origin: bottom
