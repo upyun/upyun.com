@@ -49,9 +49,8 @@
     .links
       a.wechat
         .qrCode
-          img(src="../assets/footer-QRcode.png")
-          span.text 微信扫一扫！
-        .triangle-down
+          img(src="../assets/footer-QRcode.png", width="92")
+          .triangle-down
       a.weibo(href="http://weibo.com/upaiyun" target="_blank")
       a.github(href="https://github.com/upyun" target="_blank")
       a.sf(href="http://segmentfault.com/t/又拍云存储" target="_blank")
