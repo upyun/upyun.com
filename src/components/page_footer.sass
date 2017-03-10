@@ -1,4 +1,6 @@
 @import "../assets/susy"
+@import "../assets/animations"
+
 #page_footer
   background: #2c2c2c
   color: white
@@ -52,6 +54,38 @@
         background: url(../assets/footer-wechat.svg) center no-repeat
         &:hover
           background-image: url(../assets/footer-wechat-h.svg)
+        &.wechat
+          position: relative;
+          .qrCode
+            display: none;
+            position: absolute
+            width: 92px
+            height: 110px
+            top: -118px
+            left: -28px
+            padding-top: 5px
+            text-align: center
+            background-color: #f2f2f2
+            .text
+              position: relative
+              left: 7px
+              top: -5px
+              font-size: 14px
+              color: #2c2c2c
+          .triangle-down
+            display: none;
+            position: absolute;
+            top: -8px;
+            left: 12px;
+            width: 0;
+            height: 0;
+            border-top: 10px solid #f2f2f2;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+          &:hover
+            .qrCode, .triangle-down
+              display: block;
+              +animate(fadeIn, .5s)
         &.weibo
           background-image: url(../assets/footer-weibo.svg)
           &:hover
