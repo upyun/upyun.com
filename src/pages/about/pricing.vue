@@ -2,12 +2,13 @@
 <style lang="sass" src="./pricing.sass" scoped></style>
 
 <template lang="pug">
-layout
-  div(slot="hero")
-    .cover
-      .container: .content
-        .title 价格计算器
-        .sub-title 您可根据自身需求，选择最适合的产品组合，使用价格计算器估算成本
+layout(:colors="colorSet", heroHeight="430")
+  .container.hero-inner(slot="hero")
+    .info
+      .title 价格计算器
+      .description 您可根据自身需求，选择最适合的产品组合，使用价格计算器估算成本
+    .icon
+      icon
   div(slot="page")
     .price-page
       .container
@@ -19,16 +20,19 @@ layout
 </template>
 
 <script>
-import layout from './layout'
+import layout from '../../components/layout'
 import subproduct from './pricing_subproduct'
 import smy from './pricing_summary'
 import products from 'json!yaml!./pricing_products.yml'
+import colors from '../../services/colors'
+import icon from './pricing_icon'
 
 export default {
   data () {
     return {
       qty: 0,
-      products
+      products,
+      colorSet: colors.collection.blue
     }
   },
   head: {
@@ -45,6 +49,6 @@ export default {
       this.products[1].subproducts[0].items[0].qty = qty
     })
   },
-  components: { layout, subproduct, smy }
+  components: { layout, subproduct, smy, icon }
 }
 </script>

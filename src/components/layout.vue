@@ -1,7 +1,7 @@
 <style lang="sass" src="./layout.sass" scoped></style>
 <template lang="pug">
 .layout
-  .hero(:style="{ 'background-image': 'linear-gradient(312deg, ' + oldColors.start + ' 0%, ' + oldColors.end + ' 100%)' }")
+  .hero(:style="{ 'background-image': 'linear-gradient(312deg, ' + oldColors.start + ' 0%, ' + oldColors.end + ' 100%)', height: `${heroHeight}px` }")
     .cover(:style="{ 'background-image': 'linear-gradient(312deg, ' + newColors.start + ' 0%, ' + newColors.end + ' 100%)', 'opacity': coverOpacity }")
     page_header
     slot(name="hero")
@@ -21,7 +21,12 @@ export default {
       coverOpacity: 0
     }
   },
-  props: ['colors'],
+  props: {
+    colors: {},
+    heroHeight: {
+      default: 620
+    }
+  },
   methods: {
     switch (from, to) {
       this.oldColors = from

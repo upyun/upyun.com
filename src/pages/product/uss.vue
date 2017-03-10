@@ -11,7 +11,7 @@ layout(:colors="colorSet")
         up_button(url="#section-pricing") 查看价格
       .price 0.0043 元/GB/天，新注册用户免费试用 7 天
     .icon
-      img(src="./assets/uss_large.svg")
+      icon
   template(slot="page")
     .section-fetures
       .container
@@ -69,6 +69,7 @@ import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
 import section_pricing from './section_pricing'
+import icon from './hero_icons/uss_icon'
 
 export default {
   data () {
@@ -85,6 +86,6 @@ export default {
       { name: 'description', content: '又拍云基于大规模高效云存储集群和分布式文件系统为用户提供图片存储，音视频存储等静态文件云存储服务，多种文件上传方式，安全可靠。', id: 'desc' }
     ]
   },
-  components: { layout, section_help, section_pricing }
+  components: { layout, section_help, section_pricing, icon }
 }
 </script>

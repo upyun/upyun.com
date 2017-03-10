@@ -1,24 +1,18 @@
-=gradient-animation()
-  position: relative
-  .cover
-    content: ''
-    display: block
-    height: 100%
-    position: absolute
-    top: 0
-    left: 0
-    opacity: 1
-    width: 100%
-    transition: opacity 1s
-    // -webkit-animation: hue 60s infinite linear
-    // animation: hue 60s infinite linear
 .layout
   .hero
     height: 620px
     position: relative
     color: white
     overflow: hidden
-    +gradient-animation()
+    .cover
+      width: 100%
+      height: 100%
+      position: absolute
+      top: 0
+      left: 0
+      opacity: 1
+      transition: opacity 1s
+      // animation: hue 60s infinite linear
     #summit
       position: absolute
       bottom: 0
