@@ -2,21 +2,21 @@
 @import "../../assets/animations"
 +keyframesDraw(draw-line, 200)
 .o
-  +animate(zoomIn, 1s, .5s)
+  +animate(zoomIn, 1s)
 .cal
-  +animate(zoomIn, .8s, .8s)
+  +animate(zoomIn, .8s, .3s)
 .line-1
-  +animate(draw-line, 3s, 1.8s)
+  +animate(draw-line, 3s, 1.3s)
 .line-2
-  +animate(draw-line, 2s, 3s)
+  +animate(draw-line, 2s, 2.5s)
 .r-1
-  +animate(flipIn, 2s, 1.2s)
+  +animate(flipIn, 2s, .7s)
 .r-2
-  +animate(flipIn, 2s, 1s)
+  +animate(flipIn, 2s, .5s)
 .r-3
-  +animate(flipIn, 2s, 1.4s)
+  +animate(flipIn, 2s, .9s)
 .r-4
-  +animate(flipIn, 2s, 1.6s)
+  +animate(flipIn, 2s, 1.1s)
 </style>
 
 <template>

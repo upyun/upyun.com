@@ -11,7 +11,7 @@ layout(:colors="colorSet")
         up_button(url="#section-pricing") 查看价格
       .price 图片处理完全免费，新注册用户可免费试用。
     .icon.ups
-      img(src="./assets/ups_large.svg")
+      icon
   template(slot="page")
     .section-fetures
       .container
@@ -91,6 +91,7 @@ import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
 import section_pricing from './section_pricing'
+import icon from './hero_icons/ups_icon'
 
 export default {
   data () {
@@ -107,6 +108,6 @@ export default {
       { name: 'description', content: '又拍云依托超大规模处理集群，提供多种图片处理、异步音视频处理及实时音频处理功能，有效帮助用户减少开发成本。', id: 'desc' }
     ]
   },
-  components: { layout, section_help, section_pricing }
+  components: { layout, section_help, section_pricing, icon }
 }
 </script>

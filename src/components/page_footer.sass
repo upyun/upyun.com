@@ -60,30 +60,23 @@
             display: none
             position: absolute
             width: 92px
-            height: 110px
-            top: -118px
+            height: 92px
+            bottom: 42px
             left: -28px
-            padding-top: 5px
             text-align: center
-            background-color: #f2f2f2
-            .text
-              position: relative
-              left: 7px
-              top: -5px
-              font-size: 14px
-              color: #2c2c2c
-          .triangle-down
-            display: none
-            position: absolute
-            top: -8px
-            left: 12px
-            width: 0
-            height: 0
-            border-top: 10px solid #f2f2f2
-            border-left: 6px solid transparent
-            border-right: 6px solid transparent
+            background-color: white
+            .triangle-down
+              position: absolute
+              bottom: -8px
+              left: 50%
+              margin-left: -6px
+              width: 0
+              height: 0
+              border-top: 10px solid white
+              border-left: 6px solid transparent
+              border-right: 6px solid transparent
           &:hover
-            .qrCode, .triangle-down
+            .qrCode
               display: block
               +animate(fadeIn, .5s)
         &.weibo
