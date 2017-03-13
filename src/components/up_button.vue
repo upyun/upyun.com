@@ -15,8 +15,6 @@
   text-decoration: none
   &:hover
     text-decoration: none
-  &:first-child
-    margin-right: 30px
   &:active
     transform: translateY(1px)
   &.major
