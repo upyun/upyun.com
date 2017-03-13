@@ -4,7 +4,7 @@
 .pricing-module#section-pricing
   .container
     .main-title 产品价格
-    .sub-title 支持按需计费，每日进行结算
+    .sub-title 按需计费，次日结算
     .select
       .btn(@click="menuShowing = !menuShowing")
         .icon(:class="nowSelection")
@@ -24,7 +24,7 @@
           table
             thead
               tr
-                th 计费项
+                th.col-1 计费项
                 th 价格
             tbody
               tr
@@ -32,18 +32,18 @@
                 td 免费
               tr
                 td 流出流量
-                td 0.29 元/GB
+                td 国内：0.29 元/GB&nbsp;&nbsp;|&nbsp;&nbsp;亚太：0.89 元/GB&nbsp;&nbsp;|&nbsp;&nbsp;欧美：0.39 元/GB
               tr
                 td 静态请求数
                 td 免费
               tr
                 td 动态请求数
-                td 0.02 元/千次
+                td 国内：0.02 元/千次&nbsp;&nbsp;|&nbsp;&nbsp;亚太：0.06 元/千次&nbsp;&nbsp;|&nbsp;&nbsp;欧美：0.03 元/千次
           .title(:style="{ color }") HTTPS 服务价格说明
           table
             thead
               tr
-                th 计费项
+                th.col-1 计费项
                 th 价格
             tbody
               tr
@@ -51,68 +51,86 @@
                 td 免费
               tr
                 td HTTPS 请求数
-                td 0.05 元/万次
+                td 国内：0.05 元/万次&nbsp;&nbsp;|&nbsp;&nbsp;亚太：0.15 元/万次&nbsp;&nbsp;|&nbsp;&nbsp;欧美：0.07 元/万次
         template(v-if="nowSelection === 'ups' || nowSelection === 'vod'")
           .title(:style="{ color }") 云处理服务价格说明
           table
             thead
               tr
-                th 计费项
-                th 规格/方式
+                th.col-1 计费项
+                th.col-2 规格/方式
                 th 价格
             tbody
               tr
-                td(rowspan=3) 视频转码/HLS 切片/视频水印/视频剪辑
-                td 全高清（画面尺寸 ≥ 1920×1080 ，即宽*高 ≥ 2073600）
+                td(rowspan=4, style="line-height:30px;")
+                  | 视频转码<br>HLS 切片<br>视频水印<br>视频剪辑
+                td 全高清（画面尺寸 ≥ 1920×1080 ，即宽 * 高 ≥ 2073600）
                 td 0.036 元/分钟
               tr
-                td 高清（画面尺寸 ≥ 960×720，即 2073600 > 宽*高 ≥ 691200 ）
+                td 高清（画面尺寸 ≥ 960×720，即 2073600 > 宽 * 高 ≥ 691200 ）
                 td 0.017 元/分钟
               tr
-                td 标清（画面尺寸 ≥ 640×480，即 691200 > 宽*高 ≥ 307200）
+                td 标清（画面尺寸 ≥ 640×480，即 691200 > 宽 * 高 ≥ 307200）
                 td 0.0068 元/分钟
               tr
-                td 视频截图
-                td -
-                td 0.10 元/千张
-          table
-            thead
+                td 流畅（画面尺寸 < 640 × 480，即 宽 * 高 < 307200）
+                td 0.0044 元/分钟
               tr
-                th 计费项
-                th 规格/方式
-                th 价格
-            tbody
+                td 视频截图
+                td.center -
+                td 0.10 元/千张
+              tr
+                td 视频拼接
+                td.center -
+                td 0.10 元/千张
               tr
                 td(rowspan=2) 音频转码
-                td 同步
+                td.center 同步
                 td 0.0128 元/分钟
               tr
-                td 异步
+                td.center 异步
                 td 0.0044 元/分钟
               tr
                 td 音频剪辑
-                td 异步
+                td.center 异步
                 td 0.0044 元/分钟
+              tr
+                td 音频拼接
+                td.center -
+                td 0.10 元/千次
+              tr
+                td 元信息
+                td.center -
+                td 0.10 元/千次
+          .supplement
+            p.supplement-title 注：
+            ul.supplement-lists
+              li 不同视频规格价格不同，结算时按照宽高像素积大小确定单价，如：画面尺寸为：1440 × 720 ，宽 * 高 = 1036800 ，因此按照高清规格计费。
+              li 按时长计费的计费项，是按输出时长进行计算。
         template(v-if="nowSelection === 'uss' || nowSelection === 'vod'")
           .title(:style="{ color }") 云存储服务价格说明
+          p 按照每日 CDN 流量使用，实行 1:1 的每日存储空间使用量免费。
           table
             thead
               tr
-                th 存储阶梯
+                th.col-1 存储使用状况
+                th.col-2 存储计费值
                 th 价格
             tbody
               tr
-                td 0GB ~ 当日流量使用量
+                td 日存储 ≤ 日流量
+                td 无
                 td 免费
               tr
-                td 超出当日流量使用量
+                td 日存储 ＞ 日流量
+                td 日差值存储（日存储 - 日流量）
                 td 0.0043 元/GB
         template(v-if="nowSelection === 'live'")
           .title(:style="{ color }") 直播云服务价格说明
           table
             thead
               tr
-                th 计费项
+                th.col-1 计费项
                 th 价格
             tbody
               tr

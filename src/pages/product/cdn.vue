@@ -169,7 +169,7 @@ layout(:colors="colorSet")
             .title 视频点播加速
             .description 针对视频点播业务需求，又拍云支持视频拖拉、分段缓存，转封装和 HLS 切片，支持多平台、多终端。
     section_pricing(selection="cdn", :color="colorSet.mid")
-    section_help(:color="colorSet.mid")
+    section_help(selection="cdn", :color="colorSet.mid")
 </template>
 
 <script>
