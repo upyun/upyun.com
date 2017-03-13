@@ -1,10 +1,10 @@
 <style lang="sass" scoped>
 @import "../../../assets/animations"
 .inner
-  +animate(rotate, 1.2s, .8s)
+  +animate(rotate, 2.2s, 1.8s)
   transform-origin: center
 .leg
-  +animate(fadeIn, 1.2s, .8s)
+  +animate(fadeIn, 2.2s, 1.8s)
 .o-1
   +animate(zoomIn, 1.5s, 1s)
 .o-2
