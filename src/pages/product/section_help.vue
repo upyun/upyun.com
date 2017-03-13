@@ -10,10 +10,16 @@
     color: #0d253e
     text-align: center
   .menus
-    +container()
+    &.cdn
+      +container()
+      .menu
+        +gallery(1 of 4 1/2)
+    &.live
+      +container()
+      .menu
+        +gallery(1 of 3 1)
     width: 800px
     .menu
-      +gallery(1 of 4 1/2)
       font-size: 18px
       .title
         color: #0d253e
@@ -34,31 +40,50 @@
 .section-help
   .container
     .main-title 帮助与文档
-    .menus
+    .menus.cdn(v-if="selection === 'cdn'")
       .menu
         .title 产品介绍
-        a 整体架构
-        a 基础配置
-        a 高级特性
+        a(href="http://docs.upyun.com/cdn/#_1" target="_blank") 产品概述
+        a(href="http://docs.upyun.com/cdn/#_2" target="_blank") 产品架构
+        a(href="http://docs.upyun.com/cdn/#_3" target="_blank") 产品功能
       .menu
-        .title 新手指南
-        a 基本概念
-        a API 简易指南
+        .title 快速入门
+        a(href="http://docs.upyun.com/cdn/guide/#_1" target="_blank") 准备工作
+        a(href="http://docs.upyun.com/cdn/guide/#_2" target="_blank") 创建帐号
+        a(href="http://docs.upyun.com/cdn/guide/#_3" target="_blank") 帐号认证
+        a(href="http://docs.upyun.com/cdn/guide/#_4" target="_blank") 创建服务
       .menu
-        .title 开发者文档
-        a API 文档
-        a CDN 文档
-        a SDK 及工具
+        .title 使用指南
+        a(href="http://docs.upyun.com/cdn/basic/" target="_blank") 基础设置
+        a(href="http://docs.upyun.com/cdn/advanced/" target="_blank") 高级设置
+        a(href="http://docs.upyun.com/cdn/ssl/" target="_blank") 证书服务
       .menu
         .title 常见问题
-        a 概念性 FAQ
-        a 技术性 FAQ
+        a(href="http://docs.upyun.com/cdn/faq/#_1" target="_blank") 缓存相关
+        a(href="http://docs.upyun.com/cdn/faq/#_2" target="_blank") 刷新相关
+        a(href="http://docs.upyun.com/cdn/faq/#_3" target="_blank") 性能相关
+    .menus.live(v-if="selection === 'live'")
+      .menu
+        .title 产品介绍
+        a(href="http://docs.upyun.com/live/#_2" target="_blank") 整体架构
+        a(href="http://docs.upyun.com/live/#_3" target="_blank") 基础配置
+        a(href="http://docs.upyun.com/live/#_10" target="_blank") 增值服务
+        a(href="http://docs.upyun.com/live/#sdk" target="_blank") 移动端 SDK
+      .menu
+        .title 新手指南
+        a(href="https://blog.upyun.com/?p=1047" target="_blank") 快速创建服务
+      .menu
+        .title 常见问题
+        a(href="https://techs.b0.upaiyun.com/videos/cdnpage/upyunzb1.html" target="_blank") 创建服务
+        a(href="https://techs.b0.upaiyun.com/videos/cdnpage/zb-format.html" target="_blank") 转码与录制
+        a(href="https://techs.b0.upaiyun.com/videos/cdnpage/andriod-player-sdk.html" target="_blank") 播放器相关
+        a(href="https://techs.b0.upaiyun.com/videos/cdnpage/live_push_token.html" target="_blank") 防盗链相关
     .try
       up_button(:color="color", :url="$links.console", target="_blank") 免费试用
 </template>
 
 <script>
 export default {
-  props: ['color']
+  props: ['selection', 'color']
 }
 </script>
