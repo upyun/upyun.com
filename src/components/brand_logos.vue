@@ -44,7 +44,7 @@
 
 <template lang="pug">
 .logos
-  .item(v-for="logo in logos")
+  a.item(v-for="logo in logos", :href="logo.link", target="_blank")
     .img.grey(:style="{'background-image': `url(/static/logos/${logo.file}-grey.png)`}")
     .img(:style="{'background-image': `url(/static/logos/${logo.file}.png)`}")
     .title {{logo.name}}
