@@ -1,12 +1,12 @@
 <style lang="sass" src="./section_pricing.sass"></style>
 
 <template lang="pug">
-.pricing-module#section-pricing
+.pricing-module#section-pricing(@click="menuShowing = false")
   .container
     .main-title 产品价格
     .sub-title 按需计费，次日结算
     .select
-      .btn(@click="menuShowing = !menuShowing")
+      .btn(@click.stop="menuShowing = !menuShowing")
         .icon(:class="nowSelection")
         span(:style="{ color }") {{ name }}
         svg.arrow(width='12', height='6', viewbox='0 0 12 6', xmlns='http://www.w3.org/2000/svg')
