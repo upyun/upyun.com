@@ -4,11 +4,11 @@
 .about-page
   .container
     width: 998px
-    padding-bottom: 70px
+    padding: 49px 0 70px
     >.title
       font-size: 40px
       text-align: center
-      padding: 65px 0 49px
+      padding-bottom: 49px
     .reports
       border-top: 1px solid #ddd7d7
       .item
@@ -36,7 +36,7 @@ layout
   div(slot="page")
     .about-page
       .container
-        .title 媒体报道
+        .title(ref="title") 媒体报道
         .reports
           a.item(v-for="report in currentItems", :href="report.link", target="_blank")
             .date {{ report.date }}
@@ -50,6 +50,7 @@ layout
 import layout from './layout'
 import reports from 'json!yaml!./reports.yml'
 import pagination from '../../components/pagination'
+import smoothscroll from 'smoothscroll'
 
 export default {
   head: {
@@ -68,6 +69,10 @@ export default {
     currentItems () {
       return this.reports.slice((this.currentPage - 1) * this.perPage, this.currentPage * this.perPage)
     }
+  },
+  beforeRouteUpdate (to, from, next) {
+    smoothscroll(this.$refs.title)
+    next()
   },
   components: { layout, pagination }
 }

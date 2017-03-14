@@ -19,6 +19,7 @@
     "prerender-spa-plugin": "^2.0.1",
     "pug": "^2.0.0-beta6",
     "sass-loader": "^4.1.1",
+    "smoothscroll": "^0.3.0",
     "susy": "^2.2.12",
     "vue": "^2.1.0",
     "vue-amap": "^0.1.7",
