@@ -69,16 +69,16 @@
         .list(v-show="menuCondition.contentNumber === 2")
           .row
             .title 文档中心
-            a.link 产品文档
-            a.link API 文档
-            a.link SDK 与工具
+            a.link(href="http://docs.upyun.com/" target="_blank") 产品文档
+            a.link(href="http://docs.upyun.com/guide/#api" target="_blank") API 文档
+            a.link(href="http://docs.upyun.com/download/#sdk" target="_blank") SDK 与工具
           .row
             .title 帮助
-            a.link 新手指南
-            a.link 常见问题
+            a.link(href="http://docs.upyun.com/guide/" target="_blank") 新手指南
+            a.link(href="http://docs.upyun.com/faq/" target="_blank") 常见问题
           .row
             .title 开发者社区
-            a.link 技术问答
+            a.link(href="http://segmentfault.com/t/又拍云存储" target="_blank") 技术问答
             a.link(href="https://blog.upyun.com/" target="_blank") BLOG
         .list(v-show="menuCondition.contentNumber === 3")
           .row

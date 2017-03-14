@@ -13,11 +13,11 @@
         router-link(to="/product/vod") 点播云
       .menu
         .title 支持
-        a 新手入门
-        a 常见问题
-        a 产品文档
-        a API 文档
-        a SDK 与工具
+        a(href="http://docs.upyun.com/guide/" target="_blank") 新手入门
+        a(href="http://docs.upyun.com/faq/" target="_blank") 常见问题
+        a(href="http://docs.upyun.com/" target="_blank") 产品文档
+        a(href="http://docs.upyun.com/guide/#api" target="_blank") API 文档
+        a(href="http://docs.upyun.com/download/#sdk" target="_blank") SDK 与工具
       .menu
         .title 活动
         a 创业扶持
@@ -57,7 +57,8 @@
   .line
   .bottom.container
     .left
-      img.logo(src="../assets/logo.svg")
+      router-link.logo(to="/")
+        img(src="../assets/logo.svg")
     .right
       .kexin
         img(src="../assets/kexinyunlogo.png", width="40", height="33")

@@ -169,7 +169,7 @@ layout(:colors="colorSet")
       .buttons
         up_button(:color="colorSet.mid", type="major", url="/contact") 联系我们
         up_button API 文档
-      .price 0.0043 元/GB/天，新注册用户免费试用 7 天
+      .price 0.0043 元/GB/天，新注册用户可免费试用。
     .icon
       img(src="./assets/marketing_large.svg")
   template(slot="page")

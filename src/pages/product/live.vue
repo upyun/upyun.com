@@ -118,7 +118,7 @@ layout(:colors="colorSet")
       .container
         .main-title 简化开发 提供跨平台 SDK
         .main-description 提供功能丰富的跨平台推流端、播放端 SDK 工具包，帮助您无缝对接原有业务、降低开发成本、缩短上线周期
-        up_button(:color="colorSet.mid") 查看 SDK 文档
+        up_button(:color="colorSet.mid", url="http://docs.upyun.com/download/#live-sdk", target="_blank") 查看 SDK 文档
         img(src="./assets/live-develop.png", width="875", height="154")
         .list
           .col
