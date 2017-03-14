@@ -22,11 +22,12 @@ layout
         .unit
           .title 友情链接
           .links
-            a Segmentfault
-            a 开源中国
-            a RubyChina
-            a 36Kr
-            a 加速会微链
+            a(href="http://segmentfault.com/" target="_blank") Segmentfault
+            a(href="http://www.oschina.net/" target="_blank") 开源中国
+            a(href="https://ruby-china.org/" target="_blank") RubyChina
+            a(href="http://36kr.com/" target="_blank") 36Kr
+            a(href="http://jiasuhui.com/" target="_blank") 加速会
+            a(href="http://www.welian.com/" target="_blank") 微链
 </template>
 
 <script>
