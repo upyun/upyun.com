@@ -26,6 +26,7 @@
         .chart
           .bar
             +animate(growTaller, 1.2s)
+            transform-origin: bottom
     .left
       +span(6)
       .radar
@@ -62,7 +63,6 @@
           background-color: #399ffb
           border: solid 3px #ffffff
           position: absolute
-          opacity: 0
           .index
             width: 16px
             height: 16px
@@ -171,7 +171,7 @@ layout(:colors="colorSet")
         up_button API 文档
       .price 0.0043 元/GB/天，新注册用户可免费试用。
     .icon
-      img(src="./assets/marketing_large.svg")
+      icon
   template(slot="page")
     .section-fetures
       .container
@@ -283,6 +283,7 @@ layout(:colors="colorSet")
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
+import icon from './hero_icons/marketing_icon'
 
 export default {
   data () {
@@ -319,6 +320,6 @@ export default {
       else if (window.scrollY < 620) this.animated = false
     }
   },
-  components: { layout, section_help }
+  components: { layout, section_help, icon }
 }
 </script>
