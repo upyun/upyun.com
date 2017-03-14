@@ -7,12 +7,23 @@ import up_gradient from './components/up_gradient'
 import up_button from './components/up_button'
 import config from '../config'
 
-import AMap from 'vue-amap'
-Vue.use(AMap)
-AMap.initAMapApiLoader({
-  key: '7992a672d92cdf725ff50c351047a820',
-  plugin: ['AMap.OverView', 'AMap.ToolBar', 'AMap.MapType']
-})
+// Use empty components due to issue with vue-amap
+// https://github.com/ElemeFE/vue-amap/issues/67
+if (process.env.NODE_ENV === 'prerendering') {
+  Vue.use({
+    install: function () {
+      Vue.component('el-amap', { template: '<div></div>' })
+      Vue.component('el-amap-marker', { template: '<div></div>' })
+    }
+  })
+} else {
+  var AMap = require('vue-amap')
+  Vue.use(AMap)
+  AMap.initAMapApiLoader({
+    key: '7992a672d92cdf725ff50c351047a820',
+    plugin: ['AMap.OverView', 'AMap.ToolBar', 'AMap.MapType']
+  })
+}
 
 import VueHead from 'vue-head'
 Vue.use(VueHead, {
