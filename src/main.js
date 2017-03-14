@@ -6,6 +6,7 @@ import './assets/global.sass'
 import up_gradient from './components/up_gradient'
 import up_button from './components/up_button'
 import config from '../config'
+import AMap from 'vue-amap'
 
 // Use empty components due to issue with vue-amap
 // https://github.com/ElemeFE/vue-amap/issues/67
@@ -17,7 +18,6 @@ if (process.env.NODE_ENV === 'prerendering') {
     }
   })
 } else {
-  var AMap = require('vue-amap')
   Vue.use(AMap)
   AMap.initAMapApiLoader({
     key: '7992a672d92cdf725ff50c351047a820',
