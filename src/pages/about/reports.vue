@@ -64,7 +64,7 @@ export default {
   },
   computed: {
     currentPage () {
-      return Number(this.$route.query.page)
+      return Number(this.$route.query.page) || 1
     },
     currentItems () {
       return this.reports.slice((this.currentPage - 1) * this.perPage, this.currentPage * this.perPage)

@@ -88,7 +88,7 @@
           .row
             a.link 线下活动
             a.link(href="http://opentalk.upyun.com/show/index" target="_blank") OpenTalk
-            a.link 媒体报道
+            router-link.link(to="/media_reports") 媒体报道
           .row
             //- a.link 媒体报道
             router-link.link(to="/https") HTTPS 加密
