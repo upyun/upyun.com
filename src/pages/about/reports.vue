@@ -43,7 +43,7 @@ layout
             .right
               .title {{ report.title }}
               .summary {{ report.summary }}
-        pagination(:total="reports.length", :perPage="perPage", :current="currentPage", style="margin-top: 40px")
+        pagination(:total="reports.length", :perPage="perPage", :currentPage="currentPage", style="margin-top: 40px")
 </template>
 
 <script>
