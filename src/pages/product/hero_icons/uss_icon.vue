@@ -7,21 +7,21 @@
     +animate(fadeInDown, 1s, 1.6s)
     transform-origin: bottom
 .leg-1
-  +animate(fadeInUp, 1s, 2.4s)
-.leg-2
-  +animate(fadeInUp, 1s, 2.6s)
-.leg-3
-  +animate(fadeInUp, 1s, 2.8s)
-.leg-4
-  +animate(fadeInUp, 1s, 3s)
-.r-1
-  +animate(fadeInUp, 1s, 2s)
-.r-2
   +animate(fadeInUp, 1s, 2.2s)
-.r-3
+.leg-2
   +animate(fadeInUp, 1s, 2.4s)
-.r-4
+.leg-3
   +animate(fadeInUp, 1s, 2.6s)
+.leg-4
+  +animate(fadeInUp, 1s, 2.8s)
+.r-1
+  +animate(fadeInUp, 1s, 1.8s)
+.r-2
+  +animate(fadeInUp, 1s, 2s)
+.r-3
+  +animate(fadeInUp, 1s, 2.2s)
+.r-4
+  +animate(fadeInUp, 1s, 2.4s)
 
 </style>
 
