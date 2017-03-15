@@ -10,7 +10,7 @@ layout(:colors="colorSet")
         up_button(:color="colorSet.end", type="major", :url="$links.console", target="_blank") 免费试用
         up_button(url="#section-pricing") 查看价格
     .icon
-      img(src="./assets/vod_large.svg")
+      icon
   template(slot="page")
     .section-fetures
       .container
@@ -79,6 +79,7 @@ import layout from '../../components/layout'
 import colors from '../../services/colors'
 import section_help from './section_help'
 import section_pricing from './section_pricing'
+import icon from './hero_icons/vod_icon'
 
 export default {
   data () {
@@ -95,6 +96,6 @@ export default {
       { name: 'description', content: '基于又拍云大规模视频内容分发网络和专业的视频云端转解码技术，为视频点播业务提供稳定快速，低延时，能承载高并发的一站式视频加速服务。', id: 'desc' }
     ]
   },
-  components: { layout, section_help, section_pricing }
+  components: { layout, section_help, section_pricing, icon }
 }
 </script>
