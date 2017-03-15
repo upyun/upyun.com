@@ -1,9 +1,9 @@
 <style lang="sass" scoped>
 @import "../../../assets/animations"
 .lf
-  +animate(fadeInRight, 1s, 1.3s)
-.rt
   +animate(fadeInLeft, 1s, 1.3s)
+.rt
+  +animate(fadeInRight, 1s, 1.3s)
 .md .wave
   +animate(zoomIn, 1.2s, .8s)
 .md .mark

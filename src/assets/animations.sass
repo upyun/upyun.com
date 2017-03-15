@@ -49,13 +49,21 @@
     opacity: 1
     transform: none
 
+@keyframes growFatter
+  from
+    opacity: 0
+    transform: scaleX(0)
+  to
+    opacity: 1
+    transform: none
+
 @keyframes rotate
   from
     transform: rotate(-180deg)
   to
     transform: rotate(0)
 
-@keyframes fadeInRight
+@keyframes fadeInLeft
   from
     opacity: 0
     transform: translate3d(100px, 0, 0)
@@ -63,7 +71,7 @@
     opacity: 1
     transform: none
 
-@keyframes fadeInLeft
+@keyframes fadeInRight
   from
     opacity: 0
     transform: translate3d(-100px, 0, 0)
@@ -72,6 +80,14 @@
     transform: none
 
 @keyframes fadeInLeftSmall
+  from
+    opacity: 0
+    transform: translate3d(10px, 0, 0)
+  to
+    opacity: 1
+    transform: none
+
+@keyframes fadeInRightSmall
   from
     opacity: 0
     transform: translate3d(-10px, 0, 0)

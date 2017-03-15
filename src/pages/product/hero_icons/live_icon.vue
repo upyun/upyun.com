@@ -3,15 +3,15 @@
 .cam
   +animate(zoomIn, 1.5s, 1.4s)
 .wave-1
-  +animate(fadeInLeftSmall, .3s, 2s)
+  +animate(fadeInRightSmall, .3s, 2s)
 .wave-2
-  +animate(fadeInLeftSmall, .3s, 2.2s)
+  +animate(fadeInRightSmall, .3s, 2.2s)
 .wave-3
-  +animate(fadeInLeftSmall, .3s, 2.4s)
+  +animate(fadeInRightSmall, .3s, 2.4s)
 .wave-4
-  +animate(fadeInLeftSmall, .3s, 2.6s)
+  +animate(fadeInRightSmall, .3s, 2.6s)
 .wave-5
-  +animate(fadeInLeftSmall, .3s, 2.8s)
+  +animate(fadeInRightSmall, .3s, 2.8s)
 .o-1
   +animate(zoomIn, 1.5s, 1s)
 .o-2

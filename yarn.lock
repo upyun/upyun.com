@@ -4945,9 +4945,9 @@ void-elements@^2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.taobao.org/void-elements/download/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
 
-vue-amap@^0.1.7:
-  version "0.1.7"
-  resolved "http://registry.npm.taobao.org/vue-amap/download/vue-amap-0.1.7.tgz#fd1470b7a61d8fd43a1e8d2bd2f69cea42e17816"
+vue-amap@^0.2.0:
+  version "0.2.0"
+  resolved "http://registry.npm.taobao.org/vue-amap/download/vue-amap-0.2.0.tgz#98b5cf89f795d68d7594e90237af403d67e0fe43"
   dependencies:
     core-js "^2.4.1"
     uppercamelcase "^1.1.0"
