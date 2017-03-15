@@ -24,16 +24,16 @@
 
 <template lang="pug">
 .pagination
-  router-link(:to="{ path: '', query: { page: current - 1 || 1 }}").prev &lt;
-  router-link.num(v-for="i in pages", :class="{active: current === i}", :to="{ path: '', query: { page: i }}") {{i}}
-  .next &gt;
+  router-link.prev(:to="{ path: '', query: { page: currentPage - 1 || 1 }}") &lt;
+  router-link.num(v-for="i in totalPages", :class="{active: currentPage === i}", :to="{ path: '', query: { page: i }}") {{i}}
+  router-link.next(:to="{ path: '', query: { page: currentPage >= totalPages ? totalPages : currentPage + 1  }}") &gt;
 </template>
 
 <script>
 export default {
-  props: ['total', 'perPage', 'current'],
+  props: ['total', 'perPage', 'currentPage'],
   computed: {
-    pages () {
+    totalPages () {
       return Math.ceil(this.total / this.perPage)
     }
   }
