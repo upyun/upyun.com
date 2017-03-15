@@ -38,7 +38,7 @@
       display: none
       +container
       .item
-        +gallery(6)
+        +gallery(6 of 12 1)
         margin-bottom: 55px
         .name
           font-size: 20px
@@ -82,7 +82,7 @@ layout
           .sub-title 与我们一起工作，在这里展现你的才华
           .groups
             .group(v-for="group, i in groups", :class="{active: nowActive === i}")
-              .title(@click="nowActive = i") {{ group.name }}
+              .title(@click="switchTo(i, $event)") {{ group.name }}
               .jobs
                 .item(v-for="job in group.jobs")
                   .name {{ job.name }}
@@ -106,6 +106,7 @@ layout
 <script>
 import layout from './layout'
 import jobs from 'json!yaml!./assets/jobs.yml'
+import smoothscroll from 'smoothscroll'
 
 export default {
   data () {
@@ -116,6 +117,15 @@ export default {
   },
   head: {
     title: { inner: '加入我们' }
+  },
+  methods: {
+    switchTo (i, e) {
+      if (this.nowActive === i) this.nowActive = -1
+      else this.nowActive = i
+      setTimeout(() => {
+        smoothscroll(e.target)
+      }, 100)
+    }
   },
   components: { layout }
 }
