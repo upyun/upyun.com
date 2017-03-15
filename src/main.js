@@ -8,22 +8,11 @@ import up_button from './components/up_button'
 import config from '../config'
 import AMap from 'vue-amap'
 
-// Use empty components due to issue with vue-amap
-// https://github.com/ElemeFE/vue-amap/issues/67
-if (process.env.NODE_ENV === 'prerendering') {
-  Vue.use({
-    install: function () {
-      Vue.component('el-amap', { template: '<div></div>' })
-      Vue.component('el-amap-marker', { template: '<div></div>' })
-    }
-  })
-} else {
-  Vue.use(AMap)
-  AMap.initAMapApiLoader({
-    key: '7992a672d92cdf725ff50c351047a820',
-    plugin: ['AMap.OverView', 'AMap.ToolBar', 'AMap.MapType']
-  })
-}
+Vue.use(AMap)
+AMap.initAMapApiLoader({
+  key: '7992a672d92cdf725ff50c351047a820',
+  plugin: ['AMap.OverView', 'AMap.ToolBar', 'AMap.MapType']
+})
 
 import VueHead from 'vue-head'
 Vue.use(VueHead, {
