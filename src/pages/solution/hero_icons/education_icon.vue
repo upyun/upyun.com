@@ -5,15 +5,15 @@
 .hat
   +animate(zoomIn, .9s, 1s)
 .line-1
-  +animate(fadeInLeft, 2s, .8s)
+  +animate(fadeInRight, 2s, .8s)
 .line-2
-  +animate(fadeInLeft, 2s, 1s)
+  +animate(fadeInRight, 2s, 1s)
 .line-3
-  +animate(fadeInLeft, 2s, 1.2s)
+  +animate(fadeInRight, 2s, 1.2s)
 .line-4
-  +animate(fadeInLeft, 2s, 1.4s)
+  +animate(fadeInRight, 2s, 1.4s)
 .line-5
-  +animate(fadeInLeft, 2s, 1.6s)
+  +animate(fadeInRight, 2s, 1.6s)
 </style>
 <template lang="pug">
 svg(xmlns='http://www.w3.org/2000/svg', width='500', height='500', viewbox='0 0 500 500')
