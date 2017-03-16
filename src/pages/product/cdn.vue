@@ -78,7 +78,7 @@ layout(:colors="colorSet")
   .container.hero-inner(slot="hero")
     .info
       .title 云分发 CDN
-      .description 又拍云内容分发网络（ UPYUN Content Delivery Network），即又拍云 CDN，通过对用户源站内容进行加速分发，从而提升网站访问速度，适用于网站中的动静态资源。除此之外，又拍云 CDN 可完美结合云存储及云处理提供一站式全网加速解决方案。
+      .description CDN ( Content Delivery Network )，也即内容分发网络。通过将网站内容分发至全网加速节点，配合精准智能调度系统和边缘缓存，使最终用户可以就近获取所需内容，有效解决互联网网络拥塞问题，提高终端用户访问网站的响应速度和可用性，与此同时，可大幅降低源站压力。
       .buttons
         up_button(:color="colorSet.end", type="major", :url="$links.console", target="_blank") 免费试用
         up_button(url="#section-pricing") 查看价格
@@ -95,39 +95,39 @@ layout(:colors="colorSet")
         .features
           .item
             img(src="./assets/cdn-icon-1.svg")
-            .title 完美结合云存储
-            .description 完美结合云存储，解决海量数据存储和分发问题。支持将源站数据存储在又拍云存储中，并提供使用流量 1:1 的免费存储空间，使网络内容分发更方便，成本更低。
+            .title 智能调度
+            .description 支持多样化的调度策略，可实现跨地区、跨运营商的调度以及基于内容、IP 的精准调度，结合全网实时监控系统以及带宽预测平台，可将用户请求精准调度至最优接入节点；支持 HttpDNS 调度，可有效防止 DNS 劫持。
           .item
             img(src="./assets/cdn-icon-2.svg")
-            .title 极致加速体验
-            .description 实时探测线路进行优选，针对多源链路进行负载均衡，保障链路的畅通和无缝切换。针对冗余数据进行过滤并对文件压缩，使加速体验一路飙升。
+            .title 极致加速
+            .description 节点资源覆盖移动、联通、电信及十几家中小运营商，实现本地化资源覆盖；实时探测网络链路，针对多源链路进行负载均衡，保障链路的畅通和无缝切换；通过协议优化、链路优化、内容优化等技术手段，使加速体验一路飙升。
           .item
             img(src="./assets/cdn-icon-3.svg")
-            .title 安全稳定
-            .description 支持 IP、Referer、User-Agent、Token 等多维度的防盗链方式及 DDoS 攻击防护、CC 攻击防护、防篡改等多种防攻击方式。 全面保护业务的安全稳定。
+            .title 全面防护
+            .description 支持全网 HTTPS 加密传输，保障数据安全；企业级 DDOS 防护、CC 防护，能够有效抵御 DDOS 攻击、CC 攻击，为您的业务保驾护航；多样化的访问控制策略，可防止网站内容被恶意引用和非法下载。
           .item
             img(src="./assets/cdn-icon-4.svg")
-            .title 实时统计监控
-            .description 特色的镜像迁移功能，可一键通过 CDN 将源站资源迁移到又拍云存储，另外支持文件拉取、文件压缩解压缩、 FTP 功能，让云存储接入和使用更简单。
+            .title 大数据分析
+            .description 支持全链路实时日志采集、分析，结合分析数据，可对网络链路进行实时调整和优化，协助客户业务分析及运营；通过实时计算缓存命中率、健康度等监测数据，可以直观的了解到 CDN 服务质量，方便发现和定位问题。
           .item
             img(src="./assets/cdn-icon-5.svg")
             .title 简单易用
-            .description 提供自由扩展的 RESTFul API 和多种语言的 SDK 包，支持表单/分块/流式/FTP 上传，断点续传，以便用户轻松集成。
+            .description 源站业务无需任何改动，可无缝接入 CDN 服务；全自助化配置管理，配置策略全网 5-10 分钟内生效；提供全方位的 API 接口，支持多样化管理；丰富的统计报表和分析数据，协助网站运营。
           .item
             img(src="./assets/cdn-icon-6.svg")
-            .title 丰富的 API
-            .description 又拍云将产品功能整合，提供集 CDN、云存储、云处理于一体的场景化解决方案，化繁为简，接入方便。
+            .title 可编程 CDN
+            .description 基于 DSL ( Domain Specific Language )  理念设计的自定义 rewrite 功能，充分利用 CDN 分布式边缘网络的性能及规模，可以实现对 URL 的改写、重定向、自定义 HTTP 头、请求禁止、限速等处理逻辑。
     .section-hero
       .container
         .main-title 统计监控、日志
-        .description 丰富的数据统计分析、方便的日志下载和 7*24 小时
+        .description 丰富的统计分析数据、定制化日志服务、 7*24 小时
           br
           | 全网实时性能监控，助您时刻掌控业务全局。
         img.hero-img(src="./assets/cdn_hero.png", width=935, height=439)
     .section-cdn-map
       .container
-        .main-title CDN节点
-        .description 又拍云采用自建优质节点，打造了目前国内覆盖率领先的内容分发网络，让用户随时随地享受匀加速
+        .main-title CDN 节点
+        .description 又拍云采用自建优质节点，打造了目前国内覆盖率领先的内容分发网络，让用户随时随地享受云加速
         .map
           .item(v-for="point in points", :style="{left: point.left, top: point.top}")
             | {{point.content}}
@@ -156,18 +156,18 @@ layout(:colors="colorSet")
           .item
             .img
               img(src="./assets/cdn-sence-1.svg")
-            .title 网页/APP
-            .description 通过 CDN 可针对网页/APP 中的大量动静态文件 HTML、CSS、JS、音视频文件等进行加速分发。
+            .title 网页图片加速
+            .description 致力于解决国内复杂多变网络环境下网站静态内容诸如 HTML、CS、JS、JPG 等小文件内容访问速度缓慢、访问可用性不高的普遍问题。
           .item
             .img
               img(src="./assets/cdn-sence-2.svg")
-            .title 大文件下载
-            .description 支持各类大文件如各类音视频、应用安装包的下载分发，支持分段缓存，提升回源热度，节省回源带宽。
+            .title 大文件下载加速
+            .description 针对网络游戏、软件下载类网站及应用等大文件分发提供了一站式分发加速解决方案，可完美解决大文件带宽突发带来的一系列问题。
           .item
             .img
               img(src="./assets/cdn-sence-3.svg")
             .title 视频点播加速
-            .description 针对视频点播业务需求，又拍云支持视频拖拉、分段缓存，转封装和 HLS 切片，支持多平台、多终端。
+            .description 针对流媒体点播、音视频网站及应用，可帮助在线视频网站等以流媒体为主的企业提供稳定、高质量、低价的视频分发服务。
     section_pricing(selection="cdn", :color="colorSet.mid")
     section_help(selection="cdn", :color="colorSet.mid")
 </template>

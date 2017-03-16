@@ -10,12 +10,12 @@
           br
           | 提供更快、更安全的全网加速
         .sub-title
-          | 通过 CDN 为网页和移动应用提供加速，支持点播和直播
+          | 为网站和移动应用提供内容分发，支持 HTTP、HTTPS、RTMP、HLS、HTTP＋FLV 多种协议
           br
-          | 自主化配置，7 × 24 小时技术支持
+          | 支持自助化配置，提供 7 × 24 小时技术支持
         .buttons
           up_button(type="major", :color="colorSet.mid", :url="$links.console", target="_blank") 免费体验
-          up_button(:url="$links.support" target="_blank") 快速入门
+          up_button(url="http://docs.upyun.com/cdn/guide/" target="_blank") 快速入门
       //- .dots
         .dot.active
         .dot
@@ -24,13 +24,13 @@
     div(slot="page")
       .section-main
         .container
-          .main-title 为您提供了全网加速的一切
-          .main-description 又拍云提供安全可靠的存储、灵活强大的处理以及更快、更稳定的分发加速，让企业抛开底层基础建设的枷锁，把更多的精力集中在核心产品的迭代以及业务的运营上，业务先人一步
+          .main-title 为您提供一站式加速解决方案
+          .main-description 又拍云提供安全可靠的对象存储服务、灵活强大的数据处理服务以及更快更稳定的内容分发服务，让企业抛开底层基础建设的枷锁，把更多的精力放在核心产品的迭代以及业务的运营上
           .products
             .item
               .img: img(src="./assets/home-ic-cdn.svg")
               .title 云分发 CDN
-              p 又拍云解决网站高流量、大并发的问题，冲破业务负载的极限。为用户提供经济、可靠、 可自主管理的系统扩容方案。
+              p 结合优质的网络节点资源、传输路由技术优势，有效降低用户访问延迟，提升可用性。具有按需计费，资源弹性扩容等特点。
             .item
               .img: img(src="./assets/home-ic-ups.svg")
               .title 云处理 UPS
@@ -57,7 +57,7 @@
               .point(v-for="p in points", :style="{left: `${p.left}px`, top: `${p.top}px`, transform: `scale(${p.zoom})`, opacity: p.opacity}")
           .right
             .title 自建高质量全球加速节点
-            .description 多节点，高并发，提供超低延迟、高码率、高并发，从推流端到播放端的一站式解决方案，完美支持多终端输出，带来流程播放体验。
+            .description 截至 2017 年 3 月，又拍云全球 CDN 节点数达到 160 多个，覆盖 10 多个 国家和地区，10 多个运营商，带宽总量超过 2Tbps。2015 年底，CDN 节点资源已覆盖新加坡、台湾、香港、美国、德国等海外地区，全面支持海外加速，推进全球化布局。
             .numbers
               .item
                 .num 6
@@ -72,7 +72,7 @@
         .container
           .left
             .title 透明、丰富的统计监控功能
-            .description 丰富的数据统计分析、方便的日志下载和全网实时性能监控,全平台自主化查询，助您时刻掌控业务全局
+            .description 丰富的统计分析数据、定制化日志服务、 7*24 小时全网实时性能监控，助您时刻掌控业务全局。
             up_button(:color="colorSet.mid") 查看详情
           .right
             img(src="./assets/statistics.png", width="959", height="437")

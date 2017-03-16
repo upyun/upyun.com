@@ -19,7 +19,7 @@
         .list-with-icon(v-show="menuCondition.contentNumber === 0")
           router-link.item(to="/product/cdn")
             .title.green CDN
-            .description 跨地区、跨运营商覆盖的网络加速服务
+            .description 跨地区、跨运营商覆盖的内容分发网络
             .icon.cdn
           router-link.item(to="/product/live")
             .title.yellow 直播云

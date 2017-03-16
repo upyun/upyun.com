@@ -65,16 +65,19 @@
     .menus.live(v-if="selection === 'live'")
       .menu
         .title 产品介绍
-        a(href="http://docs.upyun.com/live/#_2" target="_blank") 整体架构
-        a(href="http://docs.upyun.com/live/#_3" target="_blank") 基础配置
-        a(href="http://docs.upyun.com/live/#_10" target="_blank") 增值服务
-        a(href="http://docs.upyun.com/live/#sdk" target="_blank") 移动端 SDK
+        a(href="http://docs.upyun.com/live/Introduction/#_2" target="_blank") 产品架构
+        a(href="http://docs.upyun.com/live/primary/" target="_blank") 基础配置
+        a(href="http://docs.upyun.com/live/advanced/" target="_blank") 增值服务
+        a(href="http://docs.upyun.com/live/mobile-sdk/" target="_blank") 移动端 SDK
       .menu
         .title 新手指南
-        a(href="https://blog.upyun.com/?p=1047" target="_blank") 快速创建服务
+        a(href="http://docs.upyun.com/live/guide/" target="_blank") 快速入门
+        a(href="http://docs.upyun.com/live/guide/#_2" target="_blank") 服务创建
+        a(href="http://docs.upyun.com/live/guide/#_5" target="_blank") 推流测试
+        a(href="http://docs.upyun.com/live/guide/#_6" target="_blank") 拉流测试
       .menu
         .title 常见问题
-        a(href="https://techs.b0.upaiyun.com/videos/cdnpage/upyunzb1.html" target="_blank") 创建服务
+        a(href="https://techs.b0.upaiyun.com/videos/cdnpage/upyunzb1.html" target="_blank") 服务创建
         a(href="https://techs.b0.upaiyun.com/videos/cdnpage/zb-format.html" target="_blank") 转码与录制
         a(href="https://techs.b0.upaiyun.com/videos/cdnpage/andriod-player-sdk.html" target="_blank") 播放器相关
         a(href="https://techs.b0.upaiyun.com/videos/cdnpage/live_push_token.html" target="_blank") 防盗链相关
