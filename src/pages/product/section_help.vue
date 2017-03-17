@@ -22,6 +22,10 @@
       +container()
       .menu
         +gallery(1 of 4 1/2)
+    &.ups
+      +container()
+      .menu
+        +gallery(1 of 4 1/2)
     width: 800px
     .menu
       font-size: 18px
@@ -114,6 +118,37 @@
         a(href="http://docs.upyun.com/cloud/unzip/" target="_blank") 压缩解压缩
         a(href="https://techs.b0.upaiyun.com/videos/cdnpage/upyun_oss.html" target="_blank") 融合云存储配置
         a(href="http://docs.upyun.com/api/errno/" target="_blank") API 错误码表
+    .menus.uss(v-if="selection === 'ups'")
+      .menu
+        .title 使用概述
+        a(href="http://docs.upyun.com/cloud/image/#url" target="_blank") URL 作图
+        a(href="http://docs.upyun.com/cloud/image/#thumb" target="_blank") 缩略图版本
+        a(href="http://docs.upyun.com/cloud/image/#sync_upload_process" target="_blank") 上传作图
+        a(href="https://www.upyun.com/webp.html" target="_blank") WebP 演示
+        a(href="http://docs.upyun.com/live/mobile-sdk/#ios-sdk_1" target="_blank") iOS 播放器
+        a(href="http://docs.upyun.com/live/mobile-sdk/#sdk_1 " target="_blank") Android 播放器
+      .menu
+        .title SDK
+        a(href="https://github.com/upyun/ios-sdk" target="_blank") iOS SDK
+        a(href="https://github.com/upyun/android-sdk" target="_blank") Android SDK
+        a(href="https://github.com/upyun/php-sdk" target="_blank") PHP SDK
+        a(href="https://github.com/upyun/java-sdk" target="_blank") Java SDK
+        a(href="https://github.com/upyun/python-sdk" target="_blank") Python SDK
+        a(href="https://github.com/upyun/go-sdk" target="_blank") Go SDK
+      .menu
+        .title API
+        a(href="http://docs.upyun.com/cloud/image/" target="_blank") 图片处理
+        a(href=" http://docs.upyun.com/cloud/av/" target="_blank") 音视频处理
+        a(href="http://docs.upyun.com/cloud/face_detect/" target="_blank") 人脸识别
+        a(href="http://docs.upyun.com/cloud/audit/" target="_blank") 内容审核
+        a(href="http://docs.upyun.com/cloud/unzip/" target="_blank") 压缩解压缩
+        a(href="http://docs.upyun.com/cloud/spider/" target="_blank") 文件拉取
+      .menu
+        .title 常见问题
+        a(href="http://docs.upyun.com/cloud/image/#webp" target="_blank") WebP 格式转换
+        a(href="https://techs.b0.upaiyun.com/videos/cdnpage/Picture_processing.html" target="_blank") 使用缩略图版本
+        a(href="https://techs.b0.upaiyun.com/videos/cdnpage/format_videos.html" target="_blank") 使用音视频处理
+        a(href="http://docs.upyun.com/api/developer_guide/" target="_blank") 文件上传
     .try
       up_button(:color="color", :url="$links.console", target="_blank") 免费试用
 </template>
