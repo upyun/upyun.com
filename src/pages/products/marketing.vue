@@ -1,4 +1,4 @@
-<style lang="sass" src="./product.sass" scoped></style>
+<style lang="sass" src="./products.sass" scoped></style>
 <style lang="sass" scoped>
   @import "../../assets/susy"
   @import "../../assets/animations"
@@ -168,8 +168,8 @@ layout(:colors="colorSet")
       .description 又拍云手机流量营销服务，整合移动、电信、联通三大运营商流量资源，帮助用户开展品牌宣传、APP/游戏/微信公众号/网站的拉新与促活等多种营销活动。实现营销流量的简单快速接入，活动的低成本快速开展，提供高效管理后台，帮您轻松倍增营销成效。
       .buttons
         up_button(:color="colorSet.mid", type="major", url="/contact") 联系我们
-        up_button API 文档
-      .price 新注册用户可免费试用。
+        up_button(url="http://docs.upyun.com/mobile-stats/" target="_blank") API 文档
+      //- .price 新注册用户可免费试用。
     .icon
       icon
   template(slot="page")

@@ -9,7 +9,8 @@
       .nav(@mouseover="showMenu(1)", @mouseout="hideMenu") 解决方案
       router-link.nav(to="/pricing") 价格
       .nav(@mouseover="showMenu(2)", @mouseout="hideMenu") 帮助与文档
-      .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 媒体与活动
+      .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 最新活动
+      router-link.nav.hot-promotion(to="/promotion") 品牌升级大促
     .side-navs
       a.nav(:href="$links.register") 注册
       a.nav.console(:href="$links.login") 控制台
@@ -17,52 +18,52 @@
       .triangle
       .inner(:style="{width: `${menuCondition.width}px`, height: `${menuCondition.height}px`}")
         .list-with-icon(v-show="menuCondition.contentNumber === 0")
-          router-link.item(to="/product/cdn")
+          router-link.item(to="/products/cdn")
             .title.green CDN
             .description 跨地区、跨运营商覆盖的内容分发网络
             .icon.cdn
-          router-link.item(to="/product/live")
+          router-link.item(to="/products/live")
             .title.yellow 直播云
             .description 超低延迟、高码率和大并发的音视频直播服务
             .icon.live
-          router-link.item(to="/product/uss")
+          router-link.item(to="/products/file-storage")
             .title.orange 云存储
             .description 海量、安全和高可靠的云存储服务
             .icon.uss
-          router-link.item(to="/product/vod")
+          router-link.item(to="/products/vod")
             .title.blue 点播云
             .description 安全稳定、弹性和高可用的音视频点播服务
             .icon.vod
-          router-link.item(to="/product/ups")
+          router-link.item(to="/products/process")
             .title.purple 云处理
             .description 简单、灵活并支持多终端的云处理服务
             .icon.ups
-          router-link.item(to="/product/marketing")
+          router-link.item(to="/products/marketing")
             .title.darkBlue 流量营销服务
             .description 三网通用、超低成本并可快速开展的营销服务
             .icon.marketing
         .list-with-icon(v-show="menuCondition.contentNumber === 1")
-          router-link.item(to="/solution/av")
+          router-link.item(to="/solutions/media")
             .title.green 音视频
             .description 海量存储、加速分发、高效处理一站式解决
             .icon.av
-          router-link.item(to="/solution/mobile")
+          router-link.item(to="/solutions/mobile")
             .title.yellow 移动 APP
             .description 有效降低网络延迟，大幅提升访问速度
             .icon.mobile-s
-          router-link.item(to="/solution/education")
+          router-link.item(to="/solutions/education")
             .title.orange 在线教育
             .description 提供点播/直播/版权保护服务，满足多样化需求
             .icon.education
-          router-link.item(to="/solution/game")
+          router-link.item(to="/solutions/game")
             .title.blue 游戏
             .description 多线 BGP 覆盖各地区运营商，解决网络延迟问题
             .icon.game
-          router-link.item(to="/solution/e-commerce")
+          router-link.item(to="/solutions/ecommerce")
             .title.purple 电商 & O2O
             .description 加速网站访问，高峰期弹性扩展从容应对“大促”
             .icon.e-commerce
-          router-link.item(to="/solution/fusion")
+          router-link.item(to="/solutions/fusionstorage")
             .title.darkBlue 融合云
             .description 构建多源存储架构，数据可平滑迁移
             .icon.fusion
@@ -82,15 +83,15 @@
             a.link(href="https://blog.upyun.com/" target="_blank") BLOG
         .list(v-show="menuCondition.contentNumber === 3")
           .row
-            a.link 创业扶持
+            .title 创业扶持
             router-link.link(to="/chunyu") 春雨计划
             router-link.link(to="/league") 又拍云联盟
           .row
-            a.link 线下活动
+            .title 线下活动
             a.link(href="http://opentalk.upyun.com/show/index" target="_blank") OpenTalk
             router-link.link(to="/media_reports") 媒体报道
           .row
-            //- a.link 媒体报道
+            .title 热门专题
             router-link.link(to="/https") HTTPS 加密
             router-link.link(to="/webp") WebP 体验
 </template>

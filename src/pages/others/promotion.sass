@@ -1,0 +1,54 @@
+@import "../../assets/animations"
+.wrapper
+  width: 100%
+  margin: 0 auto
+  .main
+    width: 1000px
+    margin: 0 auto
+    text-align: center
+    h1.repay-title
+      margin-top: 80px
+      margin-bottom: 20px
+      font-size: 36px
+      color: #4d778a
+    p.repay-description
+      font-size: 16px
+      color: #74868e
+    img
+      margin-top: 50px
+      height: auto
+  .rules
+    margin: 0 auto
+    margin-top: 80px
+    color: #fff
+    background-color: #52ACD9
+    & > div
+      margin: 0 auto
+      width: 650px
+      .rules-title
+        padding-top: 60px
+        padding-left: 20px
+        font-size: 30px
+      .rule-content
+        p
+          margin: 0
+          font-size: 16px
+          line-height: 30px
+      .rights
+        font-size: 16px
+        padding: 20px 0 80px 20px
+  .charge-btn
+    +animate(fadeInUp, .5s, .8s)
+    display: block
+    width: 200px
+    margin: 50px auto 40px
+    text-align: center
+    background-color: #52ACD9
+    font-size: 20px
+    padding: 10px 20px
+    color: #fff
+    border-radius: 12px
+    transition: all ease-out .5s
+    &:hover
+      text-decoration: none
+      background-color: #1f93ce

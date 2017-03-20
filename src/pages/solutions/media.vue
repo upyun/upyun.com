@@ -1,4 +1,4 @@
-<style lang="sass" src="./solution.sass" scoped></style>
+<style lang="sass" src="./solutions.sass" scoped></style>
 
 <template lang="pug">
 layout(:colors="colorSet")
@@ -77,10 +77,10 @@ export default {
     }
   },
   head: {
-    title: { inner: '音视频解决方案' },
+    title: { inner: '音视频解决方案，快速、优质的流媒体处理和加速服务- 又拍云' },
     meta: [
-      { name: 'keywords', content: '', id: 'kw' },
-      { name: 'description', content: '', id: 'desc' }
+      { name: 'keywords', content: '音视频编解码、音视频开发、音视频转码、流媒体直播系统、视频流媒体平台', id: 'kw' },
+      { name: 'description', content: '又拍云音视频解决方案，集视频直播、点播、分发加速、音视频转码、美颜、连麦、内容保护、视频鉴黄等于一身的云服务平台，为用户提供快速、优质的视频流媒体加速服务。', id: 'desc' }
     ]
   },
   components: { layout, more, icon }

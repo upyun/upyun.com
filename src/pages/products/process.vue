@@ -1,4 +1,4 @@
-<style lang="sass" src="./product.sass" scoped></style>
+<style lang="sass" src="./products.sass" scoped></style>
 
 <template lang="pug">
 layout(:colors="colorSet")
@@ -32,7 +32,7 @@ layout(:colors="colorSet")
           .item
             img(src="./assets/ups-icon-4.svg")
             .title SDK 集成
-            .description 提供 iOS/Android 播放器 SDK，可快速开发音视频播放移动端应用，实现图片视频合成及播放。
+            .description 提供 iOS/Android 播放器 SDK，可快速开发音视频播放移动端应用，实现视频处理与播放。
           .item
             img(src="./assets/ups-icon-5.svg")
             .title 经济实惠
@@ -83,7 +83,7 @@ layout(:colors="colorSet")
             .title 在线教育平台
             .description 又拍云音视频处理服务配合云存储和 CDN，实现音视频文件上传加速、音视频转码、全网分发。
     section_pricing(selection="ups", :color="colorSet.mid")
-    section_help(:color="colorSet.mid")
+    section_help(selection="ups", :color="colorSet.mid")
 </template>
 
 <script>

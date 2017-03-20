@@ -1,4 +1,4 @@
-<style lang="sass" src="./product.sass" scoped></style>
+<style lang="sass" src="./products.sass" scoped></style>
 
 <template lang="pug">
 layout(:colors="colorSet")
@@ -61,7 +61,7 @@ layout(:colors="colorSet")
             .title 数据归档与备份
             .description 在大型企业或科研机构中，通过与备份软件结合，可提供更具成本效益、更低的集中备份方案。
     section_pricing(selection="uss", :color="colorSet.mid")
-    section_help(:color="colorSet.mid")
+    section_help(selection="uss", :color="colorSet.mid")
 </template>
 
 <script>
