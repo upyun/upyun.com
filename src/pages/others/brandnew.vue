@@ -4,11 +4,12 @@
 .home
   layout(class="brandnew")
     div(slot="hero")
-      .summary
-        .summary-title 又拍云品牌形象全新升级
-        .logo-area
-          img(src="../../assets/logo.svg")
-        p 加速在线业务
+      .cover
+      //- .summary
+      //-   .summary-title 又拍云品牌形象全新升级
+      //-   .logo-area
+      //-     img(src="../../assets/logo.svg")
+      //-   p 加速在线业务
     div(slot="page")
       .wrapper
         .main
@@ -77,8 +78,10 @@
             p 点击按钮即可下载我们的Logo
             a(href="/static/upyun_logos.zip", download="upyun_logos", target='_blank')
               img.download(src="./assets/brandnew/下载.png")
-      .banner
-        img(src="./assets/brandnew/banner.png")
+      .banner-box
+        .banner
+        .charge-now
+          up_button(url="https://console.upyun.com/billing/charge/" target="_blank") 立即充值
 </template>
 
 <script>

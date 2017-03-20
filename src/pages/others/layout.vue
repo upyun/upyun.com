@@ -21,7 +21,19 @@
   &.brandnew
     .hero
       height: 620px
-      color: #fff
+      .cover
+        height: 540px
+        background: url('./assets/brandnew/banner.png') center no-repeat
+  &.promotion
+    .hero
+      height: 538px
+      .cover
+        height: 458px
+        background: url('./assets/promotion/banner.png') center no-repeat
+      .charge-now
+        position: relative
+        top: -110px
+        text-align: center
 </style>
 
 <template lang="pug">

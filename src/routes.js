@@ -25,6 +25,7 @@ const chunyu_tos = resolve => require(['./pages/others/chunyu_tos.vue'], resolve
 const https = resolve => require(['./pages/others/https.vue'], resolve)
 const reports = resolve => require(['./pages/about/reports.vue'], resolve)
 const brandnew = resolve => require(['./pages/others/brandnew.vue'], resolve)
+const promotion = resolve => require(['./pages/others/promotion.vue'], resolve)
 
 export default [
   { path: '/', component: home },
@@ -53,5 +54,6 @@ export default [
   { path: '/chunyu_tos', component: chunyu_tos },
   { path: '/media_reports', component: reports },
   { path: '/https', component: https },
-  { path: '/brandnew', component: brandnew }
+  { path: '/brandnew', component: brandnew },
+  { path: '/promotion', component: promotion }
 ]
