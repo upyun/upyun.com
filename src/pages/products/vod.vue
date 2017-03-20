@@ -1,4 +1,4 @@
-<style lang="sass" src="./product.sass" scoped></style>
+<style lang="sass" src="./products.sass" scoped></style>
 
 <template lang="pug">
 layout(:colors="colorSet")

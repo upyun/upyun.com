@@ -1,16 +1,16 @@
 import home from './pages/home/index'
-import productUss from './pages/product/uss'
-import productCdn from './pages/product/cdn'
-import productUps from './pages/product/ups'
-import productMarketing from './pages/product/marketing'
-import productVod from './pages/product/vod'
-import productLive from './pages/product/live'
-import solutionAv from './pages/solution/av'
-import solutionMobile from './pages/solution/mobile'
-import solutionECommerce from './pages/solution/e-commerce'
-import solutionGame from './pages/solution/game'
-import solutionEducation from './pages/solution/education'
-import solutionFusion from './pages/solution/fusion'
+import productUss from './pages/products/file-storage'
+import productCdn from './pages/products/cdn'
+import productUps from './pages/products/process'
+import productMarketing from './pages/products/marketing'
+import productVod from './pages/products/vod'
+import productLive from './pages/products/live'
+import solutionAv from './pages/solutions/media'
+import solutionMobile from './pages/solutions/mobile'
+import solutionECommerce from './pages/solutions/ecommerce'
+import solutionGame from './pages/solutions/game'
+import solutionEducation from './pages/solutions/education'
+import solutionFusion from './pages/solutions/fusionstorage'
 import aboutUs from './pages/about/about_us'
 import contact from './pages/about/contact'
 import terms from './pages/about/terms'
@@ -29,18 +29,18 @@ const promotion = resolve => require(['./pages/others/promotion.vue'], resolve)
 
 export default [
   { path: '/', component: home },
-  { path: '/product/uss', component: productUss },
-  { path: '/product/cdn', component: productCdn },
-  { path: '/product/ups', component: productUps },
-  { path: '/product/marketing', component: productMarketing },
-  { path: '/product/vod', component: productVod },
-  { path: '/product/live', component: productLive },
-  { path: '/solution/av', component: solutionAv },
-  { path: '/solution/mobile', component: solutionMobile },
-  { path: '/solution/e-commerce', component: solutionECommerce },
-  { path: '/solution/game', component: solutionGame },
-  { path: '/solution/education', component: solutionEducation },
-  { path: '/solution/fusion', component: solutionFusion },
+  { path: '/products/file-storage', component: productUss },
+  { path: '/products/cdn', component: productCdn },
+  { path: '/products/process', component: productUps },
+  { path: '/products/marketing', component: productMarketing },
+  { path: '/products/vod', component: productVod },
+  { path: '/products/live', component: productLive },
+  { path: '/solutions/media', component: solutionAv },
+  { path: '/solutions/mobile', component: solutionMobile },
+  { path: '/solutions/ecommerce', component: solutionECommerce },
+  { path: '/solutions/game', component: solutionGame },
+  { path: '/solutions/education', component: solutionEducation },
+  { path: '/solutions/fusionstorage', component: solutionFusion },
   { path: '/about_us', component: aboutUs },
   { path: '/contact', component: contact },
   { path: '/terms', component: terms },

@@ -47,7 +47,7 @@
 <template lang="pug">
 .section-help
   .container
-    .main-title 帮助与文档
+    .main-title(v-if="selection === 'cdn' || selection === 'live' || selection === 'uss' || selection === 'ups'") 帮助与文档
     .menus.cdn(v-if="selection === 'cdn'")
       .menu
         .title 产品介绍

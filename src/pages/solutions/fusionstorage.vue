@@ -1,4 +1,4 @@
-<style lang="sass" src="./solution.sass" scoped></style>
+<style lang="sass" src="./solutions.sass" scoped></style>
 <style lang="sass" scoped>
   .section-hero
     background: white
