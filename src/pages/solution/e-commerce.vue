@@ -77,10 +77,10 @@ export default {
     }
   },
   head: {
-    title: { inner: '电商 & O2O 解决方案' },
+    title: { inner: '电商&O2O行业解决方案 - 又拍云' },
     meta: [
-      { name: 'keywords', content: '电商,电子商务,电商云,电商托管,云服务', id: 'kw' },
-      { name: 'description', content: '又拍云电商解决方案，从商品图片快速上传分发，到多种安全保护机制，防止图片等被盗链，有效抵御电商行业恶意攻击，轻松应对爆发式流量增长。', id: 'desc' }
+      { name: 'keywords', content: '电商云、电商解决方案、内容防护、图片防盗、电商直播、弹性扩容、又拍云、电商托管', id: 'kw' },
+      { name: 'description', content: '又拍电商云TB级带宽预留，全网CDN加速，让你轻松应对大型促销活动等访问高峰。并提供电商直播、20余种音视频、图片处理功能，帮助电商企业产品和运营快速迭代。', id: 'desc' }
     ]
   },
   components: { layout, more, icon }

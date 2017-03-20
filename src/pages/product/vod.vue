@@ -89,11 +89,11 @@ export default {
   },
   head: {
     title: {
-      inner: '点播云 - 一站式视频点播加速'
+      inner: '又拍点播云 - 一站式视频点播加速服务'
     },
     meta: [
-      { name: 'keywords', content: '点播云,视频点播,点播加速', id: 'kw' },
-      { name: 'description', content: '基于又拍云大规模视频内容分发网络和专业的视频云端转解码技术，为视频点播业务提供稳定快速，低延时，能承载高并发的一站式视频加速服务。', id: 'desc' }
+      { name: 'keywords', content: '点播云、视频云、直播、视频加速、视频云转码、视频云存储、视频云服务、视频云平台', id: 'kw' },
+      { name: 'description', content: '又拍点播云，提供稳定的视频存储、视频加速服务，大文件分段缓存、实时转码、剪辑、水印、视频截图等，实现用户高速、快捷、稳定、安全的一站式视频加速需求。', id: 'desc' }
     ]
   },
   components: { layout, section_help, section_pricing, icon }

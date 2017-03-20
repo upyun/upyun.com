@@ -77,10 +77,10 @@ export default {
     }
   },
   head: {
-    title: { inner: '在线教育解决方案' },
+    title: { inner: '在线教育解决方案 - 又拍云' },
     meta: [
-      { name: 'keywords', content: '', id: 'kw' },
-      { name: 'description', content: '', id: 'desc' }
+      { name: 'keywords', content: '在线教育解决方案、教育云、教育云平台、教育云服务、又拍云、视频云、直播加速、点播加速', id: 'kw' },
+      { name: 'description', content: '又拍云基于“CDN+视频云”，为在线教育行业提供直播、点播、内容版权保护等服务，简单快捷的接入方式，帮助企业快速构建移动APP教育产品，提升产品服务性能。', id: 'desc' }
     ]
   },
   components: { layout, more, icon }
