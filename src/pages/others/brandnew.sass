@@ -1,0 +1,177 @@
+@import "../../assets/susy"
+
+.summary
+  position: absolute
+  width: 100%
+  left: 0
+  top: 180px
+  text-align: center
+  margin: 0 auto
+  .summary-title
+    font-size: 50px
+  .logo-area
+    margin-top: 30px
+    img
+      width: 400px
+      height: auto
+  p
+    font-size: 20px
+.wrapper
+  width: 100%
+  background-color: #fff
+  .main
+    width: 1050px
+    text-align: center
+    margin: 0 auto
+    p.section-title
+      font-size: 40px
+      color: #333
+    .section1
+      margin-top: 85px
+      .section-title
+        margin-bottom: 65px
+      .section1-left,
+      .section1-middle,
+      .section1-right
+        display: inline-block
+        vertical-align: top
+      .section1-left
+        padding-right: 44px
+        width: 450px
+        img
+          width: 100%
+          height: auto
+          &.before
+            margin-top: 14px
+            margin-bottom: 58px
+      .section1-middle
+        height: 500px
+        img
+          height: 100%
+          width: auto
+      .section1-right
+        position: relative
+        padding-left: 40px
+        width: 500px
+        text-align: left
+        .year
+          margin-top: 0
+          margin-bottom: 0
+          font-size: 16px
+          color: #00a0ff
+          &.year-2011
+            margin-top: 11px
+          &.year-2015
+            margin-top: 50px
+            top: 100px
+          &.year-2016
+            margin-top: 10px
+          &.year-now
+            margin-top: 6px
+        .content
+          margin-top: 0
+          margin-bottom: 10px
+          font-size: 20px
+          color: #6e6e6e
+          span
+            font-size: 22px
+            color: #00a0ff
+    .section2
+      margin-top: 120px
+      color: #6e6e6e
+      .logo-analysis
+        height: 160px
+        text-align: left
+        +container()
+        .logo-analysis-img
+          position: relative
+          +span(5)
+          img
+            position: absolute
+            height: 155px
+            right: 15px
+        .logo-analysis-text
+          +span(7 last)
+          border-left: 2px solid #00a0ff
+          padding-left: 30px
+          p
+            font-size: 22px
+            line-height: 23px
+            &:first-child
+              margin-top: 0
+            &:last-child
+              margin-bottom: 0
+      .logo-description
+        margin-top: 70px
+        text-align: center
+        p
+          margin: 0
+          line-height: 30px
+          font-size: 20px
+      .meaning
+        margin-top: 28px
+        font-size: 20px
+        font-weight: 600
+    .section3
+      margin-top: 100px
+      img.design-idea
+        width: 90%
+        height: auto
+    .section4
+      width: 80%
+      margin: 100px auto 0
+      .logo-color
+        width: 95%
+        margin: 0 auto
+        font-size: 20px
+      img.logo-color-img
+        margin-top: 40px
+        width: 100%
+        height: auto
+    .section5
+      margin-top: 100px
+      img.logo-gesture
+        width: 80%
+        margin: 0 auto
+        font-size: 20px
+    .section6
+      position: relative
+      margin: 100px auto 0
+      .logolist
+        position: relative
+        width: 660px
+        height: 365px
+        margin: 0 auto
+        img
+          height: 160px
+          width: auto
+          &:nth-child(1)
+            position: absolute
+            top: 0
+            left: 0
+          &:nth-child(2)
+            position: absolute
+            top: 0
+            right: 0
+          &:nth-child(3)
+            position: absolute
+            bottom: 0
+            left: 0
+          &:nth-child(4)
+            position: absolute
+            bottom: 0
+            right: 0
+    .section7
+      margin-top: 100px
+      margin-bottom: 80px
+      p:nth-child(2)
+        font-size: 22px
+      img.download
+        width: 250px
+        height: auto
+.banner
+  width: 100%
+  margin-bottom: -6px
+  img
+    width: 100%
+    height: auto
