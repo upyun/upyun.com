@@ -20,19 +20,23 @@
       border-bottom: 1px solid #1eb3de
   &.brandnew
     .hero
-      height: 620px
+      height: 548px
       .cover
-        height: 540px
+        position: relative
+        top: -80px
+        height: 548px
         background: url('./assets/brandnew/banner.png') center no-repeat
   &.promotion
     .hero
-      height: 538px
+      height: 620px
       .cover
-        height: 458px
+        position: relative
+        top: -50px
+        height: 548px
         background: url('./assets/promotion/banner.png') center no-repeat
       .charge-now
         position: relative
-        top: -110px
+        top: -140px
         text-align: center
 </style>
 

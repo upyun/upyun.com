@@ -5,12 +5,12 @@
     router-link.logo(to="/")
       img(src="../assets/logo.svg")
     .navs
-      .nav(@mouseover="showMenu(0)", @mouseout="hideMenu", v-if="showNavs") 产品
-      .nav(@mouseover="showMenu(1)", @mouseout="hideMenu", v-if="showNavs") 解决方案
-      router-link.nav(to="/pricing", v-if="showNavs") 价格
-      .nav(@mouseover="showMenu(2)", @mouseout="hideMenu", v-if="showNavs") 帮助与文档
-      .nav(@mouseover="showMenu(3)", @mouseout="hideMenu", v-if="showNavs") 媒体与活动
-      router-link.nav.hot-promotion(to="/promotion", v-if="showNavs") 品牌升级大促
+      .nav(@mouseover="showMenu(0)", @mouseout="hideMenu") 产品
+      .nav(@mouseover="showMenu(1)", @mouseout="hideMenu") 解决方案
+      router-link.nav(to="/pricing") 价格
+      .nav(@mouseover="showMenu(2)", @mouseout="hideMenu") 帮助与文档
+      .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 媒体与活动
+      router-link.nav.hot-promotion(to="/promotion") 品牌升级大促
     .side-navs
       a.nav(:href="$links.register") 注册
       a.nav.console(:href="$links.login") 控制台
@@ -138,11 +138,6 @@ export default {
     },
     checkMenu () {
       this.menuShowing = this.menuActive
-    }
-  },
-  computed: {
-    showNavs () {
-      return this.$route.path !== '/promotion'
     }
   }
 }

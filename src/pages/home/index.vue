@@ -5,7 +5,7 @@
   layout(:colors="colorSet")
     div(slot="hero")
       summit(animate)
-      .slide
+      .slide(v-if="showOrigin")
         .title 为 Web 和移动应用
           br
           | 提供更快、更安全的全网加速
@@ -16,6 +16,13 @@
         .buttons
           up_button(type="major", :color="colorSet.mid", :url="$links.console", target="_blank") 免费体验
           up_button(url="http://docs.upyun.com/cdn/guide/" target="_blank") 快速入门
+      .slide(v-if="!showOrigin")
+        .title 又拍云品牌全新升级
+        .sub-title 从产品到服务，从连接到守护、从国内到海外
+        div(style="font-size: 26px; margin-top: 15px") 全面加速在线业务
+        .buttons
+          up_button(type="major", :color="colorSet.mid", url="/brandnew") 品牌故事
+          up_button(url="/promotion") 升级大促
       //- .dots
         .dot.active
         .dot
@@ -139,9 +146,15 @@ export default {
         { name: '贝贝网', file: 'beibei' },
         { name: '魅族', file: 'meizu' },
         { name: 'Snail', file: 'snail' }
-      ]
+      ],
+      showOrigin: false
     }
   },
-  components: { layout, summit, brand_logos }
+  components: { layout, summit, brand_logos },
+  mounted () {
+    setTimeout(() => {
+      this.showOrigin = true
+    }, 5000)
+  }
 }
 </script>
