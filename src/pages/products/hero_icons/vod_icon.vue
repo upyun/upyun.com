@@ -1,37 +1,23 @@
 <style lang="sass" scoped>
 @import "../../../assets/animations"
-@keyframes backFadeIn
-  from
-    opacity: 0
-    transform: translate3d(25px, 0, 0)
-  to
-    opacity: 1
-    transform: none
-@keyframes frontFadeIn
-  from
-    opacity: 0
-    transform: translate3d(-25px, 0, 0)
-  to
-    opacity: 1
-    transform: none
 .dots
-  +animate(fadeInRightSmall, 2.2s, 2s)
+  +animate(fadeInRightSmall, 1.6s, 1.6s)
 .triangles
   .back
-    +animate(backFadeIn, 2s, 1.6s)
+    +animate(backFadeIn, 2s, 1.4s)
   .front
-    +animate(frontFadeIn, 2s, 1.6s)
+    +animate(frontFadeIn, 2s, 1.4s)
 .frame
   .r
-    +animate(growFatter, 2s, 1.6s)
+    +animate(growFatter, 2s, 1.4s)
   .line
-    +animate(growFatter, 2s, 1.6s)
+    +animate(growFatter, 2s, 1.4s)
 .o-1
-  +animate(zoomIn, 2s, 1.4s)
+  +animate(zoomIn, 2s, 1s)
 .o-2
-  +animate(zoomIn, 2.2s, 1s)
+  +animate(zoomIn, 2.2s, .6s)
 .o-3
-  +animate(zoomIn, 2.4s, 0.8s)
+  +animate(zoomIn, 2.4s, 0.4s)
 </style>
 
 <template>
