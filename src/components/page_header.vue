@@ -12,8 +12,8 @@
       .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 最新活动
       router-link.nav.hot-promotion(to="/promotion") 品牌升级大促
     .side-navs
-      a.nav(:href="$links.register") 注册
-      a.nav.console(:href="$links.login") 控制台
+      a.nav(:href="$links.register" target="_blank") 注册
+      a.nav.console(:href="$links.login" target="_blank") 控制台
     .menu(:class="{active: menuActive}", @mouseover="showMenu()", @mouseout="hideMenu", v-show="menuShowing", :style="{left: `${menuCondition.left}px`}")
       .triangle
       .inner(:style="{width: `${menuCondition.width}px`, height: `${menuCondition.height}px`}")
