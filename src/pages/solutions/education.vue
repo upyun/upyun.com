@@ -55,7 +55,7 @@ layout(:colors="colorSet")
       .clients
         .item: img(src="/static/logos/gaodunjiaoyu-grey.png")
         .item: img(src="/static/logos/yingyuqupeiyin-grey.png")
-        .item: img(src="/static/logos/edusoho-grey.png")
+        .item: img(src="/static/logos/EduSoho-grey.png")
         .item: img(src="/static/logos/yunxuetang-grey.png")
         .item: img(src="/static/logos/shidaiguanghua-grey.png")
         .item: img(src="/static/logos/51cto-grey.png")
