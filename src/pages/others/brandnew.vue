@@ -5,11 +5,6 @@
   layout(class="brandnew")
     div(slot="hero")
       .cover
-      //- .summary
-      //-   .summary-title 又拍云品牌形象全新升级
-      //-   .logo-area
-      //-     img(src="../../assets/logo.svg")
-      //-   p 加速在线业务
     div(slot="page")
       .wrapper
         .main
