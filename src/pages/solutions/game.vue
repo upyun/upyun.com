@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 游戏行业解决方案
       .description 娱乐从未如此简单, 各种各样的设备以及几乎无处不在的网络覆盖, 再加上动作捕捉与虚拟现实, 让天南地北的人都有如共处一室, 游戏随时随地，沟通将变得触手可及。
       .buttons
-        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
+        router-link(to="/contact", class="up_button major", :style="{ color: colorSet.end }") 联系我们
     .icon
       icon
   template(slot="page")
