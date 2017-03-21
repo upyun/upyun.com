@@ -14,6 +14,7 @@ import solutionFusion from './pages/solutions/fusionstorage'
 import aboutUs from './pages/about/about_us'
 import contact from './pages/about/contact'
 import terms from './pages/about/terms'
+import mobileStatsTerms from './pages/about/mobile_stats_terms'
 import partners from './pages/about/partners'
 import joinUs from './pages/about/join_us'
 import pricing from './pages/about/pricing'
@@ -44,6 +45,7 @@ export default [
   { path: '/about_us', component: aboutUs },
   { path: '/contact', component: contact },
   { path: '/terms', component: terms },
+  { path: '/mobile_stats_terms', component: mobileStatsTerms },
   { path: '/partners', component: partners },
   { path: '/join_us', component: joinUs },
   { path: '/pricing', component: pricing },
