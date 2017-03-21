@@ -72,7 +72,7 @@ export default {
     }
   },
   head: {
-    title: { inner: '融合云存储解决方案，让你存储无忧- 又拍云' },
+    title: { inner: '融合云存储解决方案，让你存储无忧' },
     meta: [
       { name: 'keywords', content: '融合云存储、企业云存储、图片存储、视频云存储、云储存、又拍云、存储安全', id: 'kw' },
       { name: 'description', content: '又拍云融合云存储基于多存储源架构，支持数据多存储源间平滑迁移，全方位保护你数据存储安全和服务的高可用。', id: 'desc' }
