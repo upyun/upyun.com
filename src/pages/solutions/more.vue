@@ -57,22 +57,22 @@
       br
       | 15000 + 客户实现完美加速
     .links
-      router-link.item(to="/solution/av")
+      router-link.item(to="/solutions/media")
         .img.av(:style="{'background-color': color}")
         .title 视频娱乐
-      router-link.item(to="/solution/mobile")
+      router-link.item(to="/solutions/mobile")
         .img.mobile(:style="{'background-color': color}")
         .title 移动 APP
-      router-link.item(to="/solution/e-commerce")
+      router-link.item(to="/solutions/ecommerce")
         .img.e-commerce(:style="{'background-color': color}")
         .title 电商 & O2O
-      router-link.item(to="/solution/game")
+      router-link.item(to="/solutions/game")
         .img.game(:style="{'background-color': color}")
         .title 游戏
-      router-link.item(to="/solution/education")
+      router-link.item(to="/solutions/education")
         .img.education(:style="{'background-color': color}")
         .title 在线教育
-      router-link.item(to="/solution/fusion")
+      router-link.item(to="/solutions/fusionstorage")
         .img.fusion(:style="{'background-color': color}")
         .title 融合云
 </template>

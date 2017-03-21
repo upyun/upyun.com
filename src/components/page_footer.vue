@@ -6,24 +6,24 @@
     .left
       .menu
         .title 产品
-        router-link(to="/product/uss") 云存储
-        router-link(to="/product/cdn") CDN
-        router-link(to="/product/ups") 云处理
-        router-link(to="/product/live") 直播云
-        router-link(to="/product/vod") 点播云
+        router-link(to="/products/file-storage") 云存储
+        router-link(to="/products/cdn") CDN
+        router-link(to="/products/process") 云处理
+        router-link(to="/products/live") 直播云
+        router-link(to="/products/vod") 点播云
       .menu
         .title 支持
         a(href="http://docs.upyun.com/guide/" target="_blank") 新手入门
         a(href="http://docs.upyun.com/faq/" target="_blank") 常见问题
         a(href="http://docs.upyun.com/" target="_blank") 产品文档
         a(href="http://docs.upyun.com/guide/#api" target="_blank") API 文档
-        a(href="http://docs.upyun.com/download/#sdk" target="_blank") SDK 与工具
+        router-link(to="/terms") 服务条款
       .menu
         .title 活动
-        a 创业扶持
+        //- a 创业扶持
         router-link(to="/chunyu") 春雨计划
         router-link(to="/league") 又拍云联盟
-        a 线下活动
+        //- a 线下活动
         a(href="https://opentalk.upyun.com/show/index" target="_blank") OpenTalk
       .menu
         .title 关于
@@ -31,7 +31,7 @@
         router-link(to="/join_us") 加入我们
         router-link(to="/contact") 联系我们
         router-link(to="/partners") 合作伙伴
-        router-link(to="/terms") 服务条款
+        router-link(to="/media_reports") 媒体报道
       .line
     .right
       .menu

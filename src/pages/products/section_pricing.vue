@@ -17,7 +17,7 @@
           | {{ name }}
     .content
       .top
-        router-link.to-product(:to="{ path: `/product/${nowSelection}` }", v-if="nowSelection !== selection") 查看产品说明
+        router-link.to-product(:to="{ path: `/products/${nowSelection}` }", v-if="nowSelection !== selection") 查看产品说明
       .inner
         template(v-if="nowSelection === 'cdn' || nowSelection === 'vod'")
           .title(:style="{ color }") CDN 服务价格说明
