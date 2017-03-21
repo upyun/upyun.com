@@ -1,4 +1,5 @@
 <style lang="sass" scoped>
+@import "../../assets/animations"
 .layout
   background-color: #fff
   .hero
@@ -28,16 +29,16 @@
         background: url('./assets/brandnew/banner.png') center no-repeat
   &.promotion
     .hero
-      height: 620px
+      height: 538px
       .cover
-        position: relative
-        top: -50px
-        height: 548px
+        +animate(fadeInDown, .5s, .5s)
+        height: 458px
         background: url('./assets/promotion/banner.png') center no-repeat
       .charge-now
         position: relative
-        top: -140px
+        top: -110px
         text-align: center
+        +animate(fadeInUp, .5s, .5s)
 </style>
 
 <template lang="pug">
