@@ -80,7 +80,7 @@
           .left
             .title 透明、丰富的统计监控功能
             .description 丰富的统计分析数据、定制化日志服务、 7*24 小时全网实时性能监控，助您时刻掌控业务全局。
-            up_button(:color="colorSet.mid") 查看详情
+            //- up_button(:color="colorSet.mid") 查看详情
           .right
             img(src="./assets/statistics.png", width="959", height="437")
       .section-clients
