@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 移动 APP 解决方案
       .description 移动应用的多样化，随之而来的是不断凸显的网络带宽和服务器性能问题。特别地，随着动态应用的不断涌现(如打车服务、实时地图等)，数据需要实时更新变化，这对带宽及源服务器数据查询的访问迟延要求更高。
       .buttons
-        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
+        router-link(to="/contact", class="up_button major", :style="{ color: colorSet.end }") 联系我们
     .icon
       icon
   template(slot="page")
