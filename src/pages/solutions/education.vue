@@ -5,7 +5,7 @@ layout(:colors="colorSet")
   .container.hero-inner(slot="hero")
     .info
       .title 在线教育解决方案
-      .description 学习不只在课堂。 一方面网络让传播的渠道增多、让分享的成本下降, 另一方面人们的时间也在碎片化, 一杯咖啡、一趟地铁、一小段路的时间就能听别人为你翻一本书、讲一个故事、认识一个新世界。
+      .description 从文件上传、内容存储、音视频处理、内容分发、安全防护等方面提供一站式端到端的解决方案，可以有效提高试听学习体验，提升用户黏度，降低源站成本投入，让在线教育变得更简单。
       .buttons
         router-link(to="/contact", class="up_button major", :style="{ color: colorSet.end }") 联系我们
     .icon
