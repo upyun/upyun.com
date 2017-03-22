@@ -71,7 +71,7 @@
           .section7
             p.section-title LOGO 下载
             p 点击按钮即可下载我们的Logo
-            a(href="/static/upyun_logos.zip", download="upyun_logos", target='_blank')
+            a(href="/static/upyun_logos.zip", download="又拍云_logos", target='_blank')
               img.download(src="./assets/brandnew/下载.png")
       .banner-box
         .banner

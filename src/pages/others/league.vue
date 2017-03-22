@@ -98,7 +98,7 @@ layout(class="league-banner")
             .item
               .icon
               p.orange 获取又拍云 LOGO 资源，在您的网站或应用底部添加又拍云 LOGO 链接
-              a.btn-league(href="/static/upyun_logos.zip", download="upyun_logos", target='_blank') 获取 LOGO
+              a.btn-league(href="/static/upyun_logos.zip", download="又拍云_logos", target='_blank') 获取 LOGO
             .item
               .icon
               p.orange 填写申请表单，立即在线申请
