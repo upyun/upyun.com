@@ -16,10 +16,10 @@
             .section1-middle
               img(src="./assets/brandnew/time_line.png")
             .section1-right
-              p.year.year-2011 2011 年
-              p.content 又拍云专注做那时
-                span &nbsp;最好&nbsp;
-                | 的云存储服务
+              p.year.year-2010 2010 年
+              p.content 又拍云推出
+                span &nbsp;按需付费&nbsp;
+                | 的云服务，将云存储、云处理及云分发融为一体
               p.year.year-2015 2015 年
               p.content 又拍云
                 span &nbsp;率先&nbsp;
