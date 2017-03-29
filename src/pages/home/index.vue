@@ -88,8 +88,8 @@
           .clients
             .item
               img(src="./assets/client-beibei.png", width="74", height="74")
-              .title 贝贝网
-              .description 贝贝网是国内领先的母婴特卖平台，有超过 3000 万的妈妈群体通过贝贝网购买各种母婴物品。又拍云集CDN、云存储、云处理和云安全于一体的场景化解决方案，很好的帮贝贝网分摊了基础建设的压力，并同时提升了整站的妈妈 购物体验。活动大促期间，又拍云更点对点的安排技术团队入驻，帮助应对大促带来的各种访问压力。
+              .title 贝贝
+              .description 贝贝是国内领先的母婴特卖平台，有超过 3000 万的妈妈群体通过贝贝购买各种母婴物品。又拍云集CDN、云存储、云处理和云安全于一体的场景化解决方案，很好的帮贝贝分摊了基础建设的压力，并同时提升了整站的妈妈 购物体验。活动大促期间，又拍云更点对点的安排技术团队入驻，帮助应对大促带来的各种访问压力。
             .item
               img(src="./assets/client-mogujie.png", width="74", height="74")
               .title 蘑菇街
@@ -142,7 +142,7 @@ export default {
         { name: '美柚', file: 'meiyou' },
         { name: '美图', file: 'meitu' },
         { name: '什么值得买', file: 'smzdm' },
-        { name: '贝贝网', file: 'beibei' },
+        { name: '贝贝', file: 'beibei' },
         { name: '魅族', file: 'meizu' },
         { name: 'Snail', file: 'snail' }
       ],
