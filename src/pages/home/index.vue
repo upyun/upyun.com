@@ -117,9 +117,10 @@
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import brand_logos from '../../components/brand_logos'
+import bowser from 'bowser'
 
-var summit = { template: '<div></div>' }
-if (process.env.NODE_ENV !== 'prerendering') {
+var summit = require('../../components/summit_static')
+if (process.env.NODE_ENV !== 'prerendering' && !bowser.msie) {
   summit = require('../../components/summit')
 }
 
