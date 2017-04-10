@@ -5,6 +5,7 @@ import productUps from './pages/products/process'
 import productMarketing from './pages/products/marketing'
 import productVod from './pages/products/vod'
 import productLive from './pages/products/live'
+import productCertificate from './pages/products/certificate'
 import solutionAv from './pages/solutions/media'
 import solutionMobile from './pages/solutions/mobile'
 import solutionECommerce from './pages/solutions/ecommerce'
@@ -36,6 +37,7 @@ export default [
   { path: '/products/marketing', component: productMarketing },
   { path: '/products/vod', component: productVod },
   { path: '/products/live', component: productLive },
+  { path: '/products/certificate', component: productCertificate },
   { path: '/solutions/media', component: solutionAv },
   { path: '/solutions/mobile', component: solutionMobile },
   { path: '/solutions/ecommerce', component: solutionECommerce },

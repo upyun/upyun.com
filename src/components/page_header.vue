@@ -42,6 +42,10 @@
             .title.darkBlue 流量营销服务
             .description 三网通用、超低成本并可快速开展的营销服务
             .icon.marketing
+          router-link.item(to="/products/certificate")
+            .title.red SSL 证书服务
+            .description 申购、管理一站式服务，快速实现全站 HTTPS
+            .icon.certificate
         .list-with-icon(v-show="menuCondition.contentNumber === 1")
           router-link.item(to="/solutions/media")
             .title.green 音视频
@@ -104,7 +108,7 @@ export default {
       menuShowing: false,
       menuCondition: { left: -41, width: 455, height: 290, contentNumber: 0 },
       conditions: [
-        { left: -41, width: 455, height: 290, contentNumber: 0 },
+        { left: -41, width: 455, height: 370, contentNumber: 0 },
         { left: 49, width: 455, height: 290, contentNumber: 1 },
         { left: 273, width: 384, height: 164, contentNumber: 2 },
         { left: 395, width: 384, height: 136, contentNumber: 3 }
