@@ -108,8 +108,8 @@ layout(:colors="colorSet")
       .buttons
         up_button(:color="colorSet.mid", type="major", url="https://console.upyun.com/toolbox/createCertificate/" target="_blank") 立即申购
         up_button(url="http://docs.upyun.com/cdn/ssl/#_9" target="_blank") 查看价格
-      p 含两款免费 DV SSL 证书
-      p OV & EV SSL 证书限时优惠，低至75 折
+      .price 含两款免费 DV SSL 证书
+      .price OV & EV SSL 证书限时优惠，低至 75 折
     .icon
       icon
   template(slot="page")
@@ -140,7 +140,7 @@ layout(:colors="colorSet")
           .item
             img(src="./assets/certificate-icon-6.svg")
             .title 提升网站搜索排名
-            .description Google、Baidu Google、Baidu 已调整其搜索引擎算法，将采用 HTTPS 加密的网站在搜索排名中更靠前。因此网站采用 HTTPS 协议，可吸引更多的用户进行访问，提升网站的价值，增创营收。
+            .description Google、Baidu 已调整其搜索引擎算法，将采用 HTTPS 加密的网站在搜索排名中更靠前。因此网站采用 HTTPS 协议，可吸引更多的用户进行访问，提升网站的价值，增创营收。
     .section-certificate
       .container
         .main-title 证书类型
