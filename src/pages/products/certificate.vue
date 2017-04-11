@@ -206,12 +206,14 @@ layout(:colors="colorSet")
             .img: img(src="./assets/certificate-sence-4.svg")
             .title CDN
             .description 可与又拍云 CDN 产品相结合，享受最优质的 HTTPS 加速解决方案。
+    section_pricing(selection="certificate", :color="colorSet.mid")
     section_help(selection="certificate", :color="colorSet.mid")
 </template>
 
 <script>
 import layout from '../../components/layout'
 import colors from '../../services/colors'
+import section_pricing from './section_pricing'
 import section_help from './section_help'
 import icon from './hero_icons/certificate_icon'
 
@@ -231,6 +233,6 @@ export default {
       { name: 'description', content: '申购、管理一站式服务，快速实现全站 HTTPS。', id: 'desc' }
     ]
   },
-  components: { layout, section_help, icon }
+  components: { layout, section_help, section_pricing, icon }
 }
 </script>
