@@ -73,10 +73,13 @@
             p 点击按钮即可下载我们的Logo
             a(href="/static/upyun_logos.zip", download="又拍云_logos", target='_blank')
               img.download(src="./assets/brandnew/下载.png")
-      .banner-box
-        .banner
-        .charge-now
-          up_button(url="https://console.upyun.com/billing/charge/" target="_blank") 立即充值
+      up_gradient.section-promo(:colors="colorSet")
+        .lines
+        .container
+          .inner
+            .main-title 新用户注册并激活，即送 61 元 代金券
+            .sub-title 只需一步，即刻享受又拍云全网加速与强大的云端多媒体处理服务
+            up_button(type="major", :color="colorSet.mid", :url="$links.console", target="_blank") 免费注册
 </template>
 
 <script>
