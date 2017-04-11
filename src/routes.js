@@ -5,6 +5,7 @@ import productUps from './pages/products/process'
 import productMarketing from './pages/products/marketing'
 import productVod from './pages/products/vod'
 import productLive from './pages/products/live'
+import productCertificate from './pages/products/certificate'
 import solutionAv from './pages/solutions/media'
 import solutionMobile from './pages/solutions/mobile'
 import solutionECommerce from './pages/solutions/ecommerce'
@@ -14,6 +15,7 @@ import solutionFusion from './pages/solutions/fusionstorage'
 import aboutUs from './pages/about/about_us'
 import contact from './pages/about/contact'
 import terms from './pages/about/terms'
+import mobileStatsTerms from './pages/about/mobile_stats_terms'
 import partners from './pages/about/partners'
 import joinUs from './pages/about/join_us'
 import pricing from './pages/about/pricing'
@@ -35,6 +37,7 @@ export default [
   { path: '/products/marketing', component: productMarketing },
   { path: '/products/vod', component: productVod },
   { path: '/products/live', component: productLive },
+  { path: '/products/certificate', component: productCertificate },
   { path: '/solutions/media', component: solutionAv },
   { path: '/solutions/mobile', component: solutionMobile },
   { path: '/solutions/ecommerce', component: solutionECommerce },
@@ -44,6 +47,7 @@ export default [
   { path: '/about_us', component: aboutUs },
   { path: '/contact', component: contact },
   { path: '/terms', component: terms },
+  { path: '/mobile_stats_terms', component: mobileStatsTerms },
   { path: '/partners', component: partners },
   { path: '/join_us', component: joinUs },
   { path: '/pricing', component: pricing },

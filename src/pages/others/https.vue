@@ -46,7 +46,7 @@ layout(class="https-banner")
             p 支持将 HTTP 通过重定向，强制跳转为 HTTPS 访问。
             a.link-https(href='http://docs.upyun.com/cdn/advanced/#https' target='_blank')
       .footer
-        p.header-tip 10 万用户的选择，更安全，更省心
+        p.header-tip 15 万用户的选择，更安全，更省心
 </template>
 
 <script>

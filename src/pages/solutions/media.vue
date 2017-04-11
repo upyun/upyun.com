@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 音视频解决方案
       .description 随着网络基建的飞速发展，移动终端的全面普及，使得音视频内容消费爆发式的增长，大众对于随时随地即时播放高品质音视频的需求日益强烈。直播的火爆更加速了视频行业的发展，人们可以不再只关注别人的光环, 而能有更多的机会让别人也喜欢上自己。
       .buttons
-        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
+        router-link(to="/contact", class="up_button major", :style="{ color: colorSet.end }") 联系我们
     .icon
       icon
   template(slot="page")
@@ -77,7 +77,7 @@ export default {
     }
   },
   head: {
-    title: { inner: '音视频解决方案，快速、优质的流媒体处理和加速服务- 又拍云' },
+    title: { inner: '音视频解决方案，快速、优质的流媒体处理和加速服务' },
     meta: [
       { name: 'keywords', content: '音视频编解码、音视频开发、音视频转码、流媒体直播系统、视频流媒体平台', id: 'kw' },
       { name: 'description', content: '又拍云音视频解决方案，集视频直播、点播、分发加速、音视频转码、美颜、连麦、内容保护、视频鉴黄等于一身的云服务平台，为用户提供快速、优质的视频流媒体加速服务。', id: 'desc' }

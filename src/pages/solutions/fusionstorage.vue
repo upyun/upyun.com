@@ -17,7 +17,7 @@ layout(:colors="colorSet")
       .title 融合云存储解决方案
       .description 很多用户在平台选型时，往往会将数据存储在多家存储厂商以保证服务可用性，然而仅靠用户单方面调整技术架构，依然很难满足此类需求。基于此，又拍云推出了融合云存储解决方案。
       .buttons
-        up_button(:color="colorSet.mid", type="major", url="/contact") 联系我们
+        router-link(to="/contact", class="up_button major", :style="{ color: colorSet.end }") 联系我们
     .icon
       icon
   template(slot="page")
@@ -72,7 +72,7 @@ export default {
     }
   },
   head: {
-    title: { inner: '融合云存储解决方案，让你存储无忧- 又拍云' },
+    title: { inner: '融合云存储解决方案，让你存储无忧' },
     meta: [
       { name: 'keywords', content: '融合云存储、企业云存储、图片存储、视频云存储、云储存、又拍云、存储安全', id: 'kw' },
       { name: 'description', content: '又拍云融合云存储基于多存储源架构，支持数据多存储源间平滑迁移，全方位保护你数据存储安全和服务的高可用。', id: 'desc' }

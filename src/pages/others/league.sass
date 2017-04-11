@@ -111,9 +111,6 @@ html
         background: url(./assets/league/step_2.png) no-repeat
         .icon
           background: url(./assets/league/getLogoIcon.png) no-repeat
-        .btn-league:hover
-          &+ul
-            visibility: visible
       &:nth-child(3)
         background: url(./assets/league/step_3.png) no-repeat
         .icon
@@ -130,45 +127,6 @@ html
         position: absolute
         bottom: 24px
         left: 50px
-      ul
-        visibility: hidden
-        position: relative
-        top: 48px
-        left: 16px
-        margin-top: 0
-        padding-top: 20px
-        list-style: none
-        .logo-size
-          border: 1px solid #BCBCC4
-          padding: 0px 16px
-          width: 140px
-          border-radius: 8px
-          background: white
-          .arrow
-            position: absolute
-            top: 16px
-            left: 105px
-            width: 0
-            height: 0
-            border-style: solid
-            border-width: 0 4px 5px 4px
-            border-color: transparent transparent white transparent
-          &:before
-            content: ''
-            position: absolute
-            top: 15px
-            left: 104px
-            width: 0
-            height: 0
-            border-style: solid
-            border-width: 0 5px 6px 5px
-            border-color: transparent white #BCBCC4 transparent
-        li
-          padding: 5px 0
-          &:not(&:last-child)
-            border-bottom: 1px dashed #BCBCC4
-        &:hover
-          visibility: visible
 
 .footer
   display: table

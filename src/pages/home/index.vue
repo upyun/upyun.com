@@ -5,24 +5,24 @@
   layout(:colors="colorSet")
     div(slot="hero")
       summit(animate)
-      .slide(v-if="showOrigin")
-        .title 为 Web 和移动应用
-          br
-          | 提供更快、更安全的全网加速
-        .sub-title
-          | 为网站和移动应用提供内容分发，支持 HTTP、HTTPS、RTMP、HLS、HTTP＋FLV 多种协议
-          br
-          | 支持自助化配置，提供 7 × 24 小时技术支持
-        .buttons
-          up_button(type="major", :color="colorSet.mid", :url="$links.console", target="_blank") 免费体验
-          up_button(url="http://docs.upyun.com/cdn/guide/" target="_blank") 快速入门
-      .slide(v-if="!showOrigin")
+      //- .slide
+      //-   .title 为 Web 和移动应用
+      //-     br
+      //-     | 提供更快、更安全的全网加速
+      //-   .sub-title
+      //-     | 为网站和移动应用提供内容分发，支持 HTTP、HTTPS、RTMP、HLS、HTTP＋FLV 多种协议
+      //-     br
+      //-     | 支持自助化配置，提供 7 × 24 小时技术支持
+      //-   .buttons
+      //-     up_button(type="major", :color="colorSet.mid", :url="$links.console", target="_blank") 免费体验
+      //-     up_button(url="http://docs.upyun.com/cdn/guide/" target="_blank") 快速入门
+      .slide
         .title 又拍云品牌全新升级
         .sub-title 从产品到服务，从连接到守护、从国内到海外
         div(style="font-size: 26px; margin-top: 15px") 全面加速在线业务
         .buttons
-          up_button(type="major", :color="colorSet.mid", url="/brandnew") 品牌故事
-          up_button(url="/promotion") 升级大促
+          router-link(to="/brandnew", class="up_button major", style="color:#2ec0ec") 品牌故事
+          router-link(to="/promotion", class="up_button outline") 升级大促
       //- .dots
         .dot.active
         .dot
@@ -80,7 +80,6 @@
           .left
             .title 透明、丰富的统计监控功能
             .description 丰富的统计分析数据、定制化日志服务、 7*24 小时全网实时性能监控，助您时刻掌控业务全局。
-            up_button(:color="colorSet.mid") 查看详情
           .right
             img(src="./assets/statistics.png", width="959", height="437")
       .section-clients
@@ -89,8 +88,8 @@
           .clients
             .item
               img(src="./assets/client-beibei.png", width="74", height="74")
-              .title 贝贝网
-              .description 贝贝网是国内领先的母婴特卖平台，有超过 3000 万的妈妈群体通过贝贝网购买各种母婴物品。又拍云集CDN、云存储、云处理和云安全于一体的场景化解决方案，很好的帮贝贝网分摊了基础建设的压力，并同时提升了整站的妈妈 购物体验。活动大促期间，又拍云更点对点的安排技术团队入驻，帮助应对大促带来的各种访问压力。
+              .title 贝贝
+              .description 贝贝是国内领先的母婴特卖平台，有超过 7000 万的妈妈群体通过贝贝购买各种母婴物品。又拍云集CDN、云存储、云处理和云安全于一体的场景化解决方案，很好的帮贝贝分摊了基础建设的压力，并同时提升了整站的妈妈 购物体验。活动大促期间，又拍云更点对点的安排技术团队入驻，帮助应对大促带来的各种访问压力。
             .item
               img(src="./assets/client-mogujie.png", width="74", height="74")
               .title 蘑菇街
@@ -118,9 +117,10 @@
 import layout from '../../components/layout'
 import colors from '../../services/colors'
 import brand_logos from '../../components/brand_logos'
+import bowser from 'bowser'
 
-var summit = { template: '<div></div>' }
-if (process.env.NODE_ENV !== 'prerendering') {
+var summit = require('../../components/summit_static')
+if (process.env.NODE_ENV !== 'prerendering' && !bowser.msie) {
   summit = require('../../components/summit')
 }
 
@@ -143,18 +143,13 @@ export default {
         { name: '美柚', file: 'meiyou' },
         { name: '美图', file: 'meitu' },
         { name: '什么值得买', file: 'smzdm' },
-        { name: '贝贝网', file: 'beibei' },
+        { name: '贝贝', file: 'beibei' },
         { name: '魅族', file: 'meizu' },
         { name: 'Snail', file: 'snail' }
       ],
       showOrigin: false
     }
   },
-  components: { layout, summit, brand_logos },
-  mounted () {
-    setTimeout(() => {
-      this.showOrigin = true
-    }, 5000)
-  }
+  components: { layout, summit, brand_logos }
 }
 </script>

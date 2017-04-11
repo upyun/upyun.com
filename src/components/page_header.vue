@@ -12,8 +12,8 @@
       .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 最新活动
       router-link.nav.hot-promotion(to="/promotion") 品牌升级大促
     .side-navs
-      a.nav(:href="$links.register") 注册
-      a.nav.console(:href="$links.login") 控制台
+      a.nav(:href="$links.register" target="_blank") 注册
+      a.nav.console(:href="$links.login" target="_blank") 控制台
     .menu(:class="{active: menuActive}", @mouseover="showMenu()", @mouseout="hideMenu", v-show="menuShowing", :style="{left: `${menuCondition.left}px`}")
       .triangle
       .inner(:style="{width: `${menuCondition.width}px`, height: `${menuCondition.height}px`}")
@@ -42,6 +42,10 @@
             .title.darkBlue 流量营销服务
             .description 三网通用、超低成本并可快速开展的营销服务
             .icon.marketing
+          router-link.item(to="/products/certificate")
+            .title.red SSL 证书服务
+            .description 申购、管理一站式服务，快速实现全站 HTTPS
+            .icon.certificate
         .list-with-icon(v-show="menuCondition.contentNumber === 1")
           router-link.item(to="/solutions/media")
             .title.green 音视频
@@ -104,7 +108,7 @@ export default {
       menuShowing: false,
       menuCondition: { left: -41, width: 455, height: 290, contentNumber: 0 },
       conditions: [
-        { left: -41, width: 455, height: 290, contentNumber: 0 },
+        { left: -41, width: 455, height: 370, contentNumber: 0 },
         { left: 49, width: 455, height: 290, contentNumber: 1 },
         { left: 273, width: 384, height: 164, contentNumber: 2 },
         { left: 395, width: 384, height: 136, contentNumber: 3 }

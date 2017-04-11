@@ -7,7 +7,7 @@ layout(:colors="colorSet")
       .title 电商 & O2O 解决方案
       .description 电子商务开启了“运筹于指掌之中”的时代，网络购物已深入大众，成为生活的一部分。在保证终端消费者能随时随地方便购物的同时，也给各大电子商务网站的安全性、可靠性、流畅性提出了更高的要求。
       .buttons
-        up_button(:color="colorSet.end", type="major", url="/contact") 联系我们
+        router-link(to="/contact", class="up_button major", :style="{ color: colorSet.end }") 联系我们
     .icon
       icon
   template(slot="page")
@@ -77,7 +77,7 @@ export default {
     }
   },
   head: {
-    title: { inner: '电商&O2O行业解决方案 - 又拍云' },
+    title: { inner: '电商&O2O行业解决方案' },
     meta: [
       { name: 'keywords', content: '电商云、电商解决方案、内容防护、图片防盗、电商直播、弹性扩容、又拍云、电商托管', id: 'kw' },
       { name: 'description', content: '又拍电商云TB级带宽预留，全网CDN加速，让你轻松应对大型促销活动等访问高峰。并提供电商直播、20余种音视频、图片处理功能，帮助电商企业产品和运营快速迭代。', id: 'desc' }

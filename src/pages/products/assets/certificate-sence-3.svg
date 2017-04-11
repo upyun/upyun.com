@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="118px" height="93px" viewBox="0 0 118 93" enable-background="new 0 0 118 93" xml:space="preserve">
+<rect id="Bounds-Copy-3" x="-24" y="-19" fill="none" width="166" height="130"/>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-3" y="-3" width="123.143" height="98.647">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="-3" y="-3" width="123.143" height="98.647" id="mask-2_2_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+		<rect id="path-1_4_" x="0" y="0" fill="#FFFFFF" width="117.143" height="92.647"/>
+	</g>
+</mask>
+<g id="Browser" mask="url(#mask-2_2_)">
+	<g id="BG">
+		<rect id="path-1_1_" x="0" y="0" fill="#FFFFFF" stroke="#FF6879" stroke-width="6" width="117.143" height="92.647"/>
+	</g>
+	<rect id="Top-Bar" x="0" y="0" fill="#FF6879" width="117.143" height="7.412"/>
+	<g id="Dots" transform="translate(3.514286, 2.647059)">
+		<ellipse id="Dot" fill="#FFFFFF" cx="1.149" cy="1.059" rx="1.149" ry="1.059"/>
+		<ellipse id="Dot_1_" fill="#FFFFFF" cx="4.979" cy="1.059" rx="1.149" ry="1.059"/>
+		<ellipse id="Dot_2_" fill="#FFFFFF" cx="8.808" cy="1.059" rx="1.149" ry="1.059"/>
+	</g>
+</g>
+<g id="Text" transform="translate(33.276190, 62.069519)">
+	<rect x="12.237" y="7.5" fill="#FF6879" width="28.018" height="2.082"/>
+	<rect x="1.136" y="13.291" fill="#FF6879" width="50.588" height="2.082"/>
+	<rect x="6.951" y="16.765" fill="#FF6879" width="39.119" height="2.082"/>
+</g>
+<g>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FBD9E0" stroke="#FF6879" stroke-width="1.7667" points="54.762,35.415
+		64.214,35.415 69.386,29.068 63.917,29.068 63.924,28.001 60.425,28.001 60.428,29.05 57.88,29.05 57.876,28.001 54.372,28.001
+		54.373,29.05 50.026,29.05 54.762,35.415 	"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FBD9E0" stroke="#FF6879" stroke-width="1.7667" d="M74.108,46.015
+		c-2.487-4.52-9.186-9.466-9.186-9.466H53.61c0,0-7.477,6.254-8.633,10.018c-0.326,1.06-0.523,2.292-0.523,3.046
+		c0,7.764,6.787,14.059,15.158,14.059c8.373,0,15.347-5.797,15.347-13.562C74.958,49.937,74.759,47.199,74.108,46.015L74.108,46.015
+		z"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FF6879" d="M63.472,51.563v0.004c0.635,0.004,1.149,0.519,1.149,1.156
+	c0,0.636-0.514,1.151-1.149,1.155l-2.335,0.001v1.165h-0.014c0.018,0.09,0.029,0.184,0.029,0.281c0,0.799-0.647,1.445-1.445,1.445
+	c-0.798,0-1.446-0.647-1.446-1.445c0-0.096,0.01-0.191,0.029-0.281h-0.024v-1.165h-2.312v-0.001c-0.002,0-0.004,0.001-0.006,0.001
+	c-0.639,0-1.156-0.518-1.156-1.156c0-0.639,0.518-1.156,1.156-1.156c0.002,0,0.004,0,0.006,0v-0.003h2.312v-1.152h-2.312v-0.002
+	c-0.002,0-0.004,0.001-0.006,0.001c-0.639,0-1.156-0.518-1.156-1.156c0-0.639,0.518-1.156,1.156-1.156c0.002,0,0.004,0,0.006,0
+	v-0.002h2.109c0.019-0.074,0.05-0.142,0.099-0.205l-2.595-2.594c-0.321-0.321-0.217-0.945,0.233-1.396
+	c0.45-0.449,1.074-0.554,1.395-0.233l2.537,2.537l2.349-2.503c0.366-0.399,1.107-0.303,1.56,0.155
+	c0.45,0.455,0.677,0.87,0.231,1.372L61.14,48.02c-0.002,0.026,0.005,0.049,0.001,0.075h2.331v0.003
+	c0.635,0.004,1.149,0.519,1.149,1.156c0,0.636-0.514,1.152-1.149,1.155v0.002h-2.335v1.152H63.472L63.472,51.563z"/>
+</svg>

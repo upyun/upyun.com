@@ -4,7 +4,7 @@
 .pricing-module#section-pricing(@click="menuShowing = false")
   .container
     .main-title 产品价格
-    .sub-title 按需计费，次日结算
+    .sub-title(v-if="nowSelection !== 'certificate'") 按需计费，次日结算
     .select
       .btn(@click.stop="menuShowing = !menuShowing")
         .icon(:class="nowSelection")
@@ -139,9 +139,102 @@
               tr
                 td 下行流量
                 td 0.43 元/GB
-      .bottom
+        template(v-if="nowSelection === 'certificate'")
+          .title(:style="{ color }") Symantec 证书服务价格说明
+          table
+            thead
+              tr
+                th.col-2 产品名称
+                th 价格（元/年）
+            tbody
+              tr
+                td 企业型 OV SSL 证书
+                td 4900
+              tr
+                td 企业型 OV SSL 证书专业版
+                td 7900
+              tr
+                td 增强型 EV SSL 证书
+                td 8000
+              tr
+                td 增强型 EV SSL 证书专业版
+                td 12700
+              tr
+                td 企业型泛域名 OV SSL 证书
+                td 39900
+              tr
+                td 企业型泛域名 OV SSL 证书专业版
+                td 70000
+          .title(:style="{ color }") GeoTrust 证书服务价格说明
+          table
+            thead
+              tr
+                th.col-2 产品名称
+                th 价格（元/年）
+            tbody
+              tr
+                td 企业型 OV SSL 证书
+                td 2900
+              tr
+                td
+                  span 企业型多域名 OV SSL 证书
+                  strong （默认支持 5 个单域名）
+                td 5600
+              tr
+                td 企业型多域名 OV SSL 证书额外域名
+                td 700
+              tr
+                td 企业型泛域名 OV SSL 证书
+                td 6900
+              tr
+                td 增强型 EV SSL 证书
+                td 4900
+              tr
+                td
+                  span 增强型多域名 EV SSL 证书
+                  strong （默认支持 5 个单域名）
+                td 9700
+              tr
+                td 增强型多域名 EV SSL 证书额外域名
+                td 1500
+          .title(:style="{ color }") TrustAsia 证书服务价格说明
+          table
+            thead
+              tr
+                th.col-2 产品名称
+                th 价格（元/年）
+            tbody
+              tr
+                td 域名型 DV SSL 证书
+                td
+                  span 0
+                  strong （原价 1900）
+              tr
+                td 域名型泛域名 DV SSL 证书
+                td 1999
+              tr
+                td
+                  span 域名型多域名 DV SSL 证书
+                  strong （默认支持 5 个单域名）
+                td 5000
+              tr
+                td 域名型多域名 DV SSL 证书额外域名
+                td 1000
+          .title(:style="{ color }") Let‘s Encrypt 证书服务价格说明
+          table
+            thead
+              tr
+                th.col-2 产品名称
+                th 价格（元/年）
+            tbody
+              tr
+                td 域名型 DV SSL 证书
+                td 0
+      .bottom(v-if="nowSelection !== 'certificate'")
         router-link.more(to="/price_instruction") 查看更多价格说明
         router-link.to-pricing(to="/pricing") 费用计算器
+      .bottom(v-if="nowSelection === 'certificate'")
+        a(href="http://docs.upyun.com/cdn/ssl/#_9" target="_blank") 查看更多价格说明
 </template>
 
 <script>
@@ -156,7 +249,8 @@ export default {
         live: '直播云',
         uss: '云存储',
         vod: '点播云',
-        ups: '云处理'
+        ups: '云处理',
+        certificate: 'SSL 证书'
       }
     }
   },
