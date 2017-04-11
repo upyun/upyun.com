@@ -104,11 +104,12 @@ layout(:colors="colorSet")
   .container.hero-inner(slot="hero")
     .info
       .title SSL 证书服务
-      .description 又拍云 SSL 证书服务（SSL Certificates Service）是与国际顶级 CA 机构合作，提供 SSL 证书的申购、管理、部署等功能。操作流程简单方便，一键申购，为客户提供一站式 HTTPS 安全解决方案。
+      .description 又拍云 SSL 证书服务（SSL Certificates Service），提供 SSL 证书的申购、管理、部署等功能。与国际顶级 CA 机构合作，证书类型丰富，操作流程简单方便，为用户提供一站式 HTTPS 安全解决方案。
       .buttons
         up_button(:color="colorSet.mid", type="major", url="https://console.upyun.com/toolbox/createCertificate/" target="_blank") 立即申购
         up_button(url="http://docs.upyun.com/cdn/ssl/#_9" target="_blank") 查看价格
-      p 证书种类最为丰富，其中两款证书免费
+      p 含两款免费 DV SSL 证书
+      p OV & EV SSL 证书限时优惠，低至75 折
     .icon
       icon
   template(slot="page")
@@ -117,29 +118,29 @@ layout(:colors="colorSet")
         .main-title 产品特性
         .features
           .item
-            img(src="./assets/certificate-icon-1.svg")
-            .title 类型齐全
-            .description 又拍云提供了 Symantec、GeoTrust、TrustAsia、Let’s Encrypt 的各类 DV、OV、EV SSL 证书的申购服务，步骤简单方便，无需人工协助，申购周期大大缩短。
+            img(src="./assets/certificate-icon-3.svg")
+            .title 国际 CA 机构合作
+            .description 又拍云提供了 Symantec、GeoTrust、TrustAsia、Let’s Encrypt 的各类 DV、OV、EV SSL 证书的申购，保证了证书的强度和可靠性, 同时支持目前所有主流的浏览器和移动设备。
           .item
             img(src="./assets/certificate-icon-2.svg")
             .title 免费申请
             .description 又拍云提供了两款证书的免费申请方案，用户可免费申请 TrustAsia、Let’s Encrypt 的 DV SSL 单域名证书，帮助用户零成本实现全站 HTTPS。
           .item
-            img(src="./assets/certificate-icon-3.svg")
-            .title 国际 CA 机构合作
-            .description 又拍云携手 TrustAsia 与国际顶级数字证书提供商 Symantec、GeoTrust 合作，保证了 SSL 证书的强度和可靠性, 同时支持目前所有主流的浏览器和移动设备。
+            img(src="./assets/certificate-icon-5.svg")
+            .title 流程简捷
+            .description 用户只需提交域名，填写必要信息，即可完成证书的申购，步骤简单方便，无需人工协助，申购周期大大缩短。
           .item
             img(src="./assets/certificate-icon-4.svg")
-            .title 一键申购、部署
-            .description 用户只需提交域名，填写必要信息，即可完成证书的申购，同时可自愿选择将证书一键部署到又拍云 CDN，更快捷的完成网站 HTTP 到 HTTPS 的转换。
+            .title 一键部署
+            .description 用户可自愿选择将申购的证书一键部署到又拍云 CDN，更快捷的完成网站 HTTP 到 HTTPS 的转换。
           .item
-            img(src="./assets/certificate-icon-5.svg")
-            .title 简单易用，安全方便
+            img(src="./assets/certificate-icon-1.svg")
+            .title 管理方便
             .description 证书自助化管理、集中监测，申购、部署都无需人工协助，公钥、私钥更加安全，做到让用户省心、放心，提升工作效率。
           .item
             img(src="./assets/certificate-icon-6.svg")
             .title 提升网站搜索排名
-            .description Google、Baidu 已调整其搜索引擎算法，将采用 HTTPS 加密的网站在搜索排名中更靠前。因此网站采用 HTTPS 协议，可吸引更多的用户进行访问，提升网站的价值，增创营收。
+            .description Google、Baidu Google、Baidu 已调整其搜索引擎算法，将采用 HTTPS 加密的网站在搜索排名中更靠前。因此网站采用 HTTPS 协议，可吸引更多的用户进行访问，提升网站的价值，增创营收。
     .section-certificate
       .container
         .main-title 证书类型

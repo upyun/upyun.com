@@ -144,92 +144,100 @@
           table
             thead
               tr
-                th.col-2 产品名称
+                th 类型
+                th 支持
+                th 域名个数
                 th 价格（元/年）
             tbody
               tr
-                td 企业型 OV SSL 证书
+                td(rowspan="3") 企业型（OV）
+                td 标准域名
+                td 1
                 td 4900
               tr
-                td 企业型 OV SSL 证书专业版
-                td 7900
+                td 多个域名
+                td 2
+                td 9800
               tr
-                td 增强型 EV SSL 证书
-                td 8000
-              tr
-                td 增强型 EV SSL 证书专业版
-                td 12700
-              tr
-                td 企业型泛域名 OV SSL 证书
+                td 泛域名
+                td 1
                 td 39900
               tr
-                td 企业型泛域名 OV SSL 证书专业版
-                td 70000
+                td(rowspan="2") 增强型（EV）
+                td 标准域名
+                td 1
+                td 8000
+              tr
+                td 多个域名
+                td 2
+                td 16000
           .title(:style="{ color }") GeoTrust 证书服务价格说明
           table
             thead
               tr
-                th.col-2 产品名称
+                th 类型
+                th 支持
+                th 域名个数
                 th 价格（元/年）
             tbody
               tr
-                td 企业型 OV SSL 证书
+                td(rowspan="3") 企业型（OV）
+                td 标准域名
+                td 1
                 td 2900
               tr
-                td
-                  span 企业型多域名 OV SSL 证书
-                  strong （默认支持 5 个单域名）
+                td 多个域名
+                td 5
                 td 5600
               tr
-                td 企业型多域名 OV SSL 证书额外域名
-                td 700
-              tr
-                td 企业型泛域名 OV SSL 证书
+                td 泛域名
+                td 1
                 td 6900
               tr
-                td 增强型 EV SSL 证书
+                td(rowspan="2") 增强型（EV）
+                td 标准域名
+                td 1
                 td 4900
               tr
-                td
-                  span 增强型多域名 EV SSL 证书
-                  strong （默认支持 5 个单域名）
+                td 多个域名
+                td 5
                 td 9700
-              tr
-                td 增强型多域名 EV SSL 证书额外域名
-                td 1500
           .title(:style="{ color }") TrustAsia 证书服务价格说明
           table
             thead
               tr
-                th.col-2 产品名称
+                th 类型
+                th 支持
+                th 域名个数
                 th 价格（元/年）
             tbody
               tr
-                td 域名型 DV SSL 证书
-                td
-                  span 0
-                  strong （原价 1900）
+                td(rowspan="3") 域名型（DV）
+                td 标准域名
+                td 1
+                td 免费（原价 1900）
               tr
-                td 域名型泛域名 DV SSL 证书
-                td 1999
-              tr
-                td
-                  span 域名型多域名 DV SSL 证书
-                  strong （默认支持 5 个单域名）
+                td 多个域名
+                td 5
                 td 5000
               tr
-                td 域名型多域名 DV SSL 证书额外域名
-                td 1000
+                td 泛域名
+                td 1
+                td 1999
           .title(:style="{ color }") Let‘s Encrypt 证书服务价格说明
           table
             thead
               tr
-                th.col-2 产品名称
+                th 类型
+                th 支持
+                th 域名个数
                 th 价格（元/年）
             tbody
               tr
-                td 域名型 DV SSL 证书
-                td 0
+                td 域名型（DV）
+                td 标准域名
+                td 1
+                td 免费
       .bottom(v-if="nowSelection !== 'certificate'")
         router-link.more(to="/price_instruction") 查看更多价格说明
         router-link.to-pricing(to="/pricing") 费用计算器
