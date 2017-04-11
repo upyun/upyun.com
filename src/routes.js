@@ -1,4 +1,5 @@
 import home from './pages/home/index'
+import NotFound from './pages/home/NotFound'
 import productUss from './pages/products/file-storage'
 import productCdn from './pages/products/cdn'
 import productUps from './pages/products/process'
@@ -57,5 +58,6 @@ export default [
   { path: '/media_reports', component: reports },
   { path: '/https', component: https },
   { path: '/brandnew', component: brandnew },
-  { path: '/promotion', component: promotion }
+  { path: '/promotion', component: promotion },
+  { path: '*', component: NotFound }
 ]
