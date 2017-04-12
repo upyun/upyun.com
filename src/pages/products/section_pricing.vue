@@ -224,7 +224,7 @@
                 td 泛域名
                 td 1
                 td 1999
-          .title(:style="{ color }") Let‘s Encrypt 证书服务价格说明
+          .title(:style="{ color }") Let’s Encrypt 证书服务价格说明
           table
             thead
               tr

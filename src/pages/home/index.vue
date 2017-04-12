@@ -108,8 +108,8 @@
         .lines
         .container
           .inner
-            .main-title 现在就开始吧，认证后还送代金券！
-            .sub-title 追求理想的加速效果，性能更快，更安全
+            .main-title 新用户注册并激活，即送 61 元代金券
+            .sub-title 只需一步，即刻享受又拍云全网加速与强大的云端多媒体处理服务
             up_button(type="major", :color="colorSet.mid", :url="$links.console", target="_blank") 免费注册
 </template>
 

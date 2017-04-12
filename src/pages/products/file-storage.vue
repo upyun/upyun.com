@@ -9,7 +9,7 @@ layout(:colors="colorSet")
       .buttons
         up_button(:color="colorSet.end", type="major", :url="$links.console", target="_blank") 免费试用
         up_button(url="#section-pricing") 查看价格
-      .price 0.0043 元/GB/天，新注册用户可免费试用。
+      .price 按每日 CDN 流量，享受 1:1 存储空间免费。
     .icon
       icon
   template(slot="page")

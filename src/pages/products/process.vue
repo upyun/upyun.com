@@ -9,7 +9,7 @@ layout(:colors="colorSet")
       .buttons
         up_button(:color="colorSet.end", type="major", :url="$links.console", target="_blank") 免费试用
         up_button(url="#section-pricing") 查看价格
-      .price 图片处理完全免费，新注册用户可免费试用。
+      .price WebP 图片瘦身、人脸识别、水印、缩放等 30 多个图片处理功能免费使用。
     .icon.ups
       icon
   template(slot="page")
