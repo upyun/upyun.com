@@ -5,8 +5,7 @@
   +animate(fadeInUp, 1s, 1.6s)
   transform-origin: center
   .cls-2, .cls-1
-    stroke-dashoffset: 2214
-    stroke-dasharray: 2214
+    stroke-dasharray: 6px,4px
     +animate(pathCircle, 3s, 2s)
   .outside-circle
     +animate(rotateCircle, 3s, 5s)
