@@ -17,12 +17,12 @@
       //-     up_button(type="major", :color="colorSet.mid", :url="$links.console", target="_blank") 免费体验
       //-     up_button(url="http://docs.upyun.com/cdn/guide/" target="_blank") 快速入门
       .slide
-        .title 又拍云品牌全新升级
-        .sub-title 从产品到服务，从连接到守护、从国内到海外
-        div(style="font-size: 26px; margin-top: 15px") 全面加速在线业务
+        .title OV & EV SSL 证书上线
+        .sub-title 申购便捷，一键部署，快速实现全站 HTTPS
+        div(style="font-size: 26px; margin-top: 15px") 限时优惠，低至 75 折
         .buttons
-          router-link(to="/brandnew", class="up_button major", style="color:#2ec0ec") 品牌故事
-          router-link(to="/promotion", class="up_button outline") 升级大促
+          a(href="https://console.upyun.com/toolbox/createCertificate/", class="up_button major", style="color:#2ec0ec", target="_blank") 立即申购
+          router-link(to="/products/certificate", class="up_button outline") 查看详情
       //- .dots
         .dot.active
         .dot
@@ -108,7 +108,7 @@
         .lines
         .container
           .inner
-            .main-title 新用户注册并激活，即送 61 元 代金券
+            .main-title 新用户注册并激活，即送 61 元代金券
             .sub-title 只需一步，即刻享受又拍云全网加速与强大的云端多媒体处理服务
             up_button(type="major", :color="colorSet.mid", :url="$links.console", target="_blank") 免费注册
 </template>

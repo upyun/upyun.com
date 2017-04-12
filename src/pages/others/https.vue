@@ -35,12 +35,11 @@ layout(class="https-banner")
             <li>百度、阿里巴巴等互联网巨头均启用全站 HTTPS 加密；</li>
             <li>新一代 HTTP/2 协议的支持需以 HTTPS 为基础；</li>
         .step
-          p.step-header 又拍云 SSL 服务，轻松三步一键开启 HTTPS
+          p.step-header 又拍云 SSL 证书服务，轻松三步一键开启 HTTPS
           .left
-            p 又拍云联合 Let’s Encrypt 推出 SSL 证书申请与管理一站式服务。
+            p 又拍云联合 Symantec、GeoTrust、TrustAsia、Let’s Encrypt 推出 SSL 证书申请与管理一站式服务。
             p 无需繁杂流程，一键申请，轻松实现网站与 Web 应用的 HTTPS 加密部署。
-            a.link-ssl(href='http://docs.upyun.com/cdn/ssl/#_4' target='_blank')
-            p 即将推出 Symantec、GeoTrust 证书
+            a.link-ssl(href='http://docs.upyun.com/cdn/ssl/' target='_blank')
           .right
             p 又拍云 CDN 在 HTTPS 协议的基础上已实现全平台支持 HTTP/2。
             p 支持将 HTTP 通过重定向，强制跳转为 HTTPS 访问。

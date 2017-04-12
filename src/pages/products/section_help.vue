@@ -47,7 +47,7 @@
 <template lang="pug">
 .section-help
   .container
-    .main-title(v-if="selection === 'cdn' || selection === 'live' || selection === 'uss' || selection === 'ups'") 帮助与文档
+    .main-title(v-if="selection === 'cdn' || selection === 'live' || selection === 'uss' || selection === 'ups' || selection === 'certificate'") 帮助与文档
     .menus.cdn(v-if="selection === 'cdn'")
       .menu
         .title 产品介绍
@@ -149,8 +149,31 @@
         a(href="https://techs.b0.upaiyun.com/videos/cdnpage/Picture_processing.html" target="_blank") 使用缩略图版本
         a(href="https://techs.b0.upaiyun.com/videos/cdnpage/format_videos.html" target="_blank") 使用音视频处理
         a(href="http://docs.upyun.com/api/developer_guide/" target="_blank") 文件上传
-    .try
+    .menus.uss(v-if="selection === 'certificate'")
+      .menu
+        .title 产品文档
+        a(href="http://docs.upyun.com/cdn/ssl/#_1" target="_blank") 产品介绍
+        a(href="http://docs.upyun.com/cdn/ssl/#_2" target="_blank") 名词解释
+        a(href="http://docs.upyun.com/cdn/ssl/#_3" target="_blank") 产品功能
+        a(href="http://docs.upyun.com/cdn/ssl/#_4" target="_blank") 产品优势
+      .menu
+        .title 购买指导
+        a(href="http://docs.upyun.com/cdn/ssl/#_8" target="_blank") 购买流程
+        a(href="http://docs.upyun.com/cdn/ssl/#_9" target="_blank") 价格总览
+        a(href="http://docs.upyun.com/cdn/ssl/#_10" target="_blank") 退款服务
+      .menu
+        .title 快速入门
+        a(href="http://docs.upyun.com/cdn/ssl/#_13" target="_blank") 付费证书申购
+        a(href="http://docs.upyun.com/cdn/ssl/#_14" target="_blank") 免费证书申购
+      .menu
+        .title 常见问题
+        a(href="http://docs.upyun.com/cdn/ssl/#_15" target="_blank") 注意事项
+        a(href="http://docs.upyun.com/cdn/ssl/#dv-ssl" target="_blank") DV SSL 证书验证
+    .try(v-if="selection !== 'certificate'")
       up_button(:color="color", :url="$links.console", target="_blank") 免费试用
+    .try(v-if="selection === 'certificate'")
+      up_button(:color="color", url="https://console.upyun.com/toolbox/createCertificate/", target="_blank") 立即申购
+
 </template>
 
 <script>
