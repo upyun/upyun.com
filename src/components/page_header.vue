@@ -42,7 +42,7 @@
             .title.darkBlue 流量营销服务
             .description 三网通用、超低成本并可快速开展的营销服务
             .icon.marketing
-          router-link.item(to="/products/certificate")
+          router-link.item(to="/products/ssl")
             .title.red SSL 证书服务
             .description 申购、管理一站式服务，快速实现全站 HTTPS
             .icon.certificate

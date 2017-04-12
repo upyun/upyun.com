@@ -37,7 +37,7 @@ export default [
   { path: '/products/marketing', component: productMarketing },
   { path: '/products/vod', component: productVod },
   { path: '/products/live', component: productLive },
-  { path: '/products/certificate', component: productCertificate },
+  { path: '/products/ssl', component: productCertificate },
   { path: '/solutions/media', component: solutionAv },
   { path: '/solutions/mobile', component: solutionMobile },
   { path: '/solutions/ecommerce', component: solutionECommerce },

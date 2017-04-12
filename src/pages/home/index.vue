@@ -22,7 +22,7 @@
         div(style="font-size: 26px; margin-top: 15px") 限时优惠，低至 75 折
         .buttons
           a(href="https://console.upyun.com/toolbox/createCertificate/", class="up_button major", style="color:#2ec0ec", target="_blank") 立即申购
-          router-link(to="/products/certificate", class="up_button outline") 查看详情
+          router-link(to="/products/ssl", class="up_button outline") 查看详情
       //- .dots
         .dot.active
         .dot
