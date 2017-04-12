@@ -10,7 +10,7 @@
       router-link.nav(to="/pricing") 价格
       .nav(@mouseover="showMenu(2)", @mouseout="hideMenu") 帮助与文档
       .nav(@mouseover="showMenu(3)", @mouseout="hideMenu") 最新活动
-      router-link.nav.hot-promotion(to="/promotion") 品牌升级大促
+      router-link.nav(to="/brandNew") 品牌形象升级
     .side-navs
       a.nav(:href="$links.register" target="_blank") 注册
       a.nav.console(:href="$links.login" target="_blank") 控制台

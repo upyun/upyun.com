@@ -153,14 +153,27 @@
       img.download
         width: 250px
         height: auto
-.banner-box
+.section-promo
+  color: white
   position: relative
-  height: 300px
-  background-image: linear-gradient(312deg, #3AE7F3 0%, #1e96e5 100%)
-  .banner
-    height: 300px
-    background: url('./assets/brandnew/banner_bottom.png') center no-repeat
-  .charge-now
-    position: relative
-    top: -90px
-    text-align: center
+  .lines
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: url(../home/assets/pic-line-1.svg) left 0 no-repeat, url(../home/assets/pic-line-2.svg) right 0 no-repeat
+  .container
+    padding: 73px 0
+    .inner
+      position: relative
+      .main-title
+        font-size: 38px
+        margin-bottom: 4px
+      .sub-title
+        font-size: 20px
+      .up_button
+        position: absolute
+        right: 60px
+        top: 50%
+        margin-top: -23px
