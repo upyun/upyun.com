@@ -55,7 +55,7 @@ layout(:colors="colorSet")
       .clients
         .item: img(src="/static/logos/mogujie-grey.png")
         .item: img(src="/static/logos/dangdang-grey.png")
-        .item: img(src="/static/logos/meituan-grey.png")
+        .item: img(src="/static/logos/meituandianping-grey.png")
         .item: img(src="/static/logos/beibei-grey.png")
         .item: img(src="/static/logos/smzdm-grey.png")
         .item: img(src="/static/logos/dxy-grey.png")
