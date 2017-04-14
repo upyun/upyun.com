@@ -136,16 +136,16 @@ export default {
         { left: 360, top: 40, zoom: 1, opacity: 0.6 }
       ],
       logos: [
-        { name: '芒果 TV', file: 'mangguo' },
-        { name: '章鱼 TV', file: 'zhangyu' },
-        { name: '浙江卫视', file: 'zjws' },
-        { name: '豆瓣', file: 'douban' },
-        { name: '美柚', file: 'meiyou' },
-        { name: '美图', file: 'meitu' },
-        { name: '什么值得买', file: 'smzdm' },
+        { name: '华数传媒', file: 'wasu' },
+        { name: '新蓝网', file: 'cztv' },
+        { name: '暴风体育', file: 'baofengSports' },
+        { name: '美拍', file: 'meipai' },
+        { name: '美团点评', file: 'meituandianping' },
+        { name: '美丽联合', file: 'meili' },
         { name: '贝贝', file: 'beibei' },
+        { name: '平安科技', file: 'pingan' },
         { name: '魅族', file: 'meizu' },
-        { name: 'Snail', file: 'snail' }
+        { name: '蜻蜓FM', file: 'qingting' }
       ],
       showOrigin: false
     }
