@@ -143,7 +143,7 @@ export default {
         { name: '美团点评', file: 'meituandianping' },
         { name: '美丽联合', file: 'meili' },
         { name: '贝贝', file: 'beibei' },
-        { name: '平安科技', file: 'pingan' },
+        { name: '中国平安', file: 'pingan' },
         { name: '魅族', file: 'meizu' },
         { name: '蜻蜓FM', file: 'qingting' }
       ],
