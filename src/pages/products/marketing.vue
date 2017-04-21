@@ -183,7 +183,7 @@ layout(:colors="colorSet")
           .item
             img(src="./assets/marketing-icon-1.svg")
             .title 整合三网资源
-            .description 又拍云存储单存储集群支持 PB 级容量，单数据中心支持 EB 级容量，全网轻松应对 ZB 级的异构化数据。
+            .description 整合移动、电信、联通三大运营商流量资源，实现全网通用流量，并提供统一的接入接口，降低接入各地运营商流量的门槛和开发成本。
           .item
             img(src="./assets/marketing-icon-2.svg")
             .title 成本低 更省心
@@ -239,15 +239,15 @@ layout(:colors="colorSet")
           .item
             img(src="./assets/marketing-event-enterprise.svg")
             .title 企业
-            .description 在企业平台参与流量赠送活动，输入手机号码
+            .description 企业平台向又拍云流量提交流量下发请求
           .item
             img(src="./assets/marketing-event-flow.svg")
             .title 又拍云流量
-            .description 在企业平台参与流量赠送活动，输入手机号码
+            .description 又拍云流量接受到请求后，向用户下发流量，生成账单
           .item
             img(src="./assets/marketing-event-user.svg")
             .title 用户
-            .description 在企业平台参与流量赠送活动，输入手机号码
+            .description 用户获得相应的上网流量
     .section-scenes
       .container
         .main-title 应用场景
