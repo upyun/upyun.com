@@ -46,6 +46,10 @@
             .title.red SSL 证书服务
             .description 申购、管理一站式服务，快速实现全站 HTTPS
             .icon.certificate
+          router-link.item(to="/products/sms")
+            .title.green 短信服务
+            .description 提供企业级短信送达服务，三网合一，到达率高
+            .icon.sms
         .list-with-icon(v-show="menuCondition.contentNumber === 1")
           router-link.item(to="/solutions/media")
             .title.green 音视频

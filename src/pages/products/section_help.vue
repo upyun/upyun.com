@@ -47,7 +47,7 @@
 <template lang="pug">
 .section-help
   .container
-    .main-title(v-if="selection === 'cdn' || selection === 'live' || selection === 'uss' || selection === 'ups' || selection === 'certificate'") 帮助与文档
+    .main-title(v-if="show_Maintitle") 帮助与文档
     .menus.cdn(v-if="selection === 'cdn'")
       .menu
         .title 产品介绍
@@ -169,7 +169,17 @@
         .title 常见问题
         a(href="http://docs.upyun.com/cdn/ssl/#_15" target="_blank") 注意事项
         a(href="http://docs.upyun.com/cdn/ssl/#dv-ssl" target="_blank") DV SSL 证书验证
-    .try(v-if="selection !== 'certificate'")
+    .menus.live(v-if="selection === 'sms'")
+      .menu
+        .title 使用指南
+        a(href="http://docs.upyun.com/sms/" target="_blank") 产品介绍
+      .menu
+        .title API 接口文档
+        a(href="http://docs.upyun.com/sms/#5" target="_blank") API 文档
+      .menu
+        .title 注意事项
+        a(href="http://docs.upyun.com/sms/#4" target="_blank") 常见问题
+    .try(v-if="selection !== 'certificate' && selection !== 'sms'")
       up_button(:color="color", :url="$links.console", target="_blank") 免费试用
     .try(v-if="selection === 'certificate'")
       up_button(:color="color", url="https://console.upyun.com/toolbox/createCertificate/", target="_blank") 立即申购
@@ -178,6 +188,11 @@
 
 <script>
 export default {
-  props: ['selection', 'color']
+  props: ['selection', 'color'],
+  computed: {
+    show_Maintitle () {
+      return this.selection === 'cdn' || this.selection === 'live' || this.selection === 'uss' || this.selection === 'ups' || this.selection === 'certificate' || this.selection === 'sms'
+    }
+  }
 }
 </script>
