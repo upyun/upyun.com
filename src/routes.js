@@ -7,6 +7,7 @@ import productMarketing from './pages/products/marketing'
 import productVod from './pages/products/vod'
 import productLive from './pages/products/live'
 import productCertificate from './pages/products/certificate'
+import productSms from './pages/products/sms'
 import solutionAv from './pages/solutions/media'
 import solutionMobile from './pages/solutions/mobile'
 import solutionECommerce from './pages/solutions/ecommerce'
@@ -38,6 +39,7 @@ export default [
   { path: '/products/vod', component: productVod },
   { path: '/products/live', component: productLive },
   { path: '/products/ssl', component: productCertificate },
+  { path: '/products/sms', component: productSms },
   { path: '/solutions/media', component: solutionAv },
   { path: '/solutions/mobile', component: solutionMobile },
   { path: '/solutions/ecommerce', component: solutionECommerce },

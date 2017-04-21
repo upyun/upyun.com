@@ -238,7 +238,62 @@
                 td 标准域名
                 td 1
                 td 免费
-      .bottom(v-if="nowSelection !== 'certificate'")
+        template(v-if="nowSelection === 'sms'")
+          .title(:style="{ color }") 短信资源包价格说明
+          table
+            thead
+              tr
+                th.col-1 类型
+                th.col-2 短信包价格
+                th 单位（元/条）
+            tbody
+              tr
+                td(rowspan=7) 免审签名
+                td 480 元 / 8000 条
+                td 0.060
+              tr
+                td 1100 元 / 2W 条
+                td 0.055
+              tr
+                td 2250 元 / 5W 条
+                td 0.045
+              tr
+                td 4300 元 / 10W 条
+                td 0.043
+              tr
+                td 8000 元 / 20W 条
+                td 0.040
+              tr
+                td 15200 元 / 40W 条
+                td 0.038
+              tr
+                td &ge; 40W 条
+                td 商务洽谈
+              tr
+                td(rowspan=7) 普通签名
+                td 440 元 / 8000 条
+                td 0.055
+              tr
+                td 1000 元 / 2W 条
+                td 0.050
+              tr
+                td 2000 元 / 5W 条
+                td 0.040
+              tr
+                td 3800 元 / 10W 条
+                td 0.038
+              tr
+                td 7400 元 / 20W 条
+                td 0.037
+              tr
+                td 14400 元 / 40W 条
+                td 0.036
+              tr
+                td &ge; 40W 条
+                td 商务洽谈
+          .try(v-if="nowSelection === 'sms'")
+            up_button(:color="color", url="https://sms.upyun.com", target="_blank") 立即使用
+      .bottom(v-if="nowSelection !== 'certificate' && nowSelection !== 'sms'")
         router-link.more(to="/price_instruction") 查看更多价格说明
         router-link.to-pricing(to="/pricing") 费用计算器
       .bottom(v-if="nowSelection === 'certificate'")
@@ -258,7 +313,8 @@ export default {
         uss: '云存储',
         vod: '点播云',
         ups: '云处理',
-        certificate: 'SSL 证书'
+        certificate: 'SSL 证书',
+        sms: '短信服务'
       }
     }
   },
