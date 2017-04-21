@@ -4,7 +4,7 @@
 .pricing-module#section-pricing(@click="menuShowing = false")
   .container
     .main-title 产品价格
-    .sub-title(v-if="nowSelection !== 'certificate'") 按需计费，次日结算
+    .sub-title(v-if="nowSelection !== 'certificate' && nowSelection !== 'sms'") 按需计费，次日结算
     .select
       .btn(@click.stop="menuShowing = !menuShowing")
         .icon(:class="nowSelection")

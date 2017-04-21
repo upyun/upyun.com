@@ -171,10 +171,10 @@
         a(href="http://docs.upyun.com/cdn/ssl/#dv-ssl" target="_blank") DV SSL 证书验证
     .menus.live(v-if="selection === 'sms'")
       .menu
-        .title 使用指南
-        a(href="http://docs.upyun.com/sms/" target="_blank") 产品介绍
+        .title 产品文档
+        a(href="http://docs.upyun.com/sms/" target="_blank") 使用指南
       .menu
-        .title API 接口文档
+        .title 接口文档
         a(href="http://docs.upyun.com/sms/#5" target="_blank") API 文档
       .menu
         .title 注意事项

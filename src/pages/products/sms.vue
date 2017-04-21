@@ -55,19 +55,19 @@ layout(:colors="colorSet")
           .item
             img(src="./assets/sms-icon-3.svg")
             .title 5 秒可达
-            .description 提供短信管理平台与 API 接口双渠道，一键导入，批量发送，能够根据业务动态发送短信。
+            .description 专属通道，高效优质，让您的短信可在 3-5 秒内送达。
           .item
             img(src="./assets/sms-icon-4.svg")
             .title 短信管理平台 + API 接口
-            .description 提供 iOS/Android 播放器 SDK，可快速开发音视频播放移动端应用，实现视频处理与播放。
+            .description 提供短信管理平台与 API 接口双渠道，一键导入，批量发送，能够根据业务动态发送短信。
           .item
             img(src="./assets/sms-icon-5.svg")
             .title 免审签名通道
             .description 在普通短信包之外，更有免审短信包，选择更多，计费更灵活，满足您的刚需场景。
           .item
             img(src="./assets/sms-icon-6.svg")
-            .title 7 × 24 管家式服务
-            .description 又拍云 7 × 24 的全天候管家式服务，随时为您答疑解惑。
+            .title 7 × 24 小时管家式服务
+            .description 又拍云 7 × 24 小时的全天候管家式服务，随时为您答疑解惑。
     .section-scenes
       .container
         .main-title 应用场景
@@ -81,12 +81,12 @@ layout(:colors="colorSet")
             .img
               img(src="./assets/sms-sence-2.svg")
             .title 通知类短信
-            .description 通过发送短信息的形式将企业的产品，服务等信息传递给手机用户，达到广而告之的目的。适用于服务通知、物流通知、系统通知等场景。
+            .description 通过发送短信的形式将企业的产品，服务等信息传递给手机用户，达到广而告之的目的。适用于服务通知、物流通知、系统通知等场景。
           .item
             .img
               img(src="./assets/sms-sence-3.svg")
             .title 营销类短信
-            .description 通过发送短信息的形式将促销活动，节日祝福等信息传递给用户，更好的维系客户。适用于会员服务、客户关怀、促销活动等场景。
+            .description 通过发送短信的形式将促销活动，节日祝福等信息传递给用户，更好的维系客户。适用于会员服务、客户关怀、促销活动等场景。
     .section-sms
       .container
         .main-title 使用说明
