@@ -23,6 +23,8 @@ rm('-rf', assetsPath)
 mkdir('-p', assetsPath)
 cp('-R', 'static/*', assetsPath)
 cp('src/root_assets/*', config.build.assetsRoot)
+cp('sitemap.xml', config.build.assetsRoot)
+cp('sitemap.xml', config.prerender.assetsRoot)
 
 webpack(webpackConfig, function (err, stats) {
   spinner.stop()
