@@ -8,6 +8,7 @@
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "prerender": "node build/prerender.js",
+    "sitemap": "node build/createSitemap.js",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "prerender-spa-plugin": "^2.0.1",
     "pug": "^2.0.0-beta6",
     "sass-loader": "^4.1.1",
+    "sitemap": "^1.12.0",
     "smoothscroll": "^0.3.0",
     "susy": "^2.2.12",
     "vue": "^2.1.0",
