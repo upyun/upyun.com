@@ -117,15 +117,15 @@ export default {
       colorSet: colors.collection.green_sms
     }
   },
-  head: {
-    title: {
-      inner: '云处理 - 实时高效图片处理,音视频处理'
-    },
-    meta: [
-      { name: 'keywords', content: '云处理,音视频处理,图片处理,音视频转解码', id: 'kw' },
-      { name: 'description', content: '又拍云依托超大规模处理集群，提供多种图片处理、异步音视频处理及实时音频处理功能，有效帮助用户减少开发成本。', id: 'desc' }
-    ]
-  },
+  // head: {
+  //   title: {
+  //     inner: '云处理 - 实时高效图片处理,音视频处理'
+  //   },
+  //   meta: [
+  //     { name: 'keywords', content: '云处理,音视频处理,图片处理,音视频转解码', id: 'kw' },
+  //     { name: 'description', content: '又拍云依托超大规模处理集群，提供多种图片处理、异步音视频处理及实时音频处理功能，有效帮助用户减少开发成本。', id: 'desc' }
+  //   ]
+  // },
   components: { layout, section_help, section_pricing, icon }
 }
 </script>
