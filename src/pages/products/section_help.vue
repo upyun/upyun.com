@@ -51,25 +51,36 @@
     .menus.cdn(v-if="selection === 'cdn'")
       .menu
         .title 产品介绍
-        a(href="http://docs.upyun.com/cdn/#_1" target="_blank") 产品概述
-        a(href="http://docs.upyun.com/cdn/#_2" target="_blank") 产品架构
-        a(href="http://docs.upyun.com/cdn/#_3" target="_blank") 产品功能
+        a(href="http://docs.upyun.com/cdn/product/#_1" target="_blank") 产品概述
+        a(href="http://docs.upyun.com/cdn/product/#_2" target="_blank") 产品架构
+        a(href="http://docs.upyun.com/cdn/product/#_3" target="_blank") 产品功能
+        a(href="http://docs.upyun.com/cdn/product/#_4" target="_blank") 产品优势
+        a(href="http://docs.upyun.com/cdn/product/#_5" target="_blank") 应用场景
+        a(href="http://docs.upyun.com/cdn/product/#_6" target="_blank") 资源分布
       .menu
         .title 快速入门
         a(href="http://docs.upyun.com/cdn/guide/#_1" target="_blank") 准备工作
-        a(href="http://docs.upyun.com/cdn/guide/#_2" target="_blank") 创建帐号
-        a(href="http://docs.upyun.com/cdn/guide/#_3" target="_blank") 帐号认证
-        a(href="http://docs.upyun.com/cdn/guide/#_4" target="_blank") 创建服务
+        a(href="http://docs.upyun.com/cdn/guide/#_6" target="_blank") 创建帐号
+        a(href="http://docs.upyun.com/cdn/guide/#_9" target="_blank") 帐号认证
+        a(href="http://docs.upyun.com/cdn/guide/#_12" target="_blank") 创建服务
+        a(href="http://docs.upyun.com/cdn/guide/#_15" target="_blank") 配置测试
+        a(href="http://docs.upyun.com/cdn/guide/#_17" target="_blank") 缓存验证
       .menu
         .title 使用指南
-        a(href="http://docs.upyun.com/cdn/basic/" target="_blank") 基础设置
-        a(href="http://docs.upyun.com/cdn/advanced/" target="_blank") 高级设置
-        a(href="http://docs.upyun.com/cdn/ssl/" target="_blank") 证书服务
+        a(href="http://docs.upyun.com/cdn/service/" target="_blank") 服务管理
+        a(href="http://docs.upyun.com/cdn/config/" target="_blank") 功能配置
+        a(href="http://docs.upyun.com/cdn/rewrite/" target="_blank") 简单编程
+        a(href="http://docs.upyun.com/cdn/analysis/" target="_blank") 统计分析
+        a(href="http://docs.upyun.com/cdn/refresh/" target="_blank") 刷新预热
+        a(href="http://docs.upyun.com/cdn/log/" target="_blank") 日志管理
       .menu
         .title 常见问题
         a(href="http://docs.upyun.com/cdn/faq/#_1" target="_blank") 缓存相关
-        a(href="http://docs.upyun.com/cdn/faq/#_2" target="_blank") 刷新相关
-        a(href="http://docs.upyun.com/cdn/faq/#_3" target="_blank") 性能相关
+        a(href="http://docs.upyun.com/cdn/faq/#_5" target="_blank") 刷新相关
+        a(href="http://docs.upyun.com/cdn/faq/#_9" target="_blank") 性能相关
+        a(href="http://docs.upyun.com/cdn/faq/#_15" target="_blank") 功能相关
+        a(href="http://docs.upyun.com/cdn/faq/#_21" target="_blank") 安全相关
+        a(href="http://docs.upyun.com/cdn/faq/#_27" target="_blank") 证书相关
     .menus.live(v-if="selection === 'live'")
       .menu
         .title 产品介绍

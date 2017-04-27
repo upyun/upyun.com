@@ -55,7 +55,7 @@
     .main-title 更多解决方案
     .main-description 提供专业可靠的云加速服务，已帮助
       br
-      | 15000 + 客户实现完美加速
+      | 150000 + 客户实现完美加速
     .links
       router-link.item(to="/solutions/media")
         .img.av(:style="{'background-color': color}")

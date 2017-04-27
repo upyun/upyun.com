@@ -47,9 +47,9 @@ layout
               .content
                 | 0571-81020204
                 br
-                | sales@upyun.com
+                | support@upyun.com
                 br
-                a 点击在线咨询
+                a(href="http://support.upyun.com/kchat/18915?group=22540&from=mainsite" target="_blank") 点击在线咨询
             .item
               img.i(src="./assets/contact-icon-3.svg")
               .title 市场合作
@@ -92,7 +92,7 @@ export default {
       map: null,
       addresses: [
         { x: 120.089138, y: 30.289631, city: '杭州', name: '杭州总部', address: '地址： 杭州市西湖区文一西路 522号 西溪科创园 9号楼 5F', phone: '0571-89966786', post: '310000' },
-        { x: 116.415577, y: 39.938624, city: '北京', name: '北京分公司', address: '地址： 北京市东城区东四北大街 107 号科林大厦 B 座 511-512 室', phone: '010-64016989', post: '100080' },
+        { x: 116.451201, y: 39.961206, city: '北京', name: '北京分公司', address: '地址： 北京市朝阳区曙光西里甲 1 号第三置业大厦 A 座 808 室', phone: '010-58222004', post: '100028' },
         { x: 121.437556, y: 31.237, city: '上海', name: '上海分公司', address: '地址： 上海市普陀区安远路 518 号宝华城市晶典大厦 1308 室', phone: '021-61231586', post: '200060' },
         { x: 113.372639, y: 23.126171, city: '广州', name: '广州分公司', address: '地址： 广州市天河区科韵路 12 号之一方圆E时光 1303 室', phone: '020-29015900', post: '510000' }
       ],
