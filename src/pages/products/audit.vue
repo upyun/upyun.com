@@ -95,7 +95,6 @@
 .section-scenes
   padding-bottom: 30px
   .scenes .item
-    +gallery(3)
     margin-bottom: 40px
 </style>
 
@@ -103,13 +102,11 @@
 layout(:colors="colorSet")
   .container.hero-inner(slot="hero")
     .info
-      .title SSL 证书服务
-      .description 又拍云 SSL 证书服务（SSL Certificates Service），提供 SSL 证书的申购、管理、部署等功能。与国际顶级 CA 机构合作，证书类型丰富，操作流程简单方便，为用户提供一站式 HTTPS 安全解决方案。
+      .title 内容识别服务 UCD
+      .description 又拍云内容识别服务（UPYUN Content Detection，简称 UCD）通过人工智能、大数据分析提供专业信息安全解决方案，能实时处理多媒体内容（图片、视频、直播等），识别色情、广告、暴恐等信息，为企业大幅度节省安全成本，提高安全处理效率。
       .buttons
-        up_button(:color="colorSet.mid", type="major", url="https://console.upyun.com/toolbox/createCertificate/" target="_blank") 立即申购
-        up_button(url="http://docs.upyun.com/cdn/ssl/#_9" target="_blank") 查看价格
-      .price 含两款免费 DV SSL 证书
-      .price OV & EV SSL 证书限时优惠，低至 75 折
+        up_button(:color="colorSet.mid", type="major", url="https://console.upyun.com/toolbox/audit/" target="_blank") 免费试用
+        up_button(:color="colorSet.mid", type="major", url="/contact") 联系我们
     .icon
       icon
   template(slot="page")
@@ -119,96 +116,61 @@ layout(:colors="colorSet")
         .features
           .item
             img(src="./assets/certificate-icon-3.svg")
-            .title 国际 CA 机构合作
-            .description 又拍云提供了 Symantec、GeoTrust、TrustAsia、Let’s Encrypt 的各类 DV、OV、EV SSL 证书的申购，保证了证书的强度和可靠性, 同时支持目前所有主流的浏览器和移动设备。
+            .title 智能判断
+            .description 能同时识别色情、广告、暴恐、涉政等不同信息，实时标记。
           .item
             img(src="./assets/certificate-icon-2.svg")
-            .title 免费申请
-            .description 又拍云提供了两款证书的免费申请方案，用户可免费申请 TrustAsia、Let’s Encrypt 的 DV SSL 单域名证书，帮助用户零成本实现全站 HTTPS。
+            .title 准确率高
+            .description 识别迅速，准确率高，其中色情识别率经市场验证为 99.7%。
           .item
             img(src="./assets/certificate-icon-5.svg")
-            .title 流程简捷
-            .description 用户只需提交域名，填写必要信息，即可完成证书的申购，步骤简单方便，无需人工协助，申购周期大大缩短。
+            .title 结果可视化
+            .description 识别结果直接在UCD控制台展示，用户无需二次开发即可处理违规内容，全网唯一。
           .item
             img(src="./assets/certificate-icon-4.svg")
-            .title 一键部署
-            .description 用户可自愿选择将申购的证书一键部署到又拍云 CDN，更快捷的完成网站 HTTP 到 HTTPS 的转换。
+            .title 人工智能
+            .description 构建专业深度神经网络，经过大数据分析、双反馈学习等海量训练，并能持续升级。
           .item
             img(src="./assets/certificate-icon-1.svg")
-            .title 管理方便
-            .description 证书自助化管理、集中监测，申购、部署都无需人工协助，公钥、私钥更加安全，做到让用户省心、放心，提升工作效率。
+            .title 支持广泛
+            .description 同时覆盖图片、直播、视频点播等多类型媒体内容。
           .item
             img(src="./assets/certificate-icon-6.svg")
-            .title 提升网站搜索排名
-            .description Google、Baidu 已调整其搜索引擎算法，将采用 HTTPS 加密的网站在搜索排名中更靠前。因此网站采用 HTTPS 协议，可吸引更多的用户进行访问，提升网站的价值，增创营收。
-    .section-certificate
+            .title 接入方便
+            .description 开放的 API 接口，支持快速接入，及时获取识别结果。
+    .section-hero
       .container
-        .main-title 证书类型
-        .scenes
-          .item
-            .top.top-dv-icon
-            p.item-name 域名型（DV）
-            p.star-line
-              span 安全性：
-              i.star
-              i.star
-              i.star
-            ul
-              li 验证域名所有权
-              li 无需人工参与
-              li 极速签发
-              li 浏览器普通加锁标记
-          .item
-            .top.top-ov-icon
-            p.item-name 企业型（OV）
-            p.star-line
-              span 安全性：
-              i.star
-              i.star
-              i.star
-              i.star
-            ul
-              li 人工验证企业身份
-              li 证书包含企业信息
-              li 用户更高层次的信任
-              li 浏览器普通加锁标记
-          .item
-            .top.top-ev-icon
-            p.item-name 增强型（EV）
-            p.star-line
-              span 安全性：
-              i.star
-              i.star
-              i.star
-              i.star
-              i.star
-            ul
-              li 最高级别人工验证
-              li 最高级别安全保证
-              li 最理想的 SSL 解决方案
-              li 浏览器绿色安全地址栏
+        .main-title 产品特性
+        .main-description(style="width: 612px; margin-bottom: 47px")
+          span 按分类展示内容、识别结果，支持人工对内容
+          br
+          span 进行处理。
+        img.hero-img(src="./assets/live_architecture.png", width=1017, height=641)
+    .section-hero(style="background: #fcfcfc")
+      .container
+        .main-title 人工智能
+        .main-description(style="width: 612px; margin-bottom: 47px")
+          span 采用深度神经网络，经过大数据分析、人工样本标记、
+          br
+          span 双向学习等训练，保证识别准确率。
+        img.hero-img(src="./assets/live_architecture.png", width=1017, height=641)
     .section-scenes
       .container
         .main-title 应用场景
         .scenes
           .item
             .img: img(src="./assets/certificate-sence-1.svg")
-            .title 个人/微企
-            .description 个人网站博客、小微企业、API 服务等，可选择 DV SSL 证书。
+            .title 直播监控
+            .description UCD 服务能同时监控多组直播流，实时标记判断结果，无需投入开发资源即可实现并行监控。
           .item
             .img: img(src="./assets/certificate-sence-2.svg")
-            .title 传统行业
-            .description 企业官网、电商、教育、医疗、公共部门等，可选择 OV SSL 证书。
+            .title 视频点播
+            .description UCD 服务能快速处理各种时长的视频，实时截图标记时间点，缩短人工查看时长，大幅度提高准确度。
           .item
             .img: img(src="./assets/certificate-sence-3.svg")
-            .title 金融机构
-            .description 银行、金融、保险、电子商务、大中型企业、政府机关等，可选择 EV SSL 证书。
-          .item
-            .img: img(src="./assets/certificate-sence-4.svg")
-            .title CDN
-            .description 可与又拍云 CDN 产品相结合，享受最优质的 HTTPS 加速解决方案。
-    section_pricing(selection="certificate", :color="colorSet.mid")
-    section_help(selection="certificate", :color="colorSet.mid")
+            .title 海量图片
+            .description UCD 服务能帮助社交应用、UGC 网站等快速识别每日海量图片，节省成本降低网站安全风险。
+    section_pricing(selection="audit", :color="colorSet.mid")
 </template>
 
 <script>

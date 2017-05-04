@@ -2,7 +2,7 @@
 <style lang="sass" src="./pricing.sass" scoped></style>
 
 <template lang="pug">
-layout(:colors="colorSet", heroHeight="430")
+layout(:colors="colorSet", heroHeight="430", heroOverflow="visible")
   .container.hero-inner(slot="hero")
     .info
       .title 价格计算器

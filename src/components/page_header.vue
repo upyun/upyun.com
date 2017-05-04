@@ -50,6 +50,10 @@
             .title.green 短信服务
             .description 提供企业级短信送达服务，三网合一，到达率高
             .icon.sms
+          router-link.item(to="/products/audit")
+            .title.green 内容识别
+            .description 我不知道
+            .icon.sms
         .list-with-icon(v-show="menuCondition.contentNumber === 1")
           router-link.item(to="/solutions/media")
             .title.green 音视频
@@ -110,9 +114,9 @@ export default {
     return {
       menuActive: false,
       menuShowing: false,
-      menuCondition: { left: -41, width: 455, height: 290, contentNumber: 0 },
+      menuCondition: { left: -41, width: 455, height: 430, contentNumber: 0 },
       conditions: [
-        { left: -41, width: 455, height: 370, contentNumber: 0 },
+        { left: -41, width: 455, height: 430, contentNumber: 0 },
         { left: 49, width: 455, height: 290, contentNumber: 1 },
         { left: 273, width: 384, height: 164, contentNumber: 2 },
         { left: 395, width: 384, height: 136, contentNumber: 3 }

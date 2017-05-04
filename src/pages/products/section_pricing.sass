@@ -128,6 +128,15 @@
               width: 500px
           td.center
             text-align: center
+          &.fix-width
+            thead
+              th
+                &:nth-child(1)
+                  width: 29%
+                &:nth-child(2)
+                  width: 21%
+                &:nth-child(3)
+                  width: 21%
         .try
           padding-top: 15px
           text-align: center
@@ -139,3 +148,6 @@
           ul.supplement-lists
             margin-top: 5px
             padding-left: 20px
+      .audit-center
+        text-align: center
+        margin-bottom: 20px
