@@ -28,6 +28,7 @@ layout
             a(href="http://36kr.com/" target="_blank") 36Kr
             a(href="http://jiasuhui.com/" target="_blank") 加速会
             a(href="http://www.welian.com/" target="_blank") 微链
+            a(href="http://bbs.xiuno.com/" target="_blank") Xiuno
 </template>
 
 <script>
@@ -60,7 +61,10 @@ export default {
         { name: 'WLGF', file: 'wlgf', link: 'http://www.nsoad.com/' },
         { name: '数人云', file: 'shurenyun', link: 'https://www.shurenyun.com/' },
         { name: '野狗', file: 'wilddog', link: 'https://www.wilddog.com/' },
-        { name: '蒲公英', file: 'pgyer', link: 'https://www.pgyer.com/' }
+        { name: '蒲公英', file: 'pgyer', link: 'https://www.pgyer.com/' },
+        { name: '云之讯', file: 'ucpass', link: 'http://www.ucpaas.com/' },
+        { name: '涂图', file: 'tusdk', link: 'https://tusdk.com/' },
+        { name: 'WeX5', file: 'wex5', link: 'http://www.wex5.com/' }
       ]
     }
   },
