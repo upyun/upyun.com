@@ -13,7 +13,7 @@ var PrerenderSpaPlugin = require('prerender-spa-plugin')
 webpackConfig.plugins.push(
   new PrerenderSpaPlugin(
     path.join(__dirname, '../prerender'),
-    ['/', '/products/file-storage', '/products/cdn', '/products/process', '/products/marketing', '/products/vod', '/products/live', '/products/ssl', '/products/sms', '/solutions/meida', '/solutions/mobile', '/solutions/ecommerce', '/solutions/game', '/solutions/education', '/solutions/fusionstorage', '/about_us', '/contact', '/terms', '/mobile_stats_terms', '/partners', '/join_us', '/pricing', '/price_instruction', '/webp', '/league', '/chunyu', '/chunyu_tos', '/https', '/media_reports', '/brandnew']
+    ['/', '/products/file-storage', '/products/cdn', '/products/process', '/products/marketing', '/products/vod', '/products/live', '/products/ssl', '/products/sms', '/products/audit', '/solutions/meida', '/solutions/mobile', '/solutions/ecommerce', '/solutions/game', '/solutions/education', '/solutions/fusionstorage', '/about_us', '/contact', '/terms', '/mobile_stats_terms', '/partners', '/join_us', '/pricing', '/price_instruction', '/webp', '/league', '/chunyu', '/chunyu_tos', '/https', '/media_reports', '/brandnew']
   )
 )
 

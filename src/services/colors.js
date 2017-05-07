@@ -6,7 +6,8 @@ var collection = {
   yellow: { start: '#ffc75a', end: '#ff701e', mid: '#ffa650' },
   darkBlue: { start: '#07D2F3', end: '#4945FF', mid: '#399ffb' },
   red: { start: '#ffb492', end: '#ff4d64', mid: '#ff6162' },
-  green_sms: { start: '#84ecb9', end: '#12b9c9', mid: '#4bd2c1' }
+  green_sms: { start: '#84ecb9', end: '#12b9c9', mid: '#4bd2c1' },
+  bluePurple: { start: '#7D81F3', end: '#7853FC', mid: '#7A7FF1' }
 }
 
 function getRandom () {
