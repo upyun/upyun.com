@@ -60,7 +60,7 @@ layout(:colors="colorSet")
       .container
         .main-title 人工智能
         .main-description(style="width: 612px; margin-bottom: 47px")
-          span 24小时不间断的训练，持续提升识别准确率
+          span 24 小时不间断的训练，持续提升识别准确率
         img.hero-img(src="./assets/artificial-intelligence.svg", width=1170)
     .section-scenes
       .container
