@@ -168,7 +168,7 @@ export default function(vm) {
                 const params = getFormData(loginForm);
                 submitForm('https://console.upyun.com/accounts/signin/', params, function (data) {
                     data = JSON.parse(data);
-                    if (!data.data) {
+                    if (data && data.data && data.data.result) {
                         alertMessage(chunyuApplyModal, 'success', data.msg.messages);
                         setTimeout(function () {
                             loginFormNode.parentElement.className = loginFormNode.parentElement.className.replace(new RegExp('(\\s|^)active(\\s|$)'), '').trim();
