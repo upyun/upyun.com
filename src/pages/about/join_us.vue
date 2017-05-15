@@ -105,7 +105,7 @@ layout
 
 <script>
 import layout from './layout'
-import jobs from 'json!yaml!./assets/jobs.yml'
+import jobs from 'json-loader!yaml-loader!./assets/jobs.yml'
 import smoothscroll from 'smoothscroll'
 
 export default {

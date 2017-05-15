@@ -23,7 +23,7 @@ layout(:colors="colorSet", heroHeight="430")
 import layout from '../../components/layout'
 import subproduct from './pricing_subproduct'
 import smy from './pricing_summary'
-import products from 'json!yaml!./pricing_products.yml'
+import products from 'json-loader!yaml-loader!./pricing_products.yml'
 import colors from '../../services/colors'
 import icon from './pricing_icon'
 

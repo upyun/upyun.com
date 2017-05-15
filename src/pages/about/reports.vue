@@ -48,7 +48,7 @@ layout
 
 <script>
 import layout from './layout'
-import reports from 'json!yaml!./reports.yml'
+import reports from 'json-loader!yaml-loader!./reports.yml'
 import pagination from '../../components/pagination'
 import smoothscroll from 'smoothscroll'
 
