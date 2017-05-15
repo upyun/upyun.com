@@ -15,7 +15,7 @@ layout(:colors="colorSet", heroHeight="430")
         .unit(v-for="product in products")
           .title {{ product.name }}
           .content
-            subproduct(v-for="subproduct in product.subproducts", :p="subproduct")
+            subproduct(v-for="subproduct in product.subproducts", :p="subproduct", :key='subproduct.name')
         smy(:products="products")
 </template>
 
