@@ -25,7 +25,7 @@
 <template lang="pug">
 .pagination
   router-link.prev(:to="{ path: '', query: { page: currentPage - 1 || 1 }}") &lt;
-  router-link.num(v-for="i in totalPages", :class="{active: currentPage === i}", :to="{ path: '', query: { page: i }}") {{i}}
+  router-link.num(v-for="i in totalPages", :class="{active: currentPage === i}", :to="{ path: '', query: { page: i }}", :key='i') {{i}}
   router-link.next(:to="{ path: '', query: { page: currentPage >= totalPages ? totalPages : currentPage + 1  }}") &gt;
 </template>
 
