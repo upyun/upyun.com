@@ -64,7 +64,8 @@ export default {
         { name: '蒲公英', file: 'pgyer', link: 'https://www.pgyer.com/' },
         { name: '云之讯', file: 'ucpass', link: 'http://www.ucpaas.com/' },
         { name: '涂图', file: 'tusdk', link: 'https://tusdk.com/' },
-        { name: 'WeX5', file: 'wex5', link: 'http://www.wex5.com/' }
+        { name: 'WeX5', file: 'wex5', link: 'http://www.wex5.com/' },
+        { name: '程序员客栈', file: 'proginn', link: 'https://www.proginn.com/?fupyun' }
       ]
     }
   },
