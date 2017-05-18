@@ -4,7 +4,7 @@
 .pricing-module#section-pricing(@click="menuShowing = false")
   .container
     .main-title 产品价格
-    .sub-title(v-if="nowSelection !== 'certificate' && nowSelection !== 'sms'") 按需计费，次日结算
+    .sub-title(v-if="nowSelection !== 'certificate' && nowSelection !== 'sms' && nowSelection !== 'audit'") 按需计费，次日结算
     .select
       .btn(@click.stop="menuShowing = !menuShowing")
         .icon(:class="nowSelection")
@@ -141,7 +141,7 @@
                 td 0.43 元/GB
         template(v-if="nowSelection === 'certificate'")
           .title(:style="{ color }") Symantec 证书服务价格说明
-          table
+          table.fix-width
             thead
               tr
                 th 类型
@@ -172,7 +172,7 @@
                 td 2
                 td 16000
           .title(:style="{ color }") GeoTrust 证书服务价格说明
-          table
+          table.fix-width
             thead
               tr
                 th 类型
@@ -203,7 +203,7 @@
                 td 5
                 td 9700
           .title(:style="{ color }") TrustAsia 证书服务价格说明
-          table
+          table.fix-width
             thead
               tr
                 th 类型
@@ -225,7 +225,7 @@
                 td 1
                 td 1999
           .title(:style="{ color }") Let’s Encrypt 证书服务价格说明
-          table
+          table.fix-width
             thead
               tr
                 th 类型
@@ -293,7 +293,19 @@
                 td 商务洽谈
           .try(v-if="nowSelection === 'sms'")
             up_button(:color="color", url="https://sms.upyun.com", target="_blank") 立即使用
-      .bottom(v-if="nowSelection !== 'certificate' && nowSelection !== 'sms'")
+        template(v-if="nowSelection === 'audit'")
+          .title(:style="{ color }") 内容识别价格说明
+          .audit-center
+            h3 联系商务
+            p
+              span QQ：1257189966
+            p
+              span 符先生 &nbsp;&nbsp;电话：15088759299
+            p
+              span 邹先生 &nbsp;&nbsp;电话：13656668361
+          .try(v-if="nowSelection === 'audit'")
+            up_button(:color="color", url="https://audit.upyun.com", target="_blank") 立即体验
+      .bottom(v-if="nowSelection !== 'certificate' && nowSelection !== 'sms' && nowSelection !== 'audit'")
         router-link.more(to="/price_instruction") 查看更多价格说明
         router-link.to-pricing(to="/pricing") 费用计算器
       .bottom(v-if="nowSelection === 'certificate'")
@@ -314,7 +326,8 @@ export default {
         vod: '点播云',
         ups: '云处理',
         certificate: 'SSL 证书',
-        sms: '短信服务'
+        sms: '短信服务',
+        audit: '内容识别'
       }
     }
   },

@@ -70,7 +70,7 @@
         display: block
         position: absolute
         left: 50%
-        top: 4px
+        top: 5px
         margin-left: -6px
         width: 12px
         height: 6px
@@ -81,6 +81,7 @@
         padding: 16px 21px
         transition: all .2s linear
         overflow: hidden
+        box-shadow: 0 0 5px 0 #e3e3e3
         .list-with-icon
           +container
           .item
@@ -105,6 +106,8 @@
                 color: #399ffb
               &.red
                 color: #ff6162
+              &.bluePurple
+                color: #7A7FF1
             .title
               font-size: 16px
               font-weight: 400
@@ -155,6 +158,9 @@
                 background-image: url('../assets/home-ic-certificate-h.svg')
               &.sms
                 background-image: url('../assets/home-ic-sms-h.svg')
+              &.audit
+                background-image: url('../assets/home-ic-audit-h.svg')
+                background-size: 26px 26px
             &:hover .icon
               &.cdn
                 background-image: url('../assets/home-ic-cdn-pop.svg')
@@ -184,6 +190,9 @@
                 background-image: url('../assets/home-ic-certificate-pop.svg')
               &.sms
                 background-image: url('../assets/home-ic-sms-pop.svg')
+              &.audit
+                background-image: url('../assets/home-ic-audit-pop.svg')
+                background-size: 26px 26px
         .list
           +container
           padding: 4px 0 0 10px
@@ -207,4 +216,3 @@
               padding-right: 0
               .link
                 border-right: 0
-

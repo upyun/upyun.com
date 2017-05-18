@@ -1,102 +1,102 @@
 <style lang="sass" src="./products.sass" scoped></style>
 <style lang="sass" scoped>
-  @import "../../assets/susy"
-  @import "../../assets/animations"
-  .section-certificate
-    padding: 55px 0 48px;
-    height: 560px;
-    background-color: #ffffff;
-    background: url('./assets/certificate-type-bg.png') center no-repeat;
-    background-size: cover
-    .main-title
-      color: #ffffff;
-    .scenes
-      padding: 0px 70px;
-      margin-top: 70px;
-      .item
-        +gallery(4 of 12 4)
-        text-align: center
-        height: 320px
-        border-radius: 6px
+@import "../../assets/susy"
+@import "../../assets/animations"
+.section-certificate
+  padding: 55px 0 48px
+  height: 560px
+  background-color: #ffffff
+  background: url('./assets/certificate-type-bg.png') center no-repeat
+  background-size: cover
+  .main-title
+    color: #ffffff
+  .scenes
+    padding: 0px 70px
+    margin-top: 70px
+    .item
+      +gallery(4 of 12 4)
+      text-align: center
+      height: 320px
+      border-radius: 6px
+      background-color: #ffffff
+      position: relative
+      .top
+        width: 80px
+        height: 80px
+        border-radius: 40px
         background-color: #ffffff
-        position: relative;
-        .top
-          width: 80px;
-          height: 80px;
-          border-radius: 40px;
-          background-color: #ffffff;
-          position: absolute;
-          top: -40px;
-          left: 50%;
-          margin-left: -40px;
-        .top-dv-icon
-          border: 4px solid #ff4d64
-          &:before
-            content: ''
-            display: block
-            width: 80px
-            height: 80px
-            background: url('./assets/certificate-icon-type-1.svg')
-            background-size: 100% 100%
-            position: relative
-            left: 1px
-        .top-ov-icon
-          border: 4px solid #ff6162
-          &:before
-            content: ''
-            display: block
-            width: 80px
-            height: 80px
-            background: url('./assets/certificate-icon-type-2.svg')
-            background-size: 100% 100%
-            position: relative
-            left: -3px
-        .top-ev-icon
-          border: 4px solid #ffb492
-          &:before
-            content: ''
-            display: block
-            width: 80px
-            height: 80px
-            background: url('./assets/certificate-icon-type-3.svg')
-            background-size: 100% 100%
-            position: relative
-            left: -4px
-        &:nth-child(1)
-          box-shadow: 0px 0px 6px #ff4d64
-        &:nth-child(2)
-          box-shadow: 0px 0px 6px #ff6162
-        &:nth-child(3)
-          box-shadow: 0px 0px 6px #ffb492
-        .item-name
-          font-size: 20px;
+        position: absolute
+        top: -40px
+        left: 50%
+        margin-left: -40px
+      .top-dv-icon
+        border: 4px solid #ff4d64
+        &:before
+          content: ''
+          display: block
+          width: 80px
+          height: 80px
+          background: url('./assets/certificate-icon-type-1.svg')
+          background-size: 100% 100%
+          position: relative
+          left: 1px
+      .top-ov-icon
+        border: 4px solid #ff6162
+        &:before
+          content: ''
+          display: block
+          width: 80px
+          height: 80px
+          background: url('./assets/certificate-icon-type-2.svg')
+          background-size: 100% 100%
+          position: relative
+          left: -3px
+      .top-ev-icon
+        border: 4px solid #ffb492
+        &:before
+          content: ''
+          display: block
+          width: 80px
+          height: 80px
+          background: url('./assets/certificate-icon-type-3.svg')
+          background-size: 100% 100%
+          position: relative
+          left: -4px
+      &:nth-child(1)
+        box-shadow: 0px 0px 6px #ff4d64
+      &:nth-child(2)
+        box-shadow: 0px 0px 6px #ff6162
+      &:nth-child(3)
+        box-shadow: 0px 0px 6px #ffb492
+      .item-name
+        font-size: 20px
+        font-weight: bold
+        margin-top: 60px
+      .star-line
+        color: #ff4d64
+        span
+          font-size: 18px
           font-weight: bold
-          margin-top: 60px;
-        .star-line
-          color: #ff4d64
-          span
-            font-size: 18px;
-            font-weight: bold;
-          .star
-            display: inline-block;
-            width: 20px
-            height: 20px
-            position: relative
-            top: 2px
-            background: url('./assets/star.svg') no-repeat;
-            background-size: 100% 100%;
-        ul
-          list-style: none;
-          padding: 0;
-          li
-            color: #97a1ab;
-            font-size: 16px;
-            margin-top: 10px;
-  .section-scenes
-    padding-bottom: 30px
-    .scenes .item
-      +gallery(3)
-      margin-bottom: 40px
+        .star
+          display: inline-block
+          width: 20px
+          height: 20px
+          position: relative
+          top: 2px
+          background: url('./assets/star.svg') no-repeat
+          background-size: 100% 100%
+      ul
+        list-style: none
+        padding: 0
+        li
+          color: #97a1ab
+          font-size: 16px
+          margin-top: 10px
+.section-scenes
+  padding-bottom: 30px
+  .scenes .item
+    +gallery(3)
+    margin-bottom: 40px
 </style>
 
 <template lang="pug">
@@ -227,7 +227,7 @@ export default {
   },
   head: {
     title: {
-      inner: 'SSL 证书 - 安全、便捷，一站式申购、管理 - 又拍云'
+      inner: 'SSL 证书 - 安全、便捷，一站式申购、管理'
     },
     meta: [
       { name: 'keywords', content: 'SSL 证书,Symantec,GeoTrust,TrustAsia,Let’s Encrypt,全站 HTTPS', id: 'kw' },

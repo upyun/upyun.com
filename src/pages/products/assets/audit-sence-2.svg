@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="82px" viewBox="0 0 118 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>FA3C3C45-D007-43B8-90B6-AF9B99CDA8C1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.823529412" width="117.142857" height="81" rx="7"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="117.142857" height="81" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_云处理-UPS" transform="translate(-661.000000, -2653.000000)">
+            <g id="应用场景" transform="translate(170.000000, 2541.000000)">
+                <g id="ups_sence_2" transform="translate(467.000000, 88.000000)">
+                    <rect id="Bounds" x="0" y="0" width="166" height="130"></rect>
+                    <g id="Group" transform="translate(24.000000, 24.000000)" stroke="#7c88f4">
+                        <g transform="translate(4.659952, 22.000000)" id="Shape" stroke-width="3">
+                            <path d="M69.4306489,13.5588663 C70.38393,14.1082173 70.3785886,15.0019694 69.4306489,15.5482423 L46.8827851,28.541988 C45.929504,29.0913391 45.156717,28.6398459 45.156717,27.5356524 L45.156717,1.5714562 C45.156717,0.466321335 45.9348453,0.0188475908 46.8827851,0.565120532 L69.4306489,13.5588663 Z" stroke-linecap="round" stroke-linejoin="round" fill="#afb9ef"></path>
+                            <path d="M43.966195,44.388896 L106.840048,44.388896"></path>
+                            <path d="M37.0786495,44 L40.2986334,44.018"></path>
+                            <path d="M29.7306463,44 L33.1631491,44.018"></path>
+                            <path d="M0.840048348,44 L25.5028074,44"></path>
+                        </g>
+                        <use id="BG" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

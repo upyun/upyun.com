@@ -78,6 +78,9 @@
           background-image: url('../../assets/home-ic-certificate-pop.svg')
         &.sms
           background-image: url('../../assets/home-ic-sms-pop.svg')
+        &.audit
+          background: url('../../assets/home-ic-audit-pop.svg')
+          background-size: 26px 26px
     .content
       padding: 30px 30px 68px
       box-shadow: 0 2px 5px 0 rgba(91, 90, 90, 0.03)
@@ -128,6 +131,15 @@
               width: 500px
           td.center
             text-align: center
+          &.fix-width
+            thead
+              th
+                &:nth-child(1)
+                  width: 29%
+                &:nth-child(2)
+                  width: 21%
+                &:nth-child(3)
+                  width: 21%
         .try
           padding-top: 15px
           text-align: center
@@ -139,3 +151,6 @@
           ul.supplement-lists
             margin-top: 5px
             padding-left: 20px
+      .audit-center
+        text-align: center
+        margin-bottom: 20px
