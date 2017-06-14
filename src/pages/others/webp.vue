@@ -112,7 +112,7 @@ layout
         .box
           span.change 换一批
           span.goto 前往查看又拍云
-            a(href='http://docs.upyun.com/cloud/image/#_2' target='_blank') WebP 开发文档
+            a(href='http://docs.upyun.com/cloud/image/#webp' target='_blank') WebP 开发文档
 </template>
 
 <script>
