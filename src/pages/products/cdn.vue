@@ -157,7 +157,7 @@ layout(:colors="colorSet")
             .img
               img(src="./assets/cdn-sence-1.svg")
             .title 网页图片加速
-            .description 致力于解决国内复杂多变网络环境下网站静态内容诸如 HTML、CS、JS、JPG 等小文件内容访问速度缓慢、访问可用性不高的普遍问题。
+            .description 致力于解决国内复杂多变网络环境下网站静态内容诸如 HTML、CSS、JS、JPG 等小文件内容访问速度缓慢、访问可用性不高的普遍问题。
           .item
             .img
               img(src="./assets/cdn-sence-2.svg")
