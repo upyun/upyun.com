@@ -73,7 +73,7 @@ layout
         el-amap.map(vid="amapDemo", :center="[addresses[active].x, addresses[active].y]", style="height: 464px", zoom="16", mapStyle="light", :scrollWheel="false", :plugin="['ToolBar']")
           el-amap-marker(v-for='item in addresses', :position='[item.x, item.y]', :key='item.city')
         .right
-          .title 杭州总部
+          .title {{addresses[active].name}}
           .content
             .caption 公司地址：
             p {{addresses[active].address}}
