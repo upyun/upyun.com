@@ -29,6 +29,7 @@ layout
             a(href="http://jiasuhui.com/" target="_blank") 加速会
             a(href="http://www.welian.com/" target="_blank") 微链
             a(href="http://bbs.xiuno.com/" target="_blank") Xiuno
+            a(href="https://laravel-china.org/" target="_blank") LaravelChina
 </template>
 
 <script>
@@ -68,7 +69,8 @@ export default {
         { name: '程序员客栈', file: 'proginn', link: 'https://www.proginn.com/?fupyun' },
         { name: '观止云', file: 'guanzhi', link: 'http://www.bravovcloud.com/' },
         { name: '云片', file: 'yunpian', link: 'https://www.yunpian.com/' },
-        { name: '付钱拉', file: 'fuqianla', link: 'http://www.fuqianla.net/' }
+        { name: '付钱拉', file: 'fuqianla', link: 'http://www.fuqianla.net/' },
+        { name: '优帆远扬', file: 'yousails', link: 'https://yousails.com/' }
       ]
     }
   },
