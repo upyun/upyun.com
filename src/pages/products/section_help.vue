@@ -135,7 +135,7 @@
         a(href="http://docs.upyun.com/cloud/image/#url" target="_blank") URL 作图
         a(href="http://docs.upyun.com/cloud/image/#thumb" target="_blank") 缩略图版本
         a(href="http://docs.upyun.com/cloud/image/#sync_upload_process" target="_blank") 上传作图
-        a(href="https://www.upyun.com/webp.html" target="_blank") WebP 演示
+        a(href="https://www.upyun.com/webp.html" target="_blank") WebP 开发专题
         a(href="http://docs.upyun.com/live/mobile-sdk/#ios-sdk_1" target="_blank") iOS 播放器
         a(href="http://docs.upyun.com/live/mobile-sdk/#sdk_1 " target="_blank") Android 播放器
       .menu
@@ -149,11 +149,11 @@
       .menu
         .title API
         a(href="http://docs.upyun.com/cloud/image/" target="_blank") 图片处理
-        a(href=" http://docs.upyun.com/cloud/av/" target="_blank") 音视频处理
+        a(href="http://docs.upyun.com/cloud/av/" target="_blank") 异步音视频处理
+        a(href="https://docs.upyun.com/cloud/sync_video/" target="_blank") 同步视频处理
+        a(href="https://docs.upyun.com/cloud/sync_audio/" target="_blank") 同步音频处理
         a(href="http://docs.upyun.com/cloud/face_detect/" target="_blank") 人脸识别
-        a(href="http://docs.upyun.com/cloud/audit/" target="_blank") 内容审核
         a(href="http://docs.upyun.com/cloud/unzip/" target="_blank") 压缩解压缩
-        a(href="http://docs.upyun.com/cloud/spider/" target="_blank") 文件拉取
       .menu
         .title 常见问题
         a(href="http://docs.upyun.com/cloud/image/#webp" target="_blank") WebP 格式转换
