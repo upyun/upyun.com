@@ -1,6 +1,6 @@
 {
   "name": "upyun.com",
-  "version": "1.0.0",
+  "version": "1.5.7",
   "description": "upyun.com",
   "author": "ROYL Design",
   "private": true,
@@ -29,11 +29,11 @@
     "sitemap": "^1.12.0",
     "smoothscroll": "^0.3.0",
     "susy": "^2.2.12",
-    "vue": "^2.3.3",
+    "vue": "^2.3.4",
     "vue-amap": "^0.2.0",
-    "vue-head": "^2.0.10",
+    "vue-head": "^2.0.11",
     "vue-range-slider": "^0.2.4",
-    "vue-router": "^2.5.3",
+    "vue-router": "^v2.7.0",
     "yaml-loader": "^0.4.0"
   },
   "devDependencies": {

@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+// import VueRouter from '@upyun/vue-router'
 import routes from './routes'
 import 'normalize.css'
 import './assets/global.sass'
