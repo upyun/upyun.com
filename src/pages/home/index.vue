@@ -102,7 +102,7 @@
         .container
           .line
           .main-title 他们都在使用又拍云
-          .sub-title 已为超过 150000 用户提供加速服务
+          .sub-title 已为超过 200000 用户提供加速服务
           brand_logos(:logos="logos")
       up_gradient.section-promo(:colors="colorSet")
         .lines
